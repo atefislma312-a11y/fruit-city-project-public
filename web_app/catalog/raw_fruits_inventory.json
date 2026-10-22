@@ -1,0 +1,138 @@
+{
+  "project": "Fruit City Management System",
+  "module": "Web App Fresh Fruits Catalog",
+  "version": "1.0.0",
+  "last_updated": "2026-10-20",
+  "description": "E-Commerce catalog for whole raw fruits sold by weight (Kg/Box)",
+  "pricing_status": "Daily dynamic pricing (Pending owner input)",
+  "items": [
+    {
+      "sku": "RF-MNG",
+      "name_ar": "مانجو",
+      "name_en": "Mango",
+      "unit": "kg",
+      "image": "mango_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-AVO",
+      "name_ar": "أفوكادو",
+      "name_en": "Avocado",
+      "unit": "kg",
+      "image": "avocado_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-STR",
+      "name_ar": "فراولة",
+      "name_en": "Strawberry",
+      "unit": "kg",
+      "image": "strawberry_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-POM",
+      "name_ar": "رمان",
+      "name_en": "Pomegranate",
+      "unit": "kg",
+      "image": "pomegranate_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-ORA",
+      "name_ar": "برتقال",
+      "name_en": "Orange",
+      "unit": "kg",
+      "image": "orange_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-BAN",
+      "name_ar": "موز",
+      "name_en": "Banana",
+      "unit": "kg",
+      "image": "banana_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-GUA",
+      "name_ar": "جوافة",
+      "name_en": "Guava",
+      "unit": "kg",
+      "image": "guava_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-KIW",
+      "name_ar": "كيوي",
+      "name_en": "Kiwi",
+      "unit": "kg",
+      "image": "kiwi_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-WML",
+      "name_ar": "بطيخ",
+      "name_en": "Watermelon",
+      "unit": "piece",
+      "image": "watermelon_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-APP",
+      "name_ar": "تفاح",
+      "name_en": "Apple",
+      "unit": "kg",
+      "image": "apple_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-PNE",
+      "name_ar": "أناناس",
+      "name_en": "Pineapple",
+      "unit": "piece",
+      "image": "pineapple_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-GRP",
+      "name_ar": "عنب",
+      "name_en": "Grapes",
+      "unit": "kg",
+      "image": "grape_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-CAN",
+      "name_ar": "كنتالوب",
+      "name_en": "Cantaloupe",
+      "unit": "kg",
+      "image": "cantaloupe_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-PCH",
+      "name_ar": "خوخ",
+      "name_en": "Peach",
+      "unit": "kg",
+      "image": "peach_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-PLM",
+      "name_ar": "برقوق",
+      "name_en": "Plum",
+      "unit": "kg",
+      "image": "plum_card.webp",
+      "daily_price_egp": null
+    },
+    {
+      "sku": "RF-DAT",
+      "name_ar": "بلح",
+      "name_en": "Dates",
+      "unit": "kg",
+      "image": "dates_card.webp",
+      "daily_price_egp": null
+    }
+  ]
+}

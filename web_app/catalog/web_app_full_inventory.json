@@ -1,0 +1,4737 @@
+{
+  "project": "Fruit City Management System",
+  "module": "Web App E-Commerce Storefront",
+  "version": "2.0.0",
+  "last_updated": "2026-10-20",
+  "description": "Comprehensive Web App catalog containing ALL products sold by Fruit City: In-store Juice Bar & Cut Fruits + Fresh Market Fruits by weight",
+  "storefront_summary": {
+    "total_sections": 2,
+    "total_categories": 10,
+    "total_products_available_online": 124,
+    "juice_bar_items_count": 108,
+    "fresh_market_fruits_count": 16
+  },
+  "sections": [
+    {
+      "section_id": "juice_bar_and_cuts",
+      "section_name_ar": "بار العصائر الطبيعية وقطع الفاكهة",
+      "section_name_en": "Juice Bar & Fresh Cuts",
+      "description_ar": "جميع عصائر ومشروبات فاكهة سيتي الـ 107 بالأحجام الثلاثة + علب الفاكهة القطع 16 أونص",
+      "categories": [
+        {
+          "id": "01",
+          "name_ar": "العصائر الطبيعية",
+          "name_en": "Pure Juices",
+          "item_count": 18,
+          "status": "معتمد (Approved)",
+          "notes": "18 صنف (كل عصير من فاكهته فقط) — 100% طبيعي بدون إضافات."
+        },
+        {
+          "id": "02",
+          "name_ar": "التراث المصري",
+          "name_en": "Egyptian Heritage",
+          "item_count": 16,
+          "status": "معتمد (Approved)",
+          "notes": "16 مشروب من التراث المصري الأصيل بأسماء وصفية معتمدة."
+        },
+        {
+          "id": "03",
+          "name_ar": "المكسات المميزة",
+          "name_en": "Signature Blends",
+          "item_count": 7,
+          "status": "معتمد (Approved)",
+          "notes": "7 تركيبات فريدة بأسماء تجارية معتمدة ومميزة لفاكهة سيتي."
+        },
+        {
+          "id": "04",
+          "name_ar": "السموذي",
+          "name_en": "Velvet Smoothies",
+          "item_count": 7,
+          "status": "معتمد (Approved)",
+          "notes": "7 أصناف معتمدة حالياً للسموذي. (القائمة القديمة محفوظة كمرجع سابق دون حذف)."
+        },
+        {
+          "id": "05",
+          "name_ar": "الميلك شيك",
+          "name_en": "Milkshakes",
+          "item_count": 8,
+          "status": "معتمد (Approved)",
+          "notes": "8 نكهات معتمدة بالأسماء والأكواد والمكونات الأساسية الموضحة."
+        },
+        {
+          "id": "06",
+          "name_ar": "مشروبات الزبادي",
+          "name_en": "Yogurt Creations",
+          "item_count": 16,
+          "status": "معتمد (Approved)",
+          "notes": "16 صنفاً معتمداً، بالأكواد الأصلية المختارة من سلسلة Y01–Y40."
+        },
+        {
+          "id": "07",
+          "name_ar": "مجموعة النشاط",
+          "name_en": "Sports Collection",
+          "item_count": 29,
+          "status": "معتمد (Approved)",
+          "notes": "29 مكس مختلف معتمد، منها 25 باسم خاص و4 مشتركة مع Garden Fusion."
+        },
+        {
+          "id": "08",
+          "name_ar": "مكسات الفاكهة والخضار",
+          "name_en": "Garden Fusion",
+          "item_count": 6,
+          "status": "معتمد (Approved)",
+          "notes": "6 مكسات معتمدة، منها 4 مشتركة مع Sports Collection بالرمز الموحد (GF)."
+        },
+        {
+          "id": "09",
+          "name_ar": "قطع الفاكهة والبولات",
+          "name_en": "Cut Fruits & Bowls",
+          "item_count": 1,
+          "status": "معتمد (Approved)",
+          "notes": "علب وبولات فواكه طازجة مقطعة للشرب والأكل المباشر، متاحة حصرياً بحجم 16 أونص."
+        }
+      ],
+      "items": [
+        {
+          "item_code": "PJ01",
+          "item_name": {
+            "ar": "مانجا",
+            "en": "Mango"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مانجا"
+          ],
+          "ingredients_raw": "مانجا",
+          "status": "معتمد",
+          "unified_code": "PJ01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ02",
+          "item_name": {
+            "ar": "جوافة",
+            "en": "Guava"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "جوافة"
+          ],
+          "ingredients_raw": "جوافة",
+          "status": "معتمد",
+          "unified_code": "PJ02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ03",
+          "item_name": {
+            "ar": "فراولة",
+            "en": "Strawberry"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "فراولة"
+          ],
+          "ingredients_raw": "فراولة",
+          "status": "معتمد",
+          "unified_code": "PJ03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ04",
+          "item_name": {
+            "ar": "برتقال",
+            "en": "Orange"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "برتقال"
+          ],
+          "ingredients_raw": "برتقال",
+          "status": "معتمد",
+          "unified_code": "PJ04",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ05",
+          "item_name": {
+            "ar": "رمان",
+            "en": "Pomegranate"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "رمان"
+          ],
+          "ingredients_raw": "رمان",
+          "status": "معتمد",
+          "unified_code": "PJ05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ06",
+          "item_name": {
+            "ar": "ليمون",
+            "en": "Lemon"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "ليمون"
+          ],
+          "ingredients_raw": "ليمون",
+          "status": "معتمد",
+          "unified_code": "PJ06",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ07",
+          "item_name": {
+            "ar": "بطيخ",
+            "en": "Watermelon"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "بطيخ"
+          ],
+          "ingredients_raw": "بطيخ",
+          "status": "معتمد",
+          "unified_code": "PJ07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ08",
+          "item_name": {
+            "ar": "كيوي",
+            "en": "Kiwi"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "كيوي"
+          ],
+          "ingredients_raw": "كيوي",
+          "status": "معتمد",
+          "unified_code": "PJ08",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ09",
+          "item_name": {
+            "ar": "تفاح",
+            "en": "Apple"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "تفاح"
+          ],
+          "ingredients_raw": "تفاح",
+          "status": "معتمد",
+          "unified_code": "PJ09",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ10",
+          "item_name": {
+            "ar": "أناناس",
+            "en": "Pineapple"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "أناناس"
+          ],
+          "ingredients_raw": "أناناس",
+          "status": "معتمد",
+          "unified_code": "PJ10",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ11",
+          "item_name": {
+            "ar": "عنب",
+            "en": "Grape"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "عنب"
+          ],
+          "ingredients_raw": "عنب",
+          "status": "معتمد",
+          "unified_code": "PJ11",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ12",
+          "item_name": {
+            "ar": "كنتالوب",
+            "en": "Cantaloupe"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "كنتالوب"
+          ],
+          "ingredients_raw": "كنتالوب",
+          "status": "معتمد",
+          "unified_code": "PJ12",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ13",
+          "item_name": {
+            "ar": "جريب فروت",
+            "en": "Grapefruit"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "جريب فروت"
+          ],
+          "ingredients_raw": "جريب فروت",
+          "status": "معتمد",
+          "unified_code": "PJ13",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ14",
+          "item_name": {
+            "ar": "خوخ",
+            "en": "Peach"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "خوخ"
+          ],
+          "ingredients_raw": "خوخ",
+          "status": "معتمد",
+          "unified_code": "PJ14",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ15",
+          "item_name": {
+            "ar": "مشمش",
+            "en": "Apricot"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مشمش"
+          ],
+          "ingredients_raw": "مشمش",
+          "status": "معتمد",
+          "unified_code": "PJ15",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ16",
+          "item_name": {
+            "ar": "كمثرى",
+            "en": "Pear"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "كمثرى"
+          ],
+          "ingredients_raw": "كمثرى",
+          "status": "معتمد",
+          "unified_code": "PJ16",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ17",
+          "item_name": {
+            "ar": "يوسفي",
+            "en": "Mandarin"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "يوسفي"
+          ],
+          "ingredients_raw": "يوسفي",
+          "status": "معتمد",
+          "unified_code": "PJ17",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "PJ18",
+          "item_name": {
+            "ar": "برقوق",
+            "en": "Plum"
+          },
+          "category_id": "01",
+          "category_name": {
+            "ar": "العصائر الطبيعية",
+            "en": "Pure Juices"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "برقوق"
+          ],
+          "ingredients_raw": "برقوق",
+          "status": "معتمد",
+          "unified_code": "PJ18",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH01",
+          "item_name": {
+            "ar": "قصب",
+            "en": "Sugarcane"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "قصب"
+          ],
+          "ingredients_raw": "قصب",
+          "status": "معتمد",
+          "unified_code": "EH01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH02",
+          "item_name": {
+            "ar": "كركديه",
+            "en": "Hibiscus"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "كركديه"
+          ],
+          "ingredients_raw": "كركديه",
+          "status": "معتمد",
+          "unified_code": "EH02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH03",
+          "item_name": {
+            "ar": "تمر هندي",
+            "en": "Tamarind"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "تمر هندي"
+          ],
+          "ingredients_raw": "تمر هندي",
+          "status": "معتمد",
+          "unified_code": "EH03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH04",
+          "item_name": {
+            "ar": "سوبيا",
+            "en": "Sobia (Sobya mix)"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "خليط السوبيا"
+          ],
+          "ingredients_raw": "خليط السوبيا",
+          "status": "معتمد",
+          "unified_code": "EH04",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH05",
+          "item_name": {
+            "ar": "دوم",
+            "en": "Doum"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "دوم"
+          ],
+          "ingredients_raw": "دوم",
+          "status": "معتمد",
+          "unified_code": "EH05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH06",
+          "item_name": {
+            "ar": "خروب",
+            "en": "Carob"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "خروب"
+          ],
+          "ingredients_raw": "خروب",
+          "status": "معتمد",
+          "unified_code": "EH06",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH07",
+          "item_name": {
+            "ar": "بلح باللبن",
+            "en": "Dates & Milk"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "بلح",
+            "لبن"
+          ],
+          "ingredients_raw": "بلح + لبن",
+          "status": "معتمد",
+          "unified_code": "EH07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH08",
+          "item_name": {
+            "ar": "فراولة باللبن",
+            "en": "Strawberry & Milk"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "فراولة",
+            "لبن"
+          ],
+          "ingredients_raw": "فراولة + لبن",
+          "status": "معتمد",
+          "unified_code": "EH08",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH09",
+          "item_name": {
+            "ar": "مانجا باللبن",
+            "en": "Mango & Milk"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مانجا",
+            "لبن"
+          ],
+          "ingredients_raw": "مانجا + لبن",
+          "status": "معتمد",
+          "unified_code": "EH09",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH10",
+          "item_name": {
+            "ar": "جوافة باللبن",
+            "en": "Guava & Milk"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "جوافة",
+            "لبن"
+          ],
+          "ingredients_raw": "جوافة + لبن",
+          "status": "معتمد",
+          "unified_code": "EH10",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH11",
+          "item_name": {
+            "ar": "موز باللبن",
+            "en": "Banana & Milk"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "موز",
+            "لبن"
+          ],
+          "ingredients_raw": "موز + لبن",
+          "status": "معتمد",
+          "unified_code": "EH11",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH12",
+          "item_name": {
+            "ar": "قصب وليمون",
+            "en": "Sugarcane Lemon"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "قصب",
+            "ليمون"
+          ],
+          "ingredients_raw": "قصب + ليمون",
+          "status": "معتمد",
+          "unified_code": "EH12",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH13",
+          "item_name": {
+            "ar": "قصب وزنجبيل",
+            "en": "Sugarcane Ginger"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "قصب",
+            "زنجبيل"
+          ],
+          "ingredients_raw": "قصب + زنجبيل",
+          "status": "معتمد",
+          "unified_code": "EH13",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH14",
+          "item_name": {
+            "ar": "كركديه ورمان",
+            "en": "Hibiscus Pomegranate"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "كركديه",
+            "رمان"
+          ],
+          "ingredients_raw": "كركديه + رمان",
+          "status": "معتمد",
+          "unified_code": "EH14",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH15",
+          "item_name": {
+            "ar": "كركديه وفراولة",
+            "en": "Hibiscus Strawberry"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "كركديه",
+            "فراولة"
+          ],
+          "ingredients_raw": "كركديه + فراولة",
+          "status": "معتمد",
+          "unified_code": "EH15",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "EH16",
+          "item_name": {
+            "ar": "قصب ونعناع",
+            "en": "Sugarcane Mint"
+          },
+          "category_id": "02",
+          "category_name": {
+            "ar": "التراث المصري",
+            "en": "Egyptian Heritage"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "قصب",
+            "نعناع"
+          ],
+          "ingredients_raw": "قصب + نعناع",
+          "status": "معتمد",
+          "unified_code": "EH16",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "SB01",
+          "item_name": {
+            "ar": "كريمزون ويف",
+            "en": "Crimson Wave"
+          },
+          "category_id": "03",
+          "category_name": {
+            "ar": "المكسات المميزة",
+            "en": "Signature Blends"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "رمان",
+            "بطيخ"
+          ],
+          "ingredients_raw": "رمان + بطيخ",
+          "status": "معتمد",
+          "unified_code": "SB01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "SB02",
+          "item_name": {
+            "ar": "جولدن باشن",
+            "en": "Golden Passion"
+          },
+          "category_id": "03",
+          "category_name": {
+            "ar": "المكسات المميزة",
+            "en": "Signature Blends"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مانجا",
+            "باشن فروت"
+          ],
+          "ingredients_raw": "مانجا + باشن فروت",
+          "status": "معتمد",
+          "unified_code": "SB02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "SB03",
+          "item_name": {
+            "ar": "مينت أواسيس",
+            "en": "Mint Oasis"
+          },
+          "category_id": "03",
+          "category_name": {
+            "ar": "المكسات المميزة",
+            "en": "Signature Blends"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "جوافة",
+            "أناناس",
+            "نعناع"
+          ],
+          "ingredients_raw": "جوافة + أناناس + نعناع",
+          "status": "معتمد",
+          "unified_code": "SB03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "SB04",
+          "item_name": {
+            "ar": "بينك تويست",
+            "en": "Pink Twist"
+          },
+          "category_id": "03",
+          "category_name": {
+            "ar": "المكسات المميزة",
+            "en": "Signature Blends"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "فراولة",
+            "كيوي"
+          ],
+          "ingredients_raw": "فراولة + كيوي",
+          "status": "معتمد",
+          "unified_code": "SB04",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "SB05",
+          "item_name": {
+            "ar": "تروبيكال صن",
+            "en": "Tropical Sun"
+          },
+          "category_id": "03",
+          "category_name": {
+            "ar": "المكسات المميزة",
+            "en": "Signature Blends"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مانجا",
+            "أناناس",
+            "ليمون"
+          ],
+          "ingredients_raw": "مانجا + أناناس + ليمون",
+          "status": "معتمد",
+          "unified_code": "SB05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "SB06",
+          "item_name": {
+            "ar": "روبي جولد",
+            "en": "Ruby Gold"
+          },
+          "category_id": "03",
+          "category_name": {
+            "ar": "المكسات المميزة",
+            "en": "Signature Blends"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "رمان",
+            "برتقال"
+          ],
+          "ingredients_raw": "رمان + برتقال",
+          "status": "معتمد",
+          "unified_code": "SB06",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "SB07",
+          "item_name": {
+            "ar": "دانييلا",
+            "en": "Daniela"
+          },
+          "category_id": "03",
+          "category_name": {
+            "ar": "المكسات المميزة",
+            "en": "Signature Blends"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "موز",
+            "ليمون",
+            "نعناع",
+            "مانجا"
+          ],
+          "ingredients_raw": "موز + ليمون + نعناع + مانجا",
+          "status": "معتمد",
+          "unified_code": "SB07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "VS01",
+          "item_name": {
+            "ar": "مانجو فيلفت",
+            "en": "Mango Velvet"
+          },
+          "category_id": "04",
+          "category_name": {
+            "ar": "السموذي",
+            "en": "Velvet Smoothies"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مانجا",
+            "موز",
+            "زبادي",
+            "لبن"
+          ],
+          "ingredients_raw": "مانجا + موز + زبادي + لبن",
+          "status": "معتمد",
+          "unified_code": "VS01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "VS02",
+          "item_name": {
+            "ar": "ستروبيري بنانا",
+            "en": "Strawberry Banana"
+          },
+          "category_id": "04",
+          "category_name": {
+            "ar": "السموذي",
+            "en": "Velvet Smoothies"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "فراولة",
+            "موز",
+            "زبادي",
+            "عصير تفاح"
+          ],
+          "ingredients_raw": "فراولة + موز + زبادي + عصير تفاح",
+          "status": "معتمد",
+          "unified_code": "VS02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "VS03",
+          "item_name": {
+            "ar": "مانجو باشن فيلفت",
+            "en": "Mango Passion Velvet"
+          },
+          "category_id": "04",
+          "category_name": {
+            "ar": "السموذي",
+            "en": "Velvet Smoothies"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مانجا",
+            "باشن فروت",
+            "زبادي",
+            "عصير فاكهة"
+          ],
+          "ingredients_raw": "مانجا + باشن فروت + زبادي + عصير فاكهة",
+          "status": "معتمد",
+          "unified_code": "VS03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "VS04",
+          "item_name": {
+            "ar": "بيري فيلفت",
+            "en": "Berry Velvet"
+          },
+          "category_id": "04",
+          "category_name": {
+            "ar": "السموذي",
+            "en": "Velvet Smoothies"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "فراولة",
+            "بلوبيري",
+            "راسبيري",
+            "زبادي",
+            "عصير تفاح"
+          ],
+          "ingredients_raw": "فراولة + بلوبيري + راسبيري + زبادي + عصير تفاح",
+          "status": "معتمد",
+          "unified_code": "VS04",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "VS05",
+          "item_name": {
+            "ar": "تروبيكال فيلفت",
+            "en": "Tropical Velvet"
+          },
+          "category_id": "04",
+          "category_name": {
+            "ar": "السموذي",
+            "en": "Velvet Smoothies"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "مانجا",
+            "أناناس",
+            "موز",
+            "زبادي",
+            "عصير فاكهة"
+          ],
+          "ingredients_raw": "مانجا + أناناس + موز + زبادي + عصير فاكهة",
+          "status": "معتمد",
+          "unified_code": "VS05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "VS06",
+          "item_name": {
+            "ar": "ديت بنانا فيلفت",
+            "en": "Date Banana Velvet"
+          },
+          "category_id": "04",
+          "category_name": {
+            "ar": "السموذي",
+            "en": "Velvet Smoothies"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "بلح",
+            "موز",
+            "زبادي",
+            "لبن"
+          ],
+          "ingredients_raw": "بلح + موز + زبادي + لبن",
+          "status": "معتمد",
+          "unified_code": "VS06",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "VS07",
+          "item_name": {
+            "ar": "أفو مانجو فيلفت",
+            "en": "Avo Mango Velvet"
+          },
+          "category_id": "04",
+          "category_name": {
+            "ar": "السموذي",
+            "en": "Velvet Smoothies"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "أفوكادو",
+            "مانجا",
+            "زبادي",
+            "لبن"
+          ],
+          "ingredients_raw": "أفوكادو + مانجا + زبادي + لبن",
+          "status": "معتمد",
+          "unified_code": "VS07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS01",
+          "item_name": {
+            "ar": "فانيليا ميلك شيك",
+            "en": "Vanilla Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم فانيليا"
+          ],
+          "ingredients_raw": "لبن + آيس كريم فانيليا",
+          "status": "معتمد",
+          "unified_code": "MS01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS02",
+          "item_name": {
+            "ar": "شوكولاتة ميلك شيك",
+            "en": "Chocolate Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم",
+            "شوكولاتة"
+          ],
+          "ingredients_raw": "لبن + آيس كريم + شوكولاتة",
+          "status": "معتمد",
+          "unified_code": "MS02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS03",
+          "item_name": {
+            "ar": "فراولة ميلك شيك",
+            "en": "Strawberry Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم",
+            "فراولة"
+          ],
+          "ingredients_raw": "لبن + آيس كريم + فراولة",
+          "status": "معتمد",
+          "unified_code": "MS03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS04",
+          "item_name": {
+            "ar": "أوريو ميلك شيك",
+            "en": "Oreo Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم",
+            "بسكويت أوريو"
+          ],
+          "ingredients_raw": "لبن + آيس كريم + بسكويت أوريو",
+          "status": "معتمد",
+          "unified_code": "MS04",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS05",
+          "item_name": {
+            "ar": "مانجا ميلك شيك",
+            "en": "Mango Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم",
+            "مانجا"
+          ],
+          "ingredients_raw": "لبن + آيس كريم + مانجا",
+          "status": "معتمد",
+          "unified_code": "MS05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS06",
+          "item_name": {
+            "ar": "موز كراميل",
+            "en": "Banana Caramel Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم",
+            "موز",
+            "كراميل"
+          ],
+          "ingredients_raw": "لبن + آيس كريم + موز + كراميل",
+          "status": "معتمد",
+          "unified_code": "MS06",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS07",
+          "item_name": {
+            "ar": "لوتس ميلك شيك",
+            "en": "Lotus Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم",
+            "بسكويت لوتس"
+          ],
+          "ingredients_raw": "لبن + آيس كريم + بسكويت لوتس",
+          "status": "معتمد",
+          "unified_code": "MS07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "MS08",
+          "item_name": {
+            "ar": "فستق ميلك شيك",
+            "en": "Pistachio Milkshake"
+          },
+          "category_id": "05",
+          "category_name": {
+            "ar": "الميلك شيك",
+            "en": "Milkshakes"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "لبن",
+            "آيس كريم",
+            "فستق"
+          ],
+          "ingredients_raw": "لبن + آيس كريم + فستق",
+          "status": "معتمد",
+          "unified_code": "MS08",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y01",
+          "item_name": {
+            "ar": "مانجو يوجرت",
+            "en": "Mango Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "مانجا"
+          ],
+          "ingredients_raw": "زبادي + مانجا",
+          "status": "معتمد",
+          "unified_code": "Y01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y02",
+          "item_name": {
+            "ar": "ستروبيري يوجرت",
+            "en": "Strawberry Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "فراولة"
+          ],
+          "ingredients_raw": "زبادي + فراولة",
+          "status": "معتمد",
+          "unified_code": "Y02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y05",
+          "item_name": {
+            "ar": "بيتش يوجرت",
+            "en": "Peach Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "خوخ"
+          ],
+          "ingredients_raw": "زبادي + خوخ",
+          "status": "معتمد",
+          "unified_code": "Y05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y07",
+          "item_name": {
+            "ar": "بيري يوجرت",
+            "en": "Berry Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "توت"
+          ],
+          "ingredients_raw": "زبادي + توت",
+          "status": "معتمد",
+          "unified_code": "Y07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y11",
+          "item_name": {
+            "ar": "مانجو باينابل يوجرت",
+            "en": "Mango Pineapple Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "مانجا",
+            "أناناس"
+          ],
+          "ingredients_raw": "زبادي + مانجا + أناناس",
+          "status": "معتمد",
+          "unified_code": "Y11",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y12",
+          "item_name": {
+            "ar": "مانجو بنانا يوجرت",
+            "en": "Mango Banana Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "مانجا",
+            "موز"
+          ],
+          "ingredients_raw": "زبادي + مانجا + موز",
+          "status": "معتمد",
+          "unified_code": "Y12",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y17",
+          "item_name": {
+            "ar": "مانجو باشن يوجرت",
+            "en": "Mango Passion Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "مانجا",
+            "باشن فروت"
+          ],
+          "ingredients_raw": "زبادي + مانجا + باشن فروت",
+          "status": "معتمد",
+          "unified_code": "Y17",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y19",
+          "item_name": {
+            "ar": "ستروبيري بنانا يوجرت",
+            "en": "Strawberry Banana Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "فراولة",
+            "موز"
+          ],
+          "ingredients_raw": "زبادي + فراولة + موز",
+          "status": "معتمد",
+          "unified_code": "Y19",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y22",
+          "item_name": {
+            "ar": "ستروبيري مانجو يوجرت",
+            "en": "Strawberry Mango Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "فراولة",
+            "مانجا"
+          ],
+          "ingredients_raw": "زبادي + فراولة + مانجا",
+          "status": "معتمد",
+          "unified_code": "Y22",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y27",
+          "item_name": {
+            "ar": "ديت يوجرت",
+            "en": "Date Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "بلح"
+          ],
+          "ingredients_raw": "زبادي + بلح",
+          "status": "معتمد",
+          "unified_code": "Y27",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y29",
+          "item_name": {
+            "ar": "ديت سينامون يوجرت",
+            "en": "Date Cinnamon Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "بلح",
+            "قرفة"
+          ],
+          "ingredients_raw": "زبادي + بلح + قرفة",
+          "status": "معتمد",
+          "unified_code": "Y29",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y30",
+          "item_name": {
+            "ar": "هاني بنانا يوجرت",
+            "en": "Honey Banana Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "عسل",
+            "موز"
+          ],
+          "ingredients_raw": "زبادي + عسل + موز",
+          "status": "معتمد",
+          "unified_code": "Y30",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y32",
+          "item_name": {
+            "ar": "فيج هاني يوجرت",
+            "en": "Fig Honey Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "تين",
+            "عسل"
+          ],
+          "ingredients_raw": "زبادي + تين + عسل",
+          "status": "معتمد",
+          "unified_code": "Y32",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y34",
+          "item_name": {
+            "ar": "أفو مانجو يوجرت",
+            "en": "Avo Mango Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "أفوكادو",
+            "مانجا"
+          ],
+          "ingredients_raw": "زبادي + أفوكادو + مانجا",
+          "status": "معتمد",
+          "unified_code": "Y34",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y38",
+          "item_name": {
+            "ar": "بيتش ستروبيري يوجرت",
+            "en": "Peach Strawberry Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "خوخ",
+            "فراولة"
+          ],
+          "ingredients_raw": "زبادي + خوخ + فراولة",
+          "status": "معتمد",
+          "unified_code": "Y38",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "Y40",
+          "item_name": {
+            "ar": "مانجو مينت يوجرت",
+            "en": "Mango Mint Yogurt"
+          },
+          "category_id": "06",
+          "category_name": {
+            "ar": "مشروبات الزبادي",
+            "en": "Yogurt Creations"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "زبادي",
+            "مانجا",
+            "نعناع"
+          ],
+          "ingredients_raw": "زبادي + مانجا + نعناع",
+          "status": "معتمد",
+          "unified_code": "Y40",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "A01",
+          "item_name": {
+            "ar": "بنانا ديت",
+            "en": "Banana Date"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "A — Banana & Date",
+          "ingredients": [
+            "موز",
+            "بلح",
+            "قرفة"
+          ],
+          "ingredients_raw": "موز + بلح + قرفة",
+          "status": "معتمد",
+          "unified_code": "A01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "A02",
+          "item_name": {
+            "ar": "جولدن ديت",
+            "en": "Golden Date"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "A — Banana & Date",
+          "ingredients": [
+            "مانجا",
+            "موز",
+            "بلح"
+          ],
+          "ingredients_raw": "مانجا + موز + بلح",
+          "status": "معتمد",
+          "unified_code": "A02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "B01",
+          "item_name": {
+            "ar": "تروبيكال تريو",
+            "en": "Tropical Trio"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "B — Tropical",
+          "ingredients": [
+            "أناناس",
+            "موز",
+            "مانجا"
+          ],
+          "ingredients_raw": "أناناس + موز + مانجا",
+          "status": "معتمد",
+          "unified_code": "B01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "B02",
+          "item_name": {
+            "ar": "صن رايز تريو",
+            "en": "Sunrise Trio"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "B — Tropical",
+          "ingredients": [
+            "برتقال",
+            "مانجا",
+            "موز"
+          ],
+          "ingredients_raw": "برتقال + مانجا + موز",
+          "status": "معتمد",
+          "unified_code": "B02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "B03",
+          "item_name": {
+            "ar": "واترملون سيتروس",
+            "en": "Watermelon Citrus"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "B — Tropical",
+          "ingredients": [
+            "بطيخ",
+            "برتقال",
+            "ليمون"
+          ],
+          "ingredients_raw": "بطيخ + برتقال + ليمون",
+          "status": "معتمد",
+          "unified_code": "B03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "B04",
+          "item_name": {
+            "ar": "بينك تروبيك",
+            "en": "Pink Tropic"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "B — Tropical",
+          "ingredients": [
+            "مانجا",
+            "فراولة",
+            "موز"
+          ],
+          "ingredients_raw": "مانجا + فراولة + موز",
+          "status": "معتمد",
+          "unified_code": "B04",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "B05",
+          "item_name": {
+            "ar": "بيتش صن",
+            "en": "Peach Sun"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "B — Tropical",
+          "ingredients": [
+            "خوخ",
+            "برتقال",
+            "موز"
+          ],
+          "ingredients_raw": "خوخ + برتقال + موز",
+          "status": "معتمد",
+          "unified_code": "B05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "C01",
+          "item_name": {
+            "ar": "إيه بي سي",
+            "en": "ABC"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "C — Beetroot",
+          "ingredients": [
+            "تفاح",
+            "بنجر",
+            "جزر"
+          ],
+          "ingredients_raw": "تفاح + بنجر + جزر",
+          "status": "معتمد",
+          "unified_code": "GF01",
+          "is_master_sku": false,
+          "master_sku_ref": "GF01",
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "C02",
+          "item_name": {
+            "ar": "روبي بيت",
+            "en": "Ruby Beet"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "C — Beetroot",
+          "ingredients": [
+            "رمان",
+            "بنجر",
+            "زنجبيل"
+          ],
+          "ingredients_raw": "رمان + بنجر + زنجبيل",
+          "status": "معتمد",
+          "unified_code": "GF04",
+          "is_master_sku": false,
+          "master_sku_ref": "GF04",
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "C03",
+          "item_name": {
+            "ar": "سيتروس روبي",
+            "en": "Citrus Ruby"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "C — Beetroot",
+          "ingredients": [
+            "برتقال",
+            "بنجر",
+            "جزر",
+            "زنجبيل"
+          ],
+          "ingredients_raw": "برتقال + بنجر + جزر + زنجبيل",
+          "status": "معتمد",
+          "unified_code": "GF06",
+          "is_master_sku": false,
+          "master_sku_ref": "GF06",
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D01",
+          "item_name": {
+            "ar": "جرين روكيت",
+            "en": "Green Rocket"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "جرجير",
+            "تفاح أخضر",
+            "خيار",
+            "ليمون"
+          ],
+          "ingredients_raw": "جرجير + تفاح أخضر + خيار + ليمون",
+          "status": "معتمد",
+          "unified_code": "D01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D02",
+          "item_name": {
+            "ar": "بارسلي تروبيكال",
+            "en": "Parsley Tropical"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "بقدونس",
+            "أناناس",
+            "تفاح أخضر",
+            "ليمون"
+          ],
+          "ingredients_raw": "بقدونس + أناناس + تفاح أخضر + ليمون",
+          "status": "معتمد",
+          "unified_code": "D02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D03",
+          "item_name": {
+            "ar": "كيوي جرين",
+            "en": "Kiwi Green"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "تفاح أخضر",
+            "كيوي"
+          ],
+          "ingredients_raw": "تفاح أخضر + كيوي",
+          "status": "معتمد",
+          "unified_code": "D03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D04",
+          "item_name": {
+            "ar": "جرين جاردن",
+            "en": "Green Garden"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "تفاح",
+            "خيار",
+            "كرفس",
+            "ليمون"
+          ],
+          "ingredients_raw": "تفاح + خيار + كرفس + ليمون",
+          "status": "معتمد",
+          "unified_code": "GF05",
+          "is_master_sku": false,
+          "master_sku_ref": "GF05",
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D05",
+          "item_name": {
+            "ar": "باينابل روكيت",
+            "en": "Pineapple Rocket"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "جرجير",
+            "أناناس",
+            "ليمون"
+          ],
+          "ingredients_raw": "جرجير + أناناس + ليمون",
+          "status": "معتمد",
+          "unified_code": "D05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D06",
+          "item_name": {
+            "ar": "سيتروس روكيت",
+            "en": "Citrus Rocket"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "جرجير",
+            "برتقال",
+            "تفاح"
+          ],
+          "ingredients_raw": "جرجير + برتقال + تفاح",
+          "status": "معتمد",
+          "unified_code": "D06",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D07",
+          "item_name": {
+            "ar": "بارسلي فريش",
+            "en": "Parsley Fresh"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "بقدونس",
+            "تفاح",
+            "خيار"
+          ],
+          "ingredients_raw": "بقدونس + تفاح + خيار",
+          "status": "معتمد",
+          "unified_code": "D07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "D08",
+          "item_name": {
+            "ar": "بارسلي تروبيك",
+            "en": "Parsley Tropic"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "D — Green",
+          "ingredients": [
+            "بقدونس",
+            "أناناس",
+            "برتقال"
+          ],
+          "ingredients_raw": "بقدونس + أناناس + برتقال",
+          "status": "معتمد",
+          "unified_code": "D08",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E01",
+          "item_name": {
+            "ar": "روبي جوافا",
+            "en": "Ruby Guava"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "رمان",
+            "جوافة",
+            "ليمون"
+          ],
+          "ingredients_raw": "رمان + جوافة + ليمون",
+          "status": "معتمد",
+          "unified_code": "E01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E02",
+          "item_name": {
+            "ar": "جينجر باين",
+            "en": "Ginger Pine"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "أناناس",
+            "تفاح",
+            "زنجبيل"
+          ],
+          "ingredients_raw": "أناناس + تفاح + زنجبيل",
+          "status": "معتمد",
+          "unified_code": "E02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E03",
+          "item_name": {
+            "ar": "مانجو مينت تويست",
+            "en": "Mango Mint Twist"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "مانجا",
+            "فراولة",
+            "نعناع"
+          ],
+          "ingredients_raw": "مانجا + فراولة + نعناع",
+          "status": "معتمد",
+          "unified_code": "E03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E04",
+          "item_name": {
+            "ar": "كيوي مينت",
+            "en": "Kiwi Mint"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "كيوي",
+            "أناناس",
+            "نعناع"
+          ],
+          "ingredients_raw": "كيوي + أناناس + نعناع",
+          "status": "معتمد",
+          "unified_code": "E04",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E05",
+          "item_name": {
+            "ar": "روبي كيوي",
+            "en": "Ruby Kiwi"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "رمان",
+            "كيوي",
+            "فراولة"
+          ],
+          "ingredients_raw": "رمان + كيوي + فراولة",
+          "status": "معتمد",
+          "unified_code": "E05",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E06",
+          "item_name": {
+            "ar": "فيج روبي",
+            "en": "Fig Ruby"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "تين",
+            "برتقال",
+            "رمان"
+          ],
+          "ingredients_raw": "تين + برتقال + رمان",
+          "status": "معتمد",
+          "unified_code": "E06",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E07",
+          "item_name": {
+            "ar": "جوافا آيلاند",
+            "en": "Guava Island"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "جوافة",
+            "أناناس",
+            "مانجا"
+          ],
+          "ingredients_raw": "جوافة + أناناس + مانجا",
+          "status": "معتمد",
+          "unified_code": "E07",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E09",
+          "item_name": {
+            "ar": "بيت سيتروس",
+            "en": "Beet Citrus"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "بنجر",
+            "تفاح",
+            "برتقال"
+          ],
+          "ingredients_raw": "بنجر + تفاح + برتقال",
+          "status": "معتمد",
+          "unified_code": "E09",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E10",
+          "item_name": {
+            "ar": "باينابل بيت",
+            "en": "Pineapple Beet"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "بنجر",
+            "أناناس",
+            "تفاح"
+          ],
+          "ingredients_raw": "بنجر + أناناس + تفاح",
+          "status": "معتمد",
+          "unified_code": "E10",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E11",
+          "item_name": {
+            "ar": "واترملون بيت",
+            "en": "Watermelon Beet"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "بنجر",
+            "بطيخ",
+            "ليمون"
+          ],
+          "ingredients_raw": "بنجر + بطيخ + ليمون",
+          "status": "معتمد",
+          "unified_code": "E11",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "E12",
+          "item_name": {
+            "ar": "مانجو جوافا",
+            "en": "Mango Guava"
+          },
+          "category_id": "07",
+          "category_name": {
+            "ar": "مجموعة النشاط",
+            "en": "Sports Collection"
+          },
+          "subgroup": "E — Fusion",
+          "ingredients": [
+            "مانجا",
+            "جوافة",
+            "ليمون"
+          ],
+          "ingredients_raw": "مانجا + جوافة + ليمون",
+          "status": "معتمد",
+          "unified_code": "E12",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "GF01",
+          "item_name": {
+            "ar": "إيه بي سي",
+            "en": "ABC"
+          },
+          "category_id": "08",
+          "category_name": {
+            "ar": "مكسات الفاكهة والخضار",
+            "en": "Garden Fusion"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "تفاح",
+            "بنجر",
+            "جزر"
+          ],
+          "ingredients_raw": "تفاح + بنجر + جزر",
+          "status": "معتمد",
+          "unified_code": "GF01",
+          "is_master_sku": true,
+          "shared_alias_codes": [
+            "C01"
+          ],
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "GF02",
+          "item_name": {
+            "ar": "أورانج جولد",
+            "en": "Orange Gold"
+          },
+          "category_id": "08",
+          "category_name": {
+            "ar": "مكسات الفاكهة والخضار",
+            "en": "Garden Fusion"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "برتقال",
+            "مانجا",
+            "جزر"
+          ],
+          "ingredients_raw": "برتقال + مانجا + جزر",
+          "status": "معتمد",
+          "unified_code": "GF02",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "GF03",
+          "item_name": {
+            "ar": "تروبيكال سبايس",
+            "en": "Tropical Spice"
+          },
+          "category_id": "08",
+          "category_name": {
+            "ar": "مكسات الفاكهة والخضار",
+            "en": "Garden Fusion"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "أناناس",
+            "جزر",
+            "زنجبيل"
+          ],
+          "ingredients_raw": "أناناس + جزر + زنجبيل",
+          "status": "معتمد",
+          "unified_code": "GF03",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "GF04",
+          "item_name": {
+            "ar": "روبي بيت",
+            "en": "Ruby Beet"
+          },
+          "category_id": "08",
+          "category_name": {
+            "ar": "مكسات الفاكهة والخضار",
+            "en": "Garden Fusion"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "رمان",
+            "بنجر",
+            "زنجبيل"
+          ],
+          "ingredients_raw": "رمان + بنجر + زنجبيل",
+          "status": "معتمد",
+          "unified_code": "GF04",
+          "is_master_sku": true,
+          "shared_alias_codes": [
+            "C02"
+          ],
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "GF05",
+          "item_name": {
+            "ar": "جرين جاردن",
+            "en": "Green Garden"
+          },
+          "category_id": "08",
+          "category_name": {
+            "ar": "مكسات الفاكهة والخضار",
+            "en": "Garden Fusion"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "تفاح",
+            "خيار",
+            "كرفس",
+            "ليمون"
+          ],
+          "ingredients_raw": "تفاح + خيار + كرفس + ليمون",
+          "status": "معتمد",
+          "unified_code": "GF05",
+          "is_master_sku": true,
+          "shared_alias_codes": [
+            "D04"
+          ],
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "GF06",
+          "item_name": {
+            "ar": "سيتروس روبي",
+            "en": "Citrus Ruby"
+          },
+          "category_id": "08",
+          "category_name": {
+            "ar": "مكسات الفاكهة والخضار",
+            "en": "Garden Fusion"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "برتقال",
+            "بنجر",
+            "جزر",
+            "زنجبيل"
+          ],
+          "ingredients_raw": "برتقال + بنجر + جزر + زنجبيل",
+          "status": "معتمد",
+          "unified_code": "GF06",
+          "is_master_sku": true,
+          "shared_alias_codes": [
+            "C03"
+          ],
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "كوب 16 أونص",
+              "packaging": "كوب بلاستيك",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "إزازة",
+              "available": true,
+              "price_egp": null
+            }
+          }
+        },
+        {
+          "item_code": "FP01",
+          "item_name": {
+            "ar": "علبة فاكهة قطع مشكلة (فروت سلاط)",
+            "en": "Mixed Cut Fruit Bowl"
+          },
+          "category_id": "09",
+          "category_name": {
+            "ar": "قطع الفاكهة والبولات",
+            "en": "Cut Fruits & Bowls"
+          },
+          "subgroup": null,
+          "ingredients": [
+            "تشكيلة فواكه الموسم الطازجة مقطعة بعناية"
+          ],
+          "ingredients_raw": "فواكه موسمية طازجة مشكلة مقطعة",
+          "status": "معتمد",
+          "unified_code": "FP01",
+          "is_master_sku": true,
+          "available_sizes": {
+            "cup_16oz": {
+              "size_name_ar": "علبة 16 أونص",
+              "packaging": "علبة / بولة بلاستيك 16 أونص بغطاء",
+              "available": true,
+              "price_egp": null
+            },
+            "bottle_500ml": {
+              "size_name_ar": "إزازة 500 مل",
+              "packaging": "غير متاح للفاكهة القطع",
+              "available": false,
+              "price_egp": null
+            },
+            "bottle_1l": {
+              "size_name_ar": "إزازة 1 لتر",
+              "packaging": "غير متاح للفاكهة القطع",
+              "available": false,
+              "price_egp": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "fresh_market_fruits",
+      "section_name_ar": "سوق الفواكه الطازجة السليمة (بالكيلو والكرتونة)",
+      "section_name_en": "Fresh Market Raw Fruits (By Weight / Box)",
+      "description_ar": "الفواكه الطبيعية الطازجة منتقاة فرز أول للطلبات المنزلية والعائلية بأسعار البورصة اليومية",
+      "category_id": "10",
+      "category_name": {
+        "ar": "فواكه طازجة بالكيلو",
+        "en": "Fresh Raw Produce"
+      },
+      "items": [
+        {
+          "sku": "RF-MNG",
+          "name_ar": "مانجو",
+          "name_en": "Mango",
+          "unit": "kg",
+          "image": "mango_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-AVO",
+          "name_ar": "أفوكادو",
+          "name_en": "Avocado",
+          "unit": "kg",
+          "image": "avocado_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-STR",
+          "name_ar": "فراولة",
+          "name_en": "Strawberry",
+          "unit": "kg",
+          "image": "strawberry_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-POM",
+          "name_ar": "رمان",
+          "name_en": "Pomegranate",
+          "unit": "kg",
+          "image": "pomegranate_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-ORA",
+          "name_ar": "برتقال",
+          "name_en": "Orange",
+          "unit": "kg",
+          "image": "orange_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-BAN",
+          "name_ar": "موز",
+          "name_en": "Banana",
+          "unit": "kg",
+          "image": "banana_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-GUA",
+          "name_ar": "جوافة",
+          "name_en": "Guava",
+          "unit": "kg",
+          "image": "guava_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-KIW",
+          "name_ar": "كيوي",
+          "name_en": "Kiwi",
+          "unit": "kg",
+          "image": "kiwi_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-WML",
+          "name_ar": "بطيخ",
+          "name_en": "Watermelon",
+          "unit": "piece",
+          "image": "watermelon_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-APP",
+          "name_ar": "تفاح",
+          "name_en": "Apple",
+          "unit": "kg",
+          "image": "apple_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-PNE",
+          "name_ar": "أناناس",
+          "name_en": "Pineapple",
+          "unit": "piece",
+          "image": "pineapple_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-GRP",
+          "name_ar": "عنب",
+          "name_en": "Grapes",
+          "unit": "kg",
+          "image": "grape_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-CAN",
+          "name_ar": "كنتالوب",
+          "name_en": "Cantaloupe",
+          "unit": "kg",
+          "image": "cantaloupe_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-PCH",
+          "name_ar": "خوخ",
+          "name_en": "Peach",
+          "unit": "kg",
+          "image": "peach_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-PLM",
+          "name_ar": "برقوق",
+          "name_en": "Plum",
+          "unit": "kg",
+          "image": "plum_card.webp",
+          "daily_price_egp": null
+        },
+        {
+          "sku": "RF-DAT",
+          "name_ar": "بلح",
+          "name_en": "Dates",
+          "unit": "kg",
+          "image": "dates_card.webp",
+          "daily_price_egp": null
+        }
+      ]
+    }
+  ]
+}
