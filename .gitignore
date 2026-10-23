@@ -1,6 +1,23 @@
-﻿node_modules/
+node_modules/
 dist/
 *.log
 *.tmp
 2026-10-22/
 .env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+*.zip
+*.7z
+# Security & Secret exclusions
+*.token
+*.key
+*.pem
+credentials*.json
+docs/security/password.txt
+docs/security/.meta_token
+Thumbs.db
+desktop.ini
