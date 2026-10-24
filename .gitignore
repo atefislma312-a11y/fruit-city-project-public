@@ -12,6 +12,8 @@ dist/
 *.backup
 *.zip
 *.7z
+web_app/site_preview/
+web_app/menu-site-deploy.tar.gz
 # Security & Secret exclusions
 *.token
 *.key
