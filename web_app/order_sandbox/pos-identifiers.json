@@ -1,0 +1,573 @@
+{
+  "capturedAt": "2026-10-24T17:55:36.014Z",
+  "note": "Read-only identifiers only. Not approved commercial data.",
+  "products": [
+    {
+      "product_id": "prod_apple_juice",
+      "product_code": null,
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj01",
+      "product_code": "PJ01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj02",
+      "product_code": "PJ02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj03",
+      "product_code": "PJ03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj04",
+      "product_code": "PJ04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj05",
+      "product_code": "PJ05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj06",
+      "product_code": "PJ06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj07",
+      "product_code": "PJ07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj08",
+      "product_code": "PJ08",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj09",
+      "product_code": "PJ09",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj10",
+      "product_code": "PJ10",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj11",
+      "product_code": "PJ11",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj12",
+      "product_code": "PJ12",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj13",
+      "product_code": "PJ13",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj14",
+      "product_code": "PJ14",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj15",
+      "product_code": "PJ15",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj16",
+      "product_code": "PJ16",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj17",
+      "product_code": "PJ17",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_pj18",
+      "product_code": "PJ18",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh01",
+      "product_code": "EH01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh02",
+      "product_code": "EH02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh03",
+      "product_code": "EH03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh04",
+      "product_code": "EH04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh05",
+      "product_code": "EH05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh06",
+      "product_code": "EH06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh07",
+      "product_code": "EH07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh08",
+      "product_code": "EH08",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh09",
+      "product_code": "EH09",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh10",
+      "product_code": "EH10",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh11",
+      "product_code": "EH11",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh12",
+      "product_code": "EH12",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh13",
+      "product_code": "EH13",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh14",
+      "product_code": "EH14",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh15",
+      "product_code": "EH15",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_eh16",
+      "product_code": "EH16",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_sb01",
+      "product_code": "SB01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_sb02",
+      "product_code": "SB02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_sb03",
+      "product_code": "SB03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_sb04",
+      "product_code": "SB04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_sb05",
+      "product_code": "SB05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_sb06",
+      "product_code": "SB06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_sb07",
+      "product_code": "SB07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_vs01",
+      "product_code": "VS01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_vs02",
+      "product_code": "VS02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_vs03",
+      "product_code": "VS03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_vs04",
+      "product_code": "VS04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_vs05",
+      "product_code": "VS05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_vs06",
+      "product_code": "VS06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_vs07",
+      "product_code": "VS07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms01",
+      "product_code": "MS01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms02",
+      "product_code": "MS02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms03",
+      "product_code": "MS03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms04",
+      "product_code": "MS04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms05",
+      "product_code": "MS05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms06",
+      "product_code": "MS06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms07",
+      "product_code": "MS07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_ms08",
+      "product_code": "MS08",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y01",
+      "product_code": "Y01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y02",
+      "product_code": "Y02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y05",
+      "product_code": "Y05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y07",
+      "product_code": "Y07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y11",
+      "product_code": "Y11",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y12",
+      "product_code": "Y12",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y17",
+      "product_code": "Y17",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y19",
+      "product_code": "Y19",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y22",
+      "product_code": "Y22",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y27",
+      "product_code": "Y27",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y29",
+      "product_code": "Y29",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y30",
+      "product_code": "Y30",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y32",
+      "product_code": "Y32",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y34",
+      "product_code": "Y34",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y38",
+      "product_code": "Y38",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_y40",
+      "product_code": "Y40",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_a01",
+      "product_code": "A01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_a02",
+      "product_code": "A02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_b01",
+      "product_code": "B01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_b02",
+      "product_code": "B02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_b03",
+      "product_code": "B03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_b04",
+      "product_code": "B04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_b05",
+      "product_code": "B05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_c01",
+      "product_code": "C01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_c02",
+      "product_code": "C02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_c03",
+      "product_code": "C03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d01",
+      "product_code": "D01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d02",
+      "product_code": "D02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d03",
+      "product_code": "D03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d04",
+      "product_code": "D04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d05",
+      "product_code": "D05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d06",
+      "product_code": "D06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d07",
+      "product_code": "D07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_d08",
+      "product_code": "D08",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e01",
+      "product_code": "E01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e02",
+      "product_code": "E02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e03",
+      "product_code": "E03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e04",
+      "product_code": "E04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e05",
+      "product_code": "E05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e06",
+      "product_code": "E06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e07",
+      "product_code": "E07",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e09",
+      "product_code": "E09",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e10",
+      "product_code": "E10",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e11",
+      "product_code": "E11",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_e12",
+      "product_code": "E12",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_gf01",
+      "product_code": "GF01",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_gf02",
+      "product_code": "GF02",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_gf03",
+      "product_code": "GF03",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_gf04",
+      "product_code": "GF04",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_gf05",
+      "product_code": "GF05",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_gf06",
+      "product_code": "GF06",
+      "is_active": 1
+    },
+    {
+      "product_id": "prod_fp01",
+      "product_code": "FP01",
+      "is_active": 1
+    }
+  ],
+  "sizes": [
+    {
+      "size_id": "size_cup_16oz",
+      "size_code": "16oz",
+      "volume_ml": 473
+    },
+    {
+      "size_id": "size_bottle_500ml",
+      "size_code": "500ml",
+      "volume_ml": 500
+    },
+    {
+      "size_id": "size_bottle_1l",
+      "size_code": "1L",
+      "volume_ml": 1000
+    },
+    {
+      "size_id": "size_400ml",
+      "size_code": "400ml",
+      "volume_ml": 400
+    }
+  ]
+}

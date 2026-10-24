@@ -1,5 +1,30 @@
 # Isolated incoming-order contract proof
 
+## 2026-10-25 — isolated intake implemented, NOT connected or deployed
+
+Run `node --test web_app/order_sandbox/*.test.mjs` from the repository root: **19 passed, 0 failed**.
+The original seven tests still pass. Storefront tests: **3 passed**, production build successful.
+The separately owned POS development `orderRules.test.js` was reviewed and run: **4 passed**; this does not prove its HTTP server or inventory transactions are ready.
+
+New files:
+- `catalog.mjs` reconciles exact product codes and exact size code/volume pairs. `pos-identifiers.json` is a read-only identifier snapshot from 2026-10-24, not prices or live availability. 108/124 products match; all 16 RF products remain blocked. Refresh identifiers before operational adoption; never match by name.
+- `approvedVariants` consumes one branch-specific feed with approval actor/reference and expiration. Unknown, duplicate, unavailable, unapproved and expired prices fail closed. Prices use integer piastres. A catalog provider function can refresh the feed on every quote/confirmation. There is no approved real feed yet and no automatic POS price export.
+- `intake.mjs` extends the original service with durable quotes, explicit total confirmation, canonical order IDs, atomic order/event/outbox persistence, and bearer-protected order lookup. Changes to price/mapping/availability require a new quote. Confirmed orders remain pending/unpaid/unsettled. Legacy `submit` remains a test-only API; the HTTP adapter never exposes it.
+- `http.mjs` provides JSON POST `/quotes`, POST `/orders`, GET `/orders/:id` with quote/order bearer token, and GET `/staff/orders` with a configured staff bearer token. No cookies, CORS access or secret defaults. Tests bind ephemeral loopback ports and close them. No permanent server is launched.
+- `deliver` retains outbox events until the receiver returns the matching event/order IDs. Delivery is at-least-once: the future POS receiver MUST deduplicate by event ID and durably acknowledge after writing its own inbox. No receiver adapter is implemented yet.
+
+Tests cover 40 simultaneous HTTP retries producing one order, durable reopen, expired/changed quotes, unavailable products, invalid tokens, unauthorized staff access, atomic rollback after an injected database failure, and notification failure/wrong acknowledgements. This is a small concurrency smoke test, NOT production load qualification. Restart test reopens a SQLite connection, not an OS crash/power-loss test.
+
+Only synthetic pickup orders are supported in this slice. Delivery fails with `DELIVERY_NOT_CONFIGURED`; no invented location or fees. Cash and manual InstaPay are recorded as method preferences, never proof of payment. No customer personal data is collected by this test contract.
+
+Remaining gates: approved branch/prices/availability, RF identities and weight rules; customer contact/fulfillment validation; admin identity/session lifecycle and rate limits; authenticated UI/API integration; cashier acceptance/state audit; receiver deduplication; approved preparation/inventory event; payment verification/settlement; delivery coordinates/fees; production storage/backup/load/security review. Do not expose this test HTTP adapter or deploy it as a production service.
+
+The canonical customer React app and public site are unchanged. Do not point this service at any production DB. Existing `OrderSandbox` accepts arbitrary database paths for tests; the eventual operational launcher must enforce a dedicated database location.
+
+Implementation reuses Node's built-in SQLite and the existing sandbox rather than adding a second POS or an inventory engine. Reference: https://nodejs.org/download/release/latest-v24.x/docs/api/sqlite.html
+
+## Earlier proof (2026-10-24)
+
 Run with the existing Node 24 runtime from the project root:
 
 ```
