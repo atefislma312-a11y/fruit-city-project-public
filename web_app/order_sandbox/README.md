@@ -38,3 +38,19 @@ This is a service-level contract demonstration, not a deployable API or replacem
 Current result 2026-10-24: 7 tests passed, 0 failed. Simulated lost response is retrying after ignoring the first response and reopening the test DB; no real network failure, concurrent-process load, POS integration or WhatsApp delivery was tested.
 
 Before production: approved catalog mapping/prices and branch; HTTP request schema and quote confirmation; customer/delivery validation; geofence; authentication and authorization; status transitions and audit; durable notification/bridge outbox; concurrency/load tests; operations and monitoring. An approved domain/API contract must replace this test-only shape. Do not connect the customer UI to it yet.
+
+## 2026-10-25 — workflow development checkpoint (not operational)
+
+Owner approved primary branch `branch_downtown_cairo` in City Management System, the Maps point recorded in `operating-config.json`, and ingredient deduction at preparation. The branch identity approval does not itself import prices or establish live availability. Delivery examples are not an approved tariff.
+
+Added `workflow.mjs` and five tests: authenticated actor roles, audited state transitions, optimistic revisions, durable idempotent commands, preparation outbox awaiting bridge ACK, separate payment/settlement/refund states, manager-verified manual InstaPay, and waste review on prepared cancellation. No inventory mutation or POS receiver exists in this slice. ACK tests use synthetic receipts; they do not prove real stock deduction.
+
+Added standalone 5km validation and a synthetic test; it is not yet connected to checkout. Unconfirmed fees and zone mapping block delivery. Customer checkout and staff inbox are opt-in development scaffolds in the existing React app; `dev.mjs` requires FC_DEMO=1, uses in-memory synthetic prices, loopback only. No production launcher or real staff credentials. Development UI browser acceptance remains unverified; pending confirmation is not yet retained across page reload. Staff preparation/payment controls remain unfinished. The default public flow is unchanged.
+
+Verified now: 25 sandbox tests, 3 existing storefront tests, production build. No live POS integration, production load qualification, phone/browser acceptance or deployment was performed. Remaining: approved-source feed adapter, RF mappings, customer contact data validation, persistent client retry intent, production authentication, POS inbox/receiver and inventory transaction integration, delivery tariff, full integration/security/load tests.
+
+### Resume verification, 2026-10-25
+- Added pos-feed.mjs / pos-feed.test.mjs: read-only branch-specific transactional price reader, strict integer-piastre conversion, exact mappings, refreshed availability. Synthetic fixture tests verify source bytes unchanged and cross-branch exclusion.
+- Read-only check against the current local POS returned 322 eligible variants across 108 products for branch_downtown_cairo. SHA-256 before/after matched. No price values exported. This proves reading current configured availability, not ingredient availability or end-to-end POS readiness. 16 RF products remain blocked.
+- Sandbox tests now 27 passed. Vite build passed. Browser demo: mango quote 12.50 TEST EGP, confirmation pending acceptance, reload and repeat confirmation returned the same order ID. Screenshot checkout-test.png. Pending intent now retained in sessionStorage for matching cart/payment method; switching payment method back may be needed after reload. Full authentication/payment/staff/browser coverage remains pending.
+- Reader is not enabled in the demo launcher or public site. Remaining integration gates above still apply. The preceding checkpoint's 'browser unverified' and 'no feed adapter' reflect the earlier state and are superseded only by these specific results.

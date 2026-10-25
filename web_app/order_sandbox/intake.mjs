@@ -64,7 +64,7 @@ export class OrderIntake extends OrderSandbox {
  inbox(){return this.db.prepare('SELECT snapshot FROM incoming_orders ORDER BY rowid DESC LIMIT 100').all().map(r=>{const {accessToken,...o}=JSON.parse(r.snapshot);return o;});}
  // Caller supplies an isolated receiver; no production URL or background worker.
  async deliver(send) {
-  const pending=this.db.prepare('SELECT * FROM intake_outbox WHERE acked=0 ORDER BY rowid LIMIT 100').all();
+  const pending=this.db.prepare("SELECT * FROM intake_outbox WHERE acked=0 AND kind='incoming_order' ORDER BY rowid LIMIT 100").all();
   for(const e of pending){
    this.db.prepare('UPDATE intake_outbox SET attempts=attempts+1 WHERE id=?').run(e.id);
    try {const ack=await send({eventId:e.id,order:JSON.parse(e.payload)});

@@ -128,6 +128,13 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-25 — isolated web order workflow checkpoint
+- Owner approvals: primary price-source branch branch_downtown_cairo (City Management System), Maps center 30.035505/31.233777 confirmed same shop despite outdated listing, deduct ingredients at preparation. Delivery fees remain unapproved examples.
+- Implemented in development: audited role-constrained workflow, command idempotency/revisions, preparation outbox awaiting synthetic bridge ACK, manual payment verification/settlement/refund state separation, cancellation waste review, isolated radius validation, opt-in React checkout/staff scaffolds.
+- Changed files: web_app/order_sandbox/{workflow.mjs,workflow.test.mjs,delivery.mjs,delivery.test.mjs,operating-config.json,dev.mjs,http.mjs,intake.mjs,README.md}; web_app/app_code/{src/main.jsx,src/Checkout.jsx,vite.config.js}; this handoff.
+- Verified: sandbox 25 passed/0 failed, storefront 3 passed/0 failed, Vite build passed. Browser acceptance not verified. No production database writes or public deployment.
+- Remaining: approved-source live feed adapter and RF mapping; client retry across reload/contact validation; staff controls/auth lifecycle; real POS receiver, stock transactions and end-to-end tests; delivery fees/zones; load/security review. Current ACK does not prove actual stock deduction. See sandbox README for development-only limits.
+- Preserve unrelated AGENTS.md and development/ changes. Commit/push outcome must be checked in Git, not inferred from this entry.
 
 ### خدمة استقبال معزولة وربط الكتالوج — 2026-10-25 — Codex
 
@@ -269,3 +276,8 @@ D:\fruit city project\
 
 > **إلى النموذج القادم (To Next Model / Codex):**  
 > مرحباً بك في مشروع Fruit City! يرجى اتباع التعليمات المذكورة أعلاه بدقة، والحفاظ على مسار القرص `D:`، والالتزام بالحلول البرمجية الخفيفة، وتحديث جدول التسليم قبل إنهاء عملك.
+
+### 2026-10-25 — resume follow-up evidence
+- Added web_app/order_sandbox/pos-feed.mjs and pos-feed.test.mjs; local POS opened read-only. Approved branch returned 322 price/size variants for 108 products; production DB SHA-256 unchanged before/after. No prices or customer records exported to Git.
+- Fixed matching-cart confirmation intent retention across reload in Checkout.jsx. Browser synthetic mango quote/confirm/reload/reconfirm returned the same order ID, pending store acceptance. Evidence: web_app/order_sandbox/checkout-test.png.
+- 27 sandbox tests passed and app build passed. Existing 3 storefront tests had passed at prior checkpoint. Feed remains disconnected from public/demo launcher; 16 RF mappings, contact validation, real cashier receiver/inventory integration, delivery tariff and full auth/load validation remain incomplete.
