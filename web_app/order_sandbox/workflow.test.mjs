@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {OrderWorkflow} from './workflow.mjs';
 const cashier={id:'TEST-CASHIER',role:'cashier'},manager={id:'TEST-MANAGER',role:'manager'},bridge={id:'TEST-BRIDGE',role:'bridge'};
 function setup(t,approved=true){const s=new OrderWorkflow(':memory:',[{sku:'TEST',size:'500ml',posProductId:'TEST-P',posSizeId:'TEST-S',priceMinor:1000,available:true}],{preparationApproved:approved});t.after(()=>s.close());let seq=0;
- const create=(method='cash')=>{const q=s.quote({items:[{sku:'TEST',size:'500ml',quantity:1}],fulfillment:'pickup',paymentMethod:method});return s.confirm({key:'order-key-'+(++seq),quoteId:q.id,accessToken:q.accessToken,expectedTotalMinor:1000});};
+ const create=(method='cash')=>{const q=s.quote({items:[{sku:'TEST',size:'500ml',quantity:1}],customer:{phone:'01000000000'},fulfillment:'pickup',paymentMethod:method});return s.confirm({key:'order-key-'+(++seq),quoteId:q.id,accessToken:q.accessToken,expectedTotalMinor:1000});};
  const command=(o,action,extra={},actor=cashier)=>s.command(actor,{key:'command-key-'+(++seq),orderId:o?.id,revision:o?.revision??0,action,...extra});return {s,create,command};}
 test('full lifecycle waits for inventory ACK and payment before completion',t=>{
  const {s,create,command}=setup(t);let o=create();assert.throws(()=>command(o,'status',{status:'ready'}),/INVALID_TRANSITION/);

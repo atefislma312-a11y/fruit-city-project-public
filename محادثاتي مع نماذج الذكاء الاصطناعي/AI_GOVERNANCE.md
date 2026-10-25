@@ -128,6 +128,12 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-25 — customer validation and durable receiving contract
+- Implemented required normalized Egyptian mobile for pickup, bound to quote/order; rejected legacy unconfirmed quotes without contact. UI restores saved phone/payment intent across reload.
+- Added isolated receiver with durable event/order deduplication, payload conflict detection and post-commit ACK. Lost ACK and reopened receiving DB produce one pending order. No cashier installation or stock/sale write.
+- Changed: web_app/order_sandbox/customer.mjs, customer.test.mjs, receiver.mjs, receiver.test.mjs, intake.mjs, intake.test.mjs, workflow.test.mjs, README.md; web_app/app_code/src/Checkout.jsx; this registry.
+- Tests: 30 sandbox passed, targeted customer recheck passed after legacy guard; Vite build passed; existing isolated POS orderRules 4 passed. New phone UI browser acceptance not tested. Windows test cleanup ordering fixed after first failure.
+- Remaining: RF/weight mapping, actual authenticated POS receiver and ingredient transaction integration, delivery address/fees, privacy retention and broader UI/security/load verification. No production writes/deployment. Existing unrelated AGENTS.md and development/ preserved.
 ### 2026-10-25 — isolated web order workflow checkpoint
 - Owner approvals: primary price-source branch branch_downtown_cairo (City Management System), Maps center 30.035505/31.233777 confirmed same shop despite outdated listing, deduct ingredients at preparation. Delivery fees remain unapproved examples.
 - Implemented in development: audited role-constrained workflow, command idempotency/revisions, preparation outbox awaiting synthetic bridge ACK, manual payment verification/settlement/refund state separation, cancellation waste review, isolated radius validation, opt-in React checkout/staff scaffolds.

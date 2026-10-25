@@ -1,5 +1,6 @@
 import {randomUUID,createHash,timingSafeEqual} from 'node:crypto';
 import {OrderSandbox} from './service.mjs';
+import {customerDetails} from './customer.mjs';
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const token=()=>randomUUID()+randomUUID();
 const same=(a,b)=>typeof a==='string'&&typeof b==='string'&&Buffer.byteLength(a)===Buffer.byteLength(b)&&timingSafeEqual(Buffer.from(a),Buffer.from(b));
@@ -17,9 +18,10 @@ export class OrderIntake extends OrderSandbox {
   // Delivery cannot silently proceed without approved coordinates and fees.
   if(input?.fulfillment!=='pickup') throw Error('DELIVERY_NOT_CONFIGURED');
   if(!['cash','instapay_manual'].includes(input.paymentMethod)) throw Error('INVALID_PAYMENT_METHOD');
+  const customer=customerDetails(input.customer);
   const lines=this.price(input.items);
   const quote={id:randomUUID(),accessToken:token(),branchId:this.branchId,currency:'EGP',
-   lines,totalMinor:lines.reduce((n,l)=>n+l.totalMinor,0),fulfillment:'pickup',paymentMethod:input.paymentMethod,
+   lines,customer,totalMinor:lines.reduce((n,l)=>n+l.totalMinor,0),fulfillment:'pickup',paymentMethod:input.paymentMethod,
    createdAt:new Date(this.clock()).toISOString(),expiresAt:this.clock()+this.quoteTtlMs};
   this.db.prepare('INSERT INTO intake_quotes VALUES (?,?)').run(quote.id,JSON.stringify(quote));return quote;
  }
@@ -40,12 +42,13 @@ export class OrderIntake extends OrderSandbox {
    }
    if(this.db.prepare('SELECT 1 FROM intake_confirmations WHERE quote_id=?').get(quote.id)) throw Error('QUOTE_ALREADY_CONFIRMED');
    if(quote.expiresAt<=this.clock()) throw Error('QUOTE_EXPIRED');
+   customerDetails(quote.customer);
    if(input.expectedTotalMinor!==quote.totalMinor) throw Error('TOTAL_MISMATCH');
    // A catalog change requires a fresh quote and explicit customer confirmation.
    const lines=this.price(quote.lines.map(l=>({sku:l.sku,size:l.size,quantity:l.quantity})));
    if(hash(lines)!==hash(quote.lines)) throw Error('QUOTE_CHANGED');
    const order={id:randomUUID(),source:'web',branchId:quote.branchId,status:'pending_store_acceptance',paymentStatus:'unpaid',settlementStatus:'unsettled',
-    paymentMethod:quote.paymentMethod,fulfillment:quote.fulfillment,currency:quote.currency,lines:quote.lines,totalMinor:quote.totalMinor,
+    paymentMethod:quote.paymentMethod,customer:quote.customer,fulfillment:quote.fulfillment,currency:quote.currency,lines:quote.lines,totalMinor:quote.totalMinor,
     createdAt:new Date(this.clock()).toISOString(),accessToken:quote.accessToken};
    this.db.prepare('INSERT INTO incoming_orders VALUES (?,?,?,?)').run(order.id,input.key,fingerprint,JSON.stringify(order));
    this.db.prepare('INSERT INTO intake_confirmations VALUES (?,?,?,?)').run(input.key,fingerprint,quote.id,order.id);

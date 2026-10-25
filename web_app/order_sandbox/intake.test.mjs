@@ -5,7 +5,7 @@ import {join} from 'node:path';
 import {OrderIntake} from './intake.mjs';
 import {intakeServer} from './http.mjs';
 const catalog=()=>[{sku:'TEST-JUICE',size:'bottle_500ml',posProductId:'TEST-P',posSizeId:'TEST-S',priceMinor:1250,available:true}];
-const input=()=>({items:[{sku:'TEST-JUICE',size:'bottle_500ml',quantity:2,priceMinor:1}],fulfillment:'pickup',paymentMethod:'cash'});
+const input=()=>({items:[{sku:'TEST-JUICE',size:'bottle_500ml',quantity:2,priceMinor:1}],customer:{phone:'01000000000'},fulfillment:'pickup',paymentMethod:'cash'});
 const confirm=q=>({key:'test-confirm-001',quoteId:q.id,accessToken:q.accessToken,expectedTotalMinor:q.totalMinor});
 function fixture(t){const c=catalog();let now=1000;const s=new OrderIntake(':memory:',c,{clock:()=>now});t.after(()=>s.close());return {s,c,setTime:v=>now=v};}
 test('server quote requires explicit total and saves pending unpaid once',t=>{

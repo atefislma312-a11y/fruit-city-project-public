@@ -1,0 +1,21 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {OrderReceiver} from './receiver.mjs';
+import {OrderIntake} from './intake.mjs';
+test('lost ACK and receiver restart retain one incoming order and no sale',async t=>{
+ const dir=mkdtempSync(join(tmpdir(),'fc-receiver-'));
+ const path=join(dir,'receiver.db');let receiver=new OrderReceiver(path,'TEST-BRANCH');t.after(()=>{receiver.close();rmSync(dir,{recursive:true,force:true});});
+ const sender=new OrderIntake(':memory:',[{sku:'TEST',size:'500ml',posProductId:'P',posSizeId:'S',available:true,priceMinor:100}]);t.after(()=>sender.close());
+ const q=sender.quote({items:[{sku:'TEST',size:'500ml',quantity:1}],customer:{phone:'01000000000'},fulfillment:'pickup',paymentMethod:'cash'});
+ sender.confirm({key:'test-receiver-key',quoteId:q.id,accessToken:q.accessToken,expectedTotalMinor:100});
+ await sender.deliver(async e=>{receiver.receive(e);throw Error('ACK lost');});
+ assert.equal(sender.db.prepare('SELECT acked FROM intake_outbox').get().acked,0);receiver.close();receiver=new OrderReceiver(path,'TEST-BRANCH');
+ await sender.deliver(async e=>receiver.receive(e));assert.equal(receiver.count(),1);assert.equal(sender.db.prepare('SELECT acked FROM intake_outbox').get().acked,1);
+ const row=receiver.db.prepare('SELECT * FROM received_orders').get(),order=JSON.parse(row.snapshot);assert.equal(order.status,'pending_store_acceptance');
+ assert.throws(()=>receiver.receive({eventId:row.event_id,order:{...order,totalMinor:2}}),/IDEMPOTENCY_CONFLICT/);
+ assert.throws(()=>receiver.receive({eventId:'different',order}),/IDEMPOTENCY_CONFLICT/);
+ assert.throws(()=>receiver.receive({eventId:row.event_id,order:{...order,branchId:'OTHER'}}),/INVALID_ENVELOPE/);
+});
