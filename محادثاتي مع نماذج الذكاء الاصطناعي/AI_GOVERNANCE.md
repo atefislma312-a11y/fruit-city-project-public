@@ -128,6 +128,13 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-26 — web staff acceptance and prior handoff completion
+- Prior bridge milestone 31cc2e9: reviewed/preserved integration work, fixed command replay shape, Fruit City branding; 35 sandbox and 3 storefront tests plus build passed then. Previous local handoff is now recorded here without staging unrelated handoffs.
+- Added staff workflow UI and explicit integrated synthetic demo; session expiry/revocation and role spoofing tests; shared ingredients/multiple sizes with 20 concurrent duplicate preparation deliveries. Latest full sandbox run: 39 passed, 0 failed. Seven bridge tests passed with empty actual-schema fixture. App tests 3 passed and build passed.
+- Browser verified customer quote/confirm -> staff accept/prepare/ready/handed off -> verified synthetic cash -> completed, reflected to customer; completion disabled before payment; store closure prevents new quote. Evidence web_app/order_sandbox/staff-completed-test.png. No production write/deployment.
+- Approved delivery fees: Garden City 20; Zamalek and Manial 40; Sayyida Zeinab and Downtown 35 EGP. Owner clarified Manial. 5km remains; zone mapping unverified so public delivery stays disabled.
+- Files: app_code/src/Checkout.jsx; order_sandbox/http.mjs, authorization.test.mjs, bridge.test.mjs, dev-integrated.mjs, delivery.mjs, delivery.test.mjs, operating-config.json, staff-completed-test.png, CHECKPOINT_2026-10-26.md; OPERATING_REQUIREMENTS.md; this registry.
+- Remaining: cashier writer commits memory before direct disk save; durable failure recovery must be fixed/tested before runtime adapter. RF/weight mapping, geographic delivery validation, production identity/rate limits/retention/load and deployment remain. Full limits and reproduction in CHECKPOINT_2026-10-26.md. Unrelated working-tree records/files preserved.
 ### 2026-10-25 — customer validation and durable receiving contract
 - Implemented required normalized Egyptian mobile for pickup, bound to quote/order; rejected legacy unconfirmed quotes without contact. UI restores saved phone/payment intent across reload.
 - Added isolated receiver with durable event/order deduplication, payload conflict detection and post-commit ACK. Lost ACK and reopened receiving DB produce one pending order. No cashier installation or stock/sale write.

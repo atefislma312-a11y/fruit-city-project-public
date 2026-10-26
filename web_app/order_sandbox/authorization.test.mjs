@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {OrderWorkflow} from './workflow.mjs';
+import {intakeServer} from './http.mjs';
+test('HTTP enforces role, expiry and revocation; body cannot elevate cashier',async t=>{
+ const service=new OrderWorkflow(':memory:',[]);let now=100;
+ const staff={id:'TEST-CASHIER',role:'cashier',token:'TEST-CASHIER-'.repeat(4),expiresAt:200};
+ const server=intakeServer(service,{staffTokens:[staff],clock:()=>now});await new Promise(r=>server.listen(0,'127.0.0.1',r));
+ t.after(async()=>{server.closeAllConnections();await new Promise(r=>server.close(r));service.close();});
+ const url='http://127.0.0.1:'+server.address().port;
+ const headers={Authorization:'Bearer '+staff.token,'Content-Type':'application/json'};
+ assert.equal((await fetch(url+'/staff/session')).status,401);
+ assert.equal((await fetch(url+'/staff/session',{headers})).status,200);
+ const command={key:'test-admin-forgery',action:'intake',accepting:false,role:'manager',actor:{id:'OWNER',role:'manager'}};
+ assert.equal((await fetch(url+'/staff/commands',{method:'POST',headers,body:JSON.stringify(command)})).status,403);assert.equal(service.accepting(),true);
+ now=200;assert.equal((await fetch(url+'/staff/orders',{headers})).status,401);
+ now=100;staff.revoked=true;assert.equal((await fetch(url+'/staff/session',{headers})).status,401);
+ assert.equal((await fetch(url+'/staff/commands',{method:'POST',headers,body:JSON.stringify(command)})).status,401);
+ assert.equal((await fetch(url+'/bridge/events',{headers})).status,403);
+});

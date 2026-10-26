@@ -12,3 +12,11 @@ export function validateDelivery(point,config){
  // No client-selected zone name or unverified fee accepted.
  throw Error('DELIVERY_ZONE_MAPPING_REQUIRED');
 }
+
+// Trusted server-side zone result only; never accept the browser's chosen zone as proof.
+export function approvedDeliveryFee(zoneId,config){
+ if(config?.feesApproved!==true)throw Error('DELIVERY_FEE_UNCONFIRMED');
+ const fee=Object.hasOwn(config.feesMinor??{},zoneId)?config.feesMinor[zoneId]:undefined;
+ if(!Number.isSafeInteger(fee)||fee<0)throw Error('DELIVERY_ZONE_UNSUPPORTED');
+ return fee;
+}

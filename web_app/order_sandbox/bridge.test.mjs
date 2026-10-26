@@ -69,3 +69,20 @@ test('closed cash shift blocks accounting and preserves pending bridge work',asy
  f.pos.run("UPDATE cashier_shifts SET status='closed'");f.command(o,'payment',{verified:true,reference:'TEST',amountMinor:2500});
  await assert.rejects(f.tick(),/OPEN_CASHIER_SHIFT_REQUIRED/);assert.equal(f.pos.one('SELECT count(*) n FROM payment_records').n,0);assert.equal(pendingBridgeEvents(f.service).length,1);
 });
+
+test('concurrent delivery of one preparation deducts shared ingredient across sizes once',async t=>{
+ const f=await setup(t);
+ f.pos.run(process.env.FC_TEST_SCHEMA?"INSERT INTO product_sizes(size_id,size_code,name_ar,volume_ml) VALUES ('TEST-L','1L','TEST',1000)":"INSERT INTO product_sizes(size_id,size_code,volume_ml) VALUES ('TEST-L','1L',1000)");
+ f.service.catalogSource.push({sku:'PJ01',size:'bottle_1l',posProductId:'TEST-P',posSizeId:'TEST-L',priceMinor:2000,available:true});
+ const q=f.service.quote({items:[{sku:'PJ01',size:'bottle_500ml',quantity:2},{sku:'PJ01',size:'bottle_1l',quantity:1}],customer:{phone:'01000000000'},fulfillment:'pickup',paymentMethod:'cash'});
+ let o=f.service.confirm({key:'shared-ingredient-order',quoteId:q.id,accessToken:q.accessToken,expectedTotalMinor:4500});await f.tick();o=f.command(o,'status',{status:'accepted'});await f.tick();f.command(o,'prepare');
+ const event=pendingBridgeEvents(f.service)[0];const results=await Promise.all(Array.from({length:20},()=>f.receiver.receive(event)));
+ assert.ok(results.every(r=>r.receiptId===results[0].receiptId));assert.equal(f.pos.one('SELECT stock_quantity n FROM branch_inventory').n,200);
+ assert.equal(f.pos.one('SELECT count(*) n FROM inventory_movements').n,1);await f.tick();assert.equal(f.service.inbox()[0].status,'preparing');
+});
+
+test('competing preparations cannot oversell shared ingredient',async t=>{
+ const f=await setup(t);f.pos.run('UPDATE branch_inventory SET stock_quantity=600');
+ for(let i=0;i<2;i++){let o=f.create();await f.tick();o=f.command(o,'status',{status:'accepted'});await f.tick();f.command(o,'prepare');if(i===0){const event=pendingBridgeEvents(f.service)[0];await f.receiver.receive(event);await f.tick();}}
+ await assert.rejects(f.tick(),/INSUFFICIENT_STOCK/);assert.equal(f.pos.one('SELECT stock_quantity n FROM branch_inventory').n,200);assert.equal(f.pos.one('SELECT count(*) n FROM inventory_movements').n,1);
+});

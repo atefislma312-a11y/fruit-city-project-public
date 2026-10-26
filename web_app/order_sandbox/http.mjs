@@ -2,7 +2,7 @@ import {createServer} from 'node:http';
 import {timingSafeEqual} from 'node:crypto';
 import {pendingBridgeEvents,acknowledgeBridgeEvent} from './bridge.mjs';
 const equal=(a,b)=>typeof a==='string'&&Buffer.byteLength(a)===Buffer.byteLength(b)&&timingSafeEqual(Buffer.from(a),Buffer.from(b));
-export function intakeServer(service,{staffTokens=[],allowedOrigin=null}={}) {
+export function intakeServer(service,{staffTokens=[],allowedOrigin=null,clock=Date.now}={}) {
  for(const s of staffTokens) if(typeof s.token!=='string'||s.token.length<32||!['cashier','manager','bridge'].includes(s.role)) throw Error('INVALID_STAFF_CONFIG');
  const server=createServer(async(req,res)=>{
   res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');
@@ -11,7 +11,7 @@ export function intakeServer(service,{staffTokens=[],allowedOrigin=null}={}) {
    // Local test API: no cross-origin browser access or cookies.
    if(req.headers.origin&&req.headers.origin!==allowedOrigin) return reply(403,{error:'ORIGIN_NOT_ALLOWED'});
    const path=req.url?.split('?')[0];
-   const staff=staffTokens.find(s=>equal(req.headers.authorization||'','Bearer '+s.token));
+   const staff=staffTokens.find(s=>s.revoked!==true&&(s.expiresAt===undefined||(Number.isFinite(s.expiresAt)&&s.expiresAt>clock()))&&equal(req.headers.authorization||'','Bearer '+s.token));
    if(path?.startsWith('/bridge/')&&staff?.role!=='bridge')return reply(403,{error:'FORBIDDEN'});
    if(req.method==='GET'&&path==='/bridge/events')return reply(200,{events:pendingBridgeEvents(service)});
    if(req.method==='GET'&&path==='/staff/session'){

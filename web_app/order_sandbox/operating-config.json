@@ -8,12 +8,30 @@
   "preparationDeductionApproved": true,
   "cancelAfterPreparation": "waste_review_and_refund_review_no_automatic_stock_restore",
   "delivery": {
-    "center": {"lat": 30.035505, "lng": 31.233777},
+    "center": {
+      "lat": 30.035505,
+      "lng": 31.233777
+    },
     "radiusMeters": 5000,
     "mapsIdentity": "Fruit City, 0x145841069ee2afcb:0x74f566e0e9f41a22",
     "ownerConfirmedSameShop": true,
     "mapsDataDiscrepancy": "Maps displays 15 Moderet Al Tahrir and 02 27953457; owner confirms same shop but listing needs correction. Project address/phone remain unchanged.",
-    "feesApproved": false,
-    "examplesOnly": {"Garden City": [15], "Zamalek": [35, 40]}
+    "feesApproved": true,
+    "feeApprovalDate": "2026-10-26",
+    "zoneBoundariesApproved": false,
+    "feesMinor": {
+      "garden_city": 2000,
+      "zamalek": 4000,
+      "manial": 4000,
+      "sayyida_zeinab": 3500,
+      "downtown": 3500
+    },
+    "zoneNames": {
+      "garden_city": "جاردن سيتي",
+      "zamalek": "الزمالك",
+      "manial": "المنيل",
+      "sayyida_zeinab": "السيدة زينب",
+      "downtown": "وسط البلد"
+    }
   }
 }

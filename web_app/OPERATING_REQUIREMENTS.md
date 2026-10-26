@@ -62,3 +62,6 @@
 - https://developers.google.com/search/docs/appearance/structured-data/local-business
 - https://support.google.com/business/answer/7091
 - https://whatsappbusiness.com/products/platform-pricing/?lang=en
+
+## Approved delivery tariff update — 2026-10-26
+Owner approved Garden City 20 EGP, Zamalek and Manial 40 EGP, Sayyida Zeinab and Downtown 35 EGP. Source: owner replies in this conversation, including explicit clarification "El manial". Keep the approved 5km shop-centered limit. Fees are stored as integer piastres in order_sandbox/operating-config.json. Geographic zone boundaries are not yet verified; this approval does not enable public delivery or accept client-selected zone names as location proof.
