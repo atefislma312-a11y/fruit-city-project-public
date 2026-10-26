@@ -130,6 +130,11 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-26 — isolated SQL.js durable writer qualification
+- Implemented web_app/order_sandbox/sqljs-writer.mjs; added sqljs-writer.test.mjs, updated README.md and CHECKPOINT_2026-10-26.md.
+- Atomic temporary-file replacement after fsync; failed persistence restores memory and rejects receipt. Queued synchronous transactions, preserved foreign keys. No production file opened.
+- Verified 41 sandbox tests passed, zero skips with explicit SQL.js dependency; two new tests also passed with empty actual POS schema. Write/fsync/rename failures preserve old bytes; failed preparation keeps stock and outbox pending; retry and reopen after lost ACK deduct once. Initial integration assertion needed revision default zero and was corrected before successful reruns.
+- Not installed in cashier server: existing direct saveDatabase/runTransaction still require coordinated development integration across all writes. Single-process exclusive ownership required; no multi-process or power-loss qualification. Other pending gates: RF/weight mappings, verified delivery boundaries, production authentication/privacy/rate limits and rollout approval. Public site and live cashier unchanged.
 ### 2026-10-26 — web staff acceptance and prior handoff completion
 - Prior bridge milestone 31cc2e9: reviewed/preserved integration work, fixed command replay shape, Fruit City branding; 35 sandbox and 3 storefront tests plus build passed then. Previous local handoff is now recorded here without staging unrelated handoffs.
 - Added staff workflow UI and explicit integrated synthetic demo; session expiry/revocation and role spoofing tests; shared ingredients/multiple sizes with 20 concurrent duplicate preparation deliveries. Latest full sandbox run: 39 passed, 0 failed. Seven bridge tests passed with empty actual-schema fixture. App tests 3 passed and build passed.
