@@ -130,6 +130,16 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-26 — Telegram admin bot and POS runtime connection restored
+- Owner request: finish connecting the bot to POS. Existing runtime retained at C:\Users\MR.X\.gemini\antigravity\scratch\fruit-city-system; no code copied or rebuilt.
+- Verified Telegram getMe identifies FruitCityAdmin2026Bot; token/owner/AI configuration present (no secret values logged). getWebhookInfo showed no webhook and zero pending updates at preflight.
+- Root cause observed: POS port 5173 refused connections; elevated process inspection found neither server.js nor admin_bot.js running. Existing stale bot lock referred to an absent process.
+- Existing HTTP integration passed tests/universal_copilot_single_writer.test.js, 5/5 against isolated in-memory data (price, availability, expense, inventory, shift report).
+- With execution approval, started existing server.js and admin_bot.js hidden. POS PID 12772; bot PID 4072 confirmed alive with correct script by elevated process inspection. No source edits and no webhook changes.
+- Live GET /api/health, /api/admin/health, /api/admin/shifts/active and /api/admin/reports/daily returned HTTP 200. Local command handlers /status, /report and /shifts produced replies. Production DB SHA-256 unchanged across server startup and subsequent read-only verification.
+- Remaining: owner sends /status or /menu in Telegram to prove full message round trip. No Telegram test message sent by Codex; no live price/stock/expense mutations tested. Automatic startup after reboot and voice/AI behavior not qualified in this session. Runtime needs the computer and internet to remain on.
+- Changed: this handoff and .gitignore (exclude password.txt at any depth); runtime bot lock updated by existing runner. Preserve existing untracked 2026-10-25/, development/, fruit_archives/.
+
 ### 2026-10-26 — writer exclusion and Arabic HTTP integrity
 - Changed sqljs-writer.mjs, sqljs-writer.test.mjs, http.mjs, http-hardening.test.mjs and README.md under web_app/order_sandbox; added writer-lock.mjs and writer-lock.test.mjs.
 - Cooperative exclusive writer lock acquired before DB open; no automatic abandoned-lock takeover; close drains queued work and rejects new transactions. Strict UTF-8 decoding after full bounded body assembly prevents split Arabic corruption.
