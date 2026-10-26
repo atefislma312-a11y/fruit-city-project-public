@@ -130,6 +130,12 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-26 — writer exclusion and Arabic HTTP integrity
+- Changed sqljs-writer.mjs, sqljs-writer.test.mjs, http.mjs, http-hardening.test.mjs and README.md under web_app/order_sandbox; added writer-lock.mjs and writer-lock.test.mjs.
+- Cooperative exclusive writer lock acquired before DB open; no automatic abandoned-lock takeover; close drains queued work and rejects new transactions. Strict UTF-8 decoding after full bounded body assembly prevents split Arabic corruption.
+- Verified 46 sandbox tests passed, zero skipped with SQL.js enabled. Actual child-process exclusion and reopen, abandoned-lock refusal, queued-close durability, split Arabic and invalid UTF-8 rejection verified. No browser rerun (no UI changes).
+- Limitations: current cashier has not adopted the locking/writer protocol; never attach this writer to its live file. Full cashier integration, RF/weight mapping, delivery polygons and production auth/retention/backups remain. No live service/data/deployment changes.
+
 ### 2026-10-26 — HTTP abuse and authorization hardening
 - Changed web_app/order_sandbox/http.mjs, intake.test.mjs, README.md; added request-limit.mjs and http-hardening.test.mjs.
 - Added bounded per-peer request limits/429/Retry-After, ignoring forged forwarded IP; disallowed bridge credentials on staff commands; rejected duplicate credentials/missing actor IDs and non-object JSON.

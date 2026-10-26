@@ -31,9 +31,9 @@ export function intakeServer(service,{staffTokens=[],allowedOrigin=null,clock=Da
    if(req.method==='GET'&&path?.startsWith('/orders/')) return reply(200,service.get(path.slice(8),(req.headers.authorization||'').replace(/^Bearer /,'')));
    if(req.method!=='POST'||!['/quotes','/orders','/staff/commands','/bridge/ack'].includes(path)) return reply(404,{error:'NOT_FOUND'});
    if(req.headers['content-type']!=='application/json') return reply(415,{error:'JSON_REQUIRED'});
-   let body='',length=0;
-   for await(const chunk of req){length+=chunk.length;if(length>16384){reply(413,{error:'BODY_TOO_LARGE'});return;}body+=chunk;}
-   let input;try{input=JSON.parse(body);}catch{return reply(400,{error:'INVALID_JSON'});}
+   const chunks=[];let length=0;
+   for await(const chunk of req){length+=chunk.length;if(length>16384){reply(413,{error:'BODY_TOO_LARGE'});return;}chunks.push(chunk);}
+   let input;try{input=JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(Buffer.concat(chunks)));}catch{return reply(400,{error:'INVALID_JSON'});}
    if(!input||typeof input!=='object'||Array.isArray(input))return reply(400,{error:'INVALID_BODY'});
    const result=path==='/bridge/ack'?acknowledgeBridgeEvent(service,staff,input):path==='/quotes'?service.quote(input):path==='/staff/commands'?service.command({id:staff.id,role:staff.role},input):service.confirm(input);
    reply(result.replayed?200:201,result);

@@ -56,7 +56,7 @@ test('SQL.js disk failures roll back memory, preserve disk and permit exactly-on
    await assert.rejects(writer.transaction(()=>writer.run('INSERT INTO receipts VALUES (?,?)',[operation,1])),/Injected/);
    assert.deepEqual(fs.readFileSync(filename),before);
    assert.equal(writer.one('SELECT count(*) AS n FROM receipts').n,0);
-   assert.deepEqual(fs.readdirSync(dir),['isolated.db']);
+   assert.deepEqual(fs.readdirSync(dir),['isolated.db','isolated.db.writer-lock']);
   }
   failure=null;
   await Promise.all(Array.from({length:20},()=>writer.transaction(()=>writer.run('INSERT OR IGNORE INTO receipts VALUES (?,?)',['one',1]))));
@@ -67,5 +67,11 @@ test('SQL.js disk failures roll back memory, preserve disk and permit exactly-on
   await writer.close();writer=sqljsWriter({SQL,filename,branchId:'TEST'});
   assert.deepEqual(writer.all('SELECT * FROM receipts'),[{id:'one',amount:1}]);
   assert.throws(()=>writer.run('DELETE FROM receipts'),/transaction/);
+  const pending=writer.transaction(()=>writer.run("INSERT INTO receipts VALUES ('queued-before-close',3)"));
+  const closing=writer.close();
+  await assert.rejects(writer.transaction(()=>{}),/Writer closed/);
+  await pending;await closing;await writer.close();
+  writer=sqljsWriter({SQL,filename,branchId:'TEST'});
+  assert.equal(writer.one('SELECT count(*) AS n FROM receipts').n,2);
  }finally{await writer.close();fs.rmSync(dir,{recursive:true,force:true});}
 });

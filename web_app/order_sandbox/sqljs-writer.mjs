@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {randomUUID} from 'node:crypto';
+import {writerLock} from './writer-lock.mjs';
 
 export function atomicSave(filename, bytes, io=fs) {
  const temporary=path.join(path.dirname(filename),`.${path.basename(filename)}.${randomUUID()}.tmp`);
@@ -22,14 +23,17 @@ export function atomicSave(filename, bytes, io=fs) {
 
 export function sqljsWriter({SQL,filename,branchId,save=atomicSave}) {
  if(!path.isAbsolute(filename)||!branchId)throw new Error('Explicit absolute database path and branch required');
- let db=fs.existsSync(filename)?new SQL.Database(fs.readFileSync(filename)):new SQL.Database();
- db.run('PRAGMA foreign_keys=ON');
- let queue=Promise.resolve(),active=false,closed=false;
+ const lock=writerLock(filename);filename=lock.filename;
+ let db;
+ try{db=fs.existsSync(filename)?new SQL.Database(fs.readFileSync(filename)):new SQL.Database();db.run('PRAGMA foreign_keys=ON');}
+ catch(error){try{db?.close();}finally{lock.release();}throw error;}
+ let queue=Promise.resolve(),active=false,closed=false,closing=false,closePromise;
  const assertOpen=()=>{if(closed)throw new Error('Writer closed');};
  const snapshot=()=>{try{return db.export();}finally{db.run('PRAGMA foreign_keys=ON');}};
  const all=(sql,args=[])=>{assertOpen();const stmt=db.prepare(sql);try{stmt.bind(args);const rows=[];while(stmt.step())rows.push(stmt.getAsObject());return rows;}finally{stmt.free();}};
  const run=(sql,args=[])=>{assertOpen();if(!active)throw new Error('Write requires transaction');db.run(sql,args);};
  const transaction=callback=>{
+  if(closing||closed)return Promise.reject(new Error('Writer closed'));
   const next=queue.then(()=>{
    assertOpen();
    // Bridge mutations must be synchronous: async work could escape rollback.
@@ -52,5 +56,10 @@ export function sqljsWriter({SQL,filename,branchId,save=atomicSave}) {
   return next;
  };
  return {branchId,all,one:(sql,args)=>all(sql,args)[0]??null,run,transaction,
-  close:async()=>{await queue;closed=true;db.close();}};
+  close:()=>{
+   if(closePromise)return closePromise;
+   closing=true;
+   closePromise=queue.then(()=>{db.close();closed=true;lock.release();});
+   return closePromise;
+  }};
 }
