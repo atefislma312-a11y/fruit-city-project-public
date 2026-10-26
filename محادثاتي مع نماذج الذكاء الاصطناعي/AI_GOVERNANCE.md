@@ -14,7 +14,9 @@
 ---
 
 ## 🏢 2. هوية المشروع ومجال العمل (Project Identity & Domain)
-* **اسم المشروع:** Fruit City Management System (نظام إدارة نقاط البيع والمخزون لفاكهة سيتي).
+* **اسم المشروع والبراند المعتمد:** **Fruit City** (حصراً باللغة الإنجليزية: `Fruit City`).
+* **⚠️ قاعدة الاسم التجاري والواجهة الصارمة (Strict Brand Identity Rule):**
+  الاسم التجاري الرسمي المعتمد على واجهة المحل، والأكواب، وبوستات السوشيال ميديا هو دائماً **Fruit City** بالإنجليزية فقط. يُمنع منعاً باتاً استبداله بـ "فاكهة سيتي" في الهوك أو البوستات أو التصاميم الإعلانية.
 * **طبيعة النشاط:** تجارة وتجزئة الفواكه والخضروات، ويشمل:
   * نقاط البيع المباشرة (POS) ودعم الموازين والباركود.
   * إدارة المخزون (Inventory Management)، الأصناف سريعة التلف، ونسب الهالك اليومي.
@@ -135,6 +137,30 @@ D:\fruit city project\
 - Approved delivery fees: Garden City 20; Zamalek and Manial 40; Sayyida Zeinab and Downtown 35 EGP. Owner clarified Manial. 5km remains; zone mapping unverified so public delivery stays disabled.
 - Files: app_code/src/Checkout.jsx; order_sandbox/http.mjs, authorization.test.mjs, bridge.test.mjs, dev-integrated.mjs, delivery.mjs, delivery.test.mjs, operating-config.json, staff-completed-test.png, CHECKPOINT_2026-10-26.md; OPERATING_REQUIREMENTS.md; this registry.
 - Remaining: cashier writer commits memory before direct disk save; durable failure recovery must be fixed/tested before runtime adapter. RF/weight mapping, geographic delivery validation, production identity/rate limits/retention/load and deployment remain. Full limits and reproduction in CHECKPOINT_2026-10-26.md. Unrelated working-tree records/files preserved.
+
+### 2026-10-26 — web bridge resume verification
+- Reviewed preserved local bridge work, fixed identical command replay response, updated development storefront to Fruit City branding. 35 sandbox tests + 3 storefront tests passed; build passed; 5 bridge tests passed against empty actual-schema fixture. No production access or deployment. Full changed-file list, limitations and next steps: web_app/order_sandbox/CHECKPOINT_2026-10-26.md. Existing unrelated local changes preserved.
+
+
+### 2026-10-25 — Fruit Archives: استوديو محلي وحزمة مانجا للمراجعة
+
+- **الهدف:** تنفيذ البريف المرفق: تدقيق الأصول، حزمة مانجا الصين 1968، قالب عام، أول أتمتة عملية، وتحقق من الإدخال للتصدير.
+- **المثبت:** `fruit_archives/` تطبيق Node محلي على 127.0.0.1:5186 بلا حزم إضافية؛ استيراد 108 إدخالات من المنيو وPJ01 للمانجا؛ حلقات مستقلة ونسخ وحفظ مع رفض التعديل القديم؛ محرر عربي، هوكات A/B، معاينات المنصات، المصادر والحقوق، تصدير JSON/HTML/نصوص وصور. حزمة المانجا تشمل 9 مصادر و7 سجلات ادعاءات و7 نسخ منصات ومشاهد فيديو وبيانات كاروسيل؛ 42 صورة مسودة مصححة (7 منصات × A/B × PNG/JPG/WebP). سجل أحدث حزمة في `fruit_archives/LATEST_PACKAGE.json`.
+- **الاختبارات:** 8/8 Node ناجحة (منيو، نسخ، تحقق، XSS في المقال، HTTP، رفض أصل غير معتمد). اختبار متصفح للحفظ والتصدير والفحص الرافض للاعتماد؛ موبايل 390×844: عرض المحتوى/التمرير 375/375 بلا تجاوز أفقي. فحص أبعاد 14 PNG؛ JPG/WebP ناتجان فعليًا من المتصفح مع توقيع ملف متحقق بالخادم. SHA-256 يثبت تطابق نسخ الأصلين مع ملفاتهما. أخطاء مسار ويندوز وحد الصورة والمقاس الأفقي عولجت قبل التسليم. أدلة `episodes/mango-china-1968/qa/verification.json` و`qa/studio-review.png`.
+- **قرار المالك:** صورة cup-reference.png تستخدم **للمراجعة فقط لحين تأكيد الأصل**؛ لا تعد MASTER CUP V1 معتمدة أو ذات حقوق تجارية مثبتة. لا اعتماد نشر ولا نشر خارجي.
+- **الحدود:** التصميم الحالي تخطيطي وليس إتمامًا للمرجع السينمائي؛ حقوق الخلفيات السابقة غير محسومة ولم تدخل الصور الجديدة. فيديو/صوت وكاروسيل مصور نهائي غير منفذ، متاح نصوص ومشاهد وشرائح بيانات. البحث والتحقق بشريان؛ مولّد الهوكات تمهيدي بقوالب، لا تكامل AI/API مدفوع. المصادر/المشاهد/الأداء تعدل من JSON؛ لا خدمات إحصاءات أو نشر أو ربط مقال بالمتجر. الاعتماد النهائي معطل صراحة في v0.1، لا ادعاء تنفيذ نظام إنتاج كامل.
+- **الملفات:** إضافة مجلد `fruit_archives/` (البرنامج والواجهة والقالب والاختبارات والأصول المنسوخة وحزمة الحلقة والجرد والتوثيق) وتعديل هذا القسم فقط. ملفات order_sandbox وAGENTS.md وdevelopment القائمة محفوظة، لا تعديل كاشير أو إنتاج.
+- **Git:** main مع تعديلات قائمة؛ fetch فشل Permission denied على FETCH_HEAD. لم ينفذ commit/push أو يدع تطابق السحابة.
+- **التالي:** اعتماد أصل الكوباية وحقوقه ثم مراجعة الهوكات والنصوص والتصميم؛ استكمال الأصول السينمائية المرخصة والفيديو قبل النشر. طريقة التشغيل والإضافة والقيود في `fruit_archives/README.md`، والجرد في `fruit_archives/audit/FINDINGS.md`.
+
+### 2026-10-25 — إيقاف متابعة Lovable القديمة لتجنب مسارين متعارضين
+- **الهدف:** مراجعة جدوى متابعة النموذج القديم مقابل الحالة المرجعية الأحدث قبل أي برمجة.
+- **المثبت فعليًا:** فحص main وgit fetch origin main ثم status؛ الفرع متزامن، مع الحفاظ على AGENTS.md المعدل وdevelopment/ غير المتتبع. مراجعة هذا السجل وPROJECT_MASTER_SUMMARY.md أثبتت وجود واجهة محلية أحدث في web_app/app_code ونشر منيو عبر Sites واختبارات استقبال معزولة. آخر رسائل Lovable لم تتغير منذ 19 أكتوبر؛ لم يُرسل طلب بناء جديد أو يُستهلك كريدت في هذه المراجعة.
+- **الإجراء:** حذف المتابعة automation الخاصة باستكمال نموذج Lovable القديم؛ لا حذف لمشروع Lovable أو الكود أو البيانات. المرجع العملي هو المشروع الحالي وتسليماته، لتجنب تطوير نسخة قديمة منفصلة بمنتجات تجريبية.
+- **الملفات المتغيرة:** هذا السجل وسجل المتابعة المحلي خارج المستودع؛ إعداد المتابعة المحذوف. لم يُعدّل كود المتجر أو POS أو قاعدة الإنتاج أو البوت.
+- **الاختبارات:** مراجعة قراءة فقط لحالة Git والسجلات ورسائل Lovable؛ لا اختبارات تشغيل أو ربط جديدة ولا ادعاء اكتمال الاستقبال الفعلي.
+- **المتبقي والخطوة التالية:** الاستكمال من أحدث تسليم المشروع الحالي عند التكليف؛ اختبار قبول واجهة الهاتف وربط receiver مصادق مع الكاشير والمخزون وفق حدود الخدمة المعزولة. لا نشر أو مدفوعات أو تغيير أمني تلقائي.
+
 ### 2026-10-25 — customer validation and durable receiving contract
 - Implemented required normalized Egyptian mobile for pickup, bound to quote/order; rejected legacy unconfirmed quotes without contact. UI restores saved phone/payment intent across reload.
 - Added isolated receiver with durable event/order deduplication, payload conflict detection and post-commit ACK. Lost ACK and reopened receiving DB produce one pending order. No cashier installation or stock/sale write.
@@ -294,3 +320,17 @@ D:\fruit city project\
 - Added web_app/order_sandbox/pos-feed.mjs and pos-feed.test.mjs; local POS opened read-only. Approved branch returned 322 price/size variants for 108 products; production DB SHA-256 unchanged before/after. No prices or customer records exported to Git.
 - Fixed matching-cart confirmation intent retention across reload in Checkout.jsx. Browser synthetic mango quote/confirm/reload/reconfirm returned the same order ID, pending store acceptance. Evidence: web_app/order_sandbox/checkout-test.png.
 - 27 sandbox tests passed and app build passed. Existing 3 storefront tests had passed at prior checkpoint. Feed remains disconnected from public/demo launcher; 16 RF mappings, contact validation, real cashier receiver/inventory integration, delivery tariff and full auth/load validation remain incomplete.
+
+### تسليم تصميم China 1968 — 2026-10-25
+- فحص ZIP من 14 طبقة وإنشاء معاينة PNG وSVG ومحرر أحداث HTML وORA في مجلد الجلسة 2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs.
+- الشعار محفوظ؛ اختبار منطقة الشعار المعتمة: صفر بكسل متغير. لا توليد صور تاريخية. المعاينة مراجعة فقط؛ حقوق صورة الحرس الأحمر وأصل الخريطة والخشب وصورة الحدث نفسه غير محسومة. التفاصيل داخل READ-ME-AR.md.
+- فشل fetch بسبب Permission denied على FETCH_HEAD؛ لم يحدث رفع أو تغيير لأعمال التطبيق السابقة. الخطوة التالية: حسم الأصول والحقوق قبل اعتماد نسخة نشر.
+
+### مراجعة حزمة Fruit Archives China 1968 — 2026-10-25 — Codex
+- الهدف: فحص ZIP المرفوع ومقارنة معاينته بصورة الكوب المرجعية، دون تعديل الأصول.
+- المثبت: استرجاع مرفقات المحادثة؛ سلامة CRC للحزمة وORA؛ 7 ملفات بالحزمة، 12 طبقة ORA و11 صورة مضمنة SVG. تطابق صور SVG مع طبقات ORA؛ PNG مطابق mergedimage. إعادة تركيب ORA بفارق قنوات أقصاه 2/255. طبقة الكوب مطابقة للقالب السابق؛ منطقة داخل الشعار x590:880 y1640:1910 تطابقت مع PNG، وليس ذلك إثبات تطابق شامل مع JPG المرجعي.
+- العيوب: event-template.html يفشل تحليل JavaScript بسبب أسطر فعلية داخل نصوص join/split؛ عدم هروب مدخلات النص؛ بيانات الإسناد والسياق ثابتة؛ حواف قص الكوب وبقايا الخلفية تحتاج معالجة بقناع مستقل.
+- المصادر: تأكيد قصة أغسطس 1968 بمتحف Cooper Hewitt، وترخيص وصاحب صورة المانجو من Commons. صفحة الحرس الأحمر تعرض ترشيح حذف لعدم إثبات الوضع الأمريكي؛ صفحة قص ماو تنبه لحذف المصدر. الخريطة والخشب وربط كل طبقة بالأصل غير محسوم.
+- الملفات المتغيرة: نسخ فحص داخل work ومعاينة PNG وصورة مرجعية داخل outputs بمجلد هذه المحادثة، وهذا السجل فقط؛ لا تعديل ZIP أو صور الأرشيف.
+- حدود التحقق: لم يُختبر تفاعل متصفح أو فتح Krita/GIMP؛ فشل التحليل يمنع اعتبار المحرر صالحًا. Git على main مع تغييرات سابقة؛ fetch فشل Permission denied على FETCH_HEAD؛ لم يحدث commit أو push.
+- التالي: إصلاح المحرر في نسخة منفصلة، تحسين قناع الكوب، تكبير النصوص، واستكمال سجل مصدر وحقوق لكل أصل قبل النشر.
