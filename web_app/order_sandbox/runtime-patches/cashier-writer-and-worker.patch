@@ -1,0 +1,142 @@
+diff --git a/development/pos_inventory_repair/server.js b/development/pos_inventory_repair/server.js
+index 6fbd124..f293f69 100644
+--- a/development/pos_inventory_repair/server.js
++++ b/development/pos_inventory_repair/server.js
+@@ -1,4 +1,5 @@
+ import http from 'http';
++import { startPosWorker } from '../../web_app/order_sandbox/pos-worker.mjs';
+ import fs from 'fs';
+ import path from 'path';
+ import crypto from 'crypto';
+@@ -23,6 +24,17 @@ const PORT = Number(process.env.FRUIT_CITY_DEV_PORT || 5173);
+ const DIST_DIR = path.join(__dirname, 'dist');
+ const DB_PATH = process.env.FRUIT_CITY_DEV_DB_PATH || path.join(__dirname, 'database', 'fruit_city_production.db');
+-recoverOnStartup(DB_PATH);
++// Validate before any database initialization or listener is started.
++if (process.env.FC_DEV_ORDER_BRIDGE_URL) {
++    const testPath = path.resolve(DB_PATH);
++    const devRoot = path.resolve(__dirname) + path.sep;
++    const bridgeUrl = new URL(process.env.FC_DEV_ORDER_BRIDGE_URL);
++    if (!process.env.FRUIT_CITY_DEV_PORT || !process.env.FRUIT_CITY_DEV_DB_PATH ||
++        !testPath.startsWith(devRoot) || !testPath.endsWith('.test.db') ||
++        bridgeUrl.protocol !== 'http:' || bridgeUrl.hostname !== '127.0.0.1' ||
++        !process.env.FC_DEV_BRANCH_ID) throw new Error('ISOLATED_BRIDGE_CONFIG_REQUIRED');
++
++}
++recoverOnStartup(DB_PATH);
+ const SCHEMA_PATH = path.join(__dirname, 'database', 'schema', '001_initial_schema.sql');
+ const CLEAN_SETUP_PATH = path.join(__dirname, 'database', 'schema', '003_clean_production_setup.sql');
+ 
+@@ -170,54 +182,43 @@ function queryOne(sql, params = []) {
+ let inTransaction = false;
+ let dbTransactionQueue = Promise.resolve();
+ 
++function databaseSnapshot() {
++  try { return DB.export(); }
++  finally { DB.run('PRAGMA foreign_keys = ON;'); }
++}
++
++function restoreDatabaseSnapshot(snapshot) {
++  DB.close();
++  DB = new SQL_MODULE.Database(snapshot);
++  DB.run('PRAGMA foreign_keys = ON;');
++}
++
+ function runSql(sql, params = []) {
+-  DB.run(sql, params);
+-  if (!inTransaction) {
+-    saveDatabase();
+-  }
++  if (inTransaction) { DB.run(sql, params); return; }
++  const before = databaseSnapshot();
++  try { DB.run(sql, params); saveDatabase(); }
++  catch (error) { restoreDatabaseSnapshot(before); throw error; }
+ }
+ 
+ function runTransaction(callback) {
+   const op = () => {
++    if (callback.constructor.name === 'AsyncFunction') throw new Error('SYNCHRONOUS_TRANSACTION_REQUIRED');
++    const before = databaseSnapshot();
+     inTransaction = true;
+-    DB.run('BEGIN TRANSACTION;');
+-
+-    const finish = (val) => {
+-      try {
+-        DB.run('COMMIT;');
+-      } catch (commitErr) {
+-        try { DB.run('ROLLBACK;'); } catch (_) {}
+-        inTransaction = false;
+-        throw commitErr;
+-      }
+-      inTransaction = false;
+-
+-      try {
+-        saveDatabase();
+-      } catch (saveErr) {
+-        console.error('[db] CRITICAL: commit succeeded in memory but durable save failed:', saveErr.message);
+-        throw saveErr;
+-      }
+-      return val;
+-    };
+-
+     try {
+-      const res = callback();
+-      if (res && typeof res.then === 'function') {
+-        return res.then(finish).catch(err => {
+-          try { if (inTransaction) DB.run('ROLLBACK;'); } catch (_) {}
+-          inTransaction = false;
+-          throw err;
+-        });
+-      }
+-      return finish(res);
+-    } catch (err) {
+-      try { if (inTransaction) DB.run('ROLLBACK;'); } catch (_) {}
++      DB.run('BEGIN TRANSACTION;');
++      const result = callback();
++      if (result && typeof result.then === 'function') throw new Error('SYNCHRONOUS_TRANSACTION_REQUIRED');
++      DB.run('COMMIT;');
+       inTransaction = false;
+-      throw err;
++      saveDatabase();
++      return result;
++    } catch (error) {
++      inTransaction = false;
++      restoreDatabaseSnapshot(before);
++      throw error;
+     }
+   };
+-
+   const nextPromise = dbTransactionQueue.then(op, op);
+   dbTransactionQueue = nextPromise.catch(() => {});
+   return nextPromise;
+@@ -341,7 +342,7 @@ async function handleApiRequest(req, res, db) {
+       const userId = `usr_owner_${Date.now()}`;
+       const now = new Date().toISOString();
+ 
+-      runTransaction(() => {
++      await runTransaction(() => {
+         if (!checkIsFirstRun()) {
+           throw new Error('SYSTEM_ALREADY_INITIALIZED');
+         }
+@@ -667,7 +668,7 @@ async function handleApiRequest(req, res, db) {
+       const id = data.id || `ing_${Date.now()}`;
+       const factor = data.baseUnit === 'g' && data.purchaseUnit === 'kg' ? 1000 : 1;
+ 
+-      runTransaction(() => {
++      await runTransaction(() => {
+         runSql(
+           `INSERT INTO ingredients (ingredient_id, name_ar, name_en, category_id, purchase_unit, base_unit, conversion_factor, usable_yield_percent, waste_percent, reorder_level, status, is_measured, notes, created_at, updated_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'active', 1, ?, ?, ?)
+@@ -1180,5 +1181,12 @@ server.listen(PORT, process.env.FRUIT_CITY_DEV_PORT ? '127.0.0.1' : '0.0.0.0', a
+   console.log(`Database: ${DB_PATH}`);
+   console.log(`First-Run Setup Required: ${isFirstRun}`);
+   console.log(`=======================================================`);
++  if (process.env.FC_DEV_ORDER_BRIDGE_URL) {
++    await startPosWorker({
++      writer: {branchId:process.env.FC_DEV_BRANCH_ID,transaction:runTransaction,run:runSql,one:queryOne,all:queryAll},
++      baseUrl:process.env.FC_DEV_ORDER_BRIDGE_URL,token:process.env.FC_DEV_BRIDGE_TOKEN,
++      onStatus:status=>{if(!status.ok)console.warn('[web orders] Sync pending; retry scheduled');}
++    });
++  }
+   startTelegramWorkerIfConfigured();
+ });

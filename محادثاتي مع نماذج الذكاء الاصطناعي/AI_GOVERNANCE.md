@@ -130,6 +130,12 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-26 — actual development cashier writer repair and opt-in worker
+- Edited existing development/pos_inventory_repair/server.js in place: restore memory on failed single/transaction writes; await setup-owner and ingredient writes; synchronous transaction contract; guarded opt-in local pull worker using the existing queue. Preserved its newer durable-commit.mjs work.
+- Added web_app/order_sandbox/pos-worker.mjs, pos-worker.test.mjs, runtime-writer.test.mjs, runtime-patches/cashier-writer-and-worker.patch and runtime-patches/README.md. The untracked development tree was not bulk staged; reviewed patch records only this delta.
+- Verified 48 sandbox tests passed, zero skipped with explicit SQL.js and development runtime paths. Actual server DB functions tested in VM with synthetic data: failed persistence restores memory/disk, retry/reopen/lost ACK deduct once. Worker tested over loopback HTTP with failing writer and retry. Server syntax check and reverse patch check passed.
+- Full cashier listener/UI not launched or tested; new hook not enabled. Existing cashier API lacks a general authentication gate and still needs repair before real integration; shutdown qualification also pending. No production DB/service or public deployment changes. RF/weight mappings, delivery geometry, production auth/retention/backups remain. See runtime-patches/README.md for exact boundaries and reproduction.
+
 ### 2026-10-26 — Telegram admin bot and POS runtime connection restored
 - Owner request: finish connecting the bot to POS. Existing runtime retained at C:\Users\MR.X\.gemini\antigravity\scratch\fruit-city-system; no code copied or rebuilt.
 - Verified Telegram getMe identifies FruitCityAdmin2026Bot; token/owner/AI configuration present (no secret values logged). getWebhookInfo showed no webhook and zero pending updates at preflight.
