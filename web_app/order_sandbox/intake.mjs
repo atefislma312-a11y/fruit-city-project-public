@@ -64,7 +64,7 @@ export class OrderIntake extends OrderSandbox {
   if(!row) throw Error('ORDER_NOT_FOUND');const order=JSON.parse(row.snapshot);
   if(!same(accessToken,order.accessToken)) throw Error('FORBIDDEN');return order;
  }
- inbox(){return this.db.prepare('SELECT snapshot FROM incoming_orders ORDER BY rowid DESC LIMIT 100').all().map(r=>{const {accessToken,...o}=JSON.parse(r.snapshot);return o;});}
+ inbox(){return this.db.prepare('SELECT snapshot FROM incoming_orders ORDER BY rowid DESC LIMIT 100').all().map(r=>{const {accessToken,...o}=JSON.parse(r.snapshot);return {...o,posSyncPending:this.db.prepare('SELECT count(*) n FROM intake_outbox WHERE order_id=? AND acked=0').get(o.id).n};});}
  // Caller supplies an isolated receiver; no production URL or background worker.
  async deliver(send) {
   const pending=this.db.prepare("SELECT * FROM intake_outbox WHERE acked=0 AND kind='incoming_order' ORDER BY rowid LIMIT 100").all();

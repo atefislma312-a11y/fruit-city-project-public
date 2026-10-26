@@ -80,7 +80,12 @@ export class OrderWorkflow extends OrderIntake {
      order.paymentStatus='refunded';order.settlementStatus='refund_review';order.refund={by:actor.id,at:now,reference:input.reference,amountMinor:input.amountMinor};
     }else throw Error('INVALID_ACTION');
     order.revision=(order.revision??0)+1;
+    order.lastAction={action:input.action,by:actor.id,at:now,reason:input.reason??null};
     this.db.prepare('UPDATE incoming_orders SET snapshot=? WHERE id=?').run(JSON.stringify(order),order.id);
+    if(input.action!=='prepare'){
+     const {accessToken,...payload}=order;
+     this.db.prepare('INSERT INTO intake_outbox(id,order_id,kind,payload) VALUES (?,?,?,?)').run(randomUUID(),order.id,'order_update',JSON.stringify(payload));
+    }
    }
    this.db.prepare('INSERT INTO intake_events VALUES (?,?,?,?,?)').run(randomUUID(),order?.id??'store',actor.id,JSON.stringify({action:input.action,status:input.status,reason:input.reason,role:actor.role}),now);
    const {accessToken,...safeOrder}=order??{};const result=order?safeOrder:{accepting:this.accepting()};

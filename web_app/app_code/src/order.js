@@ -4,5 +4,5 @@ export function restoreCart(raw,products){
 }
 export function orderText(cart,products,mode,address,notes){
   const lines=cart.map(row=>{const p=products.find(p=>p.id===row.id);const s=p.sizes.find(s=>s.id===row.size);return `• ${p.name} — ${s.name} × ${row.quantity}`;});
-  return ['أهلاً فاكهة سيتي، عايز أطلب:',...lines,`طريقة الطلب: ${mode==='delivery'?'توصيل للمنزل':'طلب داخل المحل'}`,mode==='delivery'?`العنوان: ${address.trim()}`:'',notes.trim()?`ملاحظات: ${notes.trim()}`:'','برجاء تأكيد الأسعار والتوافر'+(mode==='delivery'?' ورسوم التوصيل':'')+' والإجمالي قبل اعتماد الطلب.'].filter(Boolean).join('\n');
+  return ['أهلاً Fruit City، عايز أطلب:',...lines,`طريقة الطلب: ${mode==='delivery'?'توصيل للمنزل':'طلب داخل المحل'}`,mode==='delivery'?`العنوان: ${address.trim()}`:'',notes.trim()?`ملاحظات: ${notes.trim()}`:'','برجاء تأكيد الأسعار والتوافر'+(mode==='delivery'?' ورسوم التوصيل':'')+' والإجمالي قبل اعتماد الطلب.'].filter(Boolean).join('\n');
 }

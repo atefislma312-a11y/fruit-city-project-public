@@ -41,9 +41,10 @@ export class OrderSandbox {
   }
   price(items) {
     if (!Array.isArray(items) || items.length < 1 || items.length > 100) throw Error('INVALID_ITEMS');
+    const catalog=this.catalog;
     const lines = items.map(item => {
         if (!item || !Number.isInteger(item.quantity) || item.quantity < 1 || item.quantity > 99) throw Error('INVALID_QUANTITY');
-        const matches = this.catalog.filter(v => v.sku === item.sku && v.size === item.size);
+        const matches = catalog.filter(v => v.sku === item.sku && v.size === item.size);
         if (matches.length > 1) throw Error('AMBIGUOUS_VARIANT');
         const variant = matches[0];
         if (!variant) throw Error('UNKNOWN_VARIANT');
