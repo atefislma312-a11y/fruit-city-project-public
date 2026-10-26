@@ -130,6 +130,12 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-26 — HTTP abuse and authorization hardening
+- Changed web_app/order_sandbox/http.mjs, intake.test.mjs, README.md; added request-limit.mjs and http-hardening.test.mjs.
+- Added bounded per-peer request limits/429/Retry-After, ignoring forged forwarded IP; disallowed bridge credentials on staff commands; rejected duplicate credentials/missing actor IDs and non-object JSON.
+- Verified 44 sandbox tests passed, zero skipped with SQL.js enabled, including concurrent flood/expiry/capacity and authorization regression tests. Old fixture actor ID and null-body expected status updated after initial failures. No UI edits or browser test this turn.
+- Remaining: actual cashier writer integration, production identity/token lifetime enforcement, trusted proxy/distributed limits, retention/backups, RF/weight mappings and approved delivery boundaries. Local limiter is not production load or DDoS qualification. No live data/service/public deployment changes.
+
 ### 2026-10-26 — isolated SQL.js durable writer qualification
 - Implemented web_app/order_sandbox/sqljs-writer.mjs; added sqljs-writer.test.mjs, updated README.md and CHECKPOINT_2026-10-26.md.
 - Atomic temporary-file replacement after fsync; failed persistence restores memory and rejects receipt. Queued synchronous transactions, preserved foreign keys. No production file opened.

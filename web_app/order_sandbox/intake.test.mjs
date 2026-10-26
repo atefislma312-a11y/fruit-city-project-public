@@ -52,7 +52,7 @@ test('durable order and outbox survive process connection restart',()=>{
  }finally{s?.close();unlinkSync(file);rmdirSync(dir);}
 });
 test('HTTP: 40 concurrent retries yield one order; anonymous admin and order access blocked',async t=>{
- const {s}=fixture(t);const staff='test-staff-token-'.repeat(3);const server=intakeServer(s,{staffTokens:[{token:staff,role:'cashier'}]});
+ const {s}=fixture(t);const staff='test-staff-token-'.repeat(3);const server=intakeServer(s,{staffTokens:[{id:'TEST-CASHIER',token:staff,role:'cashier'}]});
  await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(()=>new Promise(r=>server.close(r)));
  const base='http://127.0.0.1:'+server.address().port;
  const post=(path,body)=>fetch(base+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
@@ -64,5 +64,5 @@ test('HTTP: 40 concurrent retries yield one order; anonymous admin and order acc
  assert.equal((await fetch(base+'/orders/'+id,{headers:{Authorization:'Bearer '+q.accessToken}})).status,200);
  const inbox=await (await fetch(base+'/staff/orders',{headers:{Authorization:'Bearer '+staff}})).json();assert.equal(inbox.orders.length,1);assert.equal(inbox.orders[0].accessToken,undefined);
  assert.equal((await fetch(base+'/staff/orders',{headers:{Authorization:'Bearer '+staff,Origin:'https://untrusted.example'}})).status,403);
- assert.equal((await post('/quotes',null)).status,409);
+ assert.equal((await post('/quotes',null)).status,400);
 });
