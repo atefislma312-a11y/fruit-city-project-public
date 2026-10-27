@@ -1,0 +1,139 @@
+diff --git a/development/pos_inventory_repair/server.js b/development/pos_inventory_repair/server.js
+index 472f51f..09b534c 100644
+--- a/development/pos_inventory_repair/server.js
++++ b/development/pos_inventory_repair/server.js
+@@ -1,4 +1,6 @@
+ import http from 'http';
++import {posSessions,cashierRouteAllowed} from '../../web_app/order_sandbox/pos-sessions.mjs';
++import {requestLimit} from '../../web_app/order_sandbox/request-limit.mjs';
+ import { startPosWorker } from '../../web_app/order_sandbox/pos-worker.mjs';
+ import fs from 'fs';
+ import path from 'path';
+@@ -287,7 +289,7 @@ function parseJsonBody(req) {
+ function sendJson(res, statusCode, data) {
+   res.writeHead(statusCode, {
+     'Content-Type': 'application/json',
+-    'Access-Control-Allow-Origin': '*',
++    
+     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+     'Access-Control-Allow-Headers': 'Content-Type, Authorization'
+   });
+@@ -297,11 +299,32 @@ function sendJson(res, statusCode, data) {
+ // ---------------------------------------------------------------------------
+ // 4. API ROUTER
+ // ---------------------------------------------------------------------------
++const cashierSessions=posSessions({lookupUser:id=>queryOne('SELECT user_id,role_id,is_active FROM users WHERE user_id=?',[id])});
++const cashierLoginLimit=requestLimit({limit:10,windowMs:60000});
+ async function handleApiRequest(req, res, db) {
+   syncDatabaseWithDisk();
+   const url = req.url.split('?')[0];
+   const method = req.method;
+ 
++  res.setHeader('Cache-Control','no-store');
++  if(req.headers.origin){
++    let originHost;try{originHost=new URL(req.headers.origin).host;}catch{return sendJson(res,403,{error:'ORIGIN_NOT_ALLOWED'});}
++    if(originHost!==req.headers.host && req.headers.origin!==process.env.FRUIT_CITY_DEV_WEB_ORIGIN)return sendJson(res,403,{error:'ORIGIN_NOT_ALLOWED'});
++  }
++  const publicRoute=(method==='GET'&&url==='/api/health')||(method==='POST'&&['/api/auth/login','/api/auth/setup-owner'].includes(url));
++  if(publicRoute && method==='POST'){
++    const budget=cashierLoginLimit(req.socket.remoteAddress??'unknown');
++    if(!budget.allowed){res.setHeader('Retry-After',String(budget.retryAfter));return sendJson(res,429,{error:'RATE_LIMITED'});}
++  }
++  if(!publicRoute){
++    const user=cashierSessions.authenticate(req);
++    if(!user)return sendJson(res,401,{error:'UNAUTHORIZED'});
++    const permissions=queryAll('SELECT p.permission_code FROM role_permissions rp JOIN permissions p ON rp.permission_id=p.permission_id WHERE rp.role_id=?',[user.role_id]).map(p=>p.permission_code);
++    if(!cashierRouteAllowed(user,url,permissions))return sendJson(res,403,{error:'FORBIDDEN'});
++    req.authenticatedUser=user;
++  }
++  if(url==='/api/auth/session'&&method==='GET')return sendJson(res,200,{userId:req.authenticatedUser.user_id,roleId:req.authenticatedUser.role_id});
++  if(url==='/api/auth/logout'&&method==='POST'){cashierSessions.logout(req,res);return sendJson(res,200,{success:true});}
+   if (method === 'OPTIONS') {
+     res.writeHead(204, {
+       'Access-Control-Allow-Origin': '*',
+@@ -363,6 +386,7 @@ async function handleApiRequest(req, res, db) {
+         );
+       });
+ 
++      cashierSessions.issue(req,res,userId);
+       return sendJson(res, 200, {
+         success: true,
+         message: 'تم تأسيس حساب المالك بنجاح وتشفير كلمة المرور بـ Argon2id.',
+@@ -394,6 +418,7 @@ async function handleApiRequest(req, res, db) {
+         return sendJson(res, 401, { error: 'INVALID_CREDENTIALS', message: 'اسم المستخدم أو كلمة المرور غير صحيحة.' });
+       }
+ 
++      cashierSessions.issue(req,res,user.user_id);
+       const perms = queryAll(
+         `SELECT p.permission_code
+          FROM role_permissions rp
+diff --git a/development/pos_inventory_repair/src/main.tsx b/development/pos_inventory_repair/src/main.tsx
+index d027078..2a1ad7e 100644
+--- a/development/pos_inventory_repair/src/main.tsx
++++ b/development/pos_inventory_repair/src/main.tsx
+@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
+ import App from './App';
+ import { AppProvider } from './context/AppContext';
+ import './index.css';
++import {LoginGate} from './components/auth/LoginGate';
+ 
+ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+   <React.StrictMode>
+-    <AppProvider>
++    <LoginGate><AppProvider>
+       <App />
+-    </AppProvider>
++    </AppProvider></LoginGate>
+   </React.StrictMode>
+ );
+diff --git a/development/pos_inventory_repair/src/components/auth/LoginGate.tsx b/development/pos_inventory_repair/src/components/auth/LoginGate.tsx
+new file mode 100644
+--- /dev/null
++++ b/development/pos_inventory_repair/src/components/auth/LoginGate.tsx
+@@ -0,0 +1,46 @@
++import React, {useEffect, useState} from 'react';
++import {ApiClient} from '../../services/apiClient';
++
++export function LoginGate({children}:{children:React.ReactNode}) {
++ const [status,setStatus]=useState<'checking'|'login'|'ready'>('checking');
++ const [firstRun,setFirstRun]=useState(false),[username,setUsername]=useState(''),[password,setPassword]=useState('');
++ const [error,setError]=useState(''),[busy,setBusy]=useState(false);
++ useEffect(()=>{
++  let active=true;
++  const check=async()=>{try{
++   const res=await fetch('/api/auth/session',{cache:'no-store'});
++   if(!active)return;
++   if(res.ok){setStatus('ready');return;}
++   if(res.status!==401)throw Error();
++   const health=await ApiClient.getHealth();if(active){setFirstRun(!!health?.isFirstRun);setStatus('login');}
++  }catch{if(active){setError('تعذر الاتصال بالخادم. حاول مرة أخرى.');setStatus('login');}}};
++  void check();return()=>{active=false;};
++ },[]);
++ useEffect(()=>{
++  if(status!=='ready')return;
++  let active=true;
++  const check=async()=>{try{
++   const res=await fetch('/api/auth/session',{cache:'no-store'});
++   if(active&&res.status===401){setStatus('login');setPassword('');setError('انتهت الجلسة. سجّل الدخول من جديد.');}
++  }catch{/* A transient outage does not grant a new session. */}};
++  const timer=window.setInterval(check,15000);window.addEventListener('focus',check);
++  return()=>{active=false;window.clearInterval(timer);window.removeEventListener('focus',check);};
++ },[status]);
++ const submit=async(e:React.FormEvent)=>{e.preventDefault();if(busy)return;setBusy(true);setError('');try{
++  const result=firstRun?await ApiClient.setupOwner({fullNameAr:username,username,password}):await ApiClient.login(username,password);
++  if(!result.success){setError(result.message||'تعذر تسجيل الدخول. راجع البيانات.');return;}
++  setPassword('');setStatus('ready');
++ }catch{setError('تعذر الاتصال بالخادم. حاول مرة أخرى.');}finally{setBusy(false);}};
++ const logout=async()=>{if(busy)return;setBusy(true);try{
++  const res=await fetch('/api/auth/logout',{method:'POST'});if(!res.ok&&res.status!==401)throw Error();
++  setStatus('login');setPassword('');setFirstRun(false);
++ }catch{setError('تعذر تسجيل الخروج. حاول مرة أخرى.');}finally{setBusy(false);}};
++ if(status==='checking')return <p dir="rtl" className="p-8">جارٍ التحقق من الدخول…</p>;
++ if(status==='ready')return <><div dir="rtl" className="p-2 bg-white"><button onClick={logout} disabled={busy}>تسجيل الخروج</button>{error&&<p role="alert">{error}</p>}</div>{children}</>;
++ return <main dir="rtl" className="min-h-screen grid place-items-center bg-slate-100"><form onSubmit={submit} className="bg-white p-8 rounded-xl space-y-4 w-full max-w-sm">
++  <h1 className="text-xl font-bold">Fruit City — {firstRun?'تأسيس حساب المالك':'تسجيل الدخول'}</h1>
++  <label className="block">اسم المستخدم<input className="block border p-2 w-full" autoComplete="username" value={username} onChange={e=>setUsername(e.target.value)} required /></label>
++  <label className="block">كلمة المرور<input className="block border p-2 w-full" type="password" autoComplete={firstRun?'new-password':'current-password'} value={password} onChange={e=>setPassword(e.target.value)} required minLength={firstRun?8:1}/></label>
++  {error&&<p role="alert">{error}</p>}<button className="bg-green-800 text-white p-2 rounded w-full" disabled={busy}>{busy?'جارٍ التحقق…':'دخول'}</button>
++ </form></main>;
++}
