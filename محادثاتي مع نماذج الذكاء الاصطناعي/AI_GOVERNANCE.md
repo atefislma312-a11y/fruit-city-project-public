@@ -130,6 +130,35 @@ D:\fruit city project\
 المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
 
 ## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
+### 2026-10-27 — لغتا واجهة العميل مع الحفاظ على الصور — Codex
+- المالك استثنى الصور من تغيير اللغة. أضيف English / AR، حفظ اللغة، اتجاه RTL/LTR، ترجمة واجهة المنيو والسلة ونص واتساب والأحجام والمكونات لجميع 124 صنفًا وقصة PJ01. الصور والأسعار وأكواد المنتجات لم تتغير. النص الحر الذي يكتبه العميل لا يترجم تلقائيًا.
+- الملفات: app_code/src/main.jsx وProductStory.jsx وorder.js وstyle.css وproduct-stories.json، وإضافة locale.js وtranslations.json وtests/locale.test.js؛ تحديث STORY_CONTENT_HANDOFF.md وهذا السجل.
+- التحقق: اختبارات Node نجحت 7/7، منها تغطية الكتالوج كاملًا وثبات الأكواد والأسعار وعدم رجوع القصة إلى العربي في الوضع الإنجليزي. فحص متصفح محلي أثبت خلو نص المنيو والقصة من العربي وظهور الحجم بالإنجليزية. لا نشر أو رفع GitHub.
+- النطاق: واجهة العميل الحالية التي ترسل مسودة WhatsApp. Checkout وStaffInbox التجريبيان خلف VITE_INTAKE_DEV لم تتم ترجمتهما. هاتف فعلي غير مختبر؛ الصور قد تحمل عربيًا حسب استثناء المالك. ترجمة القصة لا تعني تدقيق ادعاءاتها التاريخية.
+
+### 2026-10-27 — زر اعرف القصة وتسليم محتوى المنيو — Codex
+
+- الهدف: تجهيز عرض قصة المنتج ليتولى Antigravity إدخال الصورة والمحتوى المعتمدين، بدءًا بمنتج واحد.
+- المنفذ محليًا: رابط أسفل يمين صورة المنتج؛ نافذة كريمية ونبيتية مستوحاة من أصول التسويق، مع صورة وفقرات ورجوع وزر يفتح اختيار الحجم الحالي. لا يظهر إلا لسجل مكتمل مع approved=true وSKU مطابق. معاينة PJ01 متاحة في وضع التطوير فقط؛ ملف المحتوى المعتمد فارغ.
+- الملفات: web_app/app_code/src/{main.jsx,style.css,ProductStory.jsx,product-stories.json,story-data.js}؛ tests/stories.test.js؛ public/stories/.gitkeep؛ STORY_CONTENT_HANDOFF.md؛ هذا السجل. التغييرات الأخرى الموجودة محفوظة دون تعديل.
+- الاختبارات: npm test نجح 4/4؛ npm run build نجح. فحص المتصفح المحلي أثبت فتح القصة والرابط المباشر والإغلاق بـEscape والانتقال إلى اختيار الحجم وإخفاء الزر عند غياب محتوى معتمد. معاينة بصرية لسطح المكتب تمت؛ هاتف فعلي ومحتوى Antigravity النهائي غير مختبرين.
+- المتبقي: إدخال واعتماد أول صورة وقصة ثم معاينتهما. لا لوحة موافقات بعد؛ approved علم داخل ملف البيانات. لا نشر عام ولا Git push في هذا التسليم، ولا تعديل للكاشير أو الأسعار. الخطوة التالية: اتباع STORY_CONTENT_HANDOFF.md لتجربة المنتج الأول.
+
+### 2026-10-27 — بيئة تجربة Telegram وPOS ببيانات وهمية
+
+- **الهدف:** استجابة لتوضيح إسلام أن بيانات الكاشير الحالية غير مهمة للتجربة، وأنه سيدخل بيانات وهمية ثم يبدأ من جديد بعد التحقق. الهدف العملي هو تجربة دورة كاملة دون خلط نتائجها بتشغيل POS الأصلي.
+- **المثبت:** نسخة اختبار مستقلة من قاعدة SQLite في `development/telegram_pos_trial/trial.db` (مستبعدة من Git بنمط `*.db`)؛ خادم تجربة محلي على `127.0.0.1:5174`، وبوت إدارة واحد متصل به وموسوم برسائل «وضع تجربة — بيانات وهمية». بقي الخادم الأصلي على 5173. تحقق `/api/health` من الاثنين؛ بصمة ملف قاعدة التشغيل الأصلي عند الفحص `5FE5803C694CB08B0C3365C2818219F58DDCE2689EFA20F16EE823C645049A09`. ملف خطة الإدخال هو `development/telegram_pos_trial/TEST_PLAN.md`.
+- **التغييرات:** في runtime بمسار C: `server.js` و`integrations/telegram/{admin_bot.js,reports.js}` لعزل قاعدة التجربة والمنفذ والردود؛ لم يُنقل الكود إلى D. هذا السجل وخطة الاختبار فقط في D.
+- **الاختبارات:** `node --check` للملفات الثلاثة نجح؛ خادم التجربة رفض تعيين مسار قاعدة التشغيل الأصلي كقاعدة تجريبية؛ قراءات health وinventory على منفذ التجربة نجحت. اختبارات الأوامر السابقة: universal_copilot_single_writer ‏7/7 وvoice_runtime_safety ‏5/5. لم يُختبر بعد إرسال صوت فعلي من المالك أو دورة بيع كاملة في التجربة.
+- **المتبقي:** يبدأ إسلام بـ`/status` و`/menu`، ثم يختار قيمًا وهمية للعينة ويقارن بطاقة التأكيد بنتيجة POS قبل الانتقال للمرحلة التالية. الأوامر الصوتية الحالية تغطي أجزاء محددة فقط؛ الوصفات والبيع والاسترداد وإدارة الحسابات تتطلب واجهة POS حاليًا. بعد التجربة تنظف **قاعدة التجربة** فقط؛ لا حذف لقاعدة التشغيل. لا Git push دون طلب مباشر.
+
+### 2026-10-27 — owner clarification: Telegram is the primary data-entry channel
+- Owner clarified the POS is largely empty and he intends to enter real operating data through Telegram voice. Read-only production DB audit confirmed: 108 menu product rows, 860 price rows (not owner-verified pricing), one draft purchase invoice with one item, zero sales orders, 39 ingredient definitions but only one branch inventory row, and zero supplier rows. Do not present menu records or isolated test fixtures as complete operating data.
+- Added voice-first opening stock count: an absolute statement such as "current mango stock is 5 kg" becomes a proposed target after reading the current POS balance, with old/new balance shown for owner confirmation. Additions and deductions remain separate deltas. All quantities are normalized to grams for validation and converted to the ingredient base unit before the existing admin API call. Missing/ambiguous item and unsupported unit remain blocked. Confirmation carries expected stock; the POS rechecks it inside the serialized transaction and rejects changed balances with HTTP 409. Negative stock is rejected rather than silently clamped to zero.
+- Corrected bot inventory success text to display kilograms rather than the raw gram value. Updated /start, /menu, and /help copy to explain voice entry and owner confirmation; report buttons remain read-only. The live bot and POS were restarted with these changes. No real stock, supplier, invoice, price, expense, or sale records were created.
+- Verification: isolated universal_copilot_single_writer 7/7, including absolute count, unchanged draft stock, replay protection and stale-balance rejection; voice_runtime_safety 5/5. Gemini read-only parsing distinguished absolute 5 kg stock from a 5 kg addition. Live service GET checks succeeded before the change, and production DB hash remained unchanged at the checkpoint. Owner must send the first real voice input and review its confirmation card before any live data entry can be claimed.
+- Changed C runtime: integrations/telegram/{admin_bot.js,voice_intent_guard.js}, integrations/admin/adminControlHandler.js, tests/{universal_copilot_single_writer.test.js,voice_runtime_safety.test.js}; this D handoff. No Git push under current AGENTS.md. Preserve all unrelated work.
+
 ### 2026-10-27 — development cashier session gate and login UI
 - Added web_app/order_sandbox/pos-sessions.mjs, pos-sessions.test.mjs, runtime-auth.test.mjs and runtime-patches/cashier-auth-and-login.patch; updated runtime-patches/README.md. Edited existing development server.js, src/main.tsx and added LoginGate.tsx locally; incremental patch captures the untracked runtime delta.
 - Server sessions now expire/revoke/rotate, re-read active user and role, gate API routes by stored permissions, restrict admin/ingest to owner, reject foreign origins and limit login attempts. HttpOnly/SameSite cookie; session cleared on server restart. UI gates application data loading behind login, with logout and expiry checks.
@@ -393,3 +422,17 @@ D:\fruit city project\
   6. نجاح اختبارات Durable Atomic Commit لنظام الـ POS (3/3) واختبارات الـ Sandbox (44/44).
 - **الرفع إلى Git:** تم الرفع والمزامنة بنجاح إلى origin/main (commits: 3250a34, 612c8c, 4d6fb21).
 - **التالي:** استخدام صور الكوب الحقيقي كـ Ground-Truth لجميع التصاميم والحملات القادمة، واستكمال المرحلة 3 مع DeepSeek لربط الطلبات بالساندبوكس.
+
+
+### 2026-10-27 — ترقية تصميم الويب آب لواجهة مبيعات تفاعلية (Conversion-Focused UI/UX) — AntiGravity & إسلام عاطف
+- **الهدف:** إعادة تصميم وتطوير واجهة الـ Mini Web App لزيادة التحويل والمبيعات مع التطبيق الصارم لهوية Fruit City والمواصفات الفيزيائية للكوب الحقيقي.
+- **ما تم إنجازه واختباره فعلياً:**
+  1. **حذف الشعارات الإنشائية:** إزالة قسم `.values` وأي أشرطة تسويقية نظرية ليعتمد التطبيق كلياً على الصور والقصص التاريخية والمنتج الفعلي.
+  2. **تطوير الـ Hero Section:** إبراز بطل المبيعات "مانجو 1968" بطابع سينمائي راقٍ، كبسولة `Healthy Juice` الحمراء (`#792b29`)، الكوب الحقيقي المعتمد (PET شفاف أملس، غطاء KS92، قطرات ندى، بلا ثلج)، وزر CTA مباشر برتقالي (`#dc7a2b`) لإضافة مانجو 1968 للسلة بضغطة واحدة.
+  3. **إعادة تصميم كروت المنتجات:** إبراز ختم السنة التاريخية (`✦ 1968`, `✦ 1889`...) كبادج أرشيفي على الكارت، توفير أزرار تفاعلية لاختيار الأحجام (Interactive Size Pills) مع تحديث السعر لحظياً، زر إضافة سريع للسلة (`#dc7a2b`) مع Feedback بصري فوري (`تمت الإضافة ✓`)، وجعل شريط الأقسام ثابتاً في الأعلى (`Sticky Categories`) لتصفح سلس وفائق السرعة.
+  4. **تطوير السلة ومحرك الـ Visual Upsell:** إظهار صور ومقاسات المنتجات في السلة مع أزرار الزيادة والنقصان، وإضافة قسم **One-Tap Visual Upsell** ذكي يقترح علبة فواكه قطع 16oz (`FP01`) بضغطة واحدة لرفع متوسط قيمة الطلب (AOV)، وترقية زر السلة العائم (`.floating-cart`).
+  5. **تكامل الهوية:** تثبيت الاستيكر الدائري الرسمي الحقيقي `logo.png` في الـ Header وفي الختم.
+  6. **نجاح الاختبارات والبناء:** نجاح كامل لاختبارات الـ Storefront والـ Locale (7/7) واجتياز بناء Vite للإنتاج بنجاح (`vite build` in 1.34s).
+- **الملفات المتغيرة:** `web_app/app_code/src/main.jsx`, `web_app/app_code/src/style.css`, `web_app/app_code/src/translations.json`, `web_app/app_code/public/logo.png`, `web_app/app_code/public/cup_real.jpg`, وهذا السجل.
+- **الرفع إلى Git:** لم يُجرَ أي commit أو push التزاماً بالقاعدة الصارمة بانتظار أمر صريح ومباشر من الحاج إسلام عاطف.
+- **التالي:** مراجعة إسلام للشاشة الحية في المتصفح، وإبداء أي ملاحظات بصرية أو طلب رفع التعديلات لـ GitHub.

@@ -1,0 +1,29 @@
+{
+  "PJ01": {
+    "sku": "PJ01",
+    "approved": true,
+    "fr": {
+      "title": "Ces mangues vénérées et immortalisées en statues en 1968",
+      "paragraphs": [
+        "En août 1968, le ministre des Affaires étrangères du Pakistan offrit une caisse de mangues au dirigeant chinois Mao Zedong. Celui-ci les envoya aux ouvriers des usines de Pékin comme cadeau symbolique. Ces fruits devinrent soudain des reliques sacrées : des répliques en cire furent portées sur des coussins de velours rouge lors de défilés, et des vols spéciaux transportèrent leurs bienfaits supposés.",
+        "Lorsqu’une des mangues commença à se gâter, on la fit bouillir dans une immense marmite d’eau. Des milliers d’ouvriers firent la queue pour en boire une seule cuillerée en guise de bénédiction. Cet épisode reste l’un des exemples les plus étonnants de vénération d’un fruit.",
+        "Chez Fruit City, nous vous proposons la mangue naturelle dans toute sa richesse : une texture de purée veloutée, riche en fibres naturelles, une couleur ambrée chaleureuse et une saveur intense, fraîchement préparée et rafraîchie."
+      ]
+    },
+    "en": {
+      "title": "The mangoes worshipped and immortalised in statues in 1968",
+      "paragraphs": [
+        "In August 1968, Pakistan's foreign minister presented a crate of mangoes to Chinese leader Mao Zedong, who sent them to factory workers in Beijing as a symbolic gift. The fruit suddenly became a sacred relic: wax replicas were carried on red velvet cushions in street processions, and special flights transported their blessings.",
+        "When one of the mangoes began to spoil, it was boiled in a huge pot of water. Thousands of workers queued to drink a single spoonful of mango water as a blessing. It became one of history's most extraordinary examples of fruit worship.",
+        "At Fruit City, we serve natural mango with all its regal richness: a velvety puree texture full of natural mango fibre, a warm amber colour and concentrated flavour, freshly blended and chilled."
+      ]
+    },
+    "image": "/stories/PJ01.jpg",
+    "title": "مانجا حقيقية عبدوها وعملولها تماثيل سنة 1968",
+    "paragraphs": [
+      "في أغسطس 1968، أهدى وزير خارجية باكستان قفص مانجو للزعيم الصيني ماو تسي تونغ، فأرسله لعمال المصانع في بكين كهدية رمزية. تحولت الفاكهة فجأة إلى أثر مقدس؛ نُحتت لها مجسمات شمعية حُملت على وسائد مخملية حمراء في مسيرات الشوارع، وطافت لها رحلات طيران خاصة لنقل بركتها!",
+      "وعندما بدأت إحدى الثمار في التلف، قاموا بغليها في قِدر ماء ضخم، ووقف آلاف العمال في طوابير طويلة ليشرب كل منهم ملعقة واحدة من ماء المانجو للتبرك. من هنا خلد التاريخ أغرب تقديس لفاكهة في العالم.",
+      "في Fruit City، بنقدملك المانجا الطبيعية بكامل هيبتها الملكية: قوام بيوريه مخملي غني بألياف المانجا الطبيعية، بلونها الكهرماني الدافئ وطعمها المركز، معصورة ومثلجة بطاقتها الخام فريش على أصوله."
+    ]
+  }
+}
