@@ -1,0 +1,730 @@
+{
+  "schemaVersion": 1,
+  "id": "mango-china-1968",
+  "revision": 5,
+  "fruit": {
+    "id": "pj01",
+    "arabicName": "مانجا",
+    "englishName": "Mango",
+    "actualMenuItemIds": [
+      "PJ01"
+    ],
+    "productImages": [
+      "master-cup-candidate"
+    ],
+    "brandAssets": [
+      "master-cup-candidate"
+    ]
+  },
+  "eventTitle": "ملف المانجا — الصين 1968",
+  "country": "الصين",
+  "year": "1968",
+  "summary": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+  "story": "مانجا دخلت السياسة… من غير ما تترشح!\n\nإحنا لما تجيلنا مانجا بنسأل: استوت؟ في الصين سنة 1968، الحكاية خدت سكة تانية خالص. في أغسطس، وزير خارجية باكستان قدّم مانجا هدية لماو تسي تونغ. وماو مرّرها لفرق عمال كانت موجودة في جامعة تسينغهوا. [C1، C2]\n\nالهدية وصلت في لحظة سياسية حساسة، بعد صراعات بين مجموعات الحرس الأحمر. ومن هنا الفاكهة بقت رمزًا للاهتمام بالعمال وإبراز دورهم في المرحلة الجديدة. يعني المانجا دخلت ومعاها رسالة… بس مش كارت «بالهنا والشفا». دي قفشة على الموقف، مش نص تاريخي. [C3]\n\nوبدل ما يكون السؤال «ناكلها إمتى؟»، بقى فيه اهتمام بالحفاظ عليها. بعض الثمار اتغطت بالشمع أو اتحفظت بالفورمالدهيد. واضح إن خطة التخزين دي مش بتاعة درج الفاكهة! والفورمالدهيد هنا مادة حفظ تاريخية، مش اقتراح للأكل طبعًا. [C4]\n\nوالموضوع خرج من حدود الهدية: المانجا ظهرت في الدعاية، وعلى قطع تذكارية، وفي احتفالات وموكب اليوم الوطني سنة 1968. أرشيف الملصقات بيحتفظ كمان بملصق من أبريل 1969 فيه ناس شايلة طبق مانجا. [C5، C6]\n\nالمفارقة مضحكة، لكن الفترة نفسها شهدت عنفًا وقمعًا؛ الضحك هنا على تضخيم رمز سياسي، مش على الناس اللي عاشت الظروف دي. ومش كل تفاصيل الحكاية متفق عليها: عدد الثمار واسم الوزير مختلفان بين بعض المصادر، عشان كده ما حددناش عددًا، واستخدمنا صفته الرسمية. [C7]\n\nوعشان محدش يفهمنا غلط: دي حكاية المانجا في الصين، مش تاريخ وصفة Fruit City. عندنا المانجا موجودة في المنيو باسمها وكودها PJ01. الحكاية للتذوق… والعصير للشرب.\n\nFruit City — كل عصير وراه حكاية.",
+  "editorialStatus": "needs-review",
+  "visualStatus": "blocked",
+  "publicationStatus": "blocked",
+  "stages": {
+    "menu": "approved",
+    "event": "approved",
+    "research": "needs-review",
+    "claims": "needs-review",
+    "story": "needs-review",
+    "hooks": "needs-review",
+    "hook-selection": "needs-review",
+    "design": "needs-review",
+    "product": "blocked",
+    "platforms": "needs-review",
+    "qa": "needs-review",
+    "approval": "blocked",
+    "export": "blocked",
+    "reproduction": "approved",
+    "performance": "draft"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.cooperhewitt.org/2018/06/13/gift-basket/",
+      "title": "Gift Basket",
+      "author": "Rachel Ward Sepielli",
+      "publisher": "Cooper Hewitt / Smithsonian",
+      "date": "2018-06-13",
+      "sourceType": "secondary-museum",
+      "notes": "يدعم الهدية والعمال وتسينغهوا والحفظ. حقوق النص ليست ترخيص صور.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S2",
+      "url": "https://china.usc.edu/event/creating-and-discarding-symbols-case-mao-zedongs-golden-mangoes",
+      "title": "Creating and Discarding Symbols",
+      "author": "Alfreda Murck (speaker)",
+      "publisher": "USC US-China Institute",
+      "date": "2014-09-22",
+      "sourceType": "secondary-academic-event",
+      "notes": "ملخص محاضرة؛ ليس تسجيلًا أو نص كتاب كامل.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S3",
+      "url": "https://chineseposters.net/posters/e13-594",
+      "title": "Closely follow the great leader Chairman Mao and forge ahead courageously!",
+      "author": "Chen Qiang; Shen Zhaorong; Shen Shaolun",
+      "publisher": "Chinese Posters / Landsberger collection",
+      "date": "1969-04",
+      "sourceType": "primary-object-catalog",
+      "notes": "قطعة دعاية 1969؛ ليست صورة تسليم الهدية في 1968. لا نعيد نشر الصورة.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S4",
+      "url": "https://daily.jstor.org/when-maos-mango-mania-took-over-china/",
+      "title": "When Mao’s Mango Mania Took Over China",
+      "author": "Christin Bohnke",
+      "publisher": "JSTOR Daily",
+      "date": "2026-02-04",
+      "sourceType": "secondary-research-journalism",
+      "notes": "يدعم موكب اليوم الوطني؛ يستند إلى بحث Murck 2007، ليست كل المصادر مستقلة عنه.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S5",
+      "url": "https://chineseposters.net/themes/mao-mangoes",
+      "title": "Chairman Mao’s Mangoes",
+      "author": null,
+      "publisher": "Chinese Posters",
+      "date": null,
+      "sourceType": "secondary-archive",
+      "notes": "يذكر سبع ثمار؛ لا نعتمد عددًا نهائيًا.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S6",
+      "url": "https://www.dawn.com/news/1426521",
+      "title": "Mangoes for Mao",
+      "author": "A Correspondent",
+      "publisher": "Dawn",
+      "date": "2018-08-12",
+      "sourceType": "primary-report-reprint",
+      "notes": "إعادة نشر خبر 1968، يشير إلى Mian Arshad Husain. اقتباسات النص غير مستخدمة.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.mango.org/blog/mango-mania-of-china/",
+      "title": "Mango Mania of China",
+      "author": null,
+      "publisher": "National Mango Board",
+      "date": null,
+      "sourceType": "secondary-industry",
+      "notes": "مراجعة تعارض فقط: يسمي Pirzada ويذكر نحو 40؛ لا يعتمد في نص الحلقة.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S8",
+      "url": "https://ed.ted.com/lessons/mao-zedong-s-infamous-mango-cult-vivian-jiang",
+      "title": "Mao Zedong’s infamous mango cult",
+      "author": "Vivian Jiang",
+      "publisher": "TED-Ed",
+      "date": "2023-01",
+      "sourceType": "secondary-educational",
+      "notes": "تمت قراءة مقدمة الدرس فقط، لا ادعاء مشاهدة الفيديو كاملًا.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.si.edu/object/maos-golden-mangoes-and-cultural-revolution-alfreda-murck-ed%3Asiris_sil_1010092",
+      "title": "Mao’s golden mangoes and the Cultural Revolution",
+      "author": "Alfreda Murck (editor)",
+      "publisher": "Smithsonian Libraries and Archives",
+      "date": "2013",
+      "sourceType": "bibliographic-catalog",
+      "notes": "تم التحقق من فهرس الكتاب لا قراءة صفحاته الـ247؛ CC0 يخص metadata فقط.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-25",
+      "access": "web page read/search extract; no image license inferred"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "episodeId": "mango-china-1968",
+      "statement": "هدية من المانجا وصلت لماو من وزير خارجية باكستان في أغسطس 1968.",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high",
+      "verificationStatus": "verified",
+      "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+    },
+    {
+      "id": "C2",
+      "episodeId": "mango-china-1968",
+      "statement": "مرّر ماو الهدية لفرق العمال المرتبطة بجامعة تسينغهوا.",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high",
+      "verificationStatus": "verified",
+      "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+    },
+    {
+      "id": "C3",
+      "episodeId": "mango-china-1968",
+      "statement": "تحولت المانجا إلى رمز سياسي لدور العمال ضمن تحول موازين القوة.",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high",
+      "verificationStatus": "verified",
+      "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+    },
+    {
+      "id": "C4",
+      "episodeId": "mango-china-1968",
+      "statement": "حُفظت بعض الثمار بالشمع أو الفورمالدهيد.",
+      "sourceIds": [
+        "S1"
+      ],
+      "confidence": "medium-high",
+      "verificationStatus": "verified",
+      "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+    },
+    {
+      "id": "C5",
+      "episodeId": "mango-china-1968",
+      "statement": "ظهرت المانجا في الدعاية والقطع التذكارية؛ ملصق أبريل 1969 شاهد بصري.",
+      "sourceIds": [
+        "S3",
+        "S5"
+      ],
+      "confidence": "high",
+      "verificationStatus": "verified",
+      "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+    },
+    {
+      "id": "C6",
+      "episodeId": "mango-china-1968",
+      "statement": "شاركت رموز المانجا في موكب اليوم الوطني في بكين سنة 1968.",
+      "sourceIds": [
+        "S4"
+      ],
+      "confidence": "medium-high",
+      "verificationStatus": "verified",
+      "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+    },
+    {
+      "id": "C7",
+      "episodeId": "mango-china-1968",
+      "statement": "تختلف بعض المصادر في عدد الثمار واسم الوزير؛ يستبعد النص هذين التفصيلين.",
+      "sourceIds": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high",
+      "verificationStatus": "verified",
+      "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+    }
+  ],
+  "assets": [
+    {
+      "id": "master-cup-candidate",
+      "filePath": "assets/cup-reference.png",
+      "type": "product-photo",
+      "dimensions": [
+        1229,
+        1536
+      ],
+      "owner": null,
+      "license": null,
+      "attribution": "Fruit City — أصل قيد التأكيد",
+      "authenticity": "product-reference-unconfirmed",
+      "source": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/outputs/cup-reference.png",
+      "date": null,
+      "rightsStatus": "needs-review",
+      "commercialUse": false,
+      "ownerApproved": false,
+      "usedInExport": true,
+      "sha256": "61025a519c3c287922a10c6363eb4c80d622fe910560289056001f74ff37e512",
+      "modifications": "نسخ مطابق دون تعديل؛ تغيير الحجم للعرض فقط",
+      "notes": "المالك قرر في هذه المحادثة استخدامه للمراجعة فقط لحين تأكيد الأصل."
+    },
+    {
+      "id": "reference-art",
+      "filePath": "assets/china-1968-reference.png",
+      "type": "reference-design",
+      "dimensions": [
+        1440,
+        2560
+      ],
+      "owner": null,
+      "license": null,
+      "attribution": "راجع سجل الأصول التاريخي",
+      "authenticity": "mixed-era-composite",
+      "source": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/outputs/China-1968-review.png",
+      "date": null,
+      "rightsStatus": "needs-review",
+      "commercialUse": false,
+      "ownerApproved": false,
+      "usedInExport": false,
+      "sha256": "95492ebf0d407fcb7c8349ae2dc56faf462284b97d0b925ffb66797b448b38fa",
+      "modifications": "نسخ مطابق دون تعديل؛ تغيير الحجم للعرض فقط",
+      "notes": "مرجع بصري فقط؛ خلفية فترات مختلفة، ليس توثيقًا لتسليم المانجا. حقوق عدة طبقات غير محسومة."
+    }
+  ],
+  "hooks": [
+    {
+      "text": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "claimIds": [
+        "C3"
+      ],
+      "kind": "editorial-joke"
+    },
+    {
+      "text": "ليه حفظوا المانجا بدل ما ياكلوها؟",
+      "claimIds": [
+        "C4"
+      ],
+      "kind": "question"
+    },
+    {
+      "text": "إزاي المانجا وصلت لموكب في الصين؟",
+      "claimIds": [
+        "C6"
+      ],
+      "kind": "question"
+    }
+  ],
+  "selectedHook": 0,
+  "alternateHook": 1,
+  "hookReason": "قصير وبيفتح فضول، والقفشة واضحة من غير ادعاء إن ثمرة واحدة سببت موكبًا. البديل يختبر فضول طريقة الحفظ.",
+  "design": {
+    "palette": [
+      "#3c1821",
+      "#bb8935"
+    ],
+    "template": "archive-v1",
+    "productAssetId": "master-cup-candidate",
+    "referenceAssetId": "reference-art"
+  },
+  "platformContent": [
+    {
+      "episodeId": "mango-china-1968",
+      "platform": "facebook",
+      "imageHook": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "caption": "مانجا دخلت السياسة… من غير ما تترشح! 🥭\n\nفي الصين سنة 1968، هدية مانجا لماو وصلت لفرق العمال في جامعة تسينغهوا. ومن هدية، الفاكهة اتحولت لرمز سياسي. بعض الثمار اتحفظت بالشمع أو الفورمالدهيد، ورموز المانجا ظهرت في الدعاية والاحتفالات.\n\nإحنا بنفكر نلحق ناكلها قبل ما تستوي زيادة… هناك كانوا بيفكروا يحافظوا عليها! المفارقة في الرمز، مش سخرية من الناس أو معاناتهم.\n\nلو فتحت أرشيف فاكهة تانية، تختار إيه؟",
+      "title": "ملف المانجا — الصين 1968",
+      "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+      "cta": "تحب الحلقة الجاية عن فاكهة إيه؟",
+      "hashtags": [
+        "FruitCity",
+        "أرشيف_الفواكه"
+      ],
+      "seo": {
+        "title": "ملف المانجا — الصين 1968",
+        "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+        "canonicalUrl": null,
+        "menuItemIds": [
+          "PJ01"
+        ],
+        "relatedEpisodeIds": []
+      },
+      "approvalStatus": "needs-review",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "scenes": [],
+      "slides": []
+    },
+    {
+      "episodeId": "mango-china-1968",
+      "platform": "instagram",
+      "imageHook": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "caption": "مانجا… بس الملف مش وصفة عصير 🥭\nهدية في أغسطس 1968، وبعدها رمز سياسي وحكاية حفظ غريبة. اقلب الشرائح وشوف الفاكهة خدت إيه من التاريخ.\nاحفظ الحلقة لو بتحب الحكايات اللي مستخبية في التفاصيل.",
+      "title": "ملف المانجا — الصين 1968",
+      "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+      "cta": "احفظ الحلقة وشاركها مع صاحبك الفضولي.",
+      "hashtags": [
+        "FruitCity",
+        "أرشيف_الفواكه"
+      ],
+      "seo": {
+        "title": "ملف المانجا — الصين 1968",
+        "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+        "canonicalUrl": null,
+        "menuItemIds": [
+          "PJ01"
+        ],
+        "relatedEpisodeIds": []
+      },
+      "approvalStatus": "needs-review",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "scenes": [],
+      "slides": [
+        {
+          "hook": "مانجا دخلت السياسة… من غير ما تترشح!",
+          "text": "افتح ملف الصين 1968",
+          "claimIds": [
+            "C3"
+          ]
+        },
+        {
+          "hook": "الهدية راحت لمين؟",
+          "text": "لماو، وبعده فرق العمال في تسينغهوا",
+          "claimIds": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "hook": "اتحفظت… بدل ما تتاكل؟",
+          "text": "بعض الثمار حُفظت بالشمع أو الفورمالدهيد",
+          "claimIds": [
+            "C4"
+          ]
+        },
+        {
+          "hook": "الفاكهة بقت رمز",
+          "text": "الدعاية والقطع التذكارية تحمل صورتها",
+          "claimIds": [
+            "C5"
+          ]
+        },
+        {
+          "hook": "أنهي فاكهة نفتح ملفها؟",
+          "text": "Fruit City — كل عصير وراه حكاية. المصادر في ملف الحلقة.",
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "episodeId": "mango-china-1968",
+      "platform": "pinterest",
+      "imageHook": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "caption": "اكتشف قصة المانجا في الصين سنة 1968: من هدية دبلوماسية إلى رمز سياسي، ضمن سلسلة أرشيف الفواكه من Fruit City. قصة تاريخية موثقة ومراجع للقراءة. رابط المقال يضاف بعد نشره.",
+      "title": "ملف المانجا — الصين 1968",
+      "description": "تاريخ المانجا، الصين 1968، ماو، هدية باكستان، أرشيف الفواكه",
+      "cta": "اقرأ المصادر؛ رابط المقال ينتظر النشر.",
+      "hashtags": [
+        "FruitCity",
+        "أرشيف_الفواكه"
+      ],
+      "seo": {
+        "title": "ملف المانجا — الصين 1968",
+        "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+        "canonicalUrl": null,
+        "menuItemIds": [
+          "PJ01"
+        ],
+        "relatedEpisodeIds": []
+      },
+      "approvalStatus": "needs-review",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "scenes": [],
+      "slides": []
+    },
+    {
+      "episodeId": "mango-china-1968",
+      "platform": "tiktok",
+      "imageHook": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "caption": "استنى… المانجا دي دخلت السياسة! هدية لماو سنة 1968، اتنقلت لعمال في تسينغهوا. بعدها بقت رمزًا، واتحفظت بعض الثمار بالشمع أو الفورمالدهيد. إحنا عايزين نلحق الموسم… دي لحقت موكب! مش وصفة عصير؛ حكاية رمز سياسي. تختار نفتح ملف أنهي فاكهة بعد كده؟",
+      "title": "ملف المانجا — الصين 1968",
+      "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+      "cta": "Fruit City — كل عصير وراه حكاية.",
+      "hashtags": [
+        "FruitCity",
+        "أرشيف_الفواكه"
+      ],
+      "seo": {
+        "title": "ملف المانجا — الصين 1968",
+        "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+        "canonicalUrl": null,
+        "menuItemIds": [
+          "PJ01"
+        ],
+        "relatedEpisodeIds": []
+      },
+      "approvalStatus": "needs-review",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "scenes": [
+        {
+          "seconds": "0–2",
+          "onScreen": "مانجا دخلت السياسة… من غير ما تترشح!",
+          "visual": "المنتج الأصلي بعد اعتماد الأصل؛ حاليًا معاينة",
+          "audio": "صوت أصلي؛ لا موسيقى غير مرخصة"
+        },
+        {
+          "seconds": "2–10",
+          "onScreen": "أغسطس 1968 — هدية من باكستان",
+          "visual": "بطاقة زمنية مصممة وليست صورة تاريخية",
+          "claimIds": [
+            "C1"
+          ]
+        },
+        {
+          "seconds": "10–20",
+          "onScreen": "الهدية توصل لفرق العمال",
+          "visual": "نصوص ورسوم زمنية؛ لا لقطات مزيفة",
+          "claimIds": [
+            "C2",
+            "C3"
+          ]
+        },
+        {
+          "seconds": "20–30",
+          "onScreen": "فاكهة… في موكب؟",
+          "visual": "بطاقة معلومة ومصدر",
+          "claimIds": [
+            "C6"
+          ]
+        },
+        {
+          "seconds": "30–38",
+          "onScreen": "Fruit City — كل عصير وراه حكاية.",
+          "visual": "الكوباية الأصلية بعد الاعتماد",
+          "audio": "Fruit City — كل عصير وراه حكاية."
+        }
+      ],
+      "slides": []
+    },
+    {
+      "episodeId": "mango-china-1968",
+      "platform": "instagram-reels",
+      "imageHook": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "caption": "مانجا تتحفظ بدل ما تتاكل؟! في الصين سنة 1968، الهدية بقت رمزًا سياسيًا. ومن طرق الحفاظ على بعض الثمار: الشمع والفورمالدهيد. الحكاية دي للأرشيف… مش للمطبخ. احفظ الريل وارجع للمصادر في الحلقة.",
+      "title": "ملف المانجا — الصين 1968",
+      "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+      "cta": "Fruit City — كل عصير وراه حكاية.",
+      "hashtags": [
+        "FruitCity",
+        "أرشيف_الفواكه"
+      ],
+      "seo": {
+        "title": "ملف المانجا — الصين 1968",
+        "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+        "canonicalUrl": null,
+        "menuItemIds": [
+          "PJ01"
+        ],
+        "relatedEpisodeIds": []
+      },
+      "approvalStatus": "needs-review",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "scenes": [
+        {
+          "seconds": "0–2",
+          "onScreen": "ليه حفظوا المانجا بدل ما ياكلوها؟",
+          "visual": "المنتج الأصلي بعد اعتماد الأصل؛ حاليًا معاينة",
+          "audio": "صوت أصلي؛ لا موسيقى غير مرخصة"
+        },
+        {
+          "seconds": "2–10",
+          "onScreen": "أغسطس 1968 — هدية من باكستان",
+          "visual": "بطاقة زمنية مصممة وليست صورة تاريخية",
+          "claimIds": [
+            "C1"
+          ]
+        },
+        {
+          "seconds": "10–20",
+          "onScreen": "الهدية توصل لفرق العمال",
+          "visual": "نصوص ورسوم زمنية؛ لا لقطات مزيفة",
+          "claimIds": [
+            "C2",
+            "C3"
+          ]
+        },
+        {
+          "seconds": "20–30",
+          "onScreen": "اتحفظت بدل ما تتاكل",
+          "visual": "بطاقة معلومة ومصدر",
+          "claimIds": [
+            "C4"
+          ]
+        },
+        {
+          "seconds": "30–38",
+          "onScreen": "Fruit City — كل عصير وراه حكاية.",
+          "visual": "الكوباية الأصلية بعد الاعتماد",
+          "audio": "Fruit City — كل عصير وراه حكاية."
+        }
+      ],
+      "slides": []
+    },
+    {
+      "episodeId": "mango-china-1968",
+      "platform": "facebook-reels",
+      "imageHook": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "caption": "تفتكر المانجا ممكن تدخل التاريخ من أوسع باب؟ سنة 1968 هدية وصلت لماو، ومنه لفرق العمال. ظهرت بعدها في الدعاية والاحتفالات. الفاكهة كانت شايلة معنى سياسي أكبر من حجمها. مين صاحبك اللي يحب الحكاية دي؟",
+      "title": "ملف المانجا — الصين 1968",
+      "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+      "cta": "Fruit City — كل عصير وراه حكاية.",
+      "hashtags": [
+        "FruitCity",
+        "أرشيف_الفواكه"
+      ],
+      "seo": {
+        "title": "ملف المانجا — الصين 1968",
+        "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+        "canonicalUrl": null,
+        "menuItemIds": [
+          "PJ01"
+        ],
+        "relatedEpisodeIds": []
+      },
+      "approvalStatus": "needs-review",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "scenes": [
+        {
+          "seconds": "0–2",
+          "onScreen": "مانجا دخلت السياسة… من غير ما تترشح!",
+          "visual": "المنتج الأصلي بعد اعتماد الأصل؛ حاليًا معاينة",
+          "audio": "صوت أصلي؛ لا موسيقى غير مرخصة"
+        },
+        {
+          "seconds": "2–10",
+          "onScreen": "أغسطس 1968 — هدية من باكستان",
+          "visual": "بطاقة زمنية مصممة وليست صورة تاريخية",
+          "claimIds": [
+            "C1"
+          ]
+        },
+        {
+          "seconds": "10–20",
+          "onScreen": "الهدية توصل لفرق العمال",
+          "visual": "نصوص ورسوم زمنية؛ لا لقطات مزيفة",
+          "claimIds": [
+            "C2",
+            "C3"
+          ]
+        },
+        {
+          "seconds": "20–30",
+          "onScreen": "اتحفظت بدل ما تتاكل",
+          "visual": "بطاقة معلومة ومصدر",
+          "claimIds": [
+            "C4"
+          ]
+        },
+        {
+          "seconds": "30–38",
+          "onScreen": "Fruit City — كل عصير وراه حكاية.",
+          "visual": "الكوباية الأصلية بعد الاعتماد",
+          "audio": "Fruit City — كل عصير وراه حكاية."
+        }
+      ],
+      "slides": []
+    },
+    {
+      "episodeId": "mango-china-1968",
+      "platform": "webapp",
+      "imageHook": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "caption": "مانجا دخلت السياسة… من غير ما تترشح!\n\nإحنا لما تجيلنا مانجا بنسأل: استوت؟ في الصين سنة 1968، الحكاية خدت سكة تانية خالص. في أغسطس، وزير خارجية باكستان قدّم مانجا هدية لماو تسي تونغ. وماو مرّرها لفرق عمال كانت موجودة في جامعة تسينغهوا. [C1، C2]\n\nالهدية وصلت في لحظة سياسية حساسة، بعد صراعات بين مجموعات الحرس الأحمر. ومن هنا الفاكهة بقت رمزًا للاهتمام بالعمال وإبراز دورهم في المرحلة الجديدة. يعني المانجا دخلت ومعاها رسالة… بس مش كارت «بالهنا والشفا». دي قفشة على الموقف، مش نص تاريخي. [C3]\n\nوبدل ما يكون السؤال «ناكلها إمتى؟»، بقى فيه اهتمام بالحفاظ عليها. بعض الثمار اتغطت بالشمع أو اتحفظت بالفورمالدهيد. واضح إن خطة التخزين دي مش بتاعة درج الفاكهة! والفورمالدهيد هنا مادة حفظ تاريخية، مش اقتراح للأكل طبعًا. [C4]\n\nوالموضوع خرج من حدود الهدية: المانجا ظهرت في الدعاية، وعلى قطع تذكارية، وفي احتفالات وموكب اليوم الوطني سنة 1968. أرشيف الملصقات بيحتفظ كمان بملصق من أبريل 1969 فيه ناس شايلة طبق مانجا. [C5، C6]\n\nالمفارقة مضحكة، لكن الفترة نفسها شهدت عنفًا وقمعًا؛ الضحك هنا على تضخيم رمز سياسي، مش على الناس اللي عاشت الظروف دي. ومش كل تفاصيل الحكاية متفق عليها: عدد الثمار واسم الوزير مختلفان بين بعض المصادر، عشان كده ما حددناش عددًا، واستخدمنا صفته الرسمية. [C7]\n\nوعشان محدش يفهمنا غلط: دي حكاية المانجا في الصين، مش تاريخ وصفة Fruit City. عندنا المانجا موجودة في المنيو باسمها وكودها PJ01. الحكاية للتذوق… والعصير للشرب.\n\nFruit City — كل عصير وراه حكاية.",
+      "title": "ملف المانجا — الصين 1968",
+      "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+      "cta": "Fruit City — كل عصير وراه حكاية.",
+      "hashtags": [
+        "FruitCity",
+        "أرشيف_الفواكه"
+      ],
+      "seo": {
+        "title": "ملف المانجا — الصين 1968",
+        "description": "هدية دبلوماسية من المانجا تتحول إلى رمز سياسي خلال الثورة الثقافية في الصين.",
+        "canonicalUrl": null,
+        "menuItemIds": [
+          "PJ01"
+        ],
+        "relatedEpisodeIds": []
+      },
+      "approvalStatus": "needs-review",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "scenes": [],
+      "slides": []
+    }
+  ],
+  "exports": [],
+  "performance": [],
+  "history": [
+    {
+      "revision": 1,
+      "timestamp": "2026-10-25T19:53:27.375Z",
+      "action": "create"
+    },
+    {
+      "revision": 2,
+      "timestamp": "2026-10-25T19:54:44.813Z",
+      "action": "save"
+    },
+    {
+      "revision": 3,
+      "timestamp": "2026-10-25T19:57:01.724Z",
+      "action": "save"
+    },
+    {
+      "revision": 4,
+      "timestamp": "2026-10-25T19:58:05.949Z",
+      "action": "save"
+    },
+    {
+      "revision": 5,
+      "timestamp": "2026-10-25T19:59:05.847Z",
+      "action": "save"
+    }
+  ],
+  "approval": null
+}

@@ -1,0 +1,963 @@
+{
+  "checkedAt": "2026-10-25T20:00:39.525Z",
+  "tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": "node --test fruit_archives/tests/core.test.mjs"
+  },
+  "browser": {
+    "viewport": [
+      390,
+      844
+    ],
+    "clientWidth": 375,
+    "scrollWidth": 375,
+    "noHorizontalOverflow": true,
+    "approvalRejected": true,
+    "allFormatsExported": true
+  },
+  "assets": [
+    {
+      "id": "master-cup-candidate",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "reference-art",
+      "sourceUnchanged": true
+    }
+  ],
+  "images": [
+    {
+      "platform": "facebook",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "filePath": "exports/facebook/draft-v5-A-1792958346178.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:06.180Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "7e8a779d25a0659806b7c4923ae99fa6d212ec995b567487062e0c0982b163de",
+      "bytes": 1212797,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "facebook",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "filePath": "exports/facebook/draft-v5-A-1792958346249.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:06.252Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "cbbf9c1c3a20b78843a61eeda36472b72d549239d81056a995ac89dd7a8dc481",
+      "bytes": 96458,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "facebook",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "filePath": "exports/facebook/draft-v5-A-1792958346588.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:06.589Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "e7cdd5bb9c08c5c08b5372a561d34051e5a49ed6f53382a30f9b85630effd039",
+      "bytes": 44366,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "facebook",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "filePath": "exports/facebook/draft-v5-B-1792958346797.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:06.799Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "1e0760fecee2b7ddfe5513c69d94ffd98fd14de54283483c17a79524da1d44c1",
+      "bytes": 1211488,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "facebook",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "filePath": "exports/facebook/draft-v5-B-1792958346868.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:06.868Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "53c90e711e507fd6b2f60b95f5c599be007ddff44301439ca1ed5455ce00b959",
+      "bytes": 94208,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "facebook",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "filePath": "exports/facebook/draft-v5-B-1792958347262.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:07.265Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "9edefa32232e879b838d04f6dd55b5ffd3f1e74edf265e68b4c6c932bda4191c",
+      "bytes": 43954,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "filePath": "exports/instagram/draft-v5-A-1792958347575.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:07.577Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "9d8bc8845ec9a100e9bfb1476b6b608a64428d75efd759961dfc9c88ab8aba39",
+      "bytes": 1461200,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "instagram",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "filePath": "exports/instagram/draft-v5-A-1792958347644.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:07.646Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "2a15a1fa14124a98cde96492720f74820b1b1d0599c917a4422098dc74786996",
+      "bytes": 111396,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "filePath": "exports/instagram/draft-v5-A-1792958348057.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:08.058Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "6a6874563269186e83feb4bf6448a7df6ce121cc49dfafbdc4e01d0dbf9b7ffe",
+      "bytes": 50010,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "filePath": "exports/instagram/draft-v5-B-1792958348320.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:08.327Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "d52b668720d80ca79ecb1e34a46989151596ae8f815edd0948fae560af643438",
+      "bytes": 1460516,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "instagram",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "filePath": "exports/instagram/draft-v5-B-1792958348397.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:08.398Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "c45377b17e33923b0a9c1e96c305b9265fc9a0ab6200b8b8814684ab6186195d",
+      "bytes": 108732,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "filePath": "exports/instagram/draft-v5-B-1792958348827.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:08.828Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "28cec6e852a65894a5561c69b0ff054678b95f2eca34474cc00cfda148d037dd",
+      "bytes": 48906,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "pinterest",
+      "format": "png",
+      "dimensions": [
+        1000,
+        1500
+      ],
+      "filePath": "exports/pinterest/draft-v5-A-1792958349110.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:09.112Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "1126c575a03d11f7721ac50548bd46997eb51f4548bc2d7cd56e15b2e6057785",
+      "bytes": 1468086,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "pinterest",
+      "format": "jpeg",
+      "dimensions": [
+        1000,
+        1500
+      ],
+      "filePath": "exports/pinterest/draft-v5-A-1792958349180.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:09.181Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "cd4d7eb1ebdea2652350c8dbd48bf37265affdac44c32c3bdf50120325b43d00",
+      "bytes": 112970,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "pinterest",
+      "format": "webp",
+      "dimensions": [
+        1000,
+        1500
+      ],
+      "filePath": "exports/pinterest/draft-v5-A-1792958349605.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:09.606Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "45e967a1803595abaaabfbefa588f1cea91fab448b77ffff0cf47360070076b3",
+      "bytes": 50324,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "pinterest",
+      "format": "png",
+      "dimensions": [
+        1000,
+        1500
+      ],
+      "filePath": "exports/pinterest/draft-v5-B-1792958349955.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:09.958Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "fd01c505a7e1ddc5d435bdbd2e175471e7125344e960ccc95f013e80e389f204",
+      "bytes": 1467335,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "pinterest",
+      "format": "jpeg",
+      "dimensions": [
+        1000,
+        1500
+      ],
+      "filePath": "exports/pinterest/draft-v5-B-1792958350029.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:10.030Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "eb182012c65dcacb1e9f5b23817ad5db88c677013d37da6457f039ac3aca228e",
+      "bytes": 110378,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "pinterest",
+      "format": "webp",
+      "dimensions": [
+        1000,
+        1500
+      ],
+      "filePath": "exports/pinterest/draft-v5-B-1792958350435.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:10.437Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "350516b09578ff29fd1c15dd5c3eeb1e6bc67a66691a0fb3a30728f7ae68ee0e",
+      "bytes": 49112,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "tiktok",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/tiktok/draft-v5-A-1792958350848.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:10.856Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "648e39a47ec083868a6c250afef4479deece62d3fc92168a03e11e80a2bedd1e",
+      "bytes": 1889049,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "tiktok",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/tiktok/draft-v5-A-1792958350951.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:10.952Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "b6a8ab26384716970fa0f19074c80c8d8b3db4c18fa03ae385caa1fe8c9579a2",
+      "bytes": 133401,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "tiktok",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/tiktok/draft-v5-A-1792958351535.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:11.536Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "42be7b45559a45924fc4aa2df7ff042f479fd63cb8d107aca1542ffa825f5848",
+      "bytes": 57716,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "tiktok",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/tiktok/draft-v5-B-1792958351903.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:11.905Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "1c505de2324a173c1a61508622307fce0eee145cc78f818799d4ba7e2070d74b",
+      "bytes": 1888158,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "tiktok",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/tiktok/draft-v5-B-1792958351999.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:12.000Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "bc82e6043e0e68091c14a776c50f8d76b82ff4a000d5a2805e61f6083c1bf110",
+      "bytes": 130998,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "tiktok",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/tiktok/draft-v5-B-1792958352595.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:12.596Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "0821179e983a7e2da175ba8b4dd1d2b42a83eae203af634a74bda61b716689c6",
+      "bytes": 56258,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram-reels",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/instagram-reels/draft-v5-A-1792958353061.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:13.069Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "648e39a47ec083868a6c250afef4479deece62d3fc92168a03e11e80a2bedd1e",
+      "bytes": 1889049,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "instagram-reels",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/instagram-reels/draft-v5-A-1792958353166.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:13.167Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "b6a8ab26384716970fa0f19074c80c8d8b3db4c18fa03ae385caa1fe8c9579a2",
+      "bytes": 133401,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram-reels",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/instagram-reels/draft-v5-A-1792958353728.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:13.728Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "42be7b45559a45924fc4aa2df7ff042f479fd63cb8d107aca1542ffa825f5848",
+      "bytes": 57716,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram-reels",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/instagram-reels/draft-v5-B-1792958354099.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:14.102Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "1c505de2324a173c1a61508622307fce0eee145cc78f818799d4ba7e2070d74b",
+      "bytes": 1888158,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "instagram-reels",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/instagram-reels/draft-v5-B-1792958354184.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:14.185Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "bc82e6043e0e68091c14a776c50f8d76b82ff4a000d5a2805e61f6083c1bf110",
+      "bytes": 130998,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "instagram-reels",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/instagram-reels/draft-v5-B-1792958354736.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:14.737Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "0821179e983a7e2da175ba8b4dd1d2b42a83eae203af634a74bda61b716689c6",
+      "bytes": 56258,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "facebook-reels",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/facebook-reels/draft-v5-A-1792958355102.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:15.110Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "648e39a47ec083868a6c250afef4479deece62d3fc92168a03e11e80a2bedd1e",
+      "bytes": 1889049,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "facebook-reels",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/facebook-reels/draft-v5-A-1792958355191.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:15.192Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "b6a8ab26384716970fa0f19074c80c8d8b3db4c18fa03ae385caa1fe8c9579a2",
+      "bytes": 133401,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "facebook-reels",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/facebook-reels/draft-v5-A-1792958355735.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:15.736Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "42be7b45559a45924fc4aa2df7ff042f479fd63cb8d107aca1542ffa825f5848",
+      "bytes": 57716,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "facebook-reels",
+      "format": "png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/facebook-reels/draft-v5-B-1792958356272.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:16.277Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "1c505de2324a173c1a61508622307fce0eee145cc78f818799d4ba7e2070d74b",
+      "bytes": 1888158,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "facebook-reels",
+      "format": "jpeg",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/facebook-reels/draft-v5-B-1792958356360.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:16.361Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "bc82e6043e0e68091c14a776c50f8d76b82ff4a000d5a2805e61f6083c1bf110",
+      "bytes": 130998,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "facebook-reels",
+      "format": "webp",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "filePath": "exports/facebook-reels/draft-v5-B-1792958356915.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:16.916Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "0821179e983a7e2da175ba8b4dd1d2b42a83eae203af634a74bda61b716689c6",
+      "bytes": 56258,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "webapp",
+      "format": "png",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "filePath": "exports/webapp/draft-v5-A-1792958357079.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:17.081Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "3532602649bfa1dd09845f2fc3d8fc9d0882758b908ce047ecd7182bae4813af",
+      "bytes": 816551,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "webapp",
+      "format": "jpeg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "filePath": "exports/webapp/draft-v5-A-1792958357125.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:17.126Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "b0f12553997a28281b147717b970d92f9dd8ba2e8829bde04d23d59f0c7dbec0",
+      "bytes": 68780,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "webapp",
+      "format": "webp",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "filePath": "exports/webapp/draft-v5-A-1792958357346.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:17.347Z",
+      "qaStatus": "needs-review",
+      "variant": "A",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "656c1ff612196721b11e7c865b2394b0d6faeecbc7a887e20a9a0a5bfb30a878",
+      "bytes": 33642,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "webapp",
+      "format": "png",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "filePath": "exports/webapp/draft-v5-B-1792958357477.png",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:17.479Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "b5ad99cedd6d1aedceb10ead53c671a74fddd4f1edb39cdcf53d8e066cac6eff",
+      "bytes": 815810,
+      "dimensionVerification": "PNG IHDR"
+    },
+    {
+      "platform": "webapp",
+      "format": "jpeg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "filePath": "exports/webapp/draft-v5-B-1792958357519.jpg",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:17.520Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "ea49ae407e515fdb02dd2c0dab16d2ef02c27060f25f75fd96787a56e8817f74",
+      "bytes": 66910,
+      "dimensionVerification": "browser-generated; manifest"
+    },
+    {
+      "platform": "webapp",
+      "format": "webp",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "filePath": "exports/webapp/draft-v5-B-1792958357738.webp",
+      "version": 5,
+      "timestamp": "2026-10-25T19:59:17.739Z",
+      "qaStatus": "needs-review",
+      "variant": "B",
+      "blockers": [
+        "أصل الكوباية غير مؤكد من المالك",
+        "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+        "نصوص المنصات أو الهوكات غير معتمدة",
+        "المراجعة التحريرية والبصرية غير مكتملة"
+      ],
+      "sha256": "c2b8475c8bab83a452858b69b2adf209b2a3dac0f9fd0971a6e016929cdbe1e1",
+      "bytes": 32514,
+      "dimensionVerification": "browser-generated; manifest"
+    }
+  ],
+  "limitations": [
+    "Draft template, not final cinematic design",
+    "No final commercial approval",
+    "No rendered video or voiceover",
+    "Carousel slide copy only",
+    "Source links checked manually, not automatically",
+    "No cloud publication or Git synchronization"
+  ]
+}

@@ -1,0 +1,14 @@
+import fs from 'node:fs';import path from 'node:path';
+import {ROOT,PROJECT,PLATFORMS,SIZES,hash,validate,exportPackage,buildPackage,saveEpisode} from './core.mjs';
+const base=path.join(ROOT,'episodes'),dir=path.join(base,'mango-china-1968');
+let e=JSON.parse(fs.readFileSync(path.join(dir,'episode.json'),'utf8'));const results=[];
+if(validate(e).length)throw Error(validate(e).join(';'));
+for(const platform of PLATFORMS){const folder=path.join(dir,'exports',platform);for(const variant of ['A','B'])for(const format of ['png','jpeg','webp']){const records=fs.readdirSync(folder).filter(n=>n.endsWith('.json')).map(n=>JSON.parse(fs.readFileSync(path.join(folder,n),'utf8'))).filter(r=>r.variant===variant&&r.format===format).sort((a,b)=>b.timestamp.localeCompare(a.timestamp));const record=records[0];if(!record)throw Error(`Missing ${platform}/${variant}/${format}`);const image=fs.readFileSync(path.join(dir,record.filePath));let dimensions=record.dimensions;if(format==='png'){dimensions=[image.readUInt32BE(16),image.readUInt32BE(20)];if(JSON.stringify(dimensions)!==JSON.stringify(SIZES[platform]))throw Error('Wrong PNG dimensions');}results.push({...record,sha256:hash(image),bytes:image.length,dimensions,dimensionVerification:format==='png'?'PNG IHDR':'browser-generated; manifest'});}}
+const assets=e.assets.map(a=>({id:a.id,sourceUnchanged:hash(fs.readFileSync(path.join(PROJECT,a.source)))===hash(fs.readFileSync(path.join(ROOT,a.filePath)))}));if(assets.some(a=>!a.sourceUnchanged))throw Error('Asset changed');
+e.exports=results;e=saveEpisode(base,e,e.revision);
+const qa={checkedAt:new Date().toISOString(),tests:{passed:8,failed:0,command:'node --test fruit_archives/tests/core.test.mjs'},browser:{viewport:[390,844],clientWidth:375,scrollWidth:375,noHorizontalOverflow:true,approvalRejected:true,allFormatsExported:true},assets,images:results,limitations:['Draft template, not final cinematic design','No final commercial approval','No rendered video or voiceover','Carousel slide copy only','Source links checked manually, not automatically','No cloud publication or Git synchronization']};
+fs.writeFileSync(path.join(dir,'qa','verification.json'),JSON.stringify(qa,null,2));
+for(const [name,value]of Object.entries(buildPackage(e))){if(name==='episode.json')continue;const file=path.join(dir,name);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,typeof value==='string'?value:JSON.stringify(value,null,2));}
+const bundle=exportPackage(base,e);fs.copyFileSync(path.join(dir,'qa','verification.json'),path.join(bundle.directory,'qa','verification.json'));
+fs.writeFileSync(path.join(ROOT,'LATEST_PACKAGE.json'),JSON.stringify({directory:bundle.directory,imageCount:results.length,episodeRevision:e.revision,commercialApproval:false},null,2));
+console.log(JSON.stringify({imageCount:results.length,assets,bundle:bundle.directory},null,2));

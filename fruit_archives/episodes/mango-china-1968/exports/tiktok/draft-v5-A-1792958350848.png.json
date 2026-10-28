@@ -1,0 +1,19 @@
+{
+  "platform": "tiktok",
+  "format": "png",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "filePath": "exports/tiktok/draft-v5-A-1792958350848.png",
+  "version": 5,
+  "timestamp": "2026-10-25T19:59:10.856Z",
+  "qaStatus": "needs-review",
+  "variant": "A",
+  "blockers": [
+    "أصل الكوباية غير مؤكد من المالك",
+    "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+    "نصوص المنصات أو الهوكات غير معتمدة",
+    "المراجعة التحريرية والبصرية غير مكتملة"
+  ]
+}

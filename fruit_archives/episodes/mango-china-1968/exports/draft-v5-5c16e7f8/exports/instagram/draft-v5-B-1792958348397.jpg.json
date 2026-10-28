@@ -1,0 +1,19 @@
+{
+  "platform": "instagram",
+  "format": "jpeg",
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "filePath": "exports/instagram/draft-v5-B-1792958348397.jpg",
+  "version": 5,
+  "timestamp": "2026-10-25T19:59:08.398Z",
+  "qaStatus": "needs-review",
+  "variant": "B",
+  "blockers": [
+    "أصل الكوباية غير مؤكد من المالك",
+    "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+    "نصوص المنصات أو الهوكات غير معتمدة",
+    "المراجعة التحريرية والبصرية غير مكتملة"
+  ]
+}

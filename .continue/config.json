@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "title": "DeepSeek-V3",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "apiKey": "sk-91dcefa2118c482981e97d243bb3cc4d",
+      "apiBase": "https://api.deepseek.com"
+    },
+    {
+      "title": "DeepSeek-R1",
+      "provider": "deepseek",
+      "model": "deepseek-reasoner",
+      "apiKey": "sk-91dcefa2118c482981e97d243bb3cc4d",
+      "apiBase": "https://api.deepseek.com"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "DeepSeek Coder Autocomplete",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "apiKey": "sk-91dcefa2118c482981e97d243bb3cc4d",
+    "apiBase": "https://api.deepseek.com"
+  }
+}

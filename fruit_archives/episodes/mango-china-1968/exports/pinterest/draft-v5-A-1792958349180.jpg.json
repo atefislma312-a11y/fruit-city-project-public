@@ -1,0 +1,19 @@
+{
+  "platform": "pinterest",
+  "format": "jpeg",
+  "dimensions": [
+    1000,
+    1500
+  ],
+  "filePath": "exports/pinterest/draft-v5-A-1792958349180.jpg",
+  "version": 5,
+  "timestamp": "2026-10-25T19:59:09.181Z",
+  "qaStatus": "needs-review",
+  "variant": "A",
+  "blockers": [
+    "أصل الكوباية غير مؤكد من المالك",
+    "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+    "نصوص المنصات أو الهوكات غير معتمدة",
+    "المراجعة التحريرية والبصرية غير مكتملة"
+  ]
+}

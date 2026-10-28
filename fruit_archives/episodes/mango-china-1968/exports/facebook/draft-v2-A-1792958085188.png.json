@@ -1,0 +1,19 @@
+{
+  "platform": "facebook",
+  "format": "png",
+  "dimensions": [
+    1080,
+    1080
+  ],
+  "filePath": "exports/facebook/draft-v2-A-1792958085188.png",
+  "version": 2,
+  "timestamp": "2026-10-25T19:54:45.198Z",
+  "qaStatus": "needs-review",
+  "variant": "A",
+  "blockers": [
+    "أصل الكوباية غير مؤكد من المالك",
+    "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+    "نصوص المنصات أو الهوكات غير معتمدة",
+    "المراجعة التحريرية والبصرية غير مكتملة"
+  ]
+}

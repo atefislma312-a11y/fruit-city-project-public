@@ -1,0 +1,3541 @@
+{
+  "scannedAt": "2026-10-25T20:02:03.130Z",
+  "scope": "جرد أسماء و أحجام؛ قراءة محتوى الملفات ذات الصلة فقط. استبعاد الأسرار وقواعد البيانات والاعتماديات وروابط الملفات.",
+  "files": [
+    {
+      "path": ".gemini/rules/AGENTS.md",
+      "bytes": 1168,
+      "extension": ".md"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 304,
+      "extension": ""
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/China-1968-editable.svg",
+      "bytes": 15373818,
+      "extension": ".svg"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/China-1968-layered.ora",
+      "bytes": 18536672,
+      "extension": ".ora"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/China-1968-review.png",
+      "bytes": 6901617,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/episode.json",
+      "bytes": 408,
+      "extension": ".json"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/event-template.html",
+      "bytes": 15375151,
+      "extension": ".html"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/Fruit-Archives-China-1968.zip",
+      "bytes": 48155560,
+      "extension": ".zip"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/READ-ME-AR.md",
+      "bytes": 4212,
+      "extension": ".md"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs/supplied-sources.md",
+      "bytes": 6865,
+      "extension": ".md"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/assembled.png",
+      "bytes": 5680371,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/build.cjs",
+      "bytes": 4356,
+      "extension": ".cjs"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/editorial.png",
+      "bytes": 103497,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/exhibit.jpg",
+      "bytes": 383696,
+      "extension": ".jpg"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/inspect.py",
+      "bytes": 604,
+      "extension": ".py"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/layers-review.jpg",
+      "bytes": 55796,
+      "extension": ".jpg"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/package.py",
+      "bytes": 1157,
+      "extension": ".py"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/01_BACKGROUND_SKY_PALETTE.png",
+      "bytes": 379337,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/02_LANDMARK_PHOTO__changeable.png",
+      "bytes": 2508880,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/03_CROWD_PHOTO__changeable.png",
+      "bytes": 4469393,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/04_TABLE_WOOD.png",
+      "bytes": 1809909,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/05_WALL_MAP__changeable.png",
+      "bytes": 721473,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/06_TITLE_TEXT__changeable.png",
+      "bytes": 47377,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/07_EXHIBIT_PHOTO__changeable.png",
+      "bytes": 141561,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/08_STAMP_GRAPHIC__changeable.png",
+      "bytes": 56823,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/09_MAP_PIECE_TABLE.png",
+      "bytes": 454149,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/10_STORY_CARD__changeable.png",
+      "bytes": 139496,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/11_CUP_SHADOW.png",
+      "bytes": 51385,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/12_CUP_LOCKED_BRAND.png",
+      "bytes": 669320,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/13_FRUIT__changeable.png",
+      "bytes": 282897,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/layers/14_LIGHT_FX.png",
+      "bytes": 40106,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-2/work/template/README.txt",
+      "bytes": 2269,
+      "extension": ".txt"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/outputs/China-1968-review.png",
+      "bytes": 5530961,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/outputs/cup-reference.png",
+      "bytes": 1144876,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/html-readable.txt",
+      "bytes": 3852,
+      "extension": ".txt"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/00.png",
+      "bytes": 379337,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/01.png",
+      "bytes": 2508880,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/02.png",
+      "bytes": 4469393,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/03.png",
+      "bytes": 1809909,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/04.png",
+      "bytes": 721473,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/05.png",
+      "bytes": 141561,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/06.png",
+      "bytes": 454149,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/07.png",
+      "bytes": 51385,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/08.png",
+      "bytes": 669320,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/09.png",
+      "bytes": 282897,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/10.png",
+      "bytes": 40106,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/data/11.png",
+      "bytes": 103497,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/mergedimage.png",
+      "bytes": 6901617,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/mimetype",
+      "bytes": 16,
+      "extension": ""
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/ora/stack.xml",
+      "bytes": 1642,
+      "extension": ".xml"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/package/China-1968-editable.svg",
+      "bytes": 15373818,
+      "extension": ".svg"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/package/China-1968-layered.ora",
+      "bytes": 18536672,
+      "extension": ".ora"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/package/China-1968-review.png",
+      "bytes": 6901617,
+      "extension": ".png"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/package/episode.json",
+      "bytes": 408,
+      "extension": ".json"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/package/event-template.html",
+      "bytes": 15375151,
+      "extension": ".html"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/package/READ-ME-AR.md",
+      "bytes": 4212,
+      "extension": ".md"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/package/supplied-sources.md",
+      "bytes": 6865,
+      "extension": ".md"
+    },
+    {
+      "path": "2026-10-25/referenced-chatgpt-conversation-this-is-an-3/work/recomposed.png",
+      "bytes": 5533009,
+      "extension": ".png"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3467,
+      "extension": ".md"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/admin/adminControlHandler.js",
+      "bytes": 66225,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/purchases/invoice_engine.js",
+      "bytes": 18580,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/.admin_bot.lock",
+      "bytes": 5,
+      "extension": ".lock"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/.admin_bot_state.json",
+      "bytes": 55,
+      "extension": ".json"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/action_registry.js",
+      "bytes": 27128,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/admin_bot.js",
+      "bytes": 109507,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/Code.gs",
+      "bytes": 39106,
+      "extension": ".gs"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/confirmation_manager.js",
+      "bytes": 6495,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/contracts.json",
+      "bytes": 10438,
+      "extension": ".json"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/FCCloudIntake.gs",
+      "bytes": 40302,
+      "extension": ".gs"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/gemini_nlu.js",
+      "bytes": 8574,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/ingestHandler.js",
+      "bytes": 19234,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/nlu_engine.js",
+      "bytes": 34958,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/README.md",
+      "bytes": 13452,
+      "extension": ".md"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/reports.js",
+      "bytes": 24174,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/setup_bot.js",
+      "bytes": 5550,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/setup_dialog.hta",
+      "bytes": 7907,
+      "extension": ".hta"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/voice_transcription.js",
+      "bytes": 17984,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/integrations/telegram/worker.py",
+      "bytes": 14631,
+      "extension": ".py"
+    },
+    {
+      "path": "development/pos_inventory_repair/orderRules.js",
+      "bytes": 1666,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/orderRules.test.js",
+      "bytes": 1583,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/package-lock.json",
+      "bytes": 156260,
+      "extension": ".json"
+    },
+    {
+      "path": "development/pos_inventory_repair/package.json",
+      "bytes": 926,
+      "extension": ".json"
+    },
+    {
+      "path": "development/pos_inventory_repair/server.js",
+      "bytes": 48640,
+      "extension": ".js"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/App.tsx",
+      "bytes": 6043,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/approvals/ApprovalsCenter.tsx",
+      "bytes": 17830,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/auth/FirstRunOwnerSetupModal.tsx",
+      "bytes": 7578,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/common/DataOnboardingWizard.tsx",
+      "bytes": 8532,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/common/Toast.tsx",
+      "bytes": 624,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/dashboard/KpiCards.tsx",
+      "bytes": 5547,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/dashboard/ProfitabilityTable.tsx",
+      "bytes": 17518,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/dashboard/SubHeader.tsx",
+      "bytes": 1370,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/expenses/OperatingBudget.tsx",
+      "bytes": 15527,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/ingredients/IngredientManager.tsx",
+      "bytes": 25040,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/layout/Header.tsx",
+      "bytes": 6959,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/payments/PaymentFeeManager.tsx",
+      "bytes": 24813,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/pos/CustomerReceiptModal.tsx",
+      "bytes": 11038,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/pos/PaymentModal.tsx",
+      "bytes": 15825,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/pos/PosTerminal.tsx",
+      "bytes": 37281,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/pos/PreparationTicketModal.tsx",
+      "bytes": 9688,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/pos/RefundModal.tsx",
+      "bytes": 11453,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/products/ProductList.tsx",
+      "bytes": 9743,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/purchases/InvoiceEditor.tsx",
+      "bytes": 40395,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/purchases/InvoiceHistory.tsx",
+      "bytes": 21964,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/purchases/PrintInvoiceModal.tsx",
+      "bytes": 11068,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/purchases/PurchaseManager.tsx",
+      "bytes": 4713,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/recipes/RecipeBuilderModal.tsx",
+      "bytes": 27346,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/reports/FinancialReports.tsx",
+      "bytes": 13733,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/settings/SettingsView.tsx",
+      "bytes": 10682,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/components/shifts/ShiftManager.tsx",
+      "bytes": 25220,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/context/AppContext.tsx",
+      "bytes": 70097,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/data/initialData.ts",
+      "bytes": 31020,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/data/storage.ts",
+      "bytes": 15122,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/approvalEngine.ts",
+      "bytes": 7048,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/costingEngine.test.ts",
+      "bytes": 7943,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/costingEngine.ts",
+      "bytes": 7453,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/paymentFeeEngine.ts",
+      "bytes": 7479,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/posAndApprovals.test.ts",
+      "bytes": 14117,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/posEngine.ts",
+      "bytes": 6239,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/purchaseEngine.test.ts",
+      "bytes": 7576,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/purchaseEngine.ts",
+      "bytes": 7983,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/engine/shiftEngine.ts",
+      "bytes": 4140,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/index.css",
+      "bytes": 600,
+      "extension": ".css"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/main.tsx",
+      "bytes": 341,
+      "extension": ".tsx"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/services/apiClient.ts",
+      "bytes": 3402,
+      "extension": ".ts"
+    },
+    {
+      "path": "development/pos_inventory_repair/src/types/index.ts",
+      "bytes": 14338,
+      "extension": ".ts"
+    },
+    {
+      "path": "docs/menu/menu_items.json",
+      "bytes": 126069,
+      "extension": ".json"
+    },
+    {
+      "path": "docs/menu/New Text Document.txt",
+      "bytes": 0,
+      "extension": ".txt"
+    },
+    {
+      "path": "docs/menu/OFFICIAL_MENU.md",
+      "bytes": 24129,
+      "extension": ".md"
+    },
+    {
+      "path": "docs/menu/README.md",
+      "bytes": 6731,
+      "extension": ".md"
+    },
+    {
+      "path": "docs/security/.meta_token",
+      "bytes": 247,
+      "extension": ""
+    },
+    {
+      "path": "docs/security/DIGITAL_ASSETS_VAULT.md",
+      "bytes": 7663,
+      "extension": ".md"
+    },
+    {
+      "path": "docs/security/README.md",
+      "bytes": 285,
+      "extension": ".md"
+    },
+    {
+      "path": "docs/store/README.md",
+      "bytes": 1125,
+      "extension": ".md"
+    },
+    {
+      "path": "docs/store/STORE_PROFILE.md",
+      "bytes": 8751,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/.gitignore",
+      "bytes": 20,
+      "extension": ""
+    },
+    {
+      "path": "fruit_archives/assets/china-1968-reference.png",
+      "bytes": 5530961,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/assets/cup-reference.png",
+      "bytes": 1144876,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/audit/FINDINGS.md",
+      "bytes": 4759,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/audit/inventory.json",
+      "bytes": 41336,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/audit.mjs",
+      "bytes": 1110,
+      "extension": ".mjs"
+    },
+    {
+      "path": "fruit_archives/core.mjs",
+      "bytes": 12004,
+      "extension": ".mjs"
+    },
+    {
+      "path": "fruit_archives/DELIVERY.md",
+      "bytes": 3449,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/assets/manifest.json",
+      "bytes": 1805,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/facebook-reels.json",
+      "bytes": 2562,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/facebook.json",
+      "bytes": 1708,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/instagram-reels.json",
+      "bytes": 2543,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/instagram.json",
+      "bytes": 2307,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/master-story.md",
+      "bytes": 2400,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/pinterest.json",
+      "bytes": 1253,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/tiktok.json",
+      "bytes": 2629,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/copy/webapp.json",
+      "bytes": 3414,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/design/design.json",
+      "bytes": 710,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/episode.json",
+      "bytes": 67678,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/assets/china-1968-reference.png",
+      "bytes": 5530961,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/assets/cup-reference.png",
+      "bytes": 1144876,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/assets/manifest.json",
+      "bytes": 1805,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/facebook-reels.json",
+      "bytes": 2562,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/facebook.json",
+      "bytes": 1708,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/instagram-reels.json",
+      "bytes": 2543,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/instagram.json",
+      "bytes": 2307,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/master-story.md",
+      "bytes": 2400,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/pinterest.json",
+      "bytes": 1253,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/tiktok.json",
+      "bytes": 2629,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/copy/webapp.json",
+      "bytes": 3414,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/design/design.json",
+      "bytes": 710,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/design/render.js",
+      "bytes": 2739,
+      "extension": ".js"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/design/REPRODUCE.md",
+      "bytes": 258,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/episode.json",
+      "bytes": 33446,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-A-1792958346178.png",
+      "bytes": 1212797,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-A-1792958346178.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-A-1792958346249.jpg",
+      "bytes": 96458,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-A-1792958346249.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-A-1792958346588.webp",
+      "bytes": 44366,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-A-1792958346588.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-B-1792958346797.png",
+      "bytes": 1211488,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-B-1792958346797.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-B-1792958346868.jpg",
+      "bytes": 94208,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-B-1792958346868.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-B-1792958347262.webp",
+      "bytes": 43954,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/draft-v5-B-1792958347262.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook/facebook-copy.md",
+      "bytes": 933,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-A-1792958355102.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-A-1792958355102.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-A-1792958355191.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-A-1792958355191.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-A-1792958355735.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-A-1792958355735.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-B-1792958356272.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-B-1792958356272.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-B-1792958356360.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-B-1792958356360.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-B-1792958356915.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/facebook-reels/draft-v5-B-1792958356915.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-A-1792958347575.png",
+      "bytes": 1461200,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-A-1792958347575.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-A-1792958347644.jpg",
+      "bytes": 111396,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-A-1792958347644.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-A-1792958348057.webp",
+      "bytes": 50010,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-A-1792958348057.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-B-1792958348320.png",
+      "bytes": 1460516,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-B-1792958348320.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-B-1792958348397.jpg",
+      "bytes": 108732,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-B-1792958348397.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-B-1792958348827.webp",
+      "bytes": 48906,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/draft-v5-B-1792958348827.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram/instagram-copy.md",
+      "bytes": 557,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-A-1792958353061.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-A-1792958353061.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-A-1792958353166.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-A-1792958353166.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-A-1792958353728.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-A-1792958353728.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-B-1792958354099.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-B-1792958354099.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-B-1792958354184.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-B-1792958354184.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-B-1792958354736.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/instagram-reels/draft-v5-B-1792958354736.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-A-1792958349110.png",
+      "bytes": 1468086,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-A-1792958349110.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-A-1792958349180.jpg",
+      "bytes": 112970,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-A-1792958349180.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-A-1792958349605.webp",
+      "bytes": 50324,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-A-1792958349605.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-B-1792958349955.png",
+      "bytes": 1467335,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-B-1792958349955.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-B-1792958350029.jpg",
+      "bytes": 110378,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-B-1792958350029.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-B-1792958350435.webp",
+      "bytes": 49112,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/draft-v5-B-1792958350435.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/pinterest/pinterest-copy.md",
+      "bytes": 516,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/reels/facebook-reels-copy.md",
+      "bytes": 558,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/reels/instagram-reels-copy.md",
+      "bytes": 543,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-A-1792958350848.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-A-1792958350848.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-A-1792958350951.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-A-1792958350951.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-A-1792958351535.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-A-1792958351535.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-B-1792958351903.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-B-1792958351903.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-B-1792958351999.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-B-1792958351999.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-B-1792958352595.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/draft-v5-B-1792958352595.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/tiktok/tiktok-copy.md",
+      "bytes": 639,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-A-1792958357079.png",
+      "bytes": 816551,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-A-1792958357079.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-A-1792958357125.jpg",
+      "bytes": 68780,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-A-1792958357125.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-A-1792958357346.webp",
+      "bytes": 33642,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-A-1792958357346.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-B-1792958357477.png",
+      "bytes": 815810,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-B-1792958357477.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-B-1792958357519.jpg",
+      "bytes": 66910,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-B-1792958357519.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-B-1792958357738.webp",
+      "bytes": 32514,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/draft-v5-B-1792958357738.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/exports/webapp/webapp-copy.md",
+      "bytes": 2603,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/qa/report.json",
+      "bytes": 606,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/qa/verification.json",
+      "bytes": 34969,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/README.md",
+      "bytes": 491,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/research/claims.json",
+      "bytes": 3047,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/research/review.json",
+      "bytes": 606,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/sources/sources.json",
+      "bytes": 5010,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v5-5c16e7f8/webapp/article.html",
+      "bytes": 4434,
+      "extension": ".html"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/assets/china-1968-reference.png",
+      "bytes": 5530961,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/assets/cup-reference.png",
+      "bytes": 1144876,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/assets/manifest.json",
+      "bytes": 1805,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/facebook-reels.json",
+      "bytes": 2562,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/facebook.json",
+      "bytes": 1708,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/instagram-reels.json",
+      "bytes": 2543,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/instagram.json",
+      "bytes": 2307,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/master-story.md",
+      "bytes": 2400,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/pinterest.json",
+      "bytes": 1253,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/tiktok.json",
+      "bytes": 2629,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/copy/webapp.json",
+      "bytes": 3414,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/design/design.json",
+      "bytes": 710,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/design/render.js",
+      "bytes": 2739,
+      "extension": ".js"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/design/REPRODUCE.md",
+      "bytes": 258,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/episode.json",
+      "bytes": 67678,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-A-1792958346178.png",
+      "bytes": 1212797,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-A-1792958346178.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-A-1792958346249.jpg",
+      "bytes": 96458,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-A-1792958346249.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-A-1792958346588.webp",
+      "bytes": 44366,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-A-1792958346588.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-B-1792958346797.png",
+      "bytes": 1211488,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-B-1792958346797.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-B-1792958346868.jpg",
+      "bytes": 94208,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-B-1792958346868.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-B-1792958347262.webp",
+      "bytes": 43954,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/draft-v5-B-1792958347262.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook/facebook-copy.md",
+      "bytes": 933,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-A-1792958355102.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-A-1792958355102.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-A-1792958355191.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-A-1792958355191.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-A-1792958355735.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-A-1792958355735.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-B-1792958356272.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-B-1792958356272.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-B-1792958356360.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-B-1792958356360.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-B-1792958356915.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/facebook-reels/draft-v5-B-1792958356915.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-A-1792958347575.png",
+      "bytes": 1461200,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-A-1792958347575.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-A-1792958347644.jpg",
+      "bytes": 111396,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-A-1792958347644.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-A-1792958348057.webp",
+      "bytes": 50010,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-A-1792958348057.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-B-1792958348320.png",
+      "bytes": 1460516,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-B-1792958348320.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-B-1792958348397.jpg",
+      "bytes": 108732,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-B-1792958348397.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-B-1792958348827.webp",
+      "bytes": 48906,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/draft-v5-B-1792958348827.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram/instagram-copy.md",
+      "bytes": 557,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-A-1792958353061.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-A-1792958353061.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-A-1792958353166.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-A-1792958353166.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-A-1792958353728.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-A-1792958353728.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-B-1792958354099.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-B-1792958354099.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-B-1792958354184.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-B-1792958354184.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-B-1792958354736.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/instagram-reels/draft-v5-B-1792958354736.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-A-1792958349110.png",
+      "bytes": 1468086,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-A-1792958349110.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-A-1792958349180.jpg",
+      "bytes": 112970,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-A-1792958349180.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-A-1792958349605.webp",
+      "bytes": 50324,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-A-1792958349605.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-B-1792958349955.png",
+      "bytes": 1467335,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-B-1792958349955.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-B-1792958350029.jpg",
+      "bytes": 110378,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-B-1792958350029.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-B-1792958350435.webp",
+      "bytes": 49112,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/draft-v5-B-1792958350435.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/pinterest/pinterest-copy.md",
+      "bytes": 516,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/reels/facebook-reels-copy.md",
+      "bytes": 558,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/reels/instagram-reels-copy.md",
+      "bytes": 543,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-A-1792958350848.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-A-1792958350848.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-A-1792958350951.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-A-1792958350951.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-A-1792958351535.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-A-1792958351535.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-B-1792958351903.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-B-1792958351903.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-B-1792958351999.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-B-1792958351999.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-B-1792958352595.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/draft-v5-B-1792958352595.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/tiktok/tiktok-copy.md",
+      "bytes": 639,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-A-1792958357079.png",
+      "bytes": 816551,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-A-1792958357079.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-A-1792958357125.jpg",
+      "bytes": 68780,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-A-1792958357125.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-A-1792958357346.webp",
+      "bytes": 33642,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-A-1792958357346.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-B-1792958357477.png",
+      "bytes": 815810,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-B-1792958357477.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-B-1792958357519.jpg",
+      "bytes": 66910,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-B-1792958357519.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-B-1792958357738.webp",
+      "bytes": 32514,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/draft-v5-B-1792958357738.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/exports/webapp/webapp-copy.md",
+      "bytes": 2603,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/qa/report.json",
+      "bytes": 606,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/qa/verification.json",
+      "bytes": 34969,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/README.md",
+      "bytes": 491,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/research/claims.json",
+      "bytes": 3047,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/research/review.json",
+      "bytes": 606,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/sources/sources.json",
+      "bytes": 5010,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/draft-v6-7fa1d7ae/webapp/article.html",
+      "bytes": 4434,
+      "extension": ".html"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-A-1792958085188.png",
+      "bytes": 1212187,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-A-1792958085188.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-A-1792958085291.jpg",
+      "bytes": 97080,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-A-1792958085291.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-A-1792958085643.webp",
+      "bytes": 45318,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-A-1792958085643.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-B-1792958085816.png",
+      "bytes": 1212120,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-B-1792958085816.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-B-1792958085858.jpg",
+      "bytes": 94779,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-B-1792958085858.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-B-1792958086163.webp",
+      "bytes": 43356,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v2-B-1792958086163.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-A-1792958222331.png",
+      "bytes": 1212187,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-A-1792958222331.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-A-1792958222507.jpg",
+      "bytes": 97080,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-A-1792958222507.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-A-1792958222865.webp",
+      "bytes": 45318,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-A-1792958222865.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-B-1792958223203.png",
+      "bytes": 1212120,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-B-1792958223203.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-B-1792958223284.jpg",
+      "bytes": 94779,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-B-1792958223284.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-B-1792958223629.webp",
+      "bytes": 43356,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v3-B-1792958223629.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-A-1792958346178.png",
+      "bytes": 1212797,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-A-1792958346178.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-A-1792958346249.jpg",
+      "bytes": 96458,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-A-1792958346249.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-A-1792958346588.webp",
+      "bytes": 44366,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-A-1792958346588.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-B-1792958346797.png",
+      "bytes": 1211488,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-B-1792958346797.png.json",
+      "bytes": 568,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-B-1792958346868.jpg",
+      "bytes": 94208,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-B-1792958346868.jpg.json",
+      "bytes": 569,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-B-1792958347262.webp",
+      "bytes": 43954,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/draft-v5-B-1792958347262.webp.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook/facebook-copy.md",
+      "bytes": 933,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-A-1792958233365.png",
+      "bytes": 1888418,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-A-1792958233365.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-A-1792958233460.jpg",
+      "bytes": 133769,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-A-1792958233460.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-A-1792958234057.webp",
+      "bytes": 57838,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-A-1792958234057.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-B-1792958234727.png",
+      "bytes": 1887517,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-B-1792958234727.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-B-1792958234925.jpg",
+      "bytes": 131288,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-B-1792958234925.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-B-1792958235544.webp",
+      "bytes": 56482,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v3-B-1792958235544.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-A-1792958355102.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-A-1792958355102.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-A-1792958355191.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-A-1792958355191.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-A-1792958355735.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-A-1792958355735.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-B-1792958356272.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-B-1792958356272.png.json",
+      "bytes": 580,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-B-1792958356360.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-B-1792958356360.jpg.json",
+      "bytes": 581,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-B-1792958356915.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/facebook-reels/draft-v5-B-1792958356915.webp.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-A-1792958223930.png",
+      "bytes": 1461451,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-A-1792958223930.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-A-1792958224099.jpg",
+      "bytes": 111450,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-A-1792958224099.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-A-1792958224524.webp",
+      "bytes": 50248,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-A-1792958224524.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-B-1792958224839.png",
+      "bytes": 1460657,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-B-1792958224839.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-B-1792958224918.jpg",
+      "bytes": 108883,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-B-1792958224918.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-B-1792958225332.webp",
+      "bytes": 48896,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v3-B-1792958225332.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-A-1792958347575.png",
+      "bytes": 1461200,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-A-1792958347575.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-A-1792958347644.jpg",
+      "bytes": 111396,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-A-1792958347644.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-A-1792958348057.webp",
+      "bytes": 50010,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-A-1792958348057.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-B-1792958348320.png",
+      "bytes": 1460516,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-B-1792958348320.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-B-1792958348397.jpg",
+      "bytes": 108732,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-B-1792958348397.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-B-1792958348827.webp",
+      "bytes": 48906,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/draft-v5-B-1792958348827.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram/instagram-copy.md",
+      "bytes": 557,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-A-1792958231037.png",
+      "bytes": 1888418,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-A-1792958231037.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-A-1792958231130.jpg",
+      "bytes": 133769,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-A-1792958231130.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-A-1792958231804.webp",
+      "bytes": 57838,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-A-1792958231804.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-B-1792958232222.png",
+      "bytes": 1887517,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-B-1792958232222.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-B-1792958232311.jpg",
+      "bytes": 131288,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-B-1792958232311.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-B-1792958232915.webp",
+      "bytes": 56482,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v3-B-1792958232915.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-A-1792958353061.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-A-1792958353061.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-A-1792958353166.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-A-1792958353166.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-A-1792958353728.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-A-1792958353728.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-B-1792958354099.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-B-1792958354099.png.json",
+      "bytes": 582,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-B-1792958354184.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-B-1792958354184.jpg.json",
+      "bytes": 583,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-B-1792958354736.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/instagram-reels/draft-v5-B-1792958354736.webp.json",
+      "bytes": 584,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-A-1792958225773.png",
+      "bytes": 1467794,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-A-1792958225773.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-A-1792958225927.jpg",
+      "bytes": 112443,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-A-1792958225927.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-A-1792958226447.webp",
+      "bytes": 50352,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-A-1792958226447.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-B-1792958227060.png",
+      "bytes": 1467707,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-B-1792958227060.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-B-1792958227184.jpg",
+      "bytes": 110430,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-B-1792958227184.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-B-1792958227686.webp",
+      "bytes": 49158,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v3-B-1792958227686.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-A-1792958349110.png",
+      "bytes": 1468086,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-A-1792958349110.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-A-1792958349180.jpg",
+      "bytes": 112970,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-A-1792958349180.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-A-1792958349605.webp",
+      "bytes": 50324,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-A-1792958349605.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-B-1792958349955.png",
+      "bytes": 1467335,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-B-1792958349955.png.json",
+      "bytes": 570,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-B-1792958350029.jpg",
+      "bytes": 110378,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-B-1792958350029.jpg.json",
+      "bytes": 571,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-B-1792958350435.webp",
+      "bytes": 49112,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/draft-v5-B-1792958350435.webp.json",
+      "bytes": 572,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/pinterest/pinterest-copy.md",
+      "bytes": 516,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/reels/facebook-reels-copy.md",
+      "bytes": 558,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/reels/instagram-reels-copy.md",
+      "bytes": 543,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-A-1792958228464.png",
+      "bytes": 1888418,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-A-1792958228464.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-A-1792958228637.jpg",
+      "bytes": 133769,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-A-1792958228637.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-A-1792958229470.webp",
+      "bytes": 57838,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-A-1792958229470.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-B-1792958229846.png",
+      "bytes": 1887517,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-B-1792958229846.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-B-1792958229932.jpg",
+      "bytes": 131288,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-B-1792958229932.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-B-1792958230534.webp",
+      "bytes": 56482,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v3-B-1792958230534.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-A-1792958350848.png",
+      "bytes": 1889049,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-A-1792958350848.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-A-1792958350951.jpg",
+      "bytes": 133401,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-A-1792958350951.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-A-1792958351535.webp",
+      "bytes": 57716,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-A-1792958351535.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-B-1792958351903.png",
+      "bytes": 1888158,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-B-1792958351903.png.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-B-1792958351999.jpg",
+      "bytes": 130998,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-B-1792958351999.jpg.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-B-1792958352595.webp",
+      "bytes": 56258,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/draft-v5-B-1792958352595.webp.json",
+      "bytes": 566,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/tiktok/tiktok-copy.md",
+      "bytes": 639,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-A-1792958235884.png",
+      "bytes": 816091,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-A-1792958235884.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-A-1792958235987.jpg",
+      "bytes": 71083,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-A-1792958235987.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-A-1792958236260.webp",
+      "bytes": 34292,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-A-1792958236260.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-B-1792958236419.png",
+      "bytes": 814423,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-B-1792958236419.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-B-1792958236462.jpg",
+      "bytes": 72601,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-B-1792958236462.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-B-1792958236708.webp",
+      "bytes": 35200,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v3-B-1792958236708.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-A-1792958357079.png",
+      "bytes": 816551,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-A-1792958357079.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-A-1792958357125.jpg",
+      "bytes": 68780,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-A-1792958357125.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-A-1792958357346.webp",
+      "bytes": 33642,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-A-1792958357346.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-B-1792958357477.png",
+      "bytes": 815810,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-B-1792958357477.png.json",
+      "bytes": 563,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-B-1792958357519.jpg",
+      "bytes": 66910,
+      "extension": ".jpg"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-B-1792958357519.jpg.json",
+      "bytes": 564,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-B-1792958357738.webp",
+      "bytes": 32514,
+      "extension": ".webp"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/draft-v5-B-1792958357738.webp.json",
+      "bytes": 565,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/exports/webapp/webapp-copy.md",
+      "bytes": 2603,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/qa/report.json",
+      "bytes": 606,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/qa/verification.json",
+      "bytes": 34969,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/README.md",
+      "bytes": 491,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/research/claims.json",
+      "bytes": 3047,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/research/review.json",
+      "bytes": 606,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/sources/sources.json",
+      "bytes": 5010,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/versions/v1.json",
+      "bytes": 33030,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/versions/v2.json",
+      "bytes": 33134,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/versions/v3.json",
+      "bytes": 33238,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/versions/v4.json",
+      "bytes": 33342,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/versions/v5.json",
+      "bytes": 33446,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/episodes/mango-china-1968/webapp/article.html",
+      "bytes": 4434,
+      "extension": ".html"
+    },
+    {
+      "path": "fruit_archives/LATEST_PACKAGE.json",
+      "bytes": 190,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/package.json",
+      "bytes": 230,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/public/app.js",
+      "bytes": 6828,
+      "extension": ".js"
+    },
+    {
+      "path": "fruit_archives/public/index.html",
+      "bytes": 4382,
+      "extension": ".html"
+    },
+    {
+      "path": "fruit_archives/public/render.js",
+      "bytes": 2739,
+      "extension": ".js"
+    },
+    {
+      "path": "fruit_archives/public/style.css",
+      "bytes": 2276,
+      "extension": ".css"
+    },
+    {
+      "path": "fruit_archives/qa/studio-review.png",
+      "bytes": 92391,
+      "extension": ".png"
+    },
+    {
+      "path": "fruit_archives/README.md",
+      "bytes": 6381,
+      "extension": ".md"
+    },
+    {
+      "path": "fruit_archives/seed.mjs",
+      "bytes": 15892,
+      "extension": ".mjs"
+    },
+    {
+      "path": "fruit_archives/server.mjs",
+      "bytes": 5251,
+      "extension": ".mjs"
+    },
+    {
+      "path": "fruit_archives/templates/episode-template.json",
+      "bytes": 1004,
+      "extension": ".json"
+    },
+    {
+      "path": "fruit_archives/tests/core.test.mjs",
+      "bytes": 4807,
+      "extension": ".mjs"
+    },
+    {
+      "path": "fruit_archives/verify.mjs",
+      "bytes": 2882,
+      "extension": ".mjs"
+    },
+    {
+      "path": "PROJECT_MASTER_SUMMARY.md",
+      "bytes": 6650,
+      "extension": ".md"
+    },
+    {
+      "path": "sync_github.ps1",
+      "bytes": 3730,
+      "extension": ".ps1"
+    },
+    {
+      "path": "web_app/app_code/index.html",
+      "bytes": 347,
+      "extension": ".html"
+    },
+    {
+      "path": "web_app/app_code/mobile-preview.png",
+      "bytes": 34711,
+      "extension": ".png"
+    },
+    {
+      "path": "web_app/app_code/package-lock.json",
+      "bytes": 26528,
+      "extension": ".json"
+    },
+    {
+      "path": "web_app/app_code/package.json",
+      "bytes": 297,
+      "extension": ".json"
+    },
+    {
+      "path": "web_app/app_code/README.md",
+      "bytes": 2612,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/app_code/src/catalog.js",
+      "bytes": 806,
+      "extension": ".js"
+    },
+    {
+      "path": "web_app/app_code/src/Checkout.jsx",
+      "bytes": 5920,
+      "extension": ".jsx"
+    },
+    {
+      "path": "web_app/app_code/src/main.jsx",
+      "bytes": 9940,
+      "extension": ".jsx"
+    },
+    {
+      "path": "web_app/app_code/src/order.js",
+      "bytes": 1063,
+      "extension": ".js"
+    },
+    {
+      "path": "web_app/app_code/src/style.css",
+      "bytes": 9989,
+      "extension": ".css"
+    },
+    {
+      "path": "web_app/app_code/tests/order.test.js",
+      "bytes": 1448,
+      "extension": ".js"
+    },
+    {
+      "path": "web_app/app_code/vite.config.js",
+      "bytes": 245,
+      "extension": ".js"
+    },
+    {
+      "path": "web_app/app_code/wifi-preview-error.log",
+      "bytes": 0,
+      "extension": ".log"
+    },
+    {
+      "path": "web_app/app_code/wifi-preview.log",
+      "bytes": 83,
+      "extension": ".log"
+    },
+    {
+      "path": "web_app/catalog/RAW_FRUITS_CATALOG.md",
+      "bytes": 4238,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/catalog/raw_fruits_inventory.json",
+      "bytes": 3196,
+      "extension": ".json"
+    },
+    {
+      "path": "web_app/catalog/README.md",
+      "bytes": 994,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/catalog/WEB_APP_FULL_CATALOG.md",
+      "bytes": 7208,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/catalog/web_app_full_inventory.json",
+      "bytes": 146634,
+      "extension": ".json"
+    },
+    {
+      "path": "web_app/COMPATIBILITY_AUDIT_2026-10-24.md",
+      "bytes": 8530,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/DIGITAL_STORE_INTERNAL_PLAN.md",
+      "bytes": 9846,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/HOSTING_STATUS.md",
+      "bytes": 1160,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/images/README.md",
+      "bytes": 951,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/images/sample_prod_avocado_nuts_honey.jpg",
+      "bytes": 901985,
+      "extension": ".jpg"
+    },
+    {
+      "path": "web_app/images/sample_prod_kiwi_fresh.jpg",
+      "bytes": 741892,
+      "extension": ".jpg"
+    },
+    {
+      "path": "web_app/images/sample_prod_mango_zebda_pure.jpg",
+      "bytes": 293313,
+      "extension": ".jpg"
+    },
+    {
+      "path": "web_app/menu-preview-package.zip",
+      "bytes": 1973988,
+      "extension": ".zip"
+    },
+    {
+      "path": "web_app/menu-site-deploy.tar.gz",
+      "bytes": 1973555,
+      "extension": ".gz"
+    },
+    {
+      "path": "web_app/OPERATING_REQUIREMENTS.md",
+      "bytes": 9217,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/order_sandbox/bridge.mjs",
+      "bytes": 2711,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/bridge.test.mjs",
+      "bytes": 6676,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/catalog.mjs",
+      "bytes": 1970,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/catalog.test.mjs",
+      "bytes": 2513,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/checkout-test.png",
+      "bytes": 43613,
+      "extension": ".png"
+    },
+    {
+      "path": "web_app/order_sandbox/customer.mjs",
+      "bytes": 443,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/customer.test.mjs",
+      "bytes": 1636,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/delivery.mjs",
+      "bytes": 846,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/delivery.test.mjs",
+      "bytes": 667,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/dev.mjs",
+      "bytes": 953,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/http.mjs",
+      "bytes": 3137,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/intake.mjs",
+      "bytes": 6114,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/intake.test.mjs",
+      "bytes": 6007,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/operating-config.json",
+      "bytes": 942,
+      "extension": ".json"
+    },
+    {
+      "path": "web_app/order_sandbox/pos-bridge.mjs",
+      "bytes": 12100,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/pos-feed.mjs",
+      "bytes": 1773,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/pos-feed.test.mjs",
+      "bytes": 2020,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/pos-fixture.mjs",
+      "bytes": 5577,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/pos-identifiers.json",
+      "bytes": 11034,
+      "extension": ".json"
+    },
+    {
+      "path": "web_app/order_sandbox/README.md",
+      "bytes": 9886,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/order_sandbox/receiver.mjs",
+      "bytes": 1667,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/receiver.test.mjs",
+      "bytes": 1853,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/service.mjs",
+      "bytes": 3735,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/service.test.mjs",
+      "bytes": 3374,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/workflow.mjs",
+      "bytes": 7537,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/order_sandbox/workflow.test.mjs",
+      "bytes": 4748,
+      "extension": ".mjs"
+    },
+    {
+      "path": "web_app/qr/menu-public.png",
+      "bytes": 11659,
+      "extension": ".png"
+    },
+    {
+      "path": "web_app/qr/menu-public.svg",
+      "bytes": 4039,
+      "extension": ".svg"
+    },
+    {
+      "path": "web_app/qr/published-cart-check.png",
+      "bytes": 18785,
+      "extension": ".png"
+    },
+    {
+      "path": "web_app/README.md",
+      "bytes": 2735,
+      "extension": ".md"
+    },
+    {
+      "path": "web_app/site_preview/.openai/hosting.json",
+      "bytes": 106,
+      "extension": ".json"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/CANVA_AUTOMATION_MANIFESTO.md",
+      "bytes": 5934,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/ISLAM_DESIGN_STORY_AND_CANVA_SPEC.md",
+      "bytes": 8220,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/README.md",
+      "bytes": 2909,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/اللوجو/fruit_city_logo.jpg",
+      "bytes": 266702,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/اللوجو/Gemini_Generated_Image_4zfdl34zfdl34zfd.jpg",
+      "bytes": 266702,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/صورة فكرة التصميم/بوستر_المانجو_التاريخي_الواقعي_للمبيعات.jpg",
+      "bytes": 751701,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/صورة فكرة التصميم/بوستر_قصة_الافوكادو_1914.jpg",
+      "bytes": 901985,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/brand_story_and_canva/صورة فكرة التصميم/من هدية المانجو إلى رمز.png",
+      "bytes": 2962876,
+      "extension": ".png"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/content/MANGO_1968_STORY_POST.md",
+      "bytes": 1647,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/content/OFFICIAL_LAUNCH_POST.md",
+      "bytes": 2128,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/carousel_ads/README.md",
+      "bytes": 1026,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/carousel_ads/sample_card1_mango1968.jpg",
+      "bytes": 751701,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/carousel_ads/sample_card2_avocado1914.jpg",
+      "bytes": 901985,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/carousel_ads/sample_card3_kiwi_special.jpg",
+      "bytes": 741892,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/cover_banner/fruit_city_cover_1640x924.jpg",
+      "bytes": 51193,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/cover_banner/README.md",
+      "bytes": 1276,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/cover_banner/sample_fb_cover_banner.jpg",
+      "bytes": 998322,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/posts/README.md",
+      "bytes": 1142,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/posts/sample_fb_post_avocado1914.jpg",
+      "bytes": 901985,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/posts/sample_fb_square_post_mango1968.jpg",
+      "bytes": 751701,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/profile_logo/fruit_city_profile_1000x1000.jpg",
+      "bytes": 59695,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/profile_logo/README.md",
+      "bytes": 1114,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/profile_logo/sample_fb_profile_logo.jpg",
+      "bytes": 266702,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/stories_reels/README.md",
+      "bytes": 931,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/images/stories_reels/sample_fb_story_reels_mango.jpg",
+      "bytes": 1188996,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/facebook/README.md",
+      "bytes": 3359,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/google_maps/GOOGLE_MAPS_OPTIMIZATION_GUIDE.md",
+      "bytes": 6391,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/google_maps/README.md",
+      "bytes": 376,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/feed_portrait/README.md",
+      "bytes": 1086,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/feed_portrait/sample_ig_portrait_avocado1914.jpg",
+      "bytes": 901985,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/feed_portrait/sample_ig_portrait_mango1968.jpg",
+      "bytes": 751701,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/feed_square/README.md",
+      "bytes": 715,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/feed_square/sample_ig_feed_square_real_cup.jpg",
+      "bytes": 293313,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/highlights/README.md",
+      "bytes": 1082,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/highlights/sample_highlight_fresh_menu.jpg",
+      "bytes": 293313,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/highlights/sample_highlight_offers.jpg",
+      "bytes": 751701,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/profile_photo/README.md",
+      "bytes": 817,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/profile_photo/sample_ig_profile_photo.jpg",
+      "bytes": 266702,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/reels_stories/README.md",
+      "bytes": 1045,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/images/reels_stories/sample_ig_reel_story_9x16.jpg",
+      "bytes": 1188996,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/instagram/README.md",
+      "bytes": 3024,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/README.md",
+      "bytes": 2483,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/SOCIAL_MEDIA_MISSION_AND_SOP.md",
+      "bytes": 11135,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/images/header_banner/README.md",
+      "bytes": 808,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/images/header_banner/sample_x_header_banner_1500x500.jpg",
+      "bytes": 998322,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/images/profile_avatar/README.md",
+      "bytes": 667,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/images/profile_avatar/sample_x_avatar_400x400.jpg",
+      "bytes": 266702,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/images/timeline_posts/README.md",
+      "bytes": 1122,
+      "extension": ".md"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/images/timeline_posts/sample_x_post_square_1080x1080.jpg",
+      "bytes": 751701,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/images/timeline_posts/sample_x_timeline_post_1200x675.jpg",
+      "bytes": 998322,
+      "extension": ".jpg"
+    },
+    {
+      "path": "التسويق والسوشيال ميديا/twitter_x/README.md",
+      "bytes": 2416,
+      "extension": ".md"
+    },
+    {
+      "path": "تحديث_جيت_هاب.bat",
+      "bytes": 212,
+      "extension": ".bat"
+    },
+    {
+      "path": "محادثاتي مع نماذج الذكاء الاصطناعي/AI_GOVERNANCE.md",
+      "bytes": 51125,
+      "extension": ".md"
+    },
+    {
+      "path": "محادثاتي مع نماذج الذكاء الاصطناعي/PROJECT_MASTER_SUMMARY.md",
+      "bytes": 41571,
+      "extension": ".md"
+    }
+  ]
+}

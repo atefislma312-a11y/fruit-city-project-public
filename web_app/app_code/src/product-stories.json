@@ -2,28 +2,647 @@
   "PJ01": {
     "sku": "PJ01",
     "approved": true,
-    "fr": {
-      "title": "Ces mangues vénérées et immortalisées en statues en 1968",
-      "paragraphs": [
-        "En août 1968, le ministre des Affaires étrangères du Pakistan offrit une caisse de mangues au dirigeant chinois Mao Zedong. Celui-ci les envoya aux ouvriers des usines de Pékin comme cadeau symbolique. Ces fruits devinrent soudain des reliques sacrées : des répliques en cire furent portées sur des coussins de velours rouge lors de défilés, et des vols spéciaux transportèrent leurs bienfaits supposés.",
-        "Lorsqu’une des mangues commença à se gâter, on la fit bouillir dans une immense marmite d’eau. Des milliers d’ouvriers firent la queue pour en boire une seule cuillerée en guise de bénédiction. Cet épisode reste l’un des exemples les plus étonnants de vénération d’un fruit.",
-        "Chez Fruit City, nous vous proposons la mangue naturelle dans toute sa richesse : une texture de purée veloutée, riche en fibres naturelles, une couleur ambrée chaleureuse et une saveur intense, fraîchement préparée et rafraîchie."
-      ]
-    },
-    "en": {
-      "title": "The mangoes worshipped and immortalised in statues in 1968",
-      "paragraphs": [
-        "In August 1968, Pakistan's foreign minister presented a crate of mangoes to Chinese leader Mao Zedong, who sent them to factory workers in Beijing as a symbolic gift. The fruit suddenly became a sacred relic: wax replicas were carried on red velvet cushions in street processions, and special flights transported their blessings.",
-        "When one of the mangoes began to spoil, it was boiled in a huge pot of water. Thousands of workers queued to drink a single spoonful of mango water as a blessing. It became one of history's most extraordinary examples of fruit worship.",
-        "At Fruit City, we serve natural mango with all its regal richness: a velvety puree texture full of natural mango fibre, a warm amber colour and concentrated flavour, freshly blended and chilled."
-      ]
-    },
-    "image": "/stories/PJ01.jpg",
+    "image": "/stories/PJ01.webp",
     "title": "مانجا حقيقية عبدوها وعملولها تماثيل سنة 1968",
     "paragraphs": [
       "في أغسطس 1968، أهدى وزير خارجية باكستان قفص مانجو للزعيم الصيني ماو تسي تونغ، فأرسله لعمال المصانع في بكين كهدية رمزية. تحولت الفاكهة فجأة إلى أثر مقدس؛ نُحتت لها مجسمات شمعية حُملت على وسائد مخملية حمراء في مسيرات الشوارع، وطافت لها رحلات طيران خاصة لنقل بركتها!",
       "وعندما بدأت إحدى الثمار في التلف، قاموا بغليها في قِدر ماء ضخم، ووقف آلاف العمال في طوابير طويلة ليشرب كل منهم ملعقة واحدة من ماء المانجو للتبرك. من هنا خلد التاريخ أغرب تقديس لفاكهة في العالم.",
-      "في Fruit City، بنقدملك المانجا الطبيعية بكامل هيبتها الملكية: قوام بيوريه مخملي غني بألياف المانجا الطبيعية، بلونها الكهرماني الدافئ وطعمها المركز، معصورة ومثلجة بطاقتها الخام فريش على أصوله."
-    ]
+      "في Fruit City، بنقدملك المانجا الطبيعية بكامل هيبتها الملكية: قوام طبيعي متماسك غني بألياف المانجا الأصلية، بلونها الكهرماني الدافئ وطعمها المركز، معصورة ومثلجة بطاقتها الخام فريش على أصوله."
+    ],
+    "en": {
+      "title": "A Real Mango Worshipped with Statues in 1968",
+      "paragraphs": [
+        "In August 1968, Pakistan's foreign minister gifted a crate of mangoes to Mao Zedong, who forwarded them to Beijing factory workers. The fruit suddenly became a sacred relic; wax replicas were sculpted, paraded on velvet cushions, and flown across China on chartered flights!",
+        "When a mango began to rot, workers boiled it in a giant cauldron, and thousands queued for hours to receive a sacred spoonful of mango water, marking history's most extraordinary fruit veneration.",
+        "At Fruit City, we serve authentic mango in its full royal majesty: rich natural cold-pressed fruit packed with natural mango fibers and warm amber tones, served raw and chilled to perfection."
+      ]
+    }
+  },
+  "PJ02": {
+    "sku": "PJ02",
+    "approved": true,
+    "image": "/stories/PJ02.webp",
+    "title": "إمبراطورية اتدمرت بضربة ساطور في شجر الجوافة",
+    "paragraphs": [
+      "في أواخر القرن التاسع عشر، أقام الديكتاتور الإكوادوري مانويل كوبوس إمبراطورية سكر واستعباد مطلقة في جزيرة سان كريستوبال بأرخبيل غالاباغوس، وأصدر عملته الخاصة وفرض أحكام الإعدام والجلد على العمال.",
+      "في نوفمبر 1904، فاض الكيل بالعمال المستعبدين، فانتفضوا عليه وطاردوه حتى بساتين الجوافة الكثيفة التي زرعها بنفسه، وهناك أسقطوا عرشه بضربة ساطور مباغتة أنهت أعتى دكتاتورية إقطاعية في جزر المحيط الهادئ.",
+      "في Fruit City، بنقدملك عصير الجوافة الطبيعي بقوامه العاجي الكريمي المترف، مع حبيبات الجوافة الرملية الدقيقة الناعمة ورغوة الخلاط الطازجة، لترتشف طاقة الطبيعة النقية فريش على أصوله."
+    ],
+    "en": {
+      "title": "An Empire Toppled by a Machete in the Guava Groves",
+      "paragraphs": [
+        "In the late 19th century, Ecuadorian despot Manuel J. Cobos built a brutal sugar empire on San Cristóbal Island in the Galapagos, issuing private currency and ruling indentured workers with iron cruelty.",
+        "In November 1904, desperate workers revolted, hunting him down into the dense wild guava orchards he had originally planted, where a decisive machete strike brought an abrupt end to the Pacific's harshest island dictatorship.",
+        "At Fruit City, we serve pure guava juice in its luxurious warm ivory-cream texture, micro-gritty natural fruit seed particles, and fresh fresh foam, delivering untamed nature chilled to perfection."
+      ]
+    }
+  },
+  "PJ03": {
+    "sku": "PJ03",
+    "approved": true,
+    "image": "/stories/PJ03.webp",
+    "title": "جاسوس فرنسي سرق الفراولة في سفينة حربية سنة 1714",
+    "paragraphs": [
+      "في عام 1714، أرسل ملك فرنسا لويس الرابع عشر ضابط المخابرات البحرية أميدي-فرانسوا فريزييه في مهمة تجسس عسكرية لرسم حصون وتسلح سواحل تشيلي وبيرو التابعة لإسبانيا.",
+      "تحت ستار أبحاث النبات، وقع الجاسوس في غرام ثمار الفراولة الشيلية البيضاء العملاقة. غامر بحياته وسرق 5 شتلات حية، واقتسم معها حصته المائية الشحيحة طوال رحلة المحيط القاسية لتبصر فرنسا أول شتلات فراولة أصلية تهجن الفراولة الحديثة التي نعرفها اليوم!",
+      "في Fruit City، بنقدملك عصير الفراولة الطبيعي بلونه الوردي القرمزي الترابي الأصيل ونقاط بذور الفراولة الحقيقية العالقة، لتتذوق سر المغامرة الاستكشافية فريش على أصوله."
+    ],
+    "en": {
+      "title": "A French Spy Smuggled Strawberries on a Warship in 1714",
+      "paragraphs": [
+        "In 1714, King Louis XIV sent naval intelligence officer Amédée-François Frézier on an undercover espionage mission to map Spanish fortifications along the Pacific coasts of Chile and Peru.",
+        "Disguised as a botanical traveler, Frézier smuggled five living Chilean strawberry plants aboard his warship, sharing his meager freshwater rations across months at sea to safely deliver the ancestor of modern cultivated strawberries to Europe.",
+        "At Fruit City, we craft raw strawberry juice in its earthy rose-crimson brilliance, dotted with authentic crushed strawberry seeds and delicate froth for a taste of historical exploration."
+      ]
+    }
+  },
+  "PJ04": {
+    "sku": "PJ04",
+    "approved": true,
+    "image": "/stories/PJ04.webp",
+    "title": "برتقالتين أشعلوا حرباً واحتلالاً في أوروبا سنة 1801",
+    "paragraphs": [
+      "في مايو 1801، قاد رئيس الوزراء الإسباني مانويل دي غودوي جيشاً بدعم فرنسي لاجتياح البرتغال في صراع عسكري عُرف تاريخياً باسم «حرب البرتقال».",
+      "أثناء حصار قلعة إلفاش البرتغالية، قطف غودوي برتقالتين من بساتين المدينة وأرسلهما في موكب شرف ملكي عاجل إلى الملكة ماريا لويزا في مدريد برسالة شهيرة تقول إنه قريباً سيمنحها لشبونة كاملة، مسجلاً أغرب رمزية فاكهية في حروب نابليون!",
+      "في Fruit City، بنقدملك عصير البرتقال الطبيعي بلونه الشمسي المشع وألياف اللب الحية المعلقة، معصور بطاقته الحمضية المنعشة ليعيد إليك الحيوية والنشاط فريش على أصوله."
+    ],
+    "en": {
+      "title": "Two Oranges Sparked an Invasion in Europe in 1801",
+      "paragraphs": [
+        "In May 1801, Spanish Prime Minister Manuel de Godoy led an army backed by Napoleon into Portugal in a brief conflict famously christened 'The War of the Oranges'.",
+        "Outside the besieged fortress of Elvas, Godoy plucked two freshly picked oranges and dispatched them by royal courier to Queen Maria Luisa in Madrid with the boast that Lisbon would soon follow, sealing one of history's most eccentric wartime gestures.",
+        "At Fruit City, our fresh-squeezed orange juice radiates in natural sunlit marigold hues, teeming with raw citrus pulp vesicles for a burst of pure historical vitality."
+      ]
+    }
+  },
+  "PJ05": {
+    "sku": "PJ05",
+    "approved": true,
+    "image": "/stories/PJ05.webp",
+    "title": "حبة رمان فرقت بين مملكتين في غرناطة سنة 1492",
+    "paragraphs": [
+      "في مطلع عام 1492، ومع سقوط غرناطة آخر معاقل الأندلس، اتخذ الملكان الكاثوليكيان فرناندو وإيزابيلا ثمرة الرمان شعاراً ملكياً رسمياً للإمبراطورية الإسبانية ونقشوها على التاج والعملات دلالة على اكتمال التوحيد وسقوط المدينة ذات الاسم المشتق من الرمانة.",
+      "كان الملوك يقولون: «كما تحتوي حبة الرمان على مئات الحبيبات تحت قشرة واحدة، كذلك يجب أن توحد هذه الثمرة كل ممالك إيبيريا تحت عرش واحد»، لتصبح الثمرة شاهداً حياً على نهاية حقبة تاريخية بأكملها.",
+      "في Fruit City، بنقدملك عصير الرمان الطبيعي بلونه العنابي الياقوتي العميق ونكهته الآسرة المتوازنة بين الحلاوة والحموضة، معصوراً بنقائه الطبيعي الخالص فريش على أصوله."
+    ],
+    "en": {
+      "title": "A Pomegranate Divided Kingdoms in Granada in 1492",
+      "paragraphs": [
+        "In early 1492, upon the surrender of Granada, Catholic Monarchs Ferdinand and Isabella adopted the pomegranate as their official imperial coat of arms, engraving it onto royal seals and coins to mark the fall of Andalusia.",
+        "Royal chroniclers declared: 'Just as the pomegranate encloses countless ruby arils within a single rind, so shall this crown unite all kingdoms under one sceptre', cementing the fruit as a living emblem of monumental geopolitical transformation.",
+        "At Fruit City, our natural pomegranate juice flows in deep garnet-burgundy splendor, offering a rich, antioxidant-packed harmony of sweet and tart raw arils chilled to perfection."
+      ]
+    }
+  },
+  "PJ06": {
+    "sku": "PJ06",
+    "approved": true,
+    "image": "/stories/PJ06.webp",
+    "title": "المافيا الصقلية اتولدت من بساتين الليمون",
+    "paragraphs": [
+      "في منتصف القرن التاسع عشر، أحدث اكتشاف البحرية البريطانية لقدرة الليمون على علاج داء الإسقربوط طفرة اقتصادية جنونية في صقلية، وأصبحت بساتين الليمون في باليرمو أكثر أراضي زراعية ربحية في أوروبا كلها.",
+      "لحماية هذه الثروة الذهبية من اللصوص والابتزاز، ظهر حراس البساتين المسلحون الذين نظموا أنفسهم سريعاً في عصابات سرية تبتز المزارعين وأصحاب البساتين بالقوة، مثل قضية الدكتور غاسباري غالاتي سنة 1872، لتولد منظمة «كوزا نوسترا» الصقلية من قلب أشجار الليمون!",
+      "في Fruit City، بنقدملك عصير الليمون الطبيعي بلونه الأصفر القشي الغائم المعكر بطبيعته، مليئاً بذرات لب الليمون المنعشة ورغوته الهادئة، ليمنحك انتعاشاً صقلياً أصيلاً فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Sicilian Mafia Was Born in the Lemon Groves",
+      "paragraphs": [
+        "In the 1870s, soaring global demand for lemons to combat maritime scurvy turned Palermo's Conca d'Oro citrus groves into the most lucrative agricultural real estate in Europe.",
+        "To monopolize irrigation canals, harvest transport, and security, armed grove wardens coalesced into shadow syndicates that violently extorted landowners like Dr. Gaspare Galati in 1872, giving birth to Sicily's Cosa Nostra from the fragrance of lemon blossoms.",
+        "At Fruit City, our freshly blended lemon juice features authentic cloudy straw-yellow opacity and micro-citrus pulp cells, delivering a crisp, electrifying Mediterranean awakening."
+      ]
+    }
+  },
+  "PJ07": {
+    "sku": "PJ07",
+    "approved": true,
+    "image": "/stories/PJ07.webp",
+    "title": "5 سنت لبطيخة كلفوا دولة تعويضات بملايين",
+    "paragraphs": [
+      "في 15 أبريل 1856، كان المسافر الأمريكي جاك أوليفر يستعد لركوب قطار بنما المتجه إلى كاليفورنيا للبحث عن الذهب. توقف عند بائع فواكه محلي يُدعى خوسيه مانويل لونا وأخذ شريحة بطيخ ورفض دفع ثمنها البالغ 5 سنتات فقط!",
+      "نشبت مشادة كلامية تطورت إلى اشتباك مسلح دامٍ عُرف في التاريخ باسم «حرب شريحة البطيخ»، وأسفرت عن تدخل عسكري أمريكي وإلزام كولومبيا (التي كانت تتبعها بنما) بدفع تعويضات مالية ضخمة تجاوزت 400 ألف دولار ذهبي (ما يعادل عشرات الملايين اليوم)!",
+      "في Fruit City، بنقدملك عصير البطيخ الطبيعي بلونه المرجاني المائي ونعومة أليافه الطبيعية مع رغوة وردية خفيفة، يروي عطشك ويمنحك انتعاش الصيف فريش على أصوله."
+    ],
+    "en": {
+      "title": "A 5-Cent Watermelon Cost Millions in Treaty Reparations",
+      "paragraphs": [
+        "On April 15, 1856, American traveler Jack Oliver snatched a slice of fresh watermelon from Panamanian street vendor José Manuel Luna near the Panama Railroad station, refusing to pay the 5-cent price tag.",
+        "The ensuing dispute erupted into a city-wide confrontation famously remembered as 'The Watermelon War', triggering US military landing and forcing the Colombian government to pay over $400,000 in gold reparations (tens of millions in today's currency).",
+        "At Fruit City, our raw watermelon juice shines in natural watery coral-red vibrancy, enriched with velvety natural melon pulp and delicate froth to quench your deepest thirst."
+      ]
+    }
+  },
+  "PJ08": {
+    "sku": "PJ08",
+    "approved": true,
+    "image": "/stories/PJ08.webp",
+    "title": "فاكهة شيوعية هربت بهوية مزورة فاحتلت موائد الغرب",
+    "paragraphs": [
+      "حتى خمسينيات القرن العشرين، كانت هذه الثمرة تُعرف حول العالم باسم «عنب الثعلب الصيني» (يانغ تاو). ومع احتدام الحرب الباردة، فرضت الولايات المتحدة وأوروبا حظراً تجارياً وتعريفات جمركية مشددة على الواردات القادمة من الدول الشيوعية.",
+      "للهروب من المقاطعة وفتح أسواق الغرب، اجتمع كبار مصدري نيوزيلندا في يونيو 1959 وقرروا تغيير هوية الثمرة بالكامل؛ فأطلقوا عليها اسم «كيوي» تيمناً بالطائر الوطني الشهير، لتتحول الفاكهة المحظورة بهويتها المزورة إلى معشوقة موائد العالم الغربي!",
+      "في Fruit City، بنقدملك عصير الكيوي الطبيعي بلونه الأخضر الزيتوني العشبي الهادئ، زاخراً بحبيبات بذور الكيوي السوداء المقرمشة وقوامه الرملي الطبيعي فريش على أصوله."
+    ],
+    "en": {
+      "title": "A Communist Fruit That Escaped with a Forged Identity",
+      "paragraphs": [
+        "Until the late 1950s, this fuzzy fruit was internationally traded as the 'Chinese Gooseberry' (Yang Tao). With Cold War anti-communist tensions peaking, western nations slapped heavy tariffs and trade embargoes on goods associated with China.",
+        "In June 1959, New Zealand exporters Turners & Growers ingeniously rebranded the crop as 'Kiwifruit' after their iconic flightless national bird, bypassing Western embargoes and propelling the renamed fruit onto luxury dining tables worldwide.",
+        "At Fruit City, our authentic kiwi juice presents an organic olive-green tone peppered with real black kiwi seeds and naturally textured pulp, serving crisp vitality chilled to perfection."
+      ]
+    }
+  },
+  "PJ09": {
+    "sku": "PJ09",
+    "approved": true,
+    "image": "/stories/PJ09.webp",
+    "title": "أنقذ العالم من هتلر ومات بتفاحة مسمومة",
+    "paragraphs": [
+      "في الحرب العالمية الثانية، قاد عالم الرياضيات والذكاء الاصطناعي البريطاني آلان تورنغ فريق فك الشفرات في «بلتشلي بارك»، ونجح في كسر شفرة آلة «إنجما» الألمانية، وهو الإنجاز الذي أنقذ حياة أكثر من 14 مليون شخص وقصر عمر الحرب سنتين كاملتين.",
+      "لكن في 7 يونيو 1954، عُثر على عبقري فك الشفرات ميتاً في سريره وبجواره تفاحة مقضومة مشبعة بمادة السيانيد السامة، تاركاً وراءه واحداً من أكثر الألغاز المخابراتية والتاريخية غموضاً وتأثيراً في مسار التكنولوجيا والذكاء الاصطناعي الحديث.",
+      "في Fruit City، بنقدملك عصير التفاح الطبيعي المعصور على البارد بلونه الكهرماني العسلي المعكر ورواسبه الطبيعية الفاتحة، ليمنحك الطاقة الذهنية والصفاء فريش على أصوله."
+    ],
+    "en": {
+      "title": "Saved the World from Hitler, Killed by a Poisoned Apple",
+      "paragraphs": [
+        "During World War II, British mathematical genius and computing pioneer Alan Turing led the codebreakers at Bletchley Park to crack Nazi Germany's Enigma cipher, saving an estimated 14 million lives and shortening the war by two years.",
+        "On June 7, 1954, the father of modern computer science and artificial intelligence was found dead with a half-eaten cyanide-laced apple by his bedside, leaving behind one of history's most haunting and influential scientific enigmas.",
+        "At Fruit City, our cold-pressed unfiltered apple juice glows in natural amber-honey clarity with delicate pectin sedimentation, delivering pristine cognitive refreshment."
+      ]
+    }
+  },
+  "PJ10": {
+    "sku": "PJ10",
+    "approved": true,
+    "image": "/stories/PJ10.webp",
+    "title": "أسقطوا مملكة كاملة عشان يحتكروا مزارع الأناناس",
+    "paragraphs": [
+      "في عام 1893، قاد رجل الأعمال الأمريكي سانفورد دول (مؤسس إمبراطورية فاكهة دول الشهيرة) تحالفاً من ملاك مزارع الأناناس وقصب السكر للإطاحة بملكة هاواي الشرعية ليليوكالاني.",
+      "بدعم من قوات المارينز الأمريكية، استولى الانقلابيون على قصر إيولاني الملكي وأعلنوا جمهورية مؤقتة برئاسة دول نفسه، وكل ذلك بهدف إلغاء التعريفات الجمركية الأمريكية على الأناناس المصدر واحتكار تجارته عالمياً!",
+      "في Fruit City، بنقدملك عصير الأناناس الطبيعي بلونه الاستوائي الذهبي المطفي ورغوته الطبيعية الغنية، مع ألياف الأناناس الاستوائية الطازجة فريش على أصوله."
+    ],
+    "en": {
+      "title": "They Toppled a Kingdom to Monopolize Pineapple Plantations",
+      "paragraphs": [
+        "In January 1893, American fruit magnate Sanford Dole (founder of the Dole fruit empire) led a coup d'état of plantation owners against Queen Liliuokalani, the reigning sovereign of the Kingdom of Hawaii.",
+        "Backed by armed US Marines, the plotters stormed Iolani Palace and established a provisional government headed by Dole himself, motivated by a ruthless drive to eliminate tariffs on Hawaiian pineapple and monopolize global trade.",
+        "At Fruit City, our pure raw pineapple juice bursts with tropical golden-yellow energy and micro-fibers, crowned with natural frothy sweetness chilled to perfection."
+      ]
+    }
+  },
+  "PJ11": {
+    "sku": "PJ11",
+    "approved": true,
+    "image": "/stories/PJ11.webp",
+    "title": "فاكهة نجت من الإبادة بملحمة علمية عابرة للمحيطات",
+    "paragraphs": [
+      "في ستينيات القرن التاسع عشر، اجتاحت حشرة «الفيلوكسيرا» المجهرية بساتين العنب في فرنسا وأوروبا، وقضت على أكثر من ثلثي كروم القارة في أكبر كارثة زراعية هددت بانقراض العنب الأوروبي تماماً من الوجود.",
+      "جاء الإنقاذ بفضل ملحمة علمية عابرة للأطلسي؛ حيث اكتشف العلماء أن جذور العنب البري الأمريكي محصنة ضد الحشرة، فتم شحن ملايين الجذور الأمريكية وتطعيم العنب الأوروبي فوقها، لتنجو الفاكهة وتولد سلالات جديدة تملأ موائد اليوم!",
+      "في Fruit City، بنقدملك عصير العنب الطبيعي بلونه القرمزي الياقوتي الداكن ونكهته المعتقة الغنية، معصوراً بنقائه الخام بدون فلاتر فريش على أصوله."
+    ],
+    "en": {
+      "title": "A Fruit Saved from Extinction by Transatlantic Science",
+      "paragraphs": [
+        "In the 1860s, the microscopic Phylloxera aphid devastated vineyards across France and Europe, wiping out two-thirds of the continent's grapevines in an ecological catastrophe that pushed European viticulture to the brink of extinction.",
+        "Salvation arrived through transatlantic botanical diplomacy: scientists discovered that native American wild grape rootstocks were immune to the pest, initiating a massive graft campaign that rescued European grapes and safeguarded the fruit forever.",
+        "At Fruit City, our fresh-pressed dark grape juice delivers deep garnet-burgundy brilliance and natural raw unpasteurized must, offering timeless antioxidant richness."
+      ]
+    }
+  },
+  "PJ12": {
+    "sku": "PJ12",
+    "approved": true,
+    "image": "/stories/PJ12.webp",
+    "title": "اشترت كنتالوبة معفنة من السوق فكسبت الحرب العالمية",
+    "paragraphs": [
+      "في صيف 1943، وأثناء احتدام معارك الحرب العالمية الثانية، كان علماء الحلفاء في مختبر بيوريا بولاية إلينوي يبحثون بيأس عن سلالة فطرية قادرة على إنتاج البنسلين بكميات صناعية لإنقاذ الجنود الجرحى.",
+      "خرجت فنية المختبر ماري هانت («ماري المتعفنة») إلى أسواق المدينة واشترت ثمرة كنتالوب متعفنة يعلوها فطر ذهبي. عندما حللوها، اكتشفوا أنها تنتج بنسلين أكثر بـ 200 ضعف من سلالة ألكسندر فليمنغ الأصلية، لتصبح الكنتالوبة سبباً في إنقاذ ملايين الأرواح وحسم الحرب!",
+      "في Fruit City، بنقدملك عصير الكنتالوب الطبيعي بلونه الأخضر المائي الكريمي الهادئ وقوامه الطبيعي المنعش، يمنحك ترطيباً فائقاً فريش على أصوله."
+    ],
+    "en": {
+      "title": "Bought a Moldy Cantaloupe and Won World War II",
+      "paragraphs": [
+        "In the summer of 1943, Allied military researchers at the Peoria laboratory in Illinois searched desperately for a mold strain capable of mass-producing penicillin to treat wounded soldiers during World War II.",
+        "Laboratory technician Mary Hunt ('Moldy Mary') scoured local grocery markets and bought an ordinary overripe cantaloupe covered in golden-green mold. It proved to produce 200 times more penicillin than Fleming's original strain, turning a humble melon into a war-winning wonder.",
+        "At Fruit City, our freshly blended cantaloupe juice flows in soothing pastel-green velvet, packed with electrolyte hydration and delicate natural melon sweetness."
+      ]
+    }
+  },
+  "PJ13": {
+    "sku": "PJ13",
+    "approved": true,
+    "image": "/stories/PJ13.webp",
+    "title": "ضربوها بالإشعاع الذري عشان يحلو طعمها",
+    "paragraphs": [
+      "في خمسينيات القرن العشرين، انطلقت في الولايات المتحدة أبحاث «الحدائق الذرية» ضمن برنامج الذرة من أجل السلام، حيث وضع العلماء براعم الجريب فروت في حلقات دائرية تحيط بقضبان الكوبالت-60 المشعة في مختبر بروكهافن الوطني.",
+      "أدت الطفرات الناتجة عن الإشعاع إلى ترويض المرارة الشديدة للفاكهة، وولادة سلالة «ريو ريد» ذات اللب الياقوتي الأحمر الفاتن والمذاق السكري اللذيذ، لتتحول الفاكهة الذرية إلى الصنف الأكثر مبيعاً في العالم!",
+      "في Fruit City، بنقدملك عصير الجريب فروت الطبيعي بلونه الوردي الياقوتي الخفيف وقوامه السلس مع ذرات اللب الطبيعية، يمنحك انتعاشاً حمضياً راقياً ومتوازناً فريش على أصوله."
+    ],
+    "en": {
+      "title": "Bombarded with Nuclear Radiation for Better Taste",
+      "paragraphs": [
+        "In the late 1950s, under the Cold War 'Atoms for Peace' initiative, scientists at Brookhaven National Laboratory placed grapefruit saplings around radioactive Cobalt-60 sources in experimental gamma radiation fields.",
+        "The targeted atomic mutations tamed the fruit's harsh bitter compounds and gave rise to the celebrated 'Rio Red' ruby grapefruit — naturally sweeter, seedless, and brilliantly crimson, transforming radiation science into breakfast perfection.",
+        "At Fruit City, our raw grapefruit juice features a light ruby-pink blush and fluid viscosity, balancing sharp citrus zest with natural ruby pulp for sophisticated refreshment."
+      ]
+    }
+  },
+  "PJ14": {
+    "sku": "PJ14",
+    "approved": true,
+    "image": "/stories/PJ14.webp",
+    "title": "3 ساعات حولت مزرعة الخوخ لمقبرة جماعية",
+    "paragraphs": [
+      "في ظهيرة 2 يوليو 1863، شهدت مزرعة خوخ شيرفي في معركة جيتيسبرغ أعنف وأشرس قتال دموي في تاريخ الحرب الأهلية الأمريكية، حيث تحولت الأشجار المثمرة بالخوخ الناضج إلى مركز إبادة مدفعية مروعة.",
+      "خلال 3 ساعات فقط من القصف المتبادل والقتال المتلاحم، سقط أكثر من 4000 جندي بين أشجار الخوخ، وسُجلت المزرعة في السجلات العسكرية كرمز للتضحية والشجاعة الأسطورية التي غيرت مصير الأمة الأمريكية.",
+      "في Fruit City، بنقدملك عصير الخوخ الطبيعي بلونه البرتقالي الدافئ وقوامه الغني بألياف الخوخ الطازجة، ليروي حواسك بطاقة صيفية مبهجة فريش على أصوله."
+    ],
+    "en": {
+      "title": "Three Hours Turned the Peach Orchard into a Mass Grave",
+      "paragraphs": [
+        "On the sweltering afternoon of July 2, 1863, the Sherfy Peach Orchard at the Battle of Gettysburg became the vortex of the fiercest clash in the American Civil War.",
+        "In three devastating hours of artillery barrages and bayonet charges, over 4,000 casualties fell beneath the ripening fruit trees, engraving the blood-soaked peach orchard into military history as the turning point of the nation's destiny.",
+        "At Fruit City, our natural peach juice glows in warm velvety orange radiance, infused with rich stone-fruit fibers and delicate natural nectar chilled to perfection."
+      ]
+    }
+  },
+  "PJ15": {
+    "sku": "PJ15",
+    "approved": true,
+    "image": "/stories/PJ15.webp",
+    "title": "ملوك أوروبا تاهوا ورا شجر المشمش",
+    "paragraphs": [
+      "في يوليو 1148، وصلت جيوش الحملة الصليبية الثانية بقيادة ملك فرنسا لويس السابع وإمبراطور ألمانيا كونراد الثالث لحصار دمشق، وقرر القادة مهاجمة المدينة من جهة غوطة دمشق الغربية الغناء.",
+      "تاهت الجيوش الأوروبية داخل متاهة بساتين المشمش الكثيفة وأقنية المياه الضيقة، وتحولت الأشجار المثمرة إلى مصيدة دفاعية محكمة للمقاومين الشاميين، لينكسر الحصار في 4 أيام وتنسحب جيوش ملوك أوروبا مهزومة وراء شجر المشمش!",
+      "في Fruit City، بنقدملك عصير المشمش الطبيعي بلونه العنبري الذهبي الكثيف وقوامه الغني المركز، لتتذوق حلاوة التراث الشامي الأصيل فريش على أصوله."
+    ],
+    "en": {
+      "title": "European Kings Lost in the Apricot Groves",
+      "paragraphs": [
+        "In July 1148, the royal armies of the Second Crusade, led by King Louis VII of France and Holy Roman Emperor Conrad III, laid siege to Damascus, advancing through the dense orchards of the Ghouta oasis.",
+        "Trapped in the dense labyrinth of fruit-laden apricot trees and irrigation canals, the armored European forces were systematically outmaneuvered by local defenders, forcing a humiliating retreat in four days and ending the crusade amid the apricot groves.",
+        "At Fruit City, our fresh apricot juice flows in golden-amber velvet, bringing the ancient heritage of Damascus orchards chilled and bursting with rich stone-fruit depth."
+      ]
+    }
+  },
+  "PJ16": {
+    "sku": "PJ16",
+    "approved": true,
+    "image": "/stories/PJ16.webp",
+    "title": "فاكهة واست أعظم قائد عسكري مكسور",
+    "paragraphs": [
+      "في منفاه الأخير على صخرة سانت هيلانة المعزولة وسط المحيط الأطلسي (1815-1821)، عاش الإمبراطور نابليون بونابرت أيامه الأخيرة محاصراً بالمرض والرقابة الصارمة في قصر لونغوود.",
+      "كانت متعته اليومية الوحيدة هي رعاية حديقة القصر وتناول ثمار الكمثرى الطازجة التي كان يعتبرها ترياقه المفضل ضد مرارة الهزيمة وأوجاع المنفى، لتظل الكمثرى شاهدة على انكسار أعظم قادة التاريخ العسكري.",
+      "في Fruit City، بنقدملك عصير الكمثرى الطبيعي بلونه العاجي الرملي الناعم، محتفظاً بحبيبات الكمثرى الدقيقة ورغوته اللطيفة، يمنحك هدوءاً وانتعاشاً راقياً فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Fruit That Consoled History's Greatest Fallen Conqueror",
+      "paragraphs": [
+        "During his final exile on the desolate South Atlantic rock of Saint Helena (1815–1821), Napoleon Bonaparte spent his twilight years under British guard at Longwood House.",
+        "Struggling with deteriorating health and solitude, the fallen Emperor found solace in tending the residence's gardens and savoring fresh pears, which he praised as his daily antidote to the bitterness of defeat.",
+        "At Fruit City, our raw pear juice showcases delicate ivory-beige smoothness, carrying fine natural fruit grains and a silky texture for calming, regal refreshment."
+      ]
+    }
+  },
+  "PJ17": {
+    "sku": "PJ17",
+    "approved": true,
+    "image": "/stories/PJ17.webp",
+    "title": "مصر الوحيدة اللي سمّت فاكهة باسم مواطن",
+    "paragraphs": [
+      "في حوالي عام 1830، أرسل والي مصر محمد علي باشا الطالب المصري يوسف أفندي ضمن بعثة تعليمية إلى فرنسا وإيطاليا. وفي طريق عودته، اشترى شتلات لنوع جديد من اليوسفي الصغير الحلو من جزيرة مالطا.",
+      "عندما وصل الإسكندرية، طلب مقابلة الباشا وقدم له طبقاً من الفاكهة الجديدة في قصر شبرا. أُعجب محمد علي بطعمها وسأله عن اسمه، فقال: «يوسف»، فأصدر الباشا فرماناً رسمياً بتسمية الفاكهة في مصر «يوسف أفندي» (اليوسفي) تكريماً له، لتصبح مصر الدولة الوحيدة في العالم التي تُطلق اسم مواطن على فاكهة رسمية!",
+      "في Fruit City، بنقدملك عصير اليوسفي الطبيعي بلونه البرتقالي المشرق وألياف اللب الحية، معصوراً بطاقته العطرية الفواحة ليعيد ذكريات الشتاء المصري فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Only Nation Naming Fruit After a Citizen",
+      "paragraphs": [
+        "Around 1830, Muhammad Ali Pasha dispatched Egyptian student Yusuf Effendi to Europe. On his return journey through Malta, Yusuf acquired saplings of a sweet, fragrant citrus variety.",
+        "Upon presenting the fruit to the Pasha at Shubra Palace, Muhammad Ali was so delighted by its taste that he decreed the fruit be officially named 'Yusuf Effendi' (Yusufi) across Egypt, making Egypt the only country to name a fruit after an ordinary student.",
+        "At Fruit City, our fresh mandarin juice bursts in radiant warm orange vibrancy, filled with floating natural pulp sacs and aromatic sweetness chilled to perfection."
+      ]
+    }
+  },
+  "PJ18": {
+    "sku": "PJ18",
+    "approved": true,
+    "image": "/stories/PJ18.webp",
+    "title": "أشهر مثل فرنسي اتولد من برقوق دمشق",
+    "paragraphs": [
+      "في صيف 1148، عادت فلول جيوش الصليبيين الفرنسيين إلى باريس بعد فشل ذريع في حصار دمشق، ولم يكن مع الجنود والفرسان العائدين سوى أكياس من شتلات البرقوق الدمشقي (Prunes de Damas) التي قطفوها من بساتين الشام.",
+      "سخر منهم الشعب الفرنسي في شوارع باريس قائلين: «ذهبتم لفتح الشرق وعدتم من أجل البرقوق!»، ومن هنا وُلد التعبير الفرنسي الشهير المستخدم حتى اليوم «Travailler pour des prunes» (العمل من أجل البرقوق) للدلالة على بذل جهد شاق دون أي فائدة!",
+      "في Fruit City، بنقدملك عصير البرقوق الطبيعي بلونه القرمزي النبيذي الدافئ ونكهته الغنية المتوازنة بين الحلاوة والحموضة، لترتشف خلاصة التاريخ فريش على أصوله."
+    ],
+    "en": {
+      "title": "France's Most Famous Idiom Born from Damascus Plums",
+      "paragraphs": [
+        "In 1148, French Crusaders returned home in defeat after their failed siege of Damascus, carrying little back to Europe except sacks of wild Syrian plum cuttings (Prunes de Damas) gathered from the Levant orchards.",
+        "Parisians mocked the returning army with the quip that they had campaigned across continents 'merely for plums', coining the enduring French idiom 'travailler pour des prunes' (to work for plums = in vain).",
+        "At Fruit City, our natural plum nectar flows in deep ruby-crimson warmth, striking an exquisite balance between sweet and tart stone-fruit notes chilled to perfection."
+      ]
+    }
+  },
+  "EH01": {
+    "sku": "EH01",
+    "approved": false,
+    "image": "/stories/EH01.webp",
+    "title": "سكر بنوا بيه قلاع ومولوا بيه جيش قهر المغول",
+    "paragraphs": [
+      "في القرن الرابع عشر، لم يكن قصب السكر في مصر مجرد عصير يُشرب، بل كان «الذهب الأبيض» الذي احتكر به سلاطين المماليك تجارة العالم؛ فبنوا به قلاعاً وتماثيل كاملة من السكر، ومولت أرباح معاصره في الصعيد تسليح الجيش المصري الذي قهر المغول وحمى العالم.",
+      "وثق شيخ المؤرخين المقريزي أن قوافل سكر وقصب الصعيد كانت تحرسها كتائب فرسان مسلحة كاملة، وكان قنطار القصب يباع في بورصات إيطاليا بوزنه ذهباً صافياً، مسجلاً أعظم هيمنة زراعية في تاريخ الشرق الأوسط.",
+      "في Fruit City، بنقدملك عصير القصب الصعيدي بنقائه الصافي وكسرته المنعشة: معصور فريش من العيدان الطازجة مباشرة، بلونه الأخضر القشي الغائم ورغوته البيضاء الكثيفة، مثلج ليروي عطشك فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Mamluk Sugarcane Fortune That Defeated the Mongol Empire",
+      "paragraphs": [
+        "In the 14th century, Egyptian sugarcane was the 'white gold' monopolized by Mamluk Sultans, who sculpted entire fortresses of sugar and used its immense revenues from Upper Egypt to finance the armies that crushed the Mongol invasion.",
+        "Chronicler Al-Maqrizi documented that armed cavalry escorted Upper Egyptian cane caravans, as Egyptian sugar traded for its exact weight in pure gold across Italian merchant republics.",
+        "At Fruit City, we serve raw Upper Egyptian sugarcane juice in its purest authenticity: freshly pressed into a natural cloudy straw-green elixir crowned with rich velvety white micro-foam, served ice-cold to revitalize your soul."
+      ]
+    }
+  },
+  "EH02": {
+    "sku": "EH02",
+    "approved": false,
+    "image": "/stories/EH02.webp",
+    "title": "دم الآلهة السري اللي حرمه الفراعنة على عامة الشعب",
+    "paragraphs": [
+      "في عصر ملوك طيبة، وثقت بردية إيبرس الطبية (1550 ق.م) زهرة الكركديه كإكسير ملكي محرم على العامة؛ واعتبره الفراعنة «دم الآلهة» السري الذي يهدئ لهيب القلب وضغط الدم.",
+      "سجل المؤرخ الإغريقي هيرودوت دهشته من مقاتلي النوبة الذين خاضوا حروب الصحراء الحارقة معتمدين على هذا الشراب القرمزي البارد، الذي كان يمنحهم برودة الأعصاب وطاقة قتالية خارقة.",
+      "في Fruit City، بنقدملك الكركديه المصري الأصيل بنقائه الملكي: منقوع على البارد من أجود زهور الكركديه الطبيعية، بلونه العنابي الياقوتي العميق ونكهته المنعشة التي تجمع بين الحموضة الراقية والحلاوة المتزنة فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Sacred Pharaohs' Blood Elixir Documented in Ebers Papyrus",
+      "paragraphs": [
+        "Documented in the ancient Ebers Papyrus (1550 BC), hibiscus was venerated by Egyptian royalty as the sacred 'blood of the gods,' reserved for pharaohs and priests to cool the body and regulate heart health.",
+        "Greek historian Herodotus marveled at Nubian desert warriors who fought in blistering heat powered solely by cold infusions of this deep crimson flower.",
+        "At Fruit City, our authentic Egyptian hibiscus flows in deep royal garnet-ruby splendor: cold-steeped from pure whole hibiscus petals to deliver a crisp, antioxidant-packed floral punch chilled to perfection."
+      ]
+    }
+  },
+  "EH03": {
+    "sku": "EH03",
+    "approved": false,
+    "image": "/stories/EH03.webp",
+    "title": "أنقذ جيش إمبراطورية كاملة من الهلاك بفرمان سلطاني",
+    "paragraphs": [
+      "في عام 1517، تفشى وباء حارق في معسكرات الجيش العثماني بالقاهرة عقب معركة الريدانية، فطبخ أطباء بيمارستان قلاوون ترياقاً من ثمار التمر هندي مع ماء الورد أنقذ آلاف الجنود في 48 ساعة فقط.",
+      "أصيب السلطان سليم الأول بذهول شديد من المعجزة الطبية، فأصدر فرماناً بمنح سُقاة التمر هندي حصانة ملكية، لتتحول أباريقهم النحاسية وصاجاتهم الرنانة في شوارع المحروسة إلى رمز للأمان والشفاء.",
+      "في Fruit City، بنقدملك التمر هندي المصري الأصيل بقوامه الكستنائي النحاسي الغني: معصور ومصفى بعناية من أجود ثمار التمر هندي الطبيعية، بنكهته المتوازنة بين الحموضة اللاذعة والحلاوة الكراميلية فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Cairo Tamarind Cure That Saved an Imperial Army in 1517",
+      "paragraphs": [
+        "In 1517, following the Battle of Ridaniya, an epidemic threatened to annihilate the Ottoman army in Cairo until Egyptian physicians administered a restorative cold-brewed tamarind tonic, curing thousands in 48 hours.",
+        "Stunned by the cure, Sultan Selim I issued a royal decree granting Cairo's tamarind vendors imperial honors, turning their polished brass jugs and rhythmic bronze cups into symbols of vitality.",
+        "At Fruit City, our authentic Egyptian tamarind shines in rich copper-chestnut density, naturally textured with stone-fruit fibers and balancing tart zest with caramel sweetness chilled to perfection."
+      ]
+    }
+  },
+  "EH04": {
+    "sku": "EH04",
+    "approved": false,
+    "image": "/stories/EH04.webp",
+    "title": "المشروب الممنوع اللي فجر ثورة صامتة في القاهرة الفاطمية",
+    "paragraphs": [
+      "في عام 1005م، أصدر الحاكم بأمر الله الفاطمي فرماناً بمصادرة وتكسير براميل «السوبيا» في القاهرة بحجة إشاعتها البهجة في الحارات، فانتفضت حارات المحروسة في عصيان شعبي صامت وهربوا المشروب ليلاً.",
+      "قام صناع السوبيا بإعادة ابتكار خلطتها بحليب الأرز وجوز الهند الصافي دون تخمير، لتنتصر إرادة الفرح الشعبية على قرارات الخليفة وتتحول السوبيا إلى أيقونة مصرية رمضانية أبدية.",
+      "في Fruit City، بنقدملك سوبيا المحروسة الأصلية بقوامها العاجي الحليبي الغني: محضرة من جوز الهند الطبيعي وحليب الأرز بنكهتها الفاخرة ورغوتها القشدية الكثيفة، مثلجة لترطب قلبك فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Forbidden Sobia That Defied Caliph Al-Hakim's Decrees in 1005",
+      "paragraphs": [
+        "In 1005 AD, Fatimid Caliph Al-Hakim outlawed traditional Egyptian Sobia, sparking a silent urban rebellion as Cairo's artisans smuggled and refined the coconut-rice brew overnight.",
+        "Artisans mastered a fresh coconut milk formula that bypassed restrictions, cementing Sobia as a triumphant symbol of Egyptian cultural joy and resilience.",
+        "At Fruit City, our authentic Sobia pours in rich, velvety ivory-cream luxury: blended with pure grated coconut milk and subtle natural aromas, topped with dense silky froth chilled to perfection."
+      ]
+    }
+  },
+  "EH05": {
+    "sku": "EH05",
+    "approved": false,
+    "image": "/stories/EH05.webp",
+    "title": "ثمرة فرعونية مقدسة لقوها في مقبرة توت عنخ آمون سنة 1922",
+    "paragraphs": [
+      "في نوفمبر 1922، عثر هوارد كارتر في غرفة دفن الملك توت عنخ آمون على سلال خوص سليمة الأختام تضم ثمار «الدوم المصري» محتفظة بصلابتها منذ 3300 عام.",
+      "قدس الفراعنة نخيل الدوم واعتبروه شجرة الإله تحوت التي تروي ظمأ الملك أمام بحيرة النار في العالم السفلي وتحفظ سلامة القلب والشرايين.",
+      "في Fruit City، بنقدملك عصير الدوم الطبيعي الأصيل بنكهته الترابية الدافئة وقوامه الغني المعكر بأليافه الطبيعية، معصور ومثلج بطاقته الفرعونية الخالدة فريش على أصوله."
+    ],
+    "en": {
+      "title": "Sacred Doum Fruit Found in Tutankhamun's Tomb in 1922",
+      "paragraphs": [
+        "In November 1922, Howard Carter unearthed sealed baskets of ancient Egyptian doum fruit beside King Tutankhamun's royal sarcophagus, preserved intact for 3,300 years.",
+        "Ancient Egyptians venerated the doum palm as the sacred tree of Thoth, believed to sustain the pharaoh's heart and grant everlasting vitality.",
+        "At Fruit City, our authentic Doum juice flows in earthy warm brown richness, densely textured with raw fruit fibers to deliver timeless pharaonic vitality chilled to perfection."
+      ]
+    }
+  },
+  "EH06": {
+    "sku": "EH06",
+    "approved": false,
+    "image": "/stories/EH06.webp",
+    "title": "قرن الفاكهة اللي اخترعوا منه ميزان الذهب و«القيراط»",
+    "paragraphs": [
+      "من بذور قرون الخروب المصري ذات الوزن الثابت إعجازياً (0.2 جرام)، وُلد ميزان الذهب العالمي وكلمة «القيراط» في أسواق الإسكندرية القديمة.",
+      "وفي الشدة المستنصرية بمصر (1065م)، كان منقوع الخروب المغلي هو العملة والإكسير الوحيد الذي أنقذ آلاف الأرواح من الهلاك جوعاً حين عجزت كنوز الذهب عن شراء الخبز.",
+      "في Fruit City، بنقدملك عصير الخروب الطبيعي بلونه الشوكولاتي الداكن العميق: منقوع ومغلي على أصوله من أجود قرون الخروب المصري، بنكهته الكراميلية المدخنة وحلاوته الطبيعية الرصينة فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Ancient Carob Seed That Defined the Gemstone Carat",
+      "paragraphs": [
+        "The remarkably uniform seeds of the Egyptian carob pod established the universal gemstone standard known today as the 'carat' in ancient Alexandrian markets.",
+        "During Cairo's Great Famine of 1065, nutrient-dense brewed carob pods saved thousands from starvation when gold could no longer buy food.",
+        "At Fruit City, our authentic carob juice flows in deep chocolate-garnet majesty: traditionally brewed to release earthy, caramelized undertones with balanced sweetness chilled to perfection."
+      ]
+    }
+  },
+  "EH07": {
+    "sku": "EH07",
+    "approved": false,
+    "image": "/stories/EH07.webp",
+    "title": "إكسير الطاقة البدوي اللي مشى قوافل طريق الحرير عبر صحراء مصر",
+    "paragraphs": [
+      "على رمال «درب الأربعين» الصحراوي القاتل، كان منقوع تمور الواحات في الحليب الطازج هو الإكسير الذي قهر به البدو عطش الصحراء الحارق طوال 40 يوماً من السير.",
+      "تتفاعل سكريات التمر مع بروتينات ودهون الحليب لتصنع مصفوفة غذائية طبيعية تحبس السوائل والأملاح في الجسم وتمنع الجفاف تحت شمس القيظ.",
+      "في Fruit City، بنقدملك بلح باللبن على أصوله الصعيدية: تمر واحات وأسوان فاخر ممزوج بحليب طازج كامل الدسم، بقوامه المتوازن ونكهته الأصيلة الغنية ورغوته القشدية، يمدك بطاقة حقيقية فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Desert Caravan Energy Tonic Powering Centuries of Nile History",
+      "paragraphs": [
+        "Across the treacherous Darb al-Arba'in desert route, caravans survived forty days of relentless Sahara heat fueled by nutrient-dense Egyptian dates steeped in fresh milk.",
+        "This nomadic formula naturally locked in hydration and vital electrolytes, enabling travelers to cross hundreds of miles of waterless dunes.",
+        "At Fruit City, our authentic Dates & Milk shake delivers pure caramel-cream indulgence: premium Egyptian dates whipped with whole fresh farm milk into a rich energy powerhouse chilled to perfection."
+      ]
+    }
+  },
+  "EH08": {
+    "sku": "EH08",
+    "approved": false,
+    "image": "/stories/EH08.webp",
+    "title": "المكس اللي حوّل دكاكين عصير المحروسة لظاهرة شعبية في القرن العشرين",
+    "paragraphs": [
+      "في شوارع القاهرة مطلع القرن العشرين، تحولت دكاكين العصير في باب اللوق والعتبة إلى مقرات شعبية للاعتزاز بالمنتج الوطني أثناء مقاطعة البضائع الإنجليزية.",
+      "ابتكر المعلمون وقتها خفق فراولة الإسماعيلية الطازجة بالحليب البلدي الصافي لإنعاش العمال والطلبة، ليتوج هذا المزيج الوردي كأيقونة شعبية متوارثة في المحروسة.",
+      "في Fruit City، بنقدملك فراولة باللبن كما وُلدت في شوارعنا: فراولة طبيعية طازجة مضروبة بحليب كامل الدسم، بقوامها الوردي الطبيعي المبهج ونعومة حبيباتها، لتمنحك انتعاشاً حلواً فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Iconic 20th-Century Blend That Defined Egyptian Juice Shops",
+      "paragraphs": [
+        "In the bustling avenues of 1920s Cairo, neighborhood juice stalls popularized whipping fresh Egyptian strawberries with whole farm milk as a proud symbol of local vitality.",
+        "The refreshing pink shake fueled workers and university students, becoming a cherished daily ritual across Egyptian cities.",
+        "At Fruit City, our Strawberry & Milk blend delivers nostalgic perfection: sun-ripened Egyptian strawberries spun with pure whole milk into a silky pastel-pink cloud chilled to perfection."
+      ]
+    }
+  },
+  "EH09": {
+    "sku": "EH09",
+    "approved": false,
+    "image": "/stories/EH09.webp",
+    "title": "الابتكار المصري اللي جمع بين ملكة الفواكه وقشطة اللبن البلدي",
+    "paragraphs": [
+      "في سرايات الإسكندرية أواخر القرن التاسع عشر، وُلد الابتكار المصري الفاخر الذي كسر تقاليد تقديم الفاكهة؛ حيث خفق الطهاة لب المانجو الاستوائي مع قشطة الحليب البلدي.",
+      "قُدم المشروب في حفلات استقبال القناصل في قصر الرمل كأول سموذي ملوكي مصري ناعم، ليتحول إلى تاج الترف في قائمة العصائر المصرية.",
+      "في Fruit City، بنقدملك مانجا باللبن بفخامتها الملكية الأصلية: مانجا طبيعية مركزة مضروبة بحليب طازج كامل الدسم، بقوامها المشمشي الكريمي الكثيف وطعمها الفاخر الغني، لتدلل حواسك فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Luxurious Fusion of Egypt's Favorite Mango with Velvety Milk",
+      "paragraphs": [
+        "Born in late 19th-century royal salons of Alexandria, this legendary Egyptian creation blended luscious tropical mango puree with rich farm-fresh cream.",
+        "Served to European diplomats as a bespoke royal dessert beverage, it established a decadent standard for Egyptian juice craftsmanship.",
+        "At Fruit City, our Mango & Milk blend offers pure golden opulence: ripe aromatic mango pulp whipped with creamy whole milk into a thick, sunlit nectar chilled to perfection."
+      ]
+    }
+  },
+  "EH10": {
+    "sku": "EH10",
+    "approved": false,
+    "image": "/stories/EH10.webp",
+    "title": "ترياق الشتاء في كل بيت مصري من زمن الباشوات",
+    "paragraphs": [
+      "من بيوت القاهرة القديمة وقصور الباشوات في القرن التاسع عشر، كانت الجوافة باللبن ترياق الأمهات والأطباء السحري لتهدئة الصدر وتلطيف الحلق في ليالي الشتاء.",
+      "تمتزج حموضة الجوافة العطرية الغنية بفيتامين C بنعومة الحليب الصافي، لتعمل كبلسم طبيعي يغلف الحلق ويمنح الجسد راحة فورية من نزلات البرد.",
+      "في Fruit City، بنقدملك جوافة باللبن بنقائها الأصلي: جوافة طبيعية بيضاء مفلترة بعناية مضروبة بحليب كامل الدسم، بقوامها الطبيعي الصافي ورغوتها المترفة، لترطب روحك فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Soothing Winter Household Remedy Since the Era of the Pashas",
+      "paragraphs": [
+        "Treasured across Egyptian households since the era of the Pashas, Guava & Milk served as the quintessential domestic remedy against harsh winter chills.",
+        "Rich in vitamin C and soothing dairy proteins, the blend acted as a natural balm for the throat during damp Nile winters.",
+        "At Fruit City, our Guava & Milk delivers velvety comfort: seed-filtered white guava blended with whole farm milk into a luscious ivory-cream nectar chilled to perfection."
+      ]
+    }
+  },
+  "EH11": {
+    "sku": "EH11",
+    "approved": false,
+    "image": "/stories/EH11.webp",
+    "title": "وقود أبطال مصر الأولمبيين اللي كسروا أرقام العالم سنة 1936",
+    "paragraphs": [
+      "في أولمبياد برلين 1936، كسر الرباع المصري الأسطوري خضر التوني أرقام العالم وأذهل الحضور بقوته الخارقة؛ وكان سر طاقته اليومي هو الموز الطبيعي المخفوق بالحليب الطازج.",
+      "اعتمد أبطال مصر الأوائل على هذا المزيج كوقود عضلي نقي غني بالبوتاسيوم والبروتين قبل عقود من ظهور مكملات الطاقة ومشروبات الرياضيين الصناعية.",
+      "في Fruit City، بنقدملك موز باللبن بطاقته الطبيعية الصافية: موز بلدي حلو ومستوي مضروب فوراً بحليب طازج كامل الدسم، بقوامه الطبيعي المتجانس ورغوته الغنية، ليعطيك باور حقيقي فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Raw Vitality Shake Fueling Egypt's 1936 Olympic Champions",
+      "paragraphs": [
+        "At the 1936 Berlin Olympics, Egyptian weightlifter Khadr El-Touni shattered world records powered by a simple ancient secret: fresh ripe bananas whipped with whole milk.",
+        "Decades before commercial energy powders, Egyptian athletes relied on this potassium-rich natural powerhouse for endurance and explosive strength.",
+        "At Fruit City, our Banana & Milk shake delivers pure kinetic fuel: ripe Egyptian bananas blended fresh with whole farm milk into a creamy, smooth ivory powerhouse chilled to perfection."
+      ]
+    }
+  },
+  "EH12": {
+    "sku": "EH12",
+    "approved": false,
+    "image": "/stories/EH12.webp",
+    "title": "اللمسة السحرية اللي ابتكرها معملجية القصب لكسر الحلاوة",
+    "paragraphs": [
+      "في أزقة القاهرة القديمة، ابتكر معلمو معاصر القصب حيلة كيميائية ذكية لحماية العصير من التأكسد والاسمرار؛ عصر ليمونة بلدي طازجة مع عيدان القصب داخل العصارة مباشرة.",
+      "أوقف حمض الستريك اسمرار العصير وحفظ لونه الأخضر المشرق، وكسر حدة السكر الثقيل بنفحة حمضية متلألئة تروي أشد درجات العطش في ظهيرة الصيف.",
+      "في Fruit City، بنقدملك قصب وليمون بأصول الصنعة الحقيقية: قصب صعيدي طازج معصور مع ليمون بلدي فريش، بلونه الأخضر الليموني المشرق ورغوته الكثيفة ولمسته الحمضية المنعشة، ليعيد إليك الحيوية فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Master Presser's Secret to Cutting Sugarcane Sweetness",
+      "paragraphs": [
+        "In the historic quarters of Cairo, master juice artisans solved sugarcane's rapid oxidation by pressing fresh Baladi limes directly alongside cane stalks.",
+        "The natural citric acid prevented discoloration, preserving a brilliant pale green hue while tempering dense sugars with sharp citrus energy.",
+        "At Fruit City, our Sugarcane Lemon delivers the ultimate traditional refresher: raw cold-pressed cane juice kissed with freshly squeezed Egyptian lime chilled to perfection."
+      ]
+    }
+  },
+  "EH13": {
+    "sku": "EH13",
+    "approved": false,
+    "image": "/stories/EH13.webp",
+    "title": "خلطة الحرافيش في ليالي الشتاء القارس بصعيد مصر",
+    "paragraphs": [
+      "في فجر شتاء الصعيد القارس، كان عمال كسر القصب يواجهون الصقيع بخلطة الحرافيش المزلزلة؛ سحق جذور الزنجبيل الحارة مع عصير القصب الخام لتنشيط الدورة الدموية.",
+      "يتفاعل مركب الجينجيرول الحراري مع طاقة السكروز الفورية ليدفئ المفاصل ويمنح عمال الحقول مناعة حديدية صمدوا بها في أشد مواسم الحصاد قسوة.",
+      "في Fruit City، بنقدملك قصب وزنجبيل بقوته الصعيدية الحقيقية: قصب سكر طازج معصور مع زنجبيل طبيعي حار ومركز، بلونه الذهبي الغائم ولمسته اللاذعة الدافئة، ليمنحك مناعة وباور فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Upper Egyptian Winter Tonic Igniting Raw Harvesting Warmth",
+      "paragraphs": [
+        "In the freezing dawn of Upper Egyptian winters, cane-cutters braved the frost with a legendary grassroots elixir: crushing fiery fresh ginger into raw sugarcane juice.",
+        "The pungent gingerol compounds combined with natural sucrose to ignite circulation and maintain stamina during grueling manual harvests.",
+        "At Fruit City, our Sugarcane Ginger delivers an electrifying fusion: cold-pressed sweet sugarcane spiked with zesty, warming raw ginger chilled to perfection."
+      ]
+    }
+  },
+  "EH14": {
+    "sku": "EH14",
+    "approved": false,
+    "image": "/stories/EH14.webp",
+    "title": "تحالف الملوك بين زهرة النوبة الحمراء وياقوت منفلوط",
+    "paragraphs": [
+      "في مآدب قلعة القاهرة التاريخية، أبهر سلاطين مصر سفراء ملوك أوروبا بشراب «العنابي المزدوج» الملوكي؛ مزيج استثنائي جمع بين زهور كركديه النوبة البرية وياقوت رمان منفلوط.",
+      "صنع هذا المزيج أعظم تحالف لوني ومذاقي غني بمضادات الأكسدة، جمع بين هيبة زهرة الجنوب وحلاوة ياقوت الصعيد في كأس قرمزي ملكي لا نظير له.",
+      "في Fruit City، بنقدملك كركديه ورمان بفخامته التاريخية الفائقة: كركديه منقوع بعناية ممزوج بعصير رمان طبيعي خام، بلونه القرمزي الياقوتي الآسر وتوازنه المبهر بين الحموضة الراقية والحلاوة الطبيعية فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Imperial Alliance of Nubian Hibiscus and Manfalut Pomegranate",
+      "paragraphs": [
+        "Served at majestic diplomatic banquets within Cairo's historic Citadel, the 'Imperial Ruby' united wild Nubian hibiscus blossoms with the world-famous ruby arils of Manfalut pomegranates.",
+        "The union created an unmatched antioxidant-dense harmony of deep crimson color and balanced tart-sweet intensity that fascinated European travelers.",
+        "At Fruit City, our Hibiscus Pomegranate fusion flows in royal garnet elegance: cold-steeped hibiscus blended with freshly extracted pure pomegranate juice chilled to perfection."
+      ]
+    }
+  },
+  "EH15": {
+    "sku": "EH15",
+    "approved": false,
+    "image": "/stories/EH15.webp",
+    "title": "لقاء التراث النوبي مع حقول الفراولة في مزيج صيفي منعش",
+    "paragraphs": [
+      "على ضفاف نيل أسوان والقاهرة، ابتكر مروضو المشروبات الصيفية المصرية لقاءً ساحراً بين زهور الكركديه النوبية المنقوعة على البارد وفراولة الحقول الطازجة المهروسة.",
+      "كسر هذا الابتكار حرارة الصيف بتوازن فذ بين حموضة الكركديه اللاذعة المنعشة والرحيق الفراولي الفواح، ليصبح المشروب الصيفي المحبب لركاب فلوكات النيل.",
+      "في Fruit City، بنقدملك كركديه وفراولة بطاقته الصيفية الحيوية: كركديه طبيعي مثلج مضروب مع فراولة طازجة، بلونه القرمزي الوردي المبهج ونكهته الفوارة بالانتعاش، ليروي عطشك فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Vibrant Fusion of Nubian Heritage and Sun-Ripened Strawberries",
+      "paragraphs": [
+        "Crafted along the breezy shores of the Nile, this vibrant Egyptian innovation marries cold-steeped Nubian hibiscus with pure crushed strawberries.",
+        "The blend created an exhilarating summer punch that perfectly balances floral tartness with sweet berry notes for travelers aboard traditional river feluccas.",
+        "At Fruit City, our Hibiscus Strawberry delivers thirst-quenching radiance: chilled herbal hibiscus swirled with sun-kissed fresh strawberries into an energizing crimson elixir chilled to perfection."
+      ]
+    }
+  },
+  "EH16": {
+    "sku": "EH16",
+    "approved": false,
+    "image": "/stories/EH16.webp",
+    "title": "نسمة نعناع بلدي باردة فكت حر شمس الصعيد",
+    "paragraphs": [
+      "من ضفاف قنوات الري ومزارع صعيد مصر، استلهم عصيريو المحروسة عادة الفلاحين في دمج أوراق النعناع البلدي مع عيدان القصب؛ حيث تُعصر حزم النعناع الطازجة مباشرة مع القصب.",
+      "تطلق التروس الزيوت العطرية للنعناع داخل العصير لتمنحه نسمة خضراء ثلجية تطفئ حر الصيف القائظ فوراً وتمنح شاربه استرخاءً تاماً للأعصاب.",
+      "في Fruit City، بنقدملك قصب ونعناع بانتعاشه العشبي الفائق: قصب سكر صعيدي طازج معصور مع أوراق نعناع بلدي فريش، بلونه الزمردي العشبي ورغوته المنعشة، ليعطيك روقان وبرودة حقيقية فريش على أصوله."
+    ],
+    "en": {
+      "title": "The Cool Egyptian Spearmint Breeze Cutting Summer Heat",
+      "paragraphs": [
+        "Inspired by the ingenious habits of Upper Egyptian farmers along Nile canals, urban pressers began feeding fresh spearmint leaves directly alongside sugarcane stalks.",
+        "Crushing whole mint releases fragrant essential oils directly into the sweet cold-pressed cane juice, infusing it with an icy menthol finish.",
+        "At Fruit City, our Sugarcane Mint delivers refreshing herbal vitality: fresh-pressed raw sugarcane juice crushed with fragrant Egyptian garden mint into an emerald revitalizing tonic chilled to perfection."
+      ]
+    }
   }
 }

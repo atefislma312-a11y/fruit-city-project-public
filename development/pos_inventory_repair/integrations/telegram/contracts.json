@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FruitCityTelegramIntakeContracts",
+  "description": "عقود بيانات قناة إدخال المالك عبر تليجرام لنظام فروت سيتي (المحدثة طبقا لمراجعة الأمان ومنع فقد البيانات)",
+  "version": "1.1.0",
+  "contracts": {
+    "purchase_invoice": {
+      "status": "supported_vertical_slice",
+      "description": "عقد مسودة فاتورة مشتريات (خامات/فواكه) مستلمة من المالك عبر تليجرام مع تدقيق حسابي صارم",
+      "type": "object",
+      "required": [
+        "idempotency_key",
+        "source",
+        "telegram_message_id",
+        "telegram_sender_id",
+        "status",
+        "revision",
+        "items",
+        "authoritative_total_amount"
+      ],
+      "properties": {
+        "idempotency_key": {
+          "type": "string",
+          "description": "مفتاح فريد لمنع التكرار بصيغة tg_msg_{chatId}_{messageId}"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["telegram"],
+          "default": "telegram"
+        },
+        "telegram_message_id": {
+          "type": "integer",
+          "description": "معرف الرسالة الأصلية في تليجرام"
+        },
+        "telegram_chat_id": {
+          "type": "integer",
+          "description": "معرف المحادثة الخاصة مع المالك"
+        },
+        "telegram_sender_id": {
+          "type": "integer",
+          "description": "المعرف الرقمي المعتمد لحساب المالك"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1,
+          "description": "رقم تعديل المسودة في حال إرسال edited_message"
+        },
+        "supplier_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "اسم المورد أو السوق (إلزامي؛ لا افتراضات)"
+        },
+        "invoice_date": {
+          "type": "string",
+          "format": "date",
+          "description": "تاريخ الفاتورة بصيغة YYYY-MM-DD وتاريخ تقويم حقيقي (إلزامي؛ لا افتراضات)"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["draft"],
+          "default": "draft",
+          "description": "حالة الفاتورة دائما مسودة (draft) ولا تعتمد أو ترحل للمخزون آليا أبدا"
+        },
+        "total_weight_kg": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "description": "الوزن الإجمالي الإجمالي بالكيلوجرام لجميع بنود الفاتورة"
+        },
+        "stated_total_amount": {
+          "type": ["number", "null"],
+          "description": "الإجمالي المالي المذكور صراحة في رسالة المالك"
+        },
+        "authoritative_total_amount": {
+          "type": "number",
+          "minimum": 0,
+          "description": "الإجمالي الحسابي المعتمد والمحسوب بدقة وفق معادلة البيعة والأوزان"
+        },
+        "discrepancy_amount": {
+          "type": "number",
+          "default": 0,
+          "description": "الفرق بين الإجمالي المذكور والمحسوب بدقة (صفر يعني تطابق تام)"
+        },
+        "notes": {
+          "type": "string",
+          "description": "ملاحظات إضافية أو تفاصيل الفروق الحسابية"
+        },
+        "validation_status": {
+          "type": "string",
+          "enum": ["valid", "incomplete", "discrepancy"],
+          "description": "حالة اكتمال البيانات: مكتملة، ناقصة، أو يوجد فرق حسابي"
+        },
+        "missing_fields": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "الحقول الناقصة التي يتطلب استكمالها من المالك (مثل: الوزن، عدد العبوات، السعر)"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "ingredient_name_ar",
+              "pricing_method",
+              "unit_price",
+              "package_count",
+              "authoritative_cost"
+            ],
+            "properties": {
+              "ingredient_name_ar": {
+                "type": "string",
+                "description": "اسم الصنف أو الخامة بالعربية"
+              },
+              "ingredient_id": {
+                "type": "string",
+                "default": "custom"
+              },
+              "pricing_method": {
+                "type": "string",
+                "enum": ["by_weight", "by_package", "by_piece"],
+                "default": "by_weight"
+              },
+              "package_count": {
+                "type": "number",
+                "minimum": 0,
+                "description": "عدد العبوات (لا يفترض 1 تلقائيا إذا كان مجهولا)"
+              },
+              "package_unit_name": {
+                "type": "string",
+                "description": "نوع العبوة (كرتونة، قفص، شيكارة، سباطة)"
+              },
+              "total_weight_kg": {
+                "type": ["number", "null"],
+                "minimum": 0,
+                "description": "الوزن الإجمالي الصافي بالكيلو"
+              },
+              "unit_price": {
+                "type": "number",
+                "minimum": 0,
+                "description": "سعر الكيلو أو سعر العبوة بحسب طريقة الشراء"
+              },
+              "package_fee_per_unit": {
+                "type": "number",
+                "default": 10.00,
+                "description": "البيعة المؤكدة لكل عبوة = 10 جنيه مصري بالضبط"
+              },
+              "total_package_fee": {
+                "type": "number",
+                "description": "إجمالي رسوم البيعة = عدد العبوات * 10 جنيه"
+              },
+              "stated_item_cost": {
+                "type": ["number", "null"],
+                "description": "الإجمالي المذكور للبند شفهيا أو نصيا"
+              },
+              "authoritative_cost": {
+                "type": "number",
+                "minimum": 0,
+                "description": "التكلفة الحسابية المعتمدة للبند = (الكمية أو الوزن * السعر) + إجمالي البيعة"
+              },
+              "discrepancy": {
+                "type": "number",
+                "default": 0
+              },
+              "weight_unknown": {
+                "type": "boolean",
+                "default": false
+              },
+              "notes": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "clarification_context": {
+      "status": "supported_vertical_slice",
+      "description": "سياق توضيح مسودة فاتورة ناقصة بانتظار إجابة المالك التكميلية",
+      "type": "object",
+      "required": [
+        "chat_id",
+        "pending_message_id",
+        "partial_draft",
+        "missing_fields",
+        "created_at"
+      ],
+      "properties": {
+        "chat_id": { "type": "integer" },
+        "pending_message_id": { "type": "integer" },
+        "partial_draft": { "type": "object" },
+        "missing_fields": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "created_at": { "type": "string" }
+      }
+    },
+    "worker_poll_request": {
+      "status": "supported_vertical_slice",
+      "description": "طلب استطلاع الطابور السحابي عبر POST body محمي بختم زمني ورمز غير متكرر",
+      "type": "object",
+      "required": ["action", "worker_token", "timestamp", "nonce"],
+      "properties": {
+        "action": { "type": "string", "enum": ["worker_poll"] },
+        "worker_token": { "type": "string" },
+        "timestamp": { "type": "integer", "description": "ختم زمني بالثواني (Unix timestamp) لمنع إعادة الإرسال" },
+        "nonce": { "type": "string", "description": "رمز عشوائي فريد لكل طلب لمنع Replay Attacks" }
+      }
+    },
+    "worker_ack_request": {
+      "status": "supported_vertical_slice",
+      "description": "طلب تأكيد حفظ الفاتورة في SQLite عبر POST body محمي",
+      "type": "object",
+      "required": [
+        "action",
+        "worker_token",
+        "timestamp",
+        "nonce",
+        "queue_id",
+        "invoice_id",
+        "invoice_number",
+        "status"
+      ],
+      "properties": {
+        "action": { "type": "string", "enum": ["worker_ack"] },
+        "worker_token": { "type": "string" },
+        "timestamp": { "type": "integer" },
+        "nonce": { "type": "string" },
+        "queue_id": { "type": "string" },
+        "invoice_id": { "type": "string" },
+        "invoice_number": { "type": "string" },
+        "revision": { "type": "integer", "default": 1 },
+        "item_checksum": { "type": "string" },
+        "status": { "type": "string", "enum": ["saved"] }
+      }
+    },
+    "ingredient_spec": {
+      "status": "pending_implementation",
+      "description": "عقد تعريف أو تعديل خامة جديدة"
+    },
+    "peel_yield_measurement": {
+      "status": "pending_implementation",
+      "description": "عقد تسجيل تجربة تقشير وهدر وناتج عصارة"
+    },
+    "recipe_spec": {
+      "status": "pending_implementation",
+      "description": "عقد تحديد وصفة عصير أو كوكتيل ومكوناتها وناتج الدفعة والمقاسات"
+    },
+    "price_spec": {
+      "status": "pending_implementation",
+      "description": "عقد تعديل سعر بيع منتج أو مقاس للمستهلك"
+    },
+    "system_ui_request": {
+      "status": "pending_ui_codex",
+      "description": "عقد تسجيل طلبات المالك المتعلقة بالواجهة أو تحسينات UI لتسليمها لـ Codex"
+    }
+  }
+}

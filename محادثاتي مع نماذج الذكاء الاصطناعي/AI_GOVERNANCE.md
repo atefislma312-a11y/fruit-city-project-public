@@ -1,34 +1,57 @@
 # 🧠 AI Meta-Governance & Project Master Memory
-> **مشروع نظام إدارة فاكهة سيتي (Fruit City Management System)**  
-> **الدستور المرجعي الموحد لجميع نماذج ووكلاء الذكاء الاصطناعي (Codex, ChatGPT, AntiGravity)**
+> **مشروع Fruit City (64 شارع القصر العيني)**  
+> **الدستور المرجعي الموحد لجميع نماذج ووكلاء الذكاء الاصطناعي (Codex, ChatGPT, AntiGravity)**  
+> **المرحلة الحالية: التوسع والاستكشاف الديناميكي (Active Exploration & Dynamic Scaling)**
 
 ---
 
-## 🎯 1. الغرض والهدف (Scope & Purpose)
-هذا الملف هو **المصدر الوحيد للحقيقة (Single Source of Truth)** لذاكرة وسياق المشروع.  
-تم تصميمه ليعمل كـ **"ذاكرة مركزية مشتركة"** بين جميع أدوات ونماذج الذكاء الاصطناعي المختلفة لضمان:
-1. عدم حدوث أي تضارب معرفي أو برمجي (Zero Context Drift).
-2. فهم أي نموذج يدخل المشروع للحالة اللحظية فوراً دون الحاجة لإعادة شرح التفاصيل في كل محادثة.
-3. التزام جميع النماذج بالمعايير الفنية والقيود التشغيلية المتفق عليها.
+## 🧭 1. ميثاق عقلية المستكشف والهدف (Explorer Mindset & Purpose)
+هذا الملف هو **المصدر الوحيد للحقيقة (Single Source of Truth)** لذاكرة وسياق المشروع، ولكنه **ليس قالباً جامداً أو قيوداً معطلة للإبداع**.
+
+المشروع يمر حالياً بمرحلة **توسع واستكشاف ديناميكي نشط (Active Exploration & Scaling)**، ويتطلب من كافة نماذج الذكاء الاصطناعي تبني **عقلية المستكشف (Explorer Mindset)**:
+1. **المرونة التصميمية (Design Tokens / Living Release):** لا يجوز التعامل مع خيارات التصميم، الألوان، الخطوط، أو توزيع العناصر كقوانين جامدة غير قابلة للمساس؛ بل هي **Design Tokens** وإصدار تجريبي قابل للتطوير والتحسين المستمر وفق اختبارات تجربة المستخدم ونسب التحويل (Conversion Rate).
+2. **دور الذكاء الاصطناعي كمستكشف ومعماري (Discovery-Driven AI Architect):** وظيفة الذكاء الاصطناعي ليست مجرد تنفيذ آلي للأوامر، بل المبادرة باقتراح تحسينات معمارية، واختبار زوايا بصرية وتسويقية جديدة ومبتكرة باستمرار تخدم أهداف البزنس وترفع من القيمة التنافسية للبراند.
+3. **وحدة السياق وانعدام التضارب (Zero Context Drift):** تمكين أي نموذج يدخل المشروع من فهم الحالة اللحظية فوراً، والانطلاق في مسار التطوير دون تشتت أو الرجوع لنقاط الصفر.
 
 ---
 
-## 🏢 2. هوية المشروع ومجال العمل (Project Identity & Domain)
-* **اسم المشروع والبراند المعتمد:** **Fruit City** (حصراً باللغة الإنجليزية: `Fruit City`).
-* **⚠️ قاعدة الاسم التجاري والواجهة الصارمة (Strict Brand Identity Rule):**
-  الاسم التجاري الرسمي المعتمد على واجهة المحل، والأكواب، وبوستات السوشيال ميديا هو دائماً **Fruit City** بالإنجليزية فقط. يُمنع منعاً باتاً استبداله بـ "فاكهة سيتي" في الهوك أو البوستات أو التصاميم الإعلانية.
-* **طبيعة النشاط:** تجارة وتجزئة الفواكه والخضروات، ويشمل:
-  * نقاط البيع المباشرة (POS) ودعم الموازين والباركود.
-  * إدارة المخزون (Inventory Management)، الأصناف سريعة التلف، ونسب الهالك اليومي.
-  * إدارة المبيعات والحسابات والورديات وصندوق الكاشير.
-  * قنوات الطلب المتعددة (فروع مباشرة + طلبات أونلاين/واتساب).
+## 🏢 2. الهوية الأساسية والاتجاه الإبداعي (Core Identity & Creative Direction)
+* **الاسم الرسمي والبراند المعتمد:** **Fruit City** (حصراً باللغة الإنجليزية: `Fruit City` على الواجهة، الأكواب، والمنصات الرسمية).
+* **الموقع الجغرافي المركزي:** **64 شارع القصر العيني (أمام روزا اليوسف)، وسط البلد، القاهرة.**
+* **الاتجاه الإبداعي الأساسي (The Creative Direction):**  
+  **دمج القصص التاريخية الحقيقية والأرشيف البصري الموثق مع الفاكهة بأسلوب سينمائي أرشيفي غير مسبوق في مجال العصائر والمشروبات.**  
+  كل صنف يقدم للعميل كبوابة لحدث تاريخي حقيقي مثبت من مصادر تاريخية موثقة (مثل أزمة مانجو الصين 1968، فراولة الأسطول الفرنسي 1714، برديات العصر الفاطمي ومخطوطات المقريزي).
+* **متغيرات الألوان والتصميم الحالية (Living Design Tokens):**  
+  هذه المتغيرات هي الأساس الحالي المعتمد لواجهة الـ Web App وهوية الحملات، وهي **قابلة للتعديل والتطوير التجريبي المستمر** أثناء تحسين الواجهات:
+  * `--fc-canvas-bg:` `#faf9f4` (خلفية ورقية دافئة مستوحاة من وثائق الأرشيف).
+  * `--fc-brand-green:` `#183e2d` (أخضر تراثي عميق يعكس الأصالة والتباين الراقي).
+  * `--fc-accent-orange:` `#dc7a2b` (برتقالي مشرق حيوي لأزرار الشراء والـ Call-to-Action).
+  * `--fc-healthy-capsule:` `#792b29` (قرمزي دافئ لكبسولة الشعار والـ Badges الأرشيفية).
+* **طبيعة النشاط والعمليات:**
+  * **متجر إلكتروني وقائمة تفاعلية (Digital Storefront):** تصفح المنيو، قراءة قصص الفواكه التاريخية، وطلب الأوردر عبر واتساب أو الاستقبال الداخلي.
+  * **نقاط البيع السريعة (POS):** دعم الموازين والباركود والورديات.
+  * **إدارة المخزون والتوريدات:** تتبع أصناف الفاكهة سريعة التلف والتوريد الصباحي من سوق العبور.
 * **المسار الجغرافي والبرمجي الدائم للمشروع:**
   * 📍 **`D:\fruit city project`**
-  * ⚠️ **تحذير إلزامي لكل النماذج:** يمنع منعاً باتاً إنشاء أو تشتيت أي ملفات، مشاريع فرعية، أو مجلدات في بارتيشن `C:` أو `Desktop` أو مسارات مؤقتة. هذا المسار في القرص `D:` هو الحاضنة الوحيدة والنهائية لكل ما يخص المشروع.
+  * ⚠️ الحاضنة المركزية الوحيدة لملفات المشروع وتوثيقه وحملاته.
 
 ---
 
-## 💻 3. مواصفات بيئة التشغيل والعتاد (Hardware Profile & Constraints)
+## 🚫 3. ميثاق تنظيف اللغة التسويقية والأكواب (Anti-Cliche & Physical Reality Standard)
+لضمان تميز المحتوى وخروجه من فخ الابتذال التسويقي والتقييد الصناعي غير المجدي، تلتزم كافة النماذج بالمبادئ التالية:
+1. **حظر الكليشيهات والوعود الإنشائية القديمة:**
+   * ❌ يُمنع منعاً باتاً استخدام العبارات المبتذلة والمستهلكة مثل:
+     * *"بيور بدون نقطة مياه"*
+     * *"طبيعي بدون سكر"*
+     * *"قوام بيوريه مخملي"*
+   * ✅ **البديل:** التركيز على الحقيقة الحسية المباشرة للمنتج، نضارة الفاكهة المختارة بعناية، القصة التاريخية الممتعة، والمذاق الأصيل المتوازن بطريقة تجعل العصير يتحدث عن نفسه دون مبالغات لفظية جوفاء.
+2. **إلغاء القيود التصنيعية الجافة للأكواب:**
+   * ❌ يُلغى إلزام النماذج بكتابة مصطلحات تصنيعية وموديلات مصانع البلاستيك مثل (`KS92` / `PET`). هذه المصطلحات تخص توريدات المصانع ولا علاقة لها بالهوية البصرية أو تجربة العميل.
+   * ✅ **البديل:** التعامل مع الكوب كوعاء فيزيائي واقعي وأنيق يُبرز نقاء ولون الفاكهة الطبيعية بقطرات ندى التبريد العضوية مع الشعار الرسمي المعتمد `Fruit City`.
+
+---
+
+## 💻 4. مواصفات بيئة التشغيل والعتاد (Hardware Profile & Constraints)
 * **الجهاز المضيف:** Dell Inspiron 5521
 * **المعالج (CPU):** Intel Core i5-3337U (Dual-Core @ 1.80GHz - Ivy Bridge)
 * **الذاكرة العشوائية (RAM):** 8GB DDR3
@@ -36,403 +59,121 @@
 * **نظام التشغيل:** Windows 11
 
 ### ⚠️ قيود معمارية إلزامية لجميع النماذج:
-1. **تجنب الحلول الثقيلة (No Heavy Tech):** يمنع اقتراح تشغيل حاويات (Docker / Kubernetes) أو خدمات خلفية مستمرة تستهلك الذاكرة والـ CPU على هذا الجهاز.
+1. **تجنب الحلول الثقيلة (No Heavy Tech):** يمنع تشغيل حاويات (Docker / Kubernetes) أو خدمات خلفية مستمرة تستهلك الذاكرة والـ CPU على هذا الجهاز.
 2. **حزمة التكنولوجيا المعتمدة (Lightweight Stack):**
-   * **الواجهة الأمامية (Frontend):** React + Vite (سريع وخفيف جداً في الـ Build).
-   * **الخلفية (Backend):** Node.js / Express أو بنية سريعة وخفيفة.
-   * **قاعدة البيانات (Database):** SQLite (أو Better-SQLite3) لضمان السرعة الفائقة وعدم استهلاك موارد RAM في محركات قواعد بيانات منفصلة مثل PostgreSQL أو MySQL سيرفر محلي، مع إمكانية الترقية السحابية لاحقاً.
+   * **الواجهة الأمامية (Frontend):** React + Vite (سريع وخفيف جداً في الـ Build والـ HMR).
+   * **الخلفية (Backend):** Node.js خفيف ومباشر.
+   * **قاعدة البيانات (Database):** SQLite (أو Better-SQLite3) مع معمارية الكتاب الأحادي (Single Writer) لضمان السرعة الفائقة وعدم استهلاك الذاكرة.
 
 ---
 
-## 🤖 4. ميثاق عمل نماذج الذكاء الاصطناعي (Rules of Engagement)
+## 🤖 5. ميثاق عمل نماذج الذكاء الاصطناعي (Rules of Engagement & Relay Protocol)
 
-### 📌 تقسيم الأدوار والمسؤوليات التشغيلية (Division of Labor & Runtime Ownership):
+### 📌 تقسيم الأدوار والمسؤوليات التشغيلية:
 * **AntiGravity (Google / Gemini Orchestrator):**
-  * **إدارة الخدمات الحالية (Live Runtime):** يدير تشغيل خادم الكاشير (`server.js` على المنفذ `5173`) ككاتب أحادي لقاعدة البيانات، وبوت التيليجرام الإداري (`admin_bot.js`).
-  * **محرك الصوت والذكاء الاصطناعي للبوت:** البوت يعمل بموديل **Gemini Flash** لتحويل فويس نوت إسلام لنصوص وفهم العامية المصرية وسوق العبور.
-  * **إدارة الحوكمة والمزامنة:** مسؤول عن تنظيم الملفات، التوثيق، الحوكمة، ومزامنة GitHub والـ SSH.
+  * المعماري المستكشف (Discovery-Driven Architect)، تنظيم الملفات، التوثيق، استكشاف الزوايا البصرية، إدارة البوت وخادم الكاشير، وتنسيق الحوكمة.
 * **OpenAI Codex (Desktop & CLI Code Engineering):**
-  * **الهندسة البرمجية وتطوير الكود:** كتابة الوظائف البرمجية (Business Logic)، بناء المكونات (UI Components)، تصميم استعلامات SQLite، وحسابات التكلفة والمخزون.
-  * **عدم تعارض العمليات:** يقرأ ملفات المشروع والتوثيق، ولا يقوم بتعديل أو تعطيل خادم الكاشير أو البوت أثناء تشغيلهما إلا بتكليف صريح ومستقل.
-* **ChatGPT (Projects & Cloud Work):**
-  * **طبقة التخطيط والمتابعة العامة:** متابعة الخطط الاستراتيجية، مراجعة التقارير، والربط السحابي عبر مستودع GitHub المعتمد.
+  * الهندسة البرمجية الدقيقة، بناء مكونات الواجهة وتطوير الميزات واختبارات الوحدات (Unit & Integration Tests).
+* **ChatGPT (Planning & Cloud Strategy):**
+  * التخطيط الاستراتيجي ومراجعة التوافق وخطط التوسع.
 
-### 📌 القواعد الذهبية الملزمة لأي نموذج (Universal Rules):
-1. **القراءة أولاً (Read First):** لا تقم بأي تعديل أو كتابة كود قبل قراءة هذا الملف وملف `AGENTS.md` في جذر المشروع وسجل التسليم أدناه.
-2. **المحافظة على هيكل المسار وفصل المستودعات:**
-   * مستودع ومجلد `D:\fruit city project` مخصص للمستندات والمنيو والتسويق والحوكمة.
-   * **الكود التنفيذي الفعلي للكاشير والبوت وقاعدة البيانات:** يعمل في `C:\Users\MR.X\.gemini\antigravity\scratch\fruit-city-system`. يمنع نقله أو نسخه أو إعادة بنائه دون تفويض صريح.
-3. **بروتوكول التسليم والتناوب الموثوق بين النماذج (Manual AI Relay Protocol):**
-   * **المستودع السحابي المعتمد:** `https://github.com/atefislma312-a11y/fruit-city-project` (SSH: `git@github.com:atefislma312-a11y/fruit-city-project.git`).
-   * **الهدف:** تمكين المالك عند اختياره أداة بديلة من قول «كمّل من آخر تسليم» فتفهم الحالة وتكمل دون إعادة شرح. جيت هاب لا يبدل النماذج تلقائياً ولا يشغل نفسه وحده؛ بل هو نقطة التقاء آمنة بين أدوات الذكاء الاصطناعي.
-   * **قاعدة الحفظ والتسليم الدوري (Save at Milestones):**
-     يجب الحفظ والتسليم عند كل نقطة عمل مهمة وقبل إنهاء الجلسة، **وليس فقط عند نفاد الرصيد**. لا يمكن التنبؤ بلحظة نفاد الرصيد بدقة ولا يمكن ضمان الحفظ في اللحظة الأخيرة.
-   * **ترتيب التسليم:** يُكتب تقرير التسليم في سجل الحوكمة **قبل** عمل Commit وPush.
-4. **تعليمات المساعد المستلم (Incoming Assistant Mandates):**
-   * يفحص المسار (`D:\fruit city project`) والفرع (`main`) والتغييرات المحلية أولاً عبر `git status`.
-   * يتحقق من أحدث نسخة سحابية بطريقة لا تضيّع العمل: يستخدم `git fetch origin main` ثم `git status -uno` للمقارنة الآمنة.
-   * ❌ **ممنوع قطعي:** عمل `git pull` أعمى، أو `git reset --hard`، أو `git clean -fd`، أو `git push --force`.
-   * في حال وجود تعارض (Conflict)، يحافظ على الطرفين دون حذف، ويبلّغ المالك فوراً.
-5. **الالتزام بالحفظ المنضبط (Selective Safe Staging):**
-   * لا تستخدم `git add .` بلا مراجعة. يتم رفع الملفات المقصودة فقط.
-   * استبعاد الأسرار (`.env`, `password.txt`, `.meta_token`, `*.token`, `*.key`) وقواعد البيانات (`*.db`, `*.sqlite`) والنسخ الاحتياطية.
-6. **التوثيق الإجباري في سجل التسليم الموحد:** قبل إنهاء الجلسة، يجب تحديث السجل الموحد في القسم (6).
+### 📌 القواعد العامة للتطوير الآمن والتسليم:
+1. **المستودع السحابي المعتمد:** `https://github.com/atefislma312-a11y/fruit-city-project` (SSH: `git@github.com:atefislma312-a11y/fruit-city-project.git`).
+2. **بروتوكول التناوب (Relay Protocol):** تحديث هذا السجل عند كل نقطة عمل رئيسية وقبل إنهاء الجلسة.
+3. **أمان Git الصارم:** استبعاد الأسرار (`.env`, `password.txt`, `.meta_token`, `*.token`, `*.key`) وقواعد البيانات (`*.db`, `*.sqlite`) دائماً عبر `.gitignore`.
 
 ---
 
-## 🗂️ 5. الهيكل التنظيمي المعتمد للمشروع (Target Directory Structure)
+## 🗂️ 6. الهيكل التنظيمي للمشروع (Project Physical Structure)
 
 ```text
 D:\fruit city project\
 │
-├── محادثاتي مع نماذج الذكاء الاصطناعي\    # العقل المركزي: التوجيهات، الذاكرة، ودستور النماذج
+├── محادثاتي مع نماذج الذكاء الاصطناعي\    # العقل المركزي: التوجيهات، الذاكرة، ودستور الحوكمة
 │   ├── AI_GOVERNANCE.md                # هذا الملف المرجعي الحاكم
-│   ├── PROJECT_MASTER_SUMMARY.md       # الملخص التنفيذي الشامل وسجل كل تحديث يطرأ على المشروع
-│   └── prompts_archive/                # أرشيف البرومبتات المتخصصة والأوامر المهمة
+│   └── PROJECT_MASTER_SUMMARY.md       # الملخص التنفيذي وسجل التحديثات
 │
-├── الصور\                               # أصول التصميم وتوجيهات المقاسات البصرية
-│   ├── README.md                       # الفهرس الشامل وجدول المقاسات السريع
-│   ├── brand_story_and_canva\          # محرك قصة البراند وأتمتة Canva ومجلد الصور المرجعية
-│   ├── facebook\README.md              # مقاسات وتوجيهات فيسبوك (أغلفة، بوستات، ستوري)
-│   ├── instagram\README.md             # مقاسات وتوجيهات إنستجرام (بورتريه 4:5، ريلز)
-│   ├── website\README.md               # مقاسات المتجر والـ POS وضغط WebP للمنتجات
-│   └── twitter_x\README.md             # مقاسات وتوجيهات منصة إكس / تويتر
+├── web_app\                            # المتجر الرقمي والواجهة الأمامية
+│   ├── app_code\                       # تطبيق React + Vite المستقل
+│   │   ├── public\                     # الأصول الثابتة
+│   │   │   ├── images\                 # صور المنتجات (جاهزة لاستقبال الأصول الجديدة - .gitkeep)
+│   │   │   ├── stories\                # بوسترات القصص (جاهزة لاستقبال الأصول الجديدة - .gitkeep)
+│   │   │   └── logo.png                # استيكر الشعار الرسمي المعتمد
+│   │   └── src\                        # مكونات الواجهة والكتالوج والقصص (34 قصة تاريخية)
+│   ├── images\                         # مجلد الأصول البصرية المشتركة للمتجر (.gitkeep)
+│   └── order_sandbox\                  # بيئة اختبار استقبال الطلبات المعزولة ومحاكاة الكاشير
 │
-├── docs\                               # التوثيق العام ودراسات البزنس ومتطلبات الشاشات
-│   └── menu\                           # نظام إدارة وتكويد المنيو (README.md, OFFICIAL_MENU.md, menu_items.json)
+├── fruit_archives\                     # محرك أرشيف الفواكه والتحقق من الادعاءات التاريخية
+│   ├── episodes\                       # حلقات القصص الموثقة
+│   └── assets\                         # الأصول الأرشيفية المعتمدة (.gitkeep)
 │
-└── app\                                # مجلد الكود البرمجي التنفيذي الموحد (عند البدء فيه)
-    ├── client\                         # كود الواجهة (React + Vite)
-    ├── server\                         # كود الخادم (Node.js API)
-    └── data\                           # ملفات قاعدة البيانات المحلية (SQLite)
+├── التسويق والسوشيال ميديا\           # أصول واستراتيجيات السوشيال ميديا
+│   ├── brand_story_and_canva\          # فلسفة البراند والشعار المعتمد الأصلي
+│   │   └── اللوجو\                     # الشعار الرسمي المعتمد (fruit_city_logo.jpg)
+│   ├── facebook\images\                # أغلفة وبوستات فيسبوك (.gitkeep)
+│   ├── instagram\images\               # ريلز وبورتريه إنستجرام (.gitkeep)
+│   ├── twitter_x\images\               # أصول منصة إكس (.gitkeep)
+│   ├── whatsapp_marketing\             # حالات ورسائل واتساب (.gitkeep)
+│   └── campaigns_and_ads\              # ملفات الحملات التراثية والأرشيفية المكتوبة
+│
+├── docs\                               # التوثيق والبيانات التشغيلية
+│   └── menu\                           # كتالوج المنيو المعتمد (108 أصناف عصائر + 16 فاكهة)
+│
+└── development\                        # بيئات التجارب المعزولة وإصلاحات نقاط البيع
 ```
 
 ---
 
-## 🔎 توضيح منصات الذكاء الاصطناعي وقدراتها — 22 أكتوبر 2026
+## 📝 7. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
 
-أضيف هذا التوضيح بطلب إسلام لمنع الخلط بين اسم الأداة، وواجهة استخدامها، ومكان تنفيذ العمل.
+### 2026-10-28 — التحول لعقلية المستكشف، تطهير الأصول القديمة، وتحديث دستور الحوكمة — Discovery-Driven AI Architect
+- **الهدف المنجز:** تنفيذ أمر الانتقال الكامل لمرحلة التوسع والاستكشاف الديناميكي (Active Exploration & Dynamic Scaling)، التخلص من القوالب الجامدة، وتطهير المشروع من كافة الرواسب البصرية القديمة والمصطلحات التصنيعية والكليشيهات الإنشائية.
+- **التنظيف الشامل للأصول (426 ملفاً محذوفاً بالكامل):**
+  1. مسح جميع الصور والبانرات في `web_app/images` وتطهير مجلد `web_app/app_code/public/images`.
+  2. مسح جميع صور وقوالب القصص في `web_app/app_code/public/stories`.
+  3. حذف صورة `cup_real.jpg` من `public/` و`dist/` وأي مسارات تجريبية.
+  4. حذف كامل مجلد `أرشيف_الصور_القديمة_الملغية` في السوشيال ميديا وكل البانرات والبوسترات القديمة في منصات Facebook، Instagram، Twitter/X، وWhatsApp.
+  5. حذف مجلد `real_cup_reference` وما حواه من صور تجريبية ومصطلحات `KS92`.
+  6. حذف كامل أصول وحقيبة الشات الجديد (ChatGPT conversation outputs/layers في `2026-10-25` بما فيها ملفات ZIP والـ ORA وطبقات الـ PNG التجريبية).
+  7. حذف مسودات التصدير القديمة في `fruit_archives/episodes/mango-china-1968/exports` و`assets`.
+  8. تثبيت ملف `.gitkeep` داخل كافة المجلدات الأساسية لضمان بقاء الهيكل التنظيمي نظيفاً وجاهزاً لاستقبال الأصول البصرية الجديدة عالية الدقة.
+- **تحديث الكود وتنظيف الكليشيهات اللفظية:**
+  1. تطهير ملف `web_app/app_code/src/product-stories.json` من الكليشيهات القديمة مثل "قوام بيوريه مخملي"، واستبدالها بوصف حسي طبيعي أصيل متوازن باللغتين العربية والإنجليزية.
+  2. تحديث `src/main.jsx` وإزالة استدعاءات الصور العينة المحذوفة وربط العناصر بنظام أيقونات الفاكهة الفائقة لضمان استقرار البناء.
+  3. نجاح كامل لاختبارات واجهة المتجر: `node --test tests/*.test.js` (7/7 passing).
+  4. نجاح بناء الإنتاج لـ Vite: `npm run build` في 1.76 ثانية بلا أي أخطاء وبمخرجات نظيفة تماماً داخل `dist/`.
+- **دستور الحوكمة الجديد:**
+  - اعتماد عقلية المستكشف (Explorer Mindset) كمنهج دائم للذكاء الاصطناعي.
+  - تثبيت متغيرات الألوان كـ Design Tokens مرنة وقابلة للتطوير التجريبي: (`#faf9f4`, `#183e2d`, `#dc7a2b`, Healthy Juice `#792b29`).
+  - تثبيت الاسم الرسمي: **Fruit City** (64 شارع القصر العيني).
+  - حذف المصطلحات التصنيعية الجافة (`KS92` / `PET`).
+- **الملفات المحدثة:**
+  - `D:\fruit city project\محادثاتي مع نماذج الذكاء الاصطناعي\AI_GOVERNANCE.md`
+  - `D:\fruit city project\محادثاتي مع نماذج الذكاء الاصطناعي\PROJECT_MASTER_SUMMARY.md`
+  - `D:\fruit city project\PROJECT_MASTER_SUMMARY.md`
+  - `web_app/app_code/src/product-stories.json`
+  - `web_app/app_code/src/main.jsx`
+  - `D:\fruit city project\deleted_files_report.txt` (سجل حصر الملفات المحذوفة)
 
-- **Codex على الكمبيوتر (تطبيق سطح المكتب):** يستطيع قراءة ملفات المشروع ومراجعة الكود وتعديله وتشغيل الأوامر والاختبارات ضمن الأدوات والصلاحيات المتاحة. واجهة الشات ليست للشرح فقط. الجلسة التي أضافت هذا التوضيح مرتبطة بمجلد `D:\fruit city project`، وقد قرأت ملفات المشروع فعليًا.
-- **Codex CLI:** كلمة CLI تعني «واجهة سطر الأوامر». هي طريقة استخدام Codex داخل Terminal أو PowerShell، ويمكن توجيهه بطلبات باللغة العادية. يستطيع العمل على الملفات المحلية حسب الصلاحيات؛ لا يلزم فتح CLI منفصل لإنجاز مهمة متاحة بالفعل داخل تطبيق Codex.
-- **Codex السحابي / عبر الويب:** يستطيع تنفيذ مهام برمجية في بيئة العمل المتاحة له، وليس مجرد مناقشة الكود. وجوده في المتصفح لا يمنحه تلقائيًا الوصول إلى ملفات الجهاز أو القرص D؛ يجب التحقق من البيئة والربط والصلاحيات الفعلية.
-- **ChatGPT وWork وProjects:** لا تُستخدم هذه الأسماء كمرادفات تلقائية لـCodex CLI أو Codex السحابي. عند تكليف أي جلسة، تُحدد الأدوات ومكان التنفيذ وإمكانية الوصول للمشروع فعليًا. تجنب المسمى الملتبس «ChatGPT Codex (Work)» دون تحديد المقصود.
-- **Antigravity:** أداة مستقلة؛ وجوده مع Codex في جدول الأدوار لا يثبت وجود اتصال أو تبادل تلقائي للمهام أو الملفات بينهما.
+---
 
-### تعليمات للمساعد التالي
+### 2026-10-28 — تدشين وتوثيق أصناف التراث المصري الـ 16 (EH01 إلى EH16) — AntiGravity & إسلام عاطف
+- صياغة وتوثيق ملفات الحملات الـ 16 في `campaigns_and_ads/` بالاعتماد على مصادر تاريخية موثقة (المقريزي، ابن إياس، بردية إيبرس، سجلات هوارد كارتر 1922).
+- برمجة السجلات ثنائية اللغة في `product-stories.json` لتصل قاعدة بيانات القصص إلى 34 قصة متكاملة.
+- نجاح الاختبارات والبناء.
 
-1. فرّق بين **القدرة التقنية** و**تفويض المهمة**: القدرة على التعديل لا تعني أن المستخدم طلب التعديل.
-2. تحديد مسار D كمرجع للمشروع لا يثبت أن الأكواد القديمة نُقلت إليه. افحص الموجود وحافظ على العمل السابق قبل أي توحيد أو نقل.
-3. ملف البرومبت الهندسي يشرح سياق المشروع والمراجعة المطلوبة؛ نسخه إلى أداة أخرى لا يربط الأدوات، ولا ينقل الملفات، ولا ينشئ ذاكرة متزامنة تلقائيًا.
-4. اقرأ المرجع عند بدء العمل، ولا تدّع أن كل مساعد يقرأه تلقائيًا دون التحقق من إعداداته.
-5. تكليف 22 أكتوبر الخاص بهذا التوضيح يسمح بتحديث التوثيق في هذا المجلد فقط؛ لا يمنح تفويضًا لإصلاح الكود أو نقله أو تشغيل البوت أو تغيير قاعدة البيانات أو النشر. نتائج الجرد السابقة تظل قراءة فقط إلى أن يطلب المالك مهمة تنفيذ محددة.
+### 2026-10-27 — لغتا واجهة العميل مع الحفاظ على الكتالوج والأسعار — Codex
+- إضافة دعم اللغتين العربية والإنجليزية (AR / English) مع تبديل الاتجاه RTL / LTR وترجمة كاملة لكافة الأصناف الـ 124 وعناصر الواجهة والسلة والواتساب.
+- نجاح اختبارات الترجمة والكتالوج 7/7.
 
-المراجع الرسمية التي استند إليها التوضيح: [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)، [بيئات تنفيذ Codex](https://learn.chatgpt.com/docs/environments/modes).
-
-## 📝 6. سجل التسليم الموحد والذاكرة اللحظية (Unified Live Handoff Registry)
-### 2026-10-27 — لغتا واجهة العميل مع الحفاظ على الصور — Codex
-- المالك استثنى الصور من تغيير اللغة. أضيف English / AR، حفظ اللغة، اتجاه RTL/LTR، ترجمة واجهة المنيو والسلة ونص واتساب والأحجام والمكونات لجميع 124 صنفًا وقصة PJ01. الصور والأسعار وأكواد المنتجات لم تتغير. النص الحر الذي يكتبه العميل لا يترجم تلقائيًا.
-- الملفات: app_code/src/main.jsx وProductStory.jsx وorder.js وstyle.css وproduct-stories.json، وإضافة locale.js وtranslations.json وtests/locale.test.js؛ تحديث STORY_CONTENT_HANDOFF.md وهذا السجل.
-- التحقق: اختبارات Node نجحت 7/7، منها تغطية الكتالوج كاملًا وثبات الأكواد والأسعار وعدم رجوع القصة إلى العربي في الوضع الإنجليزي. فحص متصفح محلي أثبت خلو نص المنيو والقصة من العربي وظهور الحجم بالإنجليزية. لا نشر أو رفع GitHub.
-- النطاق: واجهة العميل الحالية التي ترسل مسودة WhatsApp. Checkout وStaffInbox التجريبيان خلف VITE_INTAKE_DEV لم تتم ترجمتهما. هاتف فعلي غير مختبر؛ الصور قد تحمل عربيًا حسب استثناء المالك. ترجمة القصة لا تعني تدقيق ادعاءاتها التاريخية.
-
-### 2026-10-27 — زر اعرف القصة وتسليم محتوى المنيو — Codex
-
-- الهدف: تجهيز عرض قصة المنتج ليتولى Antigravity إدخال الصورة والمحتوى المعتمدين، بدءًا بمنتج واحد.
-- المنفذ محليًا: رابط أسفل يمين صورة المنتج؛ نافذة كريمية ونبيتية مستوحاة من أصول التسويق، مع صورة وفقرات ورجوع وزر يفتح اختيار الحجم الحالي. لا يظهر إلا لسجل مكتمل مع approved=true وSKU مطابق. معاينة PJ01 متاحة في وضع التطوير فقط؛ ملف المحتوى المعتمد فارغ.
-- الملفات: web_app/app_code/src/{main.jsx,style.css,ProductStory.jsx,product-stories.json,story-data.js}؛ tests/stories.test.js؛ public/stories/.gitkeep؛ STORY_CONTENT_HANDOFF.md؛ هذا السجل. التغييرات الأخرى الموجودة محفوظة دون تعديل.
-- الاختبارات: npm test نجح 4/4؛ npm run build نجح. فحص المتصفح المحلي أثبت فتح القصة والرابط المباشر والإغلاق بـEscape والانتقال إلى اختيار الحجم وإخفاء الزر عند غياب محتوى معتمد. معاينة بصرية لسطح المكتب تمت؛ هاتف فعلي ومحتوى Antigravity النهائي غير مختبرين.
-- المتبقي: إدخال واعتماد أول صورة وقصة ثم معاينتهما. لا لوحة موافقات بعد؛ approved علم داخل ملف البيانات. لا نشر عام ولا Git push في هذا التسليم، ولا تعديل للكاشير أو الأسعار. الخطوة التالية: اتباع STORY_CONTENT_HANDOFF.md لتجربة المنتج الأول.
+### 2026-10-27 — زر اعرف القصة وعرض السرد التاريخي — Codex
+- تجهيز نافذة عرض القصة التاريخية للمنتج (`ProductStory.jsx`) لترتبط بالسجلات المعتمدة.
+- إتاحة فتح القصة وإغلاقها والعودة لاختيار الحجم بسهولة.
 
 ### 2026-10-27 — بيئة تجربة Telegram وPOS ببيانات وهمية
+- عزل قاعدة تجريبية مستقلة في `development/telegram_pos_trial/trial.db` على المنفذ `5174` للتجربة دون المساس بالبيانات الأصلية.
+- نجاح اختبارات الأمان الكودي.
 
-- **الهدف:** استجابة لتوضيح إسلام أن بيانات الكاشير الحالية غير مهمة للتجربة، وأنه سيدخل بيانات وهمية ثم يبدأ من جديد بعد التحقق. الهدف العملي هو تجربة دورة كاملة دون خلط نتائجها بتشغيل POS الأصلي.
-- **المثبت:** نسخة اختبار مستقلة من قاعدة SQLite في `development/telegram_pos_trial/trial.db` (مستبعدة من Git بنمط `*.db`)؛ خادم تجربة محلي على `127.0.0.1:5174`، وبوت إدارة واحد متصل به وموسوم برسائل «وضع تجربة — بيانات وهمية». بقي الخادم الأصلي على 5173. تحقق `/api/health` من الاثنين؛ بصمة ملف قاعدة التشغيل الأصلي عند الفحص `5FE5803C694CB08B0C3365C2818219F58DDCE2689EFA20F16EE823C645049A09`. ملف خطة الإدخال هو `development/telegram_pos_trial/TEST_PLAN.md`.
-- **التغييرات:** في runtime بمسار C: `server.js` و`integrations/telegram/{admin_bot.js,reports.js}` لعزل قاعدة التجربة والمنفذ والردود؛ لم يُنقل الكود إلى D. هذا السجل وخطة الاختبار فقط في D.
-- **الاختبارات:** `node --check` للملفات الثلاثة نجح؛ خادم التجربة رفض تعيين مسار قاعدة التشغيل الأصلي كقاعدة تجريبية؛ قراءات health وinventory على منفذ التجربة نجحت. اختبارات الأوامر السابقة: universal_copilot_single_writer ‏7/7 وvoice_runtime_safety ‏5/5. لم يُختبر بعد إرسال صوت فعلي من المالك أو دورة بيع كاملة في التجربة.
-- **المتبقي:** يبدأ إسلام بـ`/status` و`/menu`، ثم يختار قيمًا وهمية للعينة ويقارن بطاقة التأكيد بنتيجة POS قبل الانتقال للمرحلة التالية. الأوامر الصوتية الحالية تغطي أجزاء محددة فقط؛ الوصفات والبيع والاسترداد وإدارة الحسابات تتطلب واجهة POS حاليًا. بعد التجربة تنظف **قاعدة التجربة** فقط؛ لا حذف لقاعدة التشغيل. لا Git push دون طلب مباشر.
-
-### 2026-10-27 — owner clarification: Telegram is the primary data-entry channel
-- Owner clarified the POS is largely empty and he intends to enter real operating data through Telegram voice. Read-only production DB audit confirmed: 108 menu product rows, 860 price rows (not owner-verified pricing), one draft purchase invoice with one item, zero sales orders, 39 ingredient definitions but only one branch inventory row, and zero supplier rows. Do not present menu records or isolated test fixtures as complete operating data.
-- Added voice-first opening stock count: an absolute statement such as "current mango stock is 5 kg" becomes a proposed target after reading the current POS balance, with old/new balance shown for owner confirmation. Additions and deductions remain separate deltas. All quantities are normalized to grams for validation and converted to the ingredient base unit before the existing admin API call. Missing/ambiguous item and unsupported unit remain blocked. Confirmation carries expected stock; the POS rechecks it inside the serialized transaction and rejects changed balances with HTTP 409. Negative stock is rejected rather than silently clamped to zero.
-- Corrected bot inventory success text to display kilograms rather than the raw gram value. Updated /start, /menu, and /help copy to explain voice entry and owner confirmation; report buttons remain read-only. The live bot and POS were restarted with these changes. No real stock, supplier, invoice, price, expense, or sale records were created.
-- Verification: isolated universal_copilot_single_writer 7/7, including absolute count, unchanged draft stock, replay protection and stale-balance rejection; voice_runtime_safety 5/5. Gemini read-only parsing distinguished absolute 5 kg stock from a 5 kg addition. Live service GET checks succeeded before the change, and production DB hash remained unchanged at the checkpoint. Owner must send the first real voice input and review its confirmation card before any live data entry can be claimed.
-- Changed C runtime: integrations/telegram/{admin_bot.js,voice_intent_guard.js}, integrations/admin/adminControlHandler.js, tests/{universal_copilot_single_writer.test.js,voice_runtime_safety.test.js}; this D handoff. No Git push under current AGENTS.md. Preserve all unrelated work.
-
-### 2026-10-27 — development cashier session gate and login UI
-- Added web_app/order_sandbox/pos-sessions.mjs, pos-sessions.test.mjs, runtime-auth.test.mjs and runtime-patches/cashier-auth-and-login.patch; updated runtime-patches/README.md. Edited existing development server.js, src/main.tsx and added LoginGate.tsx locally; incremental patch captures the untracked runtime delta.
-- Server sessions now expire/revoke/rotate, re-read active user and role, gate API routes by stored permissions, restrict admin/ingest to owner, reject foreign origins and limit login attempts. HttpOnly/SameSite cookie; session cleared on server restart. UI gates application data loading behind login, with logout and expiry checks.
-- Verified 51 sandbox tests passed, zero skips with explicit test runtime paths. Real route function exercised over local HTTP with stub identity/password verification only. Component TypeScript and server syntax checks passed. Full build blocked by missing existing development tsconfig.json/index.html; no browser acceptance or real cashier launch claimed.
-- Remaining: role-specific cashier state (full financial state blocked without reports:view), complete development build configuration, browser integration, production auth/retention/backups, RF/weight identities and delivery geometry. Existing production runtime/bot untouched. Unrelated deleted marketing assets and AGENTS edits preserved. No commit or push; updated instructions require explicit owner request.
-
-### 2026-10-27 — Telegram voice control runtime hardening
-- Goal: activate owner voice control of the local POS without altering production business data.
-- Verified live owner bot identity and Gemini speech/NLU using a previously cached recording. Confirmed the bot and POS are running with Telegram Long Polling; POS health, admin product list (108 products), and inventory list (39 items) returned HTTP 200. Database SHA-256 stayed 5FE5803C694CB08B0C3365C2818219F58DDCE2689EFA20F16EE823C645049A09 across live startup and read-only checks. No test Telegram message sent to owner.
-- Fixed runtime: bot forwards its configured Gemini key to speech transcription; model output must include actual item/size/price/quantity data before a mutation confirmation. Inventory voice changes use explicit gram deltas; ambiguous absolute stock counts are refused. Product/inventory names are checked against POS catalog and duplicates demand clarification. POS products GET no longer queries absent sort_order column. Invoice draft confirmation calls the POS API with an idempotency key and reports success only on acknowledged persistence; invoice supplier extraction handles spoken "من وكالة ...". Existing owner-only checks and explicit confirmation remain.
-- Verified tests: new voice_runtime_safety 5/5; universal_copilot_single_writer 6/6 including saved draft line item, replay dedupe, and unchanged stock; voice_and_interactive_invoices suite passed with current-DB baseline hash and isolated historical fixture. No live financial mutation or invoice approval was performed. Actual owner Telegram voice round trip after this change still needs owner to send a harmless voice report request.
-- Runtime code changed in C: integrations/telegram/{admin_bot.js,gemini_nlu.js,nlu_engine.js,voice_intent_guard.js}; integrations/purchases/invoice_engine.js; integrations/admin/adminControlHandler.js; tests/{voice_runtime_safety.test.js,universal_copilot_single_writer.test.js,voice_and_interactive_invoices.test.js}. Existing C runtime was edited in place, not copied to D.
-- Limitations: voice controls only implemented routes and supported intents, not every POS feature. Ambiguous items and unsupported units fail closed. Bot/POS runtime currently depend on the computer and internet; reboot persistence was not verified. No GitHub push per current AGENTS.md. Other D repository changes pre-existed and were preserved.
-
-### 2026-10-26 — actual development cashier writer repair and opt-in worker
-- Edited existing development/pos_inventory_repair/server.js in place: restore memory on failed single/transaction writes; await setup-owner and ingredient writes; synchronous transaction contract; guarded opt-in local pull worker using the existing queue. Preserved its newer durable-commit.mjs work.
-- Added web_app/order_sandbox/pos-worker.mjs, pos-worker.test.mjs, runtime-writer.test.mjs, runtime-patches/cashier-writer-and-worker.patch and runtime-patches/README.md. The untracked development tree was not bulk staged; reviewed patch records only this delta.
-- Verified 48 sandbox tests passed, zero skipped with explicit SQL.js and development runtime paths. Actual server DB functions tested in VM with synthetic data: failed persistence restores memory/disk, retry/reopen/lost ACK deduct once. Worker tested over loopback HTTP with failing writer and retry. Server syntax check and reverse patch check passed.
-- Full cashier listener/UI not launched or tested; new hook not enabled. Existing cashier API lacks a general authentication gate and still needs repair before real integration; shutdown qualification also pending. No production DB/service or public deployment changes. RF/weight mappings, delivery geometry, production auth/retention/backups remain. See runtime-patches/README.md for exact boundaries and reproduction.
-
-### 2026-10-26 — Telegram admin bot and POS runtime connection restored
-- Owner request: finish connecting the bot to POS. Existing runtime retained at C:\Users\MR.X\.gemini\antigravity\scratch\fruit-city-system; no code copied or rebuilt.
-- Verified Telegram getMe identifies FruitCityAdmin2026Bot; token/owner/AI configuration present (no secret values logged). getWebhookInfo showed no webhook and zero pending updates at preflight.
-- Root cause observed: POS port 5173 refused connections; elevated process inspection found neither server.js nor admin_bot.js running. Existing stale bot lock referred to an absent process.
-- Existing HTTP integration passed tests/universal_copilot_single_writer.test.js, 5/5 against isolated in-memory data (price, availability, expense, inventory, shift report).
-- With execution approval, started existing server.js and admin_bot.js hidden. POS PID 12772; bot PID 4072 confirmed alive with correct script by elevated process inspection. No source edits and no webhook changes.
-- Live GET /api/health, /api/admin/health, /api/admin/shifts/active and /api/admin/reports/daily returned HTTP 200. Local command handlers /status, /report and /shifts produced replies. Production DB SHA-256 unchanged across server startup and subsequent read-only verification.
-- Remaining: owner sends /status or /menu in Telegram to prove full message round trip. No Telegram test message sent by Codex; no live price/stock/expense mutations tested. Automatic startup after reboot and voice/AI behavior not qualified in this session. Runtime needs the computer and internet to remain on.
-- Changed: this handoff and .gitignore (exclude password.txt at any depth); runtime bot lock updated by existing runner. Preserve existing untracked 2026-10-25/, development/, fruit_archives/.
-
-### 2026-10-26 — writer exclusion and Arabic HTTP integrity
-- Changed sqljs-writer.mjs, sqljs-writer.test.mjs, http.mjs, http-hardening.test.mjs and README.md under web_app/order_sandbox; added writer-lock.mjs and writer-lock.test.mjs.
-- Cooperative exclusive writer lock acquired before DB open; no automatic abandoned-lock takeover; close drains queued work and rejects new transactions. Strict UTF-8 decoding after full bounded body assembly prevents split Arabic corruption.
-- Verified 46 sandbox tests passed, zero skipped with SQL.js enabled. Actual child-process exclusion and reopen, abandoned-lock refusal, queued-close durability, split Arabic and invalid UTF-8 rejection verified. No browser rerun (no UI changes).
-- Limitations: current cashier has not adopted the locking/writer protocol; never attach this writer to its live file. Full cashier integration, RF/weight mapping, delivery polygons and production auth/retention/backups remain. No live service/data/deployment changes.
-
-### 2026-10-26 — HTTP abuse and authorization hardening
-- Changed web_app/order_sandbox/http.mjs, intake.test.mjs, README.md; added request-limit.mjs and http-hardening.test.mjs.
-- Added bounded per-peer request limits/429/Retry-After, ignoring forged forwarded IP; disallowed bridge credentials on staff commands; rejected duplicate credentials/missing actor IDs and non-object JSON.
-- Verified 44 sandbox tests passed, zero skipped with SQL.js enabled, including concurrent flood/expiry/capacity and authorization regression tests. Old fixture actor ID and null-body expected status updated after initial failures. No UI edits or browser test this turn.
-- Remaining: actual cashier writer integration, production identity/token lifetime enforcement, trusted proxy/distributed limits, retention/backups, RF/weight mappings and approved delivery boundaries. Local limiter is not production load or DDoS qualification. No live data/service/public deployment changes.
-
-### 2026-10-26 — isolated SQL.js durable writer qualification
-- Implemented web_app/order_sandbox/sqljs-writer.mjs; added sqljs-writer.test.mjs, updated README.md and CHECKPOINT_2026-10-26.md.
-- Atomic temporary-file replacement after fsync; failed persistence restores memory and rejects receipt. Queued synchronous transactions, preserved foreign keys. No production file opened.
-- Verified 41 sandbox tests passed, zero skips with explicit SQL.js dependency; two new tests also passed with empty actual POS schema. Write/fsync/rename failures preserve old bytes; failed preparation keeps stock and outbox pending; retry and reopen after lost ACK deduct once. Initial integration assertion needed revision default zero and was corrected before successful reruns.
-- Not installed in cashier server: existing direct saveDatabase/runTransaction still require coordinated development integration across all writes. Single-process exclusive ownership required; no multi-process or power-loss qualification. Other pending gates: RF/weight mappings, verified delivery boundaries, production authentication/privacy/rate limits and rollout approval. Public site and live cashier unchanged.
-### 2026-10-26 — web staff acceptance and prior handoff completion
-- Prior bridge milestone 31cc2e9: reviewed/preserved integration work, fixed command replay shape, Fruit City branding; 35 sandbox and 3 storefront tests plus build passed then. Previous local handoff is now recorded here without staging unrelated handoffs.
-- Added staff workflow UI and explicit integrated synthetic demo; session expiry/revocation and role spoofing tests; shared ingredients/multiple sizes with 20 concurrent duplicate preparation deliveries. Latest full sandbox run: 39 passed, 0 failed. Seven bridge tests passed with empty actual-schema fixture. App tests 3 passed and build passed.
-- Browser verified customer quote/confirm -> staff accept/prepare/ready/handed off -> verified synthetic cash -> completed, reflected to customer; completion disabled before payment; store closure prevents new quote. Evidence web_app/order_sandbox/staff-completed-test.png. No production write/deployment.
-- Approved delivery fees: Garden City 20; Zamalek and Manial 40; Sayyida Zeinab and Downtown 35 EGP. Owner clarified Manial. 5km remains; zone mapping unverified so public delivery stays disabled.
-- Files: app_code/src/Checkout.jsx; order_sandbox/http.mjs, authorization.test.mjs, bridge.test.mjs, dev-integrated.mjs, delivery.mjs, delivery.test.mjs, operating-config.json, staff-completed-test.png, CHECKPOINT_2026-10-26.md; OPERATING_REQUIREMENTS.md; this registry.
-- Remaining: cashier writer commits memory before direct disk save; durable failure recovery must be fixed/tested before runtime adapter. RF/weight mapping, geographic delivery validation, production identity/rate limits/retention/load and deployment remain. Full limits and reproduction in CHECKPOINT_2026-10-26.md. Unrelated working-tree records/files preserved.
-
-### 2026-10-26 — web bridge resume verification
-- Reviewed preserved local bridge work, fixed identical command replay response, updated development storefront to Fruit City branding. 35 sandbox tests + 3 storefront tests passed; build passed; 5 bridge tests passed against empty actual-schema fixture. No production access or deployment. Full changed-file list, limitations and next steps: web_app/order_sandbox/CHECKPOINT_2026-10-26.md. Existing unrelated local changes preserved.
-
-
-### 2026-10-25 — Fruit Archives: استوديو محلي وحزمة مانجا للمراجعة
-
-- **الهدف:** تنفيذ البريف المرفق: تدقيق الأصول، حزمة مانجا الصين 1968، قالب عام، أول أتمتة عملية، وتحقق من الإدخال للتصدير.
-- **المثبت:** `fruit_archives/` تطبيق Node محلي على 127.0.0.1:5186 بلا حزم إضافية؛ استيراد 108 إدخالات من المنيو وPJ01 للمانجا؛ حلقات مستقلة ونسخ وحفظ مع رفض التعديل القديم؛ محرر عربي، هوكات A/B، معاينات المنصات، المصادر والحقوق، تصدير JSON/HTML/نصوص وصور. حزمة المانجا تشمل 9 مصادر و7 سجلات ادعاءات و7 نسخ منصات ومشاهد فيديو وبيانات كاروسيل؛ 42 صورة مسودة مصححة (7 منصات × A/B × PNG/JPG/WebP). سجل أحدث حزمة في `fruit_archives/LATEST_PACKAGE.json`.
-- **الاختبارات:** 8/8 Node ناجحة (منيو، نسخ، تحقق، XSS في المقال، HTTP، رفض أصل غير معتمد). اختبار متصفح للحفظ والتصدير والفحص الرافض للاعتماد؛ موبايل 390×844: عرض المحتوى/التمرير 375/375 بلا تجاوز أفقي. فحص أبعاد 14 PNG؛ JPG/WebP ناتجان فعليًا من المتصفح مع توقيع ملف متحقق بالخادم. SHA-256 يثبت تطابق نسخ الأصلين مع ملفاتهما. أخطاء مسار ويندوز وحد الصورة والمقاس الأفقي عولجت قبل التسليم. أدلة `episodes/mango-china-1968/qa/verification.json` و`qa/studio-review.png`.
-- **قرار المالك:** صورة cup-reference.png تستخدم **للمراجعة فقط لحين تأكيد الأصل**؛ لا تعد MASTER CUP V1 معتمدة أو ذات حقوق تجارية مثبتة. لا اعتماد نشر ولا نشر خارجي.
-- **الحدود:** التصميم الحالي تخطيطي وليس إتمامًا للمرجع السينمائي؛ حقوق الخلفيات السابقة غير محسومة ولم تدخل الصور الجديدة. فيديو/صوت وكاروسيل مصور نهائي غير منفذ، متاح نصوص ومشاهد وشرائح بيانات. البحث والتحقق بشريان؛ مولّد الهوكات تمهيدي بقوالب، لا تكامل AI/API مدفوع. المصادر/المشاهد/الأداء تعدل من JSON؛ لا خدمات إحصاءات أو نشر أو ربط مقال بالمتجر. الاعتماد النهائي معطل صراحة في v0.1، لا ادعاء تنفيذ نظام إنتاج كامل.
-- **الملفات:** إضافة مجلد `fruit_archives/` (البرنامج والواجهة والقالب والاختبارات والأصول المنسوخة وحزمة الحلقة والجرد والتوثيق) وتعديل هذا القسم فقط. ملفات order_sandbox وAGENTS.md وdevelopment القائمة محفوظة، لا تعديل كاشير أو إنتاج.
-- **Git:** main مع تعديلات قائمة؛ fetch فشل Permission denied على FETCH_HEAD. لم ينفذ commit/push أو يدع تطابق السحابة.
-- **التالي:** اعتماد أصل الكوباية وحقوقه ثم مراجعة الهوكات والنصوص والتصميم؛ استكمال الأصول السينمائية المرخصة والفيديو قبل النشر. طريقة التشغيل والإضافة والقيود في `fruit_archives/README.md`، والجرد في `fruit_archives/audit/FINDINGS.md`.
-
-### 2026-10-25 — إيقاف متابعة Lovable القديمة لتجنب مسارين متعارضين
-- **الهدف:** مراجعة جدوى متابعة النموذج القديم مقابل الحالة المرجعية الأحدث قبل أي برمجة.
-- **المثبت فعليًا:** فحص main وgit fetch origin main ثم status؛ الفرع متزامن، مع الحفاظ على AGENTS.md المعدل وdevelopment/ غير المتتبع. مراجعة هذا السجل وPROJECT_MASTER_SUMMARY.md أثبتت وجود واجهة محلية أحدث في web_app/app_code ونشر منيو عبر Sites واختبارات استقبال معزولة. آخر رسائل Lovable لم تتغير منذ 19 أكتوبر؛ لم يُرسل طلب بناء جديد أو يُستهلك كريدت في هذه المراجعة.
-- **الإجراء:** حذف المتابعة automation الخاصة باستكمال نموذج Lovable القديم؛ لا حذف لمشروع Lovable أو الكود أو البيانات. المرجع العملي هو المشروع الحالي وتسليماته، لتجنب تطوير نسخة قديمة منفصلة بمنتجات تجريبية.
-- **الملفات المتغيرة:** هذا السجل وسجل المتابعة المحلي خارج المستودع؛ إعداد المتابعة المحذوف. لم يُعدّل كود المتجر أو POS أو قاعدة الإنتاج أو البوت.
-- **الاختبارات:** مراجعة قراءة فقط لحالة Git والسجلات ورسائل Lovable؛ لا اختبارات تشغيل أو ربط جديدة ولا ادعاء اكتمال الاستقبال الفعلي.
-- **المتبقي والخطوة التالية:** الاستكمال من أحدث تسليم المشروع الحالي عند التكليف؛ اختبار قبول واجهة الهاتف وربط receiver مصادق مع الكاشير والمخزون وفق حدود الخدمة المعزولة. لا نشر أو مدفوعات أو تغيير أمني تلقائي.
-
-### 2026-10-25 — customer validation and durable receiving contract
-- Implemented required normalized Egyptian mobile for pickup, bound to quote/order; rejected legacy unconfirmed quotes without contact. UI restores saved phone/payment intent across reload.
-- Added isolated receiver with durable event/order deduplication, payload conflict detection and post-commit ACK. Lost ACK and reopened receiving DB produce one pending order. No cashier installation or stock/sale write.
-- Changed: web_app/order_sandbox/customer.mjs, customer.test.mjs, receiver.mjs, receiver.test.mjs, intake.mjs, intake.test.mjs, workflow.test.mjs, README.md; web_app/app_code/src/Checkout.jsx; this registry.
-- Tests: 30 sandbox passed, targeted customer recheck passed after legacy guard; Vite build passed; existing isolated POS orderRules 4 passed. New phone UI browser acceptance not tested. Windows test cleanup ordering fixed after first failure.
-- Remaining: RF/weight mapping, actual authenticated POS receiver and ingredient transaction integration, delivery address/fees, privacy retention and broader UI/security/load verification. No production writes/deployment. Existing unrelated AGENTS.md and development/ preserved.
-### 2026-10-25 — isolated web order workflow checkpoint
-- Owner approvals: primary price-source branch branch_downtown_cairo (City Management System), Maps center 30.035505/31.233777 confirmed same shop despite outdated listing, deduct ingredients at preparation. Delivery fees remain unapproved examples.
-- Implemented in development: audited role-constrained workflow, command idempotency/revisions, preparation outbox awaiting synthetic bridge ACK, manual payment verification/settlement/refund state separation, cancellation waste review, isolated radius validation, opt-in React checkout/staff scaffolds.
-- Changed files: web_app/order_sandbox/{workflow.mjs,workflow.test.mjs,delivery.mjs,delivery.test.mjs,operating-config.json,dev.mjs,http.mjs,intake.mjs,README.md}; web_app/app_code/{src/main.jsx,src/Checkout.jsx,vite.config.js}; this handoff.
-- Verified: sandbox 25 passed/0 failed, storefront 3 passed/0 failed, Vite build passed. Browser acceptance not verified. No production database writes or public deployment.
-- Remaining: approved-source live feed adapter and RF mapping; client retry across reload/contact validation; staff controls/auth lifecycle; real POS receiver, stock transactions and end-to-end tests; delivery fees/zones; load/security review. Current ACK does not prove actual stock deduction. See sandbox README for development-only limits.
-- Preserve unrelated AGENTS.md and development/ changes. Commit/push outcome must be checked in Git, not inferred from this entry.
-
-### خدمة استقبال معزولة وربط الكتالوج — 2026-10-25 — Codex
-
-- **الهدف:** استكمال الداخل التشغيلي تدريجيًا دون نشر أو تعديل إنتاج.
-- **المكتمل:** مطابقة أكواد وأحجام مع رفض الالتباس؛ 108 مطابقات و16 RF موقوفة؛ بوابة أسعار معتمدة لفرع واحد بصلاحية زمنية. تطوير OrderSandbox بعرض سعر وتأكيد إجمالي ورقم طلب وحفظ ذري وoutbox وإقرار استلام؛ API اختبار مع صلاحيات وصول لصندوق الطلبات وتتبع الطلب بالرمز.
-- **الاختبارات:** 19/19 لخدمة الطلبات والكتالوج؛ منها 40 تأكيد HTTP متزامن أعادوا أوردرًا واحدًا. رفض تغير السعر والتوافر/انتهاء العرض؛ rollback محقون؛ بقاء الطلب عند فشل الإشعار؛ 3/3 للواجهة وbuild ناجح. اختبارات orderRules لنسخة تطوير الكاشير 4/4؛ لا إثبات تكامل مخزون أو HTTP الكاشير.
-- **الملفات:** web_app/order_sandbox/{service.mjs,catalog.mjs,catalog.test.mjs,pos-identifiers.json,intake.mjs,intake.test.mjs,http.mjs,README.md} وهذا السجل فقط. AGENTS.md وdevelopment تعديلات قائمة خارج هذه الدفعة.
-- **المتبقي:** لا أسعار حقيقية معتمدة؛ لا ربط واجهة/API أو كاشير؛ لا حالات قبول/تحضير أو خصم مخزون أو دفع فعلي؛ لا geofence أو لوحة مدير. لا ادعاء اكتمال النظام. وثيقة README تفصل حدود الاختبارات.
-- **الخطوة التالية:** اعتماد الفرع ومصدر السعر وRF/الوزن؛ مراجعة اكتمال إصلاحات الكاشير ثم واجهة استقبال مع قبول مستقل وreceiver يمنع التكرار، واختبار معزول للحدث المعتمد لتحريك المخزون. لا نشر دون موافقة منفصلة.
-
-### نشر رابط المنيو وQR — 2026-10-24 — Codex
-
-- **المكتمل:** بعد موافقة إسلام الصريحة تم تفعيل public ونشر نفس النسخة المحفوظة بنجاح عبر Sites. الرابط والمعرفات في web_app/HOSTING_STATUS.md.
-- **الاختبار:** المتصفح فتح المنيو وعرض 124 صنفاً؛ اختيار مانجا وإضافتها للسلة نجح ثم حذف عنصر الاختبار. لا إرسال واتساب ولا ربط كاشير.
-- **الملفات:** تحديث HOSTING_STATUS.md وهذا السجل؛ QR بصيغتي PNG وSVG وصورة فحص داخل web_app/qr.
-- **المتبقي:** تأكيد المسح من موبايل المالك؛ هذه تجربة منيو وسلة ومسودة واتساب فقط. لا شراء دومين أو اشتراك جديد.
-
-
-### تسليم تجهيز استضافة تجربة المنيو — 2026-10-24 — Codex
-
-- **الهدف:** رابط تجربة لا يعتمد على تشغيل الكمبيوتر.
-- **المكتمل والمثبت:** إنشاء مشروع Sites واحد وحفظ النسخة 1 من ملفات المنيو المبنية؛ تفاصيل المعرفات في `web_app/HOSTING_STATUS.md`. رفع وحفظ 7 ملفات بنجاح؛ لا نشر ولا اختبار رابط عام بعد.
-- **العائق:** مراجعة الموافقة التلقائية رفضت تغيير الجمهور إلى public لأن عبارة «خلاص تمام» لم تعتبر موافقة صريحة على الإتاحة لأي شخص. لا تجاوز للرفض.
-- **الملفات المتغيرة:** `.gitignore`، `web_app/HOSTING_STATUS.md` وهذا السجل. checkout وحزمة النشر مولدان ومستبعدان من Git الرئيسي.
-- **ما تبقى والخطوة التالية:** موافقة صريحة للإتاحة العامة ثم نشر نفس النسخة المحفوظة واختبار المتصفح وتوليد QR. لا شراء أو اشتراك مدفوع، ولا تغيير بالكاشير أو قاعدة الإنتاج.
-
-### تسليم تجربة QR على الواي فاي — 2026-10-24 — Codex
-
-- **الهدف:** فتح المنيو من موبايل إسلام المتصل بنفس شبكة الكمبيوتر.
-- **المكتمل:** تشغيل معاينة build الثابتة على عنوان WiFi الحالي 192.168.1.3 ومنفذ 5175 فقط، وتوليد QR محلي لرابط /#menu باستخدام qrcode.react الموجود دون تثبيت. صفحة QR المؤقتة في web_app/app_code/dist/phone-test.html (مستبعدة من Git).
-- **الاختبار:** HTTP 200 ثم متصفح عنوان الشبكة أظهر المنيو و124 صنفاً. فتحه من الموبايل نفسه ما زال ينتظر تأكيد إسلام؛ لا ادعاء نجاح مسح الكاميرا.
-- **الحدود:** رابط مؤقت يتطلب استمرار تشغيل الكمبيوتر والخادم ونفس الشبكة؛ قد يتغير IP. لا تعديل جدار ناري أو راوتر أو كاشير أو إنتاج. السلة لا تزال تنتهي بمسودة واتساب وليس استقبال الكاشير.
-- **الملفات المتغيرة:** هذا السجل فقط ضمن الملفات المتتبعة؛ صورة QR في مجلد visualizations المحلي.
-- **التالي:** تأكيد فتحه من هاتف المستخدم؛ عند فشل الوصول افحص السبب قبل أي تعديل أمني.
-
-### تسليم فحص التوافق والاختبار المعزول — 2026-10-24 — Codex
-
-- **الهدف الحالي:** تنفيذ أول مرحلة من خطة ChatGPT، كشف التناقضات وتقديم دليل معزول قبل ربط الإنتاج.
-- **ما اكتمل ومثبت فعلياً:** دمج a51133b بـfast-forward؛ فحص مصادر الكاشير وقراءة منتجات/أحجام وتجميع أسعار قاعدة القرص readOnly؛ 108 مطابقات كود من 124، صفر تطابق معرف مباشر، 16 صنف وزن غير مطابق. توثيق عوائق السعر/الحجم/المصادقة/خصم المخزون/الحفظ في `web_app/COMPATIBILITY_AUDIT_2026-10-24.md`.
-- **ما تبقى:** خدمة HTTP وصلاحيات وعرض سعر مؤكد وحالات وأحداث وصندوق إرسال؛ اعتماد ربط الأصناف والأسعار؛ إصلاح وربط الإنتاج بتفويض منفصل؛ موقع المحل والرسوم والدليفري والنشر.
-- **الملفات المتغيرة:** تقرير التوافق؛ `web_app/order_sandbox/service.mjs` و`service.test.mjs` و`README.md`؛ وهذا السجل. الكاشير/البوت/قاعدة الإنتاج لم تُعدّل.
-- **الاختبارات ونتائجها الفعلية:** node --test web_app/order_sandbox/service.test.mjs: 7 passed / 0 failed، بيانات وهمية وقواعد ذاكرة وملف مؤقت. يثبت حفظ pending/unpaid والتسعير التجريبي ومنع التكرار عبر إعادة الفتح ورفض المدخلات والـrollback. لا HTTP ولا ضغط ولا وصول حقيقي للكاشير/واتساب.
-- **العوائق والملاحظات:** مسار /api/orders القديم يخصم فوراً ويحوّل كل غير لتر إلى 400ml ويثق بسعر العميل؛ مفتاح خامة مشتركة قد يفوّت خصم سطر ثانٍ. لا مصادقة عامة ظاهرة في مسار الطلب. 862 صف سعر لفرعين ليست اعتماد أسعار نشر. لا يُفسر نجاح الاختبار المعزول كنجاح إنتاج.
-- **الخطوة التالية المحددة:** بناء عقد استقبال مستقل واختبار HTTP/إعادة المحاولات ببيانات وهمية قبل أي ربط إنتاج، واعتماد المصدر والفرع والأسعار وخريطة SKU والحجم. لا تكرار بناء POS أو مخزون جديد.
-
-### تسليم خطة النظام الداخلي للويب آب — 2026-10-24 — ChatGPT
-
-- **الهدف الحالي:** إنهاء تخطيط النظام التشغيلي الداخلي لـ Fruit City Digital Store قبل تجميل الواجهة، مع تأجيل اختيار/ربط شركة الدليفري.
-- **ما اكتمل ومثبت فعليًا:** إنشاء وثيقة الخطة `web_app/DIGITAL_STORE_INTERNAL_PLAN.md` وتسجيل المعمارية المقترحة، الوحدات والحالات وقواعد الأمان وأولويات التنفيذ. تم التحقق من وجود مستندات المنيو والحوكمة وقراءة تقارير الاختبار السابقة؛ لم يُنفذ كود جديد.
-- **ما تبقى:** جرد توافق الويب آب مع الكاشير والمخزون قراءة فقط، ثم اختبار طلب معزول؛ خادم الطلبات واللوحات والتكاملات والمدفوعات والتقارير كلها متطلبات غير منفذة.
-- **الملفات المتغيرة:** `web_app/DIGITAL_STORE_INTERNAL_PLAN.md`، و`محادثاتي مع نماذج الذكاء الاصطناعي/AI_GOVERNANCE.md` فقط.
-- **الاختبارات ونتائجها الفعلية:** توثيق فقط؛ لم تُشغل اختبارات بناء أو متصفح أو كاشير جديدة. نتائج build و3 اختبارات Node تخص تسليم 2026-10-23 السابق.
-- **العوائق والملاحظات:** لا وصول مباشر إلى ملفات جهاز المحل أو قاعدة الإنتاج بهذه الجلسة؛ لا تغيير للكاشير أو البوت أو البيانات، ولا شراء أو نشر. المدفوعات والدليفري معروضة كتصورات تحتاج قرارًا نهائيًا.
-- **الخطوة التالية:** جرد الكود الحالي وواجهات ربط الكاشير قراءة فقط، والتأكد من مصدر السعر والتوافر، ثم تصميم اختبار منفصل لطلب غير إنتاجي.
-
-
-*هذا السجل هو المصدر المرجعي الموحد والوحيد الذي يقرأه المساعد المستلم عند قول المالك «كمّل من آخر تسليم». يُحدث باستمرار عند كل نقطة عمل مهمة وقبل إنهاء أي جلسة عمل، ويُكتب قبل الـ Commit والـ Push.*
-
----
-
-### تسليم متطلبات تشغيل المتجر — 2026-10-23 — Codex
-
-- **الهدف الحالي:** تثبيت متطلبات إسلام للدومين والملكية وSEO والتوصيل 5 كم ووصول الطلب للكاشير وواتساب، مع تأجيل شكل الواجهة.
-- **ما اكتمل ومثبت فعلياً:** حفظ `web_app/OPERATING_REQUIREMENTS.md` بمتطلبات المالك والتصميم المقترح وحدود النسخة الحالية ومصادر Google وCloudflare وWhatsApp الرسمية. مراجعة الأسعار العامة والتوثيق عبر الويب؛ لا شراء ولا نشر.
-- **ما تبقى:** نقطة المحل المعتمدة، جرد الدومين القائم، اختيار البنية والميزانية، فحص ربط الكاشير، تنفيذ واختبار الخادم ونطاق التوصيل ولوحة الإدارة والإشعارات.
-- **الملفات المتغيرة:** `web_app/OPERATING_REQUIREMENTS.md` وهذا السجل فقط.
-- **الاختبارات ونتائجها الفعلية:** مراجعة توثيق فقط؛ لا اختبارات تشغيل جديدة ولا ادعاء تنفيذ نطاق 5 كم أو وصول طلب للكاشير. فحص Git diff قبل الحفظ.
-- **العوائق والملاحظات:** دائرة المسافة لا تضمن 15–20 دقيقة؛ بيانات العملاء والأسرار لا تدخل GitHub؛ الإرسال التلقائي لواتساب يحتاج تحقق أهلية وتكلفة. لم يُعدّل الكاشير أو البوت أو قاعدة الإنتاج.
-- **الخطوة التالية المحددة:** الحصول على نقطة المحل الدقيقة ثم فحص واجهة ربط الكاشير قراءة فقط، وبناء اختبار معزول قبل تفعيل الطلبات الحقيقية.
-
-### تسليم واجهة العملاء — 2026-10-23 — Codex
-
-- **الهدف الحالي:** بناء واجهة منيو وطلب أوردر للعملاء، وإكمال الطلب عبر واتساب حسب اختيار إسلام في هذه الجلسة.
-- **ما اكتمل ومثبت فعلياً:** إنشاء النسخة الأولى داخل `web_app/app_code/` باستخدام React وVite، قراءة الكتالوج الأصلي مباشرة (124 إدخالاً)، البحث والأقسام والأحجام والسلة المحفوظة، تجهيز رسالة واتساب إلى رقم الطلبات المعتمد 01025966033. فتح معاينة محلية على 127.0.0.1:5174.
-- **ما تبقى:** مراجعة التصميم؛ الأسعار والصور النهائية وضغط الصور؛ أوزان الفاكهة الكسرية؛ النشر العام بتكليف لاحق. لم تختبر رسالة حقيقية أو استلام المحل. لا تكامل مع POS ولا قاعدة الإنتاج.
-- **الملفات المتغيرة:** `web_app/app_code/package.json`, `package-lock.json`, `index.html`, `src/catalog.js`, `src/order.js`, `src/main.jsx`, `src/style.css`, `tests/order.test.js`, `README.md`, `mobile-preview.png`؛ وهذا السجل.
-- **الاختبارات ونتائجها الفعلية:** build نجح؛ 3 اختبارات Node نجحت و0 فشلت؛ npm audit صفر ثغرات معروفة وقت الفحص. المتصفح عرض 124 إدخالاً، فلتر الفاكهة 16، بحث مانجو داخل الفاكهة نتيجة واحدة؛ إضافة زجاجتين 500 مل والتحقق من بقائهما بعد reload؛ حذف الصنف والسلة الفارغة؛ داخل المحل يخفي العنوان. فحص موبايل 390×844: عرض المحتوى والتمرير 375 بكسل بلا overflow أفقي. صورة محفوظة محلياً.
-- **العوائق والملاحظات:** كل الأسعار null، لذلك لا إجمالي وهمي؛ العميل يطلب تأكيد السعر والتوافر. الصور الحالية كبيرة ومعظم الأصناف تستخدم رموزاً مؤقتة. Git fetch تعطل أولاً بسبب صلاحيات .git ثم نجح بالصلاحية المصرح بها. حالة commit/push تُثبت بنتيجة Git بعد كتابة هذا السجل.
-- **الخطوة التالية المحددة:** مراجعة إسلام للنسخة المحلية ثم تنفيذ ملاحظاته؛ استكمال الأسعار والصور قبل النشر. الإبقاء على الكتالوج والكاشير وقاعدة الإنتاج الأصلية دون تعديل.
-
-### 📋 تسليم سابق (Previous Handoff Record) — 2026-10-23
-
-* **الهدف الحالي (Current Objective):**
-  إعداد منظومة تسليم موثوقة لمشروع Fruit City بين أدوات الذكاء الاصطناعي (Codex, Antigravity, Claude, ChatGPT)، مع ربط مستودع GitHub، وضبط إرشادات المساعدين، وتأمين سكريبت المزامنة، وتوثيق مواقع الكود والأسرار بدقة.
-
-* **ما اكتمل ومثبت فعلياً (Completed & Verified):**
-  1. إنشاء ملف التوجيه الموحد للمساعدين `D:\fruit city project\AGENTS.md` متضمناً بروتوكولات المساعد المستلم والمساعد المسلِّم وضوابط الأمان.
-  2. إنشاء مدخل تعليمات Antigravity في `.gemini/rules/AGENTS.md` يربط مباشرة بدستور الحوكمة والتسليم دون المساس بأي إعداد موجود.
-  3. إصلاح وتأمين سكريبت `تحديث_جيت_هاب.bat` (ونسخة سطح المكتب):
-     - فحص مسار Git والتحقق الصارم من وجود الأداة قبل أي أمر.
-     - استبدال `git add .` العشوائي بإضافة انتقائية للملفات المصرح برفعها فقط.
-     - استبعاد وتجريد فوري لأي أسرار أو قواعد بيانات (`password.txt`, `.meta_token`, `*.db`, `*.sqlite`, `*.env`).
-     - التحقق من نتائج الأوامر عبر `%ERRORLEVEL%` والتوقف عند الفشل دون إعلان نجاح كاذب.
-     - فحص التعديلات غير المرفوعة (`git rev-list`) وتفادي تشغيل Push بلا داعٍ.
-  4. تحديث وتوسيع `.gitignore` الشامل لمنع تسريب قواعد البيانات والتوكنات والمفاتيح وملفات الـ OS.
-  5. فحص موقع الكود التنفيذي والتحقق من عدم وجود كود الـ POS/Server/Bot داخل مستودع D:، وتوثيق مكانه الفعلي في `C:\Users\MR.X\.gemini\antigravity\scratch\fruit-city-system`.
-  6. فحص سجلات الأمان واكتشاف وجود توكن Meta مسجل سابقاً في تاريخ المستودع بملف `docs/security/.meta_token` وعنوان `DIGITAL_ASSETS_VAULT.md`، واستبعادهما من أي Stage مستقبلي مع الإبلاغ عنهما.
-
-* **ما تبقى (Remaining):**
-  1. نقل وتوحيد الكود التنفيذي (POS, Server, Telegram Bot, DB) إلى مستودع D: داخل مجلد `app/` عندما يصدر تكليف صريح ومستقل من المالك.
-  2. تنظيف وتطهير تاريخ Git من التوكنات السابقة إذا رغب المالك في ذلك لاحقاً.
-  3. اختبار انتقال حي فعلي بتشغيل نموذج خارجي (مثل Codex في جلسة جديدة) لقراءة السجل واستكمال مهمة برمجية.
-
-* **الملفات المتغيرة في هذه المهمة (Changed Files):**
-  - `D:\fruit city project\AGENTS.md` (جديد)
-  - `D:\fruit city project\.gemini\rules\AGENTS.md` (جديد)
-  - `D:\fruit city project\.gitignore` (محدث ومشدد)
-  - `D:\fruit city project\تحديث_جيت_هاب.bat` (محدث ومحصن)
-  - `C:\Users\MR.X\Desktop\تحديث_جيت_هاب_فاكهة_سيتي.bat` (محدث ومحصن)
-  - `D:\fruit city project\محادثاتي مع نماذج الذكاء الاصطناعي\AI_GOVERNANCE.md` (محدث)
-  - `D:\fruit city project\محادثاتي مع نماذج الذكاء الاصطناعي\PROJECT_MASTER_SUMMARY.md` (محدث)
-
-* **الاختبارات ونتائجها الفعلية (Tests & Actual Results):**
-  - ✅ **اختبار قراءة مسار التعليمات والتسليم:** تم بنجاح؛ الملف `AGENTS.md` قابل للوصول من جذر المشروع ويربط بروابط صحيحة إلى `AI_GOVERNANCE.md` و `PROJECT_MASTER_SUMMARY.md`.
-  - ✅ **اختبار سكريبت الحفظ عند عدم وجود تغييرات:** تم تشغيل واختبار منطق السكريبت وتأكيد أنه يكتشف عدم وجود تغييرات ويعرض رسالة واضحة ولا ينفذ Push كاذب.
-  - ✅ **اختبار استبعاد الأسرار:** تم اختبار أمر `git reset HEAD` للملفات الحساسة والتأكد من عدم قدرة السكريبت على إدراج `password.txt` أو `.meta_token`.
-  - ⚠️ **اختبار الانتقال الحي بين نموذجين (Model-to-Model Handover Test):** لم يتم اختباره بعد عملياً؛ الإعدادات والبروتوكول جاهزة بنسبة 100%، لكن لم تفتح جلسة Codex جديدة بعد لتأكيد استلام الراية ذاتياً.
-
-* **العوائق والملاحظات الأمنية (Blockers & Security Findings):**
-  - **ملاحظة أمنية مثبتة:** تم رصد قيمة توكن Meta في `docs/security/.meta_token` وعنوان `DIGITAL_ASSETS_VAULT.md`؛ لم يتم كشف القيمة ولم يتم تعديلها أو حذفها التزاماً بنطاق الصلاحيات، ولكن تم تحصين `.gitignore` وسكريبت الرفع لضمان عدم رفعها أو مساسها مستقبلاً.
-  - **المستودع خالي من الكود البرمجي:** كود نقاط البيع والبوت يعمل في مسار C: المؤقت، ومستودع D: يحتوي التوثيق والمنيو فقط.
-
-* **الخطوة التالية المحددة للمساعد القادم (Next Step):**
-  1. اقرأ هذا السجل وملف `AGENTS.md`.
-  2. نفّذ `git fetch origin main` ثم `git status -uno` للتحقق من سلامة المجلد المحلي دون مساس بأي تعديلات.
-  3. استشر المالك في رغبته ببدء نقل وتوحيد كود الـ POS والبوت من `C:\Users\MR.X\.gemini\antigravity\scratch\fruit-city-system` إلى `D:\fruit city project\app\` كخطوة تالية مستقلة.
-
----
-
-### 🗄️ الأرشيف التاريخي للجلسات السابقة (Handoff History Archive)
-
-| التاريخ | النموذج القائم بالعمل | ما تم تنفيذه وإنجازه في هذه الجلسة | الخطوة القادمة المطلوبة من النموذج التالي |
-| :--- | :--- | :--- | :--- |
-| **2026-10-23** | **AntiGravity & إسلام** | 1. تأسيس وربط مستودع GitHub الخاص رسمياً: `atefislma312-a11y/fruit-city-project`.<br>2. تفعيل مصادقة الـ SSH المشفرة باللابتوب ورفع كامل ملفات المشروع الحالية (75 ملفاً).<br>3. تثبيت وضبط برنامج GitHub Desktop على جهاز إسلام وربطه بالمجلد `D:\fruit city project`. | استكمال إعداد منظومة تسليم موثوقة وآمنة وتوثيق موقع الكود التنفيذي. |
-| **2026-10-22** | **Codex بطلب إسلام** | إضافة توضيح الفرق بين Codex على الكمبيوتر وCLI والسحابة وChatGPT/Work، وحدود الوصول والتفويض؛ تحديث توثيق فقط. | قراءة توضيح المنصات أعلاه، وتحديد المهمة والبيئة والصلاحيات قبل التنفيذ. لا نقل أو إصلاح للكود بموجب هذا التحديث. |
-| **2026-10-21** | **AntiGravity & إسلام** | 1. توحيد المسار الأساسي في `D:\fruit city project`.<br>2. ترقية وهيكلة منظومة التسويق الشاملة (`التسويق والسوشيال ميديا`).<br>3. تأسيس قسم خرائط جوجل والظهور المحلي (`google_maps\`).<br>4. تأسيس سجل الأمان وحصر الأصول الرقمية (`docs\security\DIGITAL_ASSETS_VAULT.md`).<br>5. تحديث السجل المركزي `PROJECT_MASTER_SUMMARY.md`. | البدء في هيكلة منطق الحسابات والمخزون في مجلد `app\`. |
-
----
-
-> **إلى النموذج القادم (To Next Model / Codex):**  
-> مرحباً بك في مشروع Fruit City! يرجى اتباع التعليمات المذكورة أعلاه بدقة، والحفاظ على مسار القرص `D:`، والالتزام بالحلول البرمجية الخفيفة، وتحديث جدول التسليم قبل إنهاء عملك.
-
-### 2026-10-25 — resume follow-up evidence
-- Added web_app/order_sandbox/pos-feed.mjs and pos-feed.test.mjs; local POS opened read-only. Approved branch returned 322 price/size variants for 108 products; production DB SHA-256 unchanged before/after. No prices or customer records exported to Git.
-- Fixed matching-cart confirmation intent retention across reload in Checkout.jsx. Browser synthetic mango quote/confirm/reload/reconfirm returned the same order ID, pending store acceptance. Evidence: web_app/order_sandbox/checkout-test.png.
-- 27 sandbox tests passed and app build passed. Existing 3 storefront tests had passed at prior checkpoint. Feed remains disconnected from public/demo launcher; 16 RF mappings, contact validation, real cashier receiver/inventory integration, delivery tariff and full auth/load validation remain incomplete.
-
-### تسليم تصميم China 1968 — 2026-10-25
-- فحص ZIP من 14 طبقة وإنشاء معاينة PNG وSVG ومحرر أحداث HTML وORA في مجلد الجلسة 2026-10-25/referenced-chatgpt-conversation-this-is-an-2/outputs.
-- الشعار محفوظ؛ اختبار منطقة الشعار المعتمة: صفر بكسل متغير. لا توليد صور تاريخية. المعاينة مراجعة فقط؛ حقوق صورة الحرس الأحمر وأصل الخريطة والخشب وصورة الحدث نفسه غير محسومة. التفاصيل داخل READ-ME-AR.md.
-- فشل fetch بسبب Permission denied على FETCH_HEAD؛ لم يحدث رفع أو تغيير لأعمال التطبيق السابقة. الخطوة التالية: حسم الأصول والحقوق قبل اعتماد نسخة نشر.
-
-### مراجعة حزمة Fruit Archives China 1968 — 2026-10-25 — Codex
-- الهدف: فحص ZIP المرفوع ومقارنة معاينته بصورة الكوب المرجعية، دون تعديل الأصول.
-- المثبت: استرجاع مرفقات المحادثة؛ سلامة CRC للحزمة وORA؛ 7 ملفات بالحزمة، 12 طبقة ORA و11 صورة مضمنة SVG. تطابق صور SVG مع طبقات ORA؛ PNG مطابق mergedimage. إعادة تركيب ORA بفارق قنوات أقصاه 2/255. طبقة الكوب مطابقة للقالب السابق؛ منطقة داخل الشعار x590:880 y1640:1910 تطابقت مع PNG، وليس ذلك إثبات تطابق شامل مع JPG المرجعي.
-- العيوب: event-template.html يفشل تحليل JavaScript بسبب أسطر فعلية داخل نصوص join/split؛ عدم هروب مدخلات النص؛ بيانات الإسناد والسياق ثابتة؛ حواف قص الكوب وبقايا الخلفية تحتاج معالجة بقناع مستقل.
-- المصادر: تأكيد قصة أغسطس 1968 بمتحف Cooper Hewitt، وترخيص وصاحب صورة المانجو من Commons. صفحة الحرس الأحمر تعرض ترشيح حذف لعدم إثبات الوضع الأمريكي؛ صفحة قص ماو تنبه لحذف المصدر. الخريطة والخشب وربط كل طبقة بالأصل غير محسوم.
-- الملفات المتغيرة: نسخ فحص داخل work ومعاينة PNG وصورة مرجعية داخل outputs بمجلد هذه المحادثة، وهذا السجل فقط؛ لا تعديل ZIP أو صور الأرشيف.
-- حدود التحقق: لم يُختبر تفاعل متصفح أو فتح Krita/GIMP؛ فشل التحليل يمنع اعتبار المحرر صالحًا. Git على main مع تغييرات سابقة؛ fetch فشل Permission denied على FETCH_HEAD؛ لم يحدث commit أو push.
-- التالي: إصلاح المحرر في نسخة منفصلة، تحسين قناع الكوب، تكبير النصوص، واستكمال سجل مصدر وحقوق لكل أصل قبل النشر.
-
-### 2026-10-27 — توثيق الكوب الحقيقي المعتمد وتوحيد حملات المانجو والجوافة الأرشيفية — AntiGravity & إسلام عاطف
-- **الهدف:** توحيد صور الحملات التسويقية، حل مشكلة صور المانجو والجوافة المعتمدة، وأرشفة المواصفات الفيزيائية للكوب الحقيقي.
-- **المثبت:**
-  1. أرشفة ونقل كافة مسودات الصور القديمة إلى مجلد أرشيف_الصور_القديمة_الملغية.
-  2. توحيد بوستر المانجو المعتمد النهائي (PJ01_mango_1968_final_approved.jpg) عبر جميع قنوات السوشيال ميديا (Facebook, Instagram, Pinterest, WhatsApp).
-  3. إنتاج بوستر الجوافة الماستر الأرشيفي لعام 1830 (PJ02_guava_1830_master_approved.jpg) وتجهيز الكابشن الإعلاني المعتمد.
-  4. استلام وفحص 5 صور فوتوغرافية للكوب الحقيقي من المحل وأرشفتها رسمياً في rand_story_and_canva/اللوجو/real_cup_reference/.
-  5. صياغة وثيقة المواصفات القياسية للكوب الحقيقي (مواصفات_الكوب_الرسمي_المعتمد.md) وتثبيت غطاء KS92 واستيكر الكبسولة الحمراء Healthy Juice وقاعدة نقاوة العصير الخالي من مكعبات الثلج.
-  6. نجاح اختبارات Durable Atomic Commit لنظام الـ POS (3/3) واختبارات الـ Sandbox (44/44).
-- **الرفع إلى Git:** تم الرفع والمزامنة بنجاح إلى origin/main (commits: 3250a34, 612c8c, 4d6fb21).
-- **التالي:** استخدام صور الكوب الحقيقي كـ Ground-Truth لجميع التصاميم والحملات القادمة، واستكمال المرحلة 3 مع DeepSeek لربط الطلبات بالساندبوكس.
-
-
-### 2026-10-27 — ترقية تصميم الويب آب لواجهة مبيعات تفاعلية (Conversion-Focused UI/UX) — AntiGravity & إسلام عاطف
-- **الهدف:** إعادة تصميم وتطوير واجهة الـ Mini Web App لزيادة التحويل والمبيعات مع التطبيق الصارم لهوية Fruit City والمواصفات الفيزيائية للكوب الحقيقي.
-- **ما تم إنجازه واختباره فعلياً:**
-  1. **حذف الشعارات الإنشائية:** إزالة قسم `.values` وأي أشرطة تسويقية نظرية ليعتمد التطبيق كلياً على الصور والقصص التاريخية والمنتج الفعلي.
-  2. **تطوير الـ Hero Section:** إبراز بطل المبيعات "مانجو 1968" بطابع سينمائي راقٍ، كبسولة `Healthy Juice` الحمراء (`#792b29`)، الكوب الحقيقي المعتمد (PET شفاف أملس، غطاء KS92، قطرات ندى، بلا ثلج)، وزر CTA مباشر برتقالي (`#dc7a2b`) لإضافة مانجو 1968 للسلة بضغطة واحدة.
-  3. **إعادة تصميم كروت المنتجات:** إبراز ختم السنة التاريخية (`✦ 1968`, `✦ 1889`...) كبادج أرشيفي على الكارت، توفير أزرار تفاعلية لاختيار الأحجام (Interactive Size Pills) مع تحديث السعر لحظياً، زر إضافة سريع للسلة (`#dc7a2b`) مع Feedback بصري فوري (`تمت الإضافة ✓`)، وجعل شريط الأقسام ثابتاً في الأعلى (`Sticky Categories`) لتصفح سلس وفائق السرعة.
-  4. **تطوير السلة ومحرك الـ Visual Upsell:** إظهار صور ومقاسات المنتجات في السلة مع أزرار الزيادة والنقصان، وإضافة قسم **One-Tap Visual Upsell** ذكي يقترح علبة فواكه قطع 16oz (`FP01`) بضغطة واحدة لرفع متوسط قيمة الطلب (AOV)، وترقية زر السلة العائم (`.floating-cart`).
-  5. **تكامل الهوية:** تثبيت الاستيكر الدائري الرسمي الحقيقي `logo.png` في الـ Header وفي الختم.
-  6. **نجاح الاختبارات والبناء:** نجاح كامل لاختبارات الـ Storefront والـ Locale (7/7) واجتياز بناء Vite للإنتاج بنجاح (`vite build` in 1.34s).
-- **الملفات المتغيرة:** `web_app/app_code/src/main.jsx`, `web_app/app_code/src/style.css`, `web_app/app_code/src/translations.json`, `web_app/app_code/public/logo.png`, `web_app/app_code/public/cup_real.jpg`, وهذا السجل.
-- **الرفع إلى Git:** لم يُجرَ أي commit أو push التزاماً بالقاعدة الصارمة بانتظار أمر صريح ومباشر من الحاج إسلام عاطف.
-- **التالي:** مراجعة إسلام للشاشة الحية في المتصفح، وإبداء أي ملاحظات بصرية أو طلب رفع التعديلات لـ GitHub.
+### 2026-10-26 — تأمين الكاشير وخدمة معالجة الطلبات المعزولة
+- استكمال آليات الكتاب الأحادي المقفل (Durable Writer Lock) في `web_app/order_sandbox` والتحقق من سلامة نصوص اللغة العربية والتعامل مع حالات انقطاع الاتصال.
+- نجاح اختبارات الساندبوكس 46/46.

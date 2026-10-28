@@ -1,0 +1,85 @@
+[
+  {
+    "id": "C1",
+    "episodeId": "mango-china-1968",
+    "statement": "هدية من المانجا وصلت لماو من وزير خارجية باكستان في أغسطس 1968.",
+    "sourceIds": [
+      "S1",
+      "S2"
+    ],
+    "confidence": "high",
+    "verificationStatus": "verified",
+    "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+  },
+  {
+    "id": "C2",
+    "episodeId": "mango-china-1968",
+    "statement": "مرّر ماو الهدية لفرق العمال المرتبطة بجامعة تسينغهوا.",
+    "sourceIds": [
+      "S1",
+      "S2"
+    ],
+    "confidence": "high",
+    "verificationStatus": "verified",
+    "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+  },
+  {
+    "id": "C3",
+    "episodeId": "mango-china-1968",
+    "statement": "تحولت المانجا إلى رمز سياسي لدور العمال ضمن تحول موازين القوة.",
+    "sourceIds": [
+      "S1",
+      "S2"
+    ],
+    "confidence": "high",
+    "verificationStatus": "verified",
+    "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+  },
+  {
+    "id": "C4",
+    "episodeId": "mango-china-1968",
+    "statement": "حُفظت بعض الثمار بالشمع أو الفورمالدهيد.",
+    "sourceIds": [
+      "S1"
+    ],
+    "confidence": "medium-high",
+    "verificationStatus": "verified",
+    "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+  },
+  {
+    "id": "C5",
+    "episodeId": "mango-china-1968",
+    "statement": "ظهرت المانجا في الدعاية والقطع التذكارية؛ ملصق أبريل 1969 شاهد بصري.",
+    "sourceIds": [
+      "S3",
+      "S5"
+    ],
+    "confidence": "high",
+    "verificationStatus": "verified",
+    "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+  },
+  {
+    "id": "C6",
+    "episodeId": "mango-china-1968",
+    "statement": "شاركت رموز المانجا في موكب اليوم الوطني في بكين سنة 1968.",
+    "sourceIds": [
+      "S4"
+    ],
+    "confidence": "medium-high",
+    "verificationStatus": "verified",
+    "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+  },
+  {
+    "id": "C7",
+    "episodeId": "mango-china-1968",
+    "statement": "تختلف بعض المصادر في عدد الثمار واسم الوزير؛ يستبعد النص هذين التفصيلين.",
+    "sourceIds": [
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "confidence": "high",
+    "verificationStatus": "verified",
+    "notes": "مراجعة مصادر منشورة؛ ليس إثباتًا لكل تفاصيل روايات شهود العيان."
+  }
+]

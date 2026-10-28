@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Fruit City — إعداد بوت الإدارة</title>
+  <hta:application 
+    id="fruitCitySetup"
+    applicationname="FruitCityAdminSetup"
+    border="dialog"
+    borderstyle="normal"
+    caption="yes"
+    maximizebutton="no"
+    minimizebutton="yes"
+    showintaskbar="yes"
+    singleinstance="yes"
+    sysmenu="yes"
+    windowstate="normal"
+  />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 24px;
+      color: #1e293b;
+      font-size: 14px;
+      user-select: none;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .subtitle {
+      font-size: 12px;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    .form-group {
+      margin-bottom: 16px;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #334155;
+    }
+    .input-wrapper {
+      position: relative;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px 12px;
+      font-family: Consolas, monospace;
+      font-size: 13px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      outline: none;
+      background: #ffffff;
+    }
+    input:focus {
+      border-color: #0ea5e9;
+      box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+    }
+    .hint {
+      font-size: 11px;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    button {
+      padding: 9px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s ease;
+    }
+    .btn-primary {
+      background-color: #0ea5e9;
+      color: #ffffff;
+    }
+    .btn-primary:hover {
+      background-color: #0284c7;
+    }
+    .btn-secondary {
+      background-color: #e2e8f0;
+      color: #475569;
+    }
+    .btn-secondary:hover {
+      background-color: #cbd5e1;
+    }
+    .btn-run {
+      background-color: #10b981;
+      color: #ffffff;
+    }
+    .btn-run:hover {
+      background-color: #059669;
+    }
+    #statusBox {
+      margin-top: 16px;
+      padding: 12px;
+      border-radius: 6px;
+      display: none;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .status-loading {
+      background-color: #f0f9ff;
+      border: 1px solid #bae6fd;
+      color: #0369a1;
+      display: block !important;
+    }
+    .status-success {
+      background-color: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #15803d;
+      display: block !important;
+    }
+    .status-error {
+      background-color: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #b91c1c;
+      display: block !important;
+    }
+  </style>
+  <script>
+    window.resizeTo(580, 480);
+
+    function toggleMask() {
+      var t = document.getElementById('tokenInput');
+      var btn = document.getElementById('toggleBtn');
+      if (t.type === 'password') {
+        t.type = 'text';
+        btn.innerText = 'إخفاء';
+      } else {
+        t.type = 'password';
+        btn.innerText = 'إظهار';
+      }
+    }
+
+    function verifyAndSave() {
+      var token = document.getElementById('tokenInput').value.replace(/^\s+|\s+$/g, '');
+      var ownerId = document.getElementById('ownerIdInput').value.replace(/^\s+|\s+$/g, '');
+      var statusBox = document.getElementById('statusBox');
+
+      if (!token) {
+        statusBox.className = 'status-error';
+        statusBox.innerHTML = '❌ يرجى لصق Token البوت أولاً.';
+        return;
+      }
+
+      statusBox.className = 'status-loading';
+      statusBox.innerHTML = '⏳ جاري التحقق من التوكن مع خوادم Telegram الرسمية...';
+
+      try {
+        var shell = new ActiveXObject("WScript.Shell");
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+
+        // تحديد مسار Node.js
+        var nodeExe = "node";
+        var scriptPath = "C:\\Users\\MR.X\\.gemini\\antigravity\\scratch\\fruit-city-system\\integrations\\telegram\\setup_bot.js";
+
+        var cmd = 'node "' + scriptPath + '" --token "' + token + '" --owner-id "' + ownerId + '"';
+        var exec = shell.Exec(cmd);
+
+        var output = "";
+        while (exec.Status === 0) {
+          // انتظار انتهاء العملية
+        }
+        output = exec.StdOut.ReadAll();
+        var errOutput = exec.StdErr.ReadAll();
+
+        if (output.indexOf("اكتمل إعداد بوت الإدارة بنجاح") !== -1 || output.indexOf("تم التحقق من البوت بنجاح") !== -1) {
+          statusBox.className = 'status-success';
+          statusBox.innerHTML = '<b>✅ تم التحقق بنجاح من @FruitCityAdmin2026Bot!</b><br>' +
+                                'تم حفظ الإعدادات في ملف .env المحلي بأمان دون كشف التوكن.<br><br>' +
+                                '<button class="btn-run" onclick="launchBot()">🚀 تشغيل البوت الآن (Run Bot)</button>';
+        } else {
+          statusBox.className = 'status-error';
+          var cleanErr = output || errOutput || "تعذر التحقق من التوكن";
+          statusBox.innerHTML = '<b>❌ فشل التحقق من التوكن:</b><br>' + cleanErr.replace(/\n/g, '<br>');
+        }
+      } catch (e) {
+        statusBox.className = 'status-error';
+        statusBox.innerHTML = '❌ خطأ في النظام: ' + e.message;
+      }
+    }
+
+    function launchBot() {
+      try {
+        var shell = new ActiveXObject("WScript.Shell");
+        var batPath = "C:\\Users\\MR.X\\.gemini\\antigravity\\scratch\\fruit-city-system\\run_admin_bot.bat";
+        shell.Run('"' + batPath + '"', 1, false);
+        window.close();
+      } catch (e) {
+        alert("تعذر تشغيل run_admin_bot.bat: " + e.message);
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <div class="title">Fruit City — إعداد بوت الإدارة</div>
+      <div class="subtitle">ربط البوت المستهدف (@FruitCityAdmin2026Bot) محلياً بنظام Long Polling</div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="tokenInput">Token البوت من محادثة BotFather:</label>
+    <div class="input-wrapper">
+      <input type="password" id="tokenInput" placeholder="الصق التوكن هنا (مثال: 123456789:AA...)" />
+    </div>
+    <div style="margin-top: 5px; text-align: left;">
+      <a href="javascript:void(0)" id="toggleBtn" onclick="toggleMask()" style="font-size: 11px; color: #0284c7; text-decoration: none;">إظهار التوكن للتأكد</a>
+    </div>
+    <div class="hint">🔒 يتم حفظ التوكن محلياً في .env فقط ولا يظهر في المحادثة أو سجلات Git.</div>
+  </div>
+
+  <div class="form-group">
+    <label for="ownerIdInput">معرف حسابك الرقمي في تليجرام (اختياري):</label>
+    <input type="text" id="ownerIdInput" placeholder="مثال: 123456789 (اتركه فارغاً إذا كنت لا تعرفه)" />
+    <div class="hint">لو مش عارف رقم حسابك، سيبه فاضي واكتب <b>/myid</b> للبوت في تليجرام وهيطلعهولك فوراً.</div>
+  </div>
+
+  <div id="statusBox"></div>
+
+  <div class="actions">
+    <button class="btn-secondary" onclick="window.close()">إلغاء</button>
+    <button class="btn-primary" onclick="verifyAndSave()">تحقق وحفظ الإعدادات</button>
+  </div>
+</body>
+</html>

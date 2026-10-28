@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "description": "createEpisode يستورد الصنف من المنيو؛ لا اسم فاكهة أو حدث ثابت",
+  "input": {
+    "id": "unique-event-id",
+    "menuItemId": "EXISTING_MENU_ID",
+    "eventTitle": "REQUIRED",
+    "country": "REQUIRED",
+    "year": "REQUIRED"
+  },
+  "stages": {
+    "menu": "draft",
+    "event": "draft",
+    "research": "draft",
+    "claims": "draft",
+    "story": "draft",
+    "hooks": "draft",
+    "hook-selection": "draft",
+    "design": "draft",
+    "product": "draft",
+    "platforms": "draft",
+    "qa": "draft",
+    "approval": "draft",
+    "export": "draft",
+    "reproduction": "draft",
+    "performance": "draft"
+  },
+  "variables": [
+    "fruit",
+    "event",
+    "country",
+    "year",
+    "claims",
+    "sources",
+    "palette",
+    "assets",
+    "hooks",
+    "platformContent"
+  ],
+  "renderer": "public/render.js",
+  "exporter": "core.mjs#buildPackage"
+}

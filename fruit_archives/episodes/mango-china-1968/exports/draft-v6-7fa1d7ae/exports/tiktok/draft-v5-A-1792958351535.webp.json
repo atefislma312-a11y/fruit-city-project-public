@@ -1,0 +1,19 @@
+{
+  "platform": "tiktok",
+  "format": "webp",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "filePath": "exports/tiktok/draft-v5-A-1792958351535.webp",
+  "version": 5,
+  "timestamp": "2026-10-25T19:59:11.536Z",
+  "qaStatus": "needs-review",
+  "variant": "A",
+  "blockers": [
+    "أصل الكوباية غير مؤكد من المالك",
+    "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+    "نصوص المنصات أو الهوكات غير معتمدة",
+    "المراجعة التحريرية والبصرية غير مكتملة"
+  ]
+}

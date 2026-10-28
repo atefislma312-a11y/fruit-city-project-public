@@ -1,0 +1,34 @@
+{
+  "palette": [
+    "#3c1821",
+    "#bb8935"
+  ],
+  "template": "archive-v1",
+  "productAssetId": "master-cup-candidate",
+  "referenceAssetId": "reference-art",
+  "hooks": [
+    {
+      "text": "مانجا دخلت السياسة… من غير ما تترشح!",
+      "claimIds": [
+        "C3"
+      ],
+      "kind": "editorial-joke"
+    },
+    {
+      "text": "ليه حفظوا المانجا بدل ما ياكلوها؟",
+      "claimIds": [
+        "C4"
+      ],
+      "kind": "question"
+    },
+    {
+      "text": "إزاي المانجا وصلت لموكب في الصين؟",
+      "claimIds": [
+        "C6"
+      ],
+      "kind": "question"
+    }
+  ],
+  "selectedHook": 0,
+  "alternateHook": 1
+}

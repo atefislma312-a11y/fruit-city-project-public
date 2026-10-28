@@ -1,0 +1,19 @@
+{
+  "platform": "webapp",
+  "format": "jpeg",
+  "dimensions": [
+    1200,
+    630
+  ],
+  "filePath": "exports/webapp/draft-v5-A-1792958357125.jpg",
+  "version": 5,
+  "timestamp": "2026-10-25T19:59:17.126Z",
+  "qaStatus": "needs-review",
+  "variant": "A",
+  "blockers": [
+    "أصل الكوباية غير مؤكد من المالك",
+    "حقوق الأصل تحتاج اعتماد: master-cup-candidate",
+    "نصوص المنصات أو الهوكات غير معتمدة",
+    "المراجعة التحريرية والبصرية غير مكتملة"
+  ]
+}
