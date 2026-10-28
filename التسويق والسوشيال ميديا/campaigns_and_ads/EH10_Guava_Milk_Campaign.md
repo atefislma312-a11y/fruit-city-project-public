@@ -33,7 +33,7 @@
 #### [النص العربي المعتمد في المنيو]:
 من بيوت القاهرة الفاطمية وقصور الباشوات في القرن التاسع عشر، كانت الجوافة باللبن ترياق الأمهات والأجداد السحري لتهدئة الصدر وتلطيف الحلق في ليالي الشتاء؛ حيث امتزجت حموضة الجوافة العطرية الغنية بفيتامين سي بنعومة الحليب الصافي.
 
-في Fruit City، بنقدملك جوافة باللبن بنقائها الأصلي: جوافة طبيعية بيضاء مفلترة بعناية مضروبة بحليب كامل الدسم، بقوامها العاجي المخملي الحريري ورغوتها المترفة، لترطب روحك فريش على أصوله.
+في Fruit City، بنقدملك جوافة باللبن بنقائها الأصلي: جوافة طبيعية بيضاء مفلترة بعناية مضروبة بحليب كامل الدسم، بقوامها العاجي الكريمي الحريري ورغوتها المترفة، لترطب روحك فريش على أصوله.
 
 #### [English Approved Translation]:
 Treasured across Egyptian households since the era of the Pashas, Guava & Milk served as the quintessential domestic remedy against harsh winter chills, marrying vitamin-packed tropical guava with smooth whole milk to soothe the throat.
